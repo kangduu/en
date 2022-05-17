@@ -1,0 +1,25 @@
+{
+  "name": "english",
+  "version": "1.0.0",
+  "description": "english study",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangduu/English.git"
+  },
+  "keywords": [
+    "English"
+  ],
+  "author": "kangduu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kangduu/English/issues"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
