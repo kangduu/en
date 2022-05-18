@@ -1,55 +1,30 @@
 ---
 home: true
 icon: home
-title: New Concepts
-heroImage: /assets/logo.svg
-heroText: New Concepts
-tagline: Learn New Concepts English Volume 1 to 4.
-action:
-  - text: How to Use 💡
-    link: /guide/
-    type: primary
-
-  - text: Blog homepage 🏠
-    link: /
+title: New Concept
+heroImage: /logo.svg
+heroText: New Concept
+tagline: Learning New Concept English Volume 1 to 4.
 
 features:
-  - title: Markdown Enhance 🧰
-    details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in Markdown
-    link: https://vuepress-theme-hope.github.io/v1/guide/markdown/
+  - title: First Things First 🔥
+    details: Learn the basic English pronunciation, intonation (including all phonetic symbols, continuous reading, assimilation) and the basic knowledge of grammar, morphology, syntax and sentence structure in English.
+    link: /one/
 
-  - title: Pageviews and comments 💬
-    details: Start pageview statistics and comment support with Valine and Vssue
-    link: https://vuepress-theme-hope.github.io/v1/guide/feature/comment.html
+  - title: Practice and Progress 🔥🔥
+    details: On the basis of mastering a book of grammar knowledge, the basic points of grammar are explained step by step from the simple to the deep, so that you can easily master the boring grammar; through the analysis of sentence patterns and the explanation of vocabulary and phrases, you will be able to listen, speak, and read Can really use authentic sentence patterns.
+    link: /two/
 
-  - title: Article information display ℹ
-    details: Add author, writing date, reading time, word count and other information to your article
-    link: https://vuepress-theme-hope.github.io/v1/guide/feature/page-info.html
+  - title: Developing Skills 🔥🔥🔥
+    details: Focus on analyzing the internal logical relationship between sentences, so that you can recognize the refinement, beauty, practicality and imitation of sentence patterns, so as to apply them organically in English writing.
+    link: /three/
 
-  - title: Blog support 📝
-    details: Add date, tags and category to your articles, then article, tag, category and timeline list will be auto generated
-    link: https://vuepress-theme-hope.github.io/v1/guide/blog/intro.html
-
-  - title: Article Encryption 🔐
-    details: Encrypt you article based on path and folders, so that only the one you want could see them
-    link: https://vuepress-theme-hope.github.io/v1/guide/feature/encrypt.html
-
-  - title: Custom theme color 🎨
-    details: Supports custom theme colors and allows users to switch between preset theme colors
-    link: https://vuepress-theme-hope.github.io/v1/guide/interface/theme-color.html
-
-  - title: Dark Mode 🌙
-    details: Switch between light and dark modes freely
-    link: https://vuepress-theme-hope.github.io/v1/guide/interface/darkmode.html
-
-  - title: SEO enhancement ⚒
-    details: Optimize pages for search engines.
-    link: https://vuepress-theme-hope.github.io/v1/guide/feature/seo.html
-
-  - title: Sitemap 🗺
-    details: Generate a Sitemap for your website
-    link: https://vuepress-theme-hope.github.io/v1/guide/feature/sitemap.html
+  - title: Fluency in English 🔥🔥🔥🔥
+    details: Covering more than 30 disciplines such as culture, economics, philosophy, art, sports, politics, aesthetics, psychology, sociology, education, ethics, astronomy, etc., the language is exquisite and unique, and the sentence structure is complex and changeable. Concise and hearty.
+    link: /four/
 
 copyrightText: false
 footer: MIT Licensed | Copyright © 2022-present kangduu
 ---
+
+### TODO
