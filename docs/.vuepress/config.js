@@ -35,6 +35,7 @@ module.exports = {
   themeConfig: {
     logo: "/logo.png",
     nav: [
+      { text: "React Transition Group", link: "/react-transition-group/1" },
       { text: "First Things First", link: "/one/1" },
       { text: "Practice and Progress", link: "/two/1" },
       { text: "Developing Skills", link: "/three/1" },
@@ -45,6 +46,7 @@ module.exports = {
       "/two/": getFile("../two"),
       "/three/": getFile("../three"),
       "/four/": getFile("../four"),
+      "/react-transition-group/": getFile("../react-transition-group"),
     },
   },
 };
