@@ -51,7 +51,7 @@ module.exports = {
 				items: [
 					{
 						text: 'Handbook',
-						link: '/ts-docs/handbook/1.the-typeScript-handbook',
+						link: '/ts-docs/handbook/A.the-typeScript-handbook',
 					},
 					{
 						text: 'Reference',

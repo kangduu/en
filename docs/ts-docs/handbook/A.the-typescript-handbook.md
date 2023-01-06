@@ -1,6 +1,6 @@
 ---
 prev: false
-next: ./2.the-basics.md
+next: ./B.the-basics.md
 ---
 
 # The TypeScript Handbook

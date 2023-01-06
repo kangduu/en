@@ -1,6 +1,6 @@
 ---
-prev: ./1.the-typescript-handbook.md
-next: ./3.everyday-types.md
+prev: ./A.the-typescript-handbook.md
+next: ./C.everyday-types.md
 ---
 
 # The Basics
