@@ -25,18 +25,7 @@ Analysis of lottery draw results.
 
 ---
 
-### **3. 数据层**
-- **MongoDB**  
-  轻量级 NoSQL 数据库，适合快速开发和扩展。  
-  **官网**: [https://www.mongodb.com/](https://www.mongodb.com/)  
-
-- **Mongoose**  
-  Node.js 的 MongoDB ODM，用于定义数据模型和操作数据库。  
-  **官网**: [https://mongoosejs.com/](https://mongoosejs.com/)  
-
----
-
-### **4. 状态管理**
+### **3. 状态管理**
 - **Redux Toolkit**（推荐）  
   高效的状态管理解决方案，简化 Redux 配置。  
   **官网**: [https://redux-toolkit.js.org/](https://redux-toolkit.js.org/)  
@@ -47,26 +36,7 @@ Analysis of lottery draw results.
 
 ---
 
-### **5. 后端技术**
-- **Node.js**  
-  高性能的 JavaScript 运行时，支持高并发的服务端开发。  
-  **官网**: [https://nodejs.org/](https://nodejs.org/)  
-
-- **Express.js**  
-  Node.js 的轻量级 Web 框架，适用于构建 API 接口。  
-  **官网**: [https://expressjs.com/](https://expressjs.com/)  
-
-- **Bcrypt.js**  
-  用于安全地存储用户密码的加密库。  
-  **NPM 地址**: [https://www.npmjs.com/package/bcryptjs](https://www.npmjs.com/package/bcryptjs)  
-
-- **JWT (jsonwebtoken)**  
-  用于用户认证的 JSON Web Token 库。  
-  **NPM 地址**: [https://www.npmjs.com/package/jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)  
-
----
-
-### **6. 工具与优化**
+### **4. 工具与优化**
 - **ESLint + Prettier**  
   代码格式化与静态检查工具，提升代码质量。  
   **ESLint 官网**: [https://eslint.org/](https://eslint.org/)  
@@ -78,7 +48,7 @@ Analysis of lottery draw results.
 
 ---
 
-### **7. 部署与 DevOps**
+### **5. 部署与 DevOps**
 - **PM2**  
   Node.js 应用的进程管理器，适合生产环境。  
   **官网**: [https://pm2.keymetrics.io/](https://pm2.keymetrics.io/)  
@@ -93,7 +63,7 @@ Analysis of lottery draw results.
 
 ---
 
-### **8. 开发辅助**
+### **6. 开发辅助**
 - **Postman**  
   用于测试 API 接口。  
   **官网**: [https://www.postman.com/](https://www.postman.com/)  
