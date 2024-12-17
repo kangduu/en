@@ -89,18 +89,17 @@ export default function Permutation() {
   }, []);
 
   return (
-    <div>
-      <div className="flex w-full justify-center mb-4">
-        <Pagination
-          isCompact
-          showControls
-          showShadow
-          color="primary"
-          page={pagination?.page || 1}
-          total={pagination?.pages || 0}
-          onChange={(page) => fetchData(page)}
-        />
-      </div>
+    <>
+      <Pagination
+        isCompact
+        showControls
+        showShadow
+        color="primary"
+        page={pagination?.page || 1}
+        total={pagination?.pages || 0}
+        onChange={(page) => fetchData(page)}
+        className="flex w-full justify-center m-0"
+      />
       <Table aria-label="Example table with dynamic content">
         <TableHeader>
           <TableColumn>Week</TableColumn>
@@ -145,17 +144,16 @@ export default function Permutation() {
           )}
         </TableBody>
       </Table>
-      <div className="flex w-full justify-center mt-4">
-        <Pagination
-          isCompact
-          showControls
-          showShadow
-          color="primary"
-          page={pagination?.page || 1}
-          total={pagination?.pages || 0}
-          onChange={(page) => fetchData(page)}
-        />
-      </div>
-    </div>
+      <Pagination
+        isCompact
+        showControls
+        showShadow
+        color="primary"
+        page={pagination?.page || 1}
+        total={pagination?.pages || 0}
+        onChange={(page) => fetchData(page)}
+        className="flex w-full justify-center m-0"
+      />
+    </>
   );
 }
