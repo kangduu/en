@@ -11,7 +11,7 @@ import {
 import { useEffect, useState } from "react";
 import { dayOfWeek } from "../../lib/week";
 
-// 拉取某一页的数据
+// 拉取某一页的数据 排列三
 async function pullOnePageData(page: number = 1) {
   const url = `https://webapi.sporttery.cn/gateway/lottery/getHistoryPageListV1.qry?gameNo=35&provinceId=0&pageSize=100&isVerify=1&pageNo=${page}`;
   return new Promise<{
@@ -20,7 +20,11 @@ async function pullOnePageData(page: number = 1) {
   }>((resolve, reject) => {
     fetch(url)
       .then(function (response) {
-        return response.json();
+        try {
+          return response.json();
+        } catch (error) {
+          throw error;
+        }
       })
       .then(function (data) {
         try {
@@ -41,9 +45,14 @@ async function pullOnePageData(page: number = 1) {
   });
 }
 
-export default function Home() {
+export default function Permutation() {
   const [dataSource, setDataSource] = useState<Lottery3ResultRecord[]>([]);
-  const [pagination, setPagination] = useState<Lottery3Pagination>();
+  const [pagination, setPagination] = useState<Lottery3Pagination>({
+    page: 1,
+    total: 0,
+    pages: 0,
+    pageSize: 100,
+  });
 
   const fetchData = (page: number = 1) => {
     let data: Lottery3ResultRecord[] = [];
@@ -55,7 +64,7 @@ export default function Home() {
       const CachePagination = localStorage.getItem("Lottery-Pagination");
       if (CachePagination) pagination = JSON.parse(CachePagination);
     } catch (error) {
-      console.log(error);
+      return console.log(error);
     }
 
     if (data.length > 0 && pagination) {
@@ -80,16 +89,24 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="w-full p-4">
-      <Table
-        aria-label="Example table with dynamic content"
-        classNames={{ wrapper: "max-h-[88vh]" }}
-      >
+    <div>
+      <div className="flex w-full justify-center mb-4">
+        <Pagination
+          isCompact
+          showControls
+          showShadow
+          color="primary"
+          page={pagination?.page || 1}
+          total={pagination?.pages || 0}
+          onChange={(page) => fetchData(page)}
+        />
+      </div>
+      <Table aria-label="Example table with dynamic content">
         <TableHeader>
-          <TableColumn>Date</TableColumn>
+          <TableColumn>Week</TableColumn>
           <TableColumn>Results</TableColumn>
           <TableColumn>Result 5</TableColumn>
-          <TableColumn>Week</TableColumn>
+          <TableColumn>Date</TableColumn>
           <TableColumn>TotalSaleAmount</TableColumn>
           <TableColumn>Number</TableColumn>
         </TableHeader>
@@ -107,7 +124,7 @@ export default function Home() {
                   <TableCell className="text-nowrap">
                     {dayOfWeek(lotteryDrawTime, "zh-cn")}
                   </TableCell>
-                  <TableCell className="text-nowrap text-red-500">
+                  <TableCell className="text-nowrap text-primary">
                     {lotteryDrawResult}
                   </TableCell>
                   <TableCell className="text-nowrap">
@@ -133,7 +150,7 @@ export default function Home() {
           isCompact
           showControls
           showShadow
-          color="secondary"
+          color="primary"
           page={pagination?.page || 1}
           total={pagination?.pages || 0}
           onChange={(page) => fetchData(page)}
