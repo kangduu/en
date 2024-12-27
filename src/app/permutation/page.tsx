@@ -104,17 +104,16 @@ export default function Permutation() {
         <TableHeader>
           <TableColumn>Week</TableColumn>
           <TableColumn>Results</TableColumn>
-          <TableColumn>Result 5</TableColumn>
           <TableColumn>Date</TableColumn>
           <TableColumn>TotalSaleAmount</TableColumn>
           <TableColumn>Number</TableColumn>
+          <TableColumn>Matrix</TableColumn>
         </TableHeader>
         <TableBody emptyContent={"No rows to display."}>
           {dataSource?.map(
             ({
               lotteryDrawTime,
               lotteryDrawNum,
-              lotteryUnsortDrawresult,
               lotteryDrawResult,
               totalSaleAmount,
             }) => {
@@ -127,9 +126,6 @@ export default function Permutation() {
                     {lotteryDrawResult}
                   </TableCell>
                   <TableCell className="text-nowrap">
-                    {lotteryUnsortDrawresult}
-                  </TableCell>
-                  <TableCell className="text-nowrap">
                     {lotteryDrawTime}
                   </TableCell>
                   <TableCell className="text-nowrap">
@@ -138,6 +134,7 @@ export default function Permutation() {
                   <TableCell className="text-nowrap">
                     {lotteryDrawNum}
                   </TableCell>
+                  <TableCell className="text-nowrap"></TableCell>
                 </TableRow>
               );
             }
