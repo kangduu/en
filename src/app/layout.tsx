@@ -32,7 +32,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-slate-800 `}
       >
         <Navigation />
-        <main className="p-4">
+        <main className="px-6 w-full m-auto max-w-[1024px]">
           <Providers>{children}</Providers>
         </main>
       </body>

@@ -89,33 +89,31 @@ export default function Permutation() {
   }, []);
 
   return (
-    <div>
-      <div className="flex w-full justify-center mb-4">
-        <Pagination
-          isCompact
-          showControls
-          showShadow
-          color="primary"
-          page={pagination?.page || 1}
-          total={pagination?.pages || 0}
-          onChange={(page) => fetchData(page)}
-        />
-      </div>
+    <>
+      <Pagination
+        isCompact
+        showControls
+        showShadow
+        color="primary"
+        page={pagination?.page || 1}
+        total={pagination?.pages || 0}
+        onChange={(page) => fetchData(page)}
+        className="flex w-full justify-center m-0"
+      />
       <Table aria-label="Example table with dynamic content">
         <TableHeader>
           <TableColumn>Week</TableColumn>
           <TableColumn>Results</TableColumn>
-          <TableColumn>Result 5</TableColumn>
           <TableColumn>Date</TableColumn>
           <TableColumn>TotalSaleAmount</TableColumn>
           <TableColumn>Number</TableColumn>
+          <TableColumn>Matrix</TableColumn>
         </TableHeader>
         <TableBody emptyContent={"No rows to display."}>
           {dataSource?.map(
             ({
               lotteryDrawTime,
               lotteryDrawNum,
-              lotteryUnsortDrawresult,
               lotteryDrawResult,
               totalSaleAmount,
             }) => {
@@ -128,9 +126,6 @@ export default function Permutation() {
                     {lotteryDrawResult}
                   </TableCell>
                   <TableCell className="text-nowrap">
-                    {lotteryUnsortDrawresult}
-                  </TableCell>
-                  <TableCell className="text-nowrap">
                     {lotteryDrawTime}
                   </TableCell>
                   <TableCell className="text-nowrap">
@@ -139,23 +134,23 @@ export default function Permutation() {
                   <TableCell className="text-nowrap">
                     {lotteryDrawNum}
                   </TableCell>
+                  <TableCell className="text-nowrap"></TableCell>
                 </TableRow>
               );
             }
           )}
         </TableBody>
       </Table>
-      <div className="flex w-full justify-center mt-4">
-        <Pagination
-          isCompact
-          showControls
-          showShadow
-          color="primary"
-          page={pagination?.page || 1}
-          total={pagination?.pages || 0}
-          onChange={(page) => fetchData(page)}
-        />
-      </div>
-    </div>
+      <Pagination
+        isCompact
+        showControls
+        showShadow
+        color="primary"
+        page={pagination?.page || 1}
+        total={pagination?.pages || 0}
+        onChange={(page) => fetchData(page)}
+        className="flex w-full justify-center m-0"
+      />
+    </>
   );
 }
