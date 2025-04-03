@@ -35,11 +35,7 @@ export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const renderMenu = (wrapper: "nav" | "menu", className?: string) => {
-    const menuItems = [
-      { path: "/dashboard", label: "Dashboard" },
-      { path: "/permutation", label: "Permutation" },
-      { path: "/lottery", label: "Lottery" },
-    ];
+    const menuItems = [{ path: "/lexical", label: "Lexical" }];
     const areActive = (path: string) => path === pathname;
 
     const Item = wrapper === "nav" ? NavbarItem : NavbarMenuItem;
@@ -81,7 +77,7 @@ export default function Navigation() {
         />
         <NavbarBrand>
           <Link className="font-bold text-inherit" color="foreground" href="/">
-            LOTTERY
+            ENGLISH
           </Link>
         </NavbarBrand>
       </NavbarContent>
@@ -92,7 +88,7 @@ export default function Navigation() {
 
       <NavbarContent justify="end">
         <NavbarItem>
-          <Link href="https://github.com/kangduu/lottery" target="_blank">
+          <Link href="https://github.com/kangduu/en" target="_blank">
             <GitHubSvg />
           </Link>
         </NavbarItem>

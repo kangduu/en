@@ -1,12 +1,4 @@
-# lottery-draw-results
-
-Analysis of lottery draw results.
-
----
-
-###
-
-- [排列 3 术语解释大全](https://www.lottery.gov.cn/plwf/pspwxw/20140506/2145055.html)
+# english study
 
 ---
 
