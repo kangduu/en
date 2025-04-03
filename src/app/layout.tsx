@@ -4,20 +4,15 @@ import "./globals.css";
 import Providers from "./providers";
 import Navigation from "../components/Navigation";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+  src: "./fonts/kkk.ttf",
   variable: "--font-geist-mono",
   weight: "100 900",
 });
 
 export const metadata: Metadata = {
-  title: "Lottery",
-  description: "Analysis of lottery draw results.",
+  title: "English",
+  description: "english-study",
 };
 
 export default function RootLayout({
@@ -29,10 +24,10 @@ export default function RootLayout({
     <html lang="en" className="light">
       <body
         role="contentinfo"
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-slate-800 `}
+        className={`${geistMono.variable} antialiased bg-white dark:bg-slate-800 `}
       >
         <Navigation />
-        <main className="p-4">
+        <main className="px-6 w-full m-auto max-w-[1024px]">
           <Providers>{children}</Providers>
         </main>
       </body>
