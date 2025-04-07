@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "Excuse me!",
+    "course": [
+      "Excuse me!",
+      "Yes?",
+      "Is this your handbag?",
+      "Pardon?",
+      "Is this your handbag?",
+      "Yes it is.",
+      "Thank you very much."
+    ],
+    "translation": [
+      "对不起！",
+      "什么事？",
+      "这是你的手提包吗？",
+      "对不起，请再说一遍？",
+      "这是你的手提包吗？",
+      "是的，是我的。",
+      "非常感谢！"
+    ],
+    "notes": []
+  },
+  {
+    "id": 2,
+    "name": "Can I help you?",
+    "course": [
+      "Can I help you?",
+      "Yes, please.",
+      "I want to buy a pair of shoes.",
+      "What size do you wear?",
+      "I wear size 8.",
+      "Here you are.",
+      "Thank you."
+    ],
+    "translation": [
+      "我能帮你吗？",
+      "好的，请说。",
+      "我想买一双鞋子。",
+      "你穿多大号的？",
+      "我穿8号的。",
+      "给你。",
+      "谢谢。"
+    ],
+    "notes": []
+  }
+]

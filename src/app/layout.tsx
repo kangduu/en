@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Providers from "./providers";
-import Navigation from "../components/Navigation";
+import Navigation from "./header";
 
 const geistMono = localFont({
   src: "./fonts/kkk.ttf",
@@ -27,7 +27,7 @@ export default function RootLayout({
         className={`${geistMono.variable} antialiased bg-white dark:bg-slate-800 `}
       >
         <Navigation />
-        <main className="px-6 w-full m-auto max-w-[1024px]">
+        <main className="p-4 w-full m-auto max-w-[1024px]">
           <Providers>{children}</Providers>
         </main>
       </body>
