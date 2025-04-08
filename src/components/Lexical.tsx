@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Lexical() {
   return (
-    <Card>
+    <Card clickable={false}>
       <h2>Word Formation</h2>
       <h3>
         <Link href="#">0. Root Creation</Link>
@@ -17,9 +17,9 @@ export default function Lexical() {
         Adding affixes to a base word to change its meaning or grammatical
         category.
       </i>
-      <ul>
+      <ul className="list-disc ml-8">
         <li>Prefixes (change meaning, not word class.)</li>
-        <ol>
+        <ol className="ml-8 list-disc">
           <li>
             un-(negative): happy → <strong>un</strong>happy
           </li>
@@ -28,7 +28,7 @@ export default function Lexical() {
           </li>
         </ol>
         <li>Suffixes (often change word class)</li>
-        <ol>
+        <ol className="ml-8 list-disc">
           <li>
             -ness(adj. → noun): kind → kind<strong>ness</strong>
           </li>
