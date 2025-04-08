@@ -1,11 +1,9 @@
 "use client";
-
-import { NewConceptTemp } from "@/src/components";
 import { useRouter } from "next/navigation";
-import React from "react";
+import { NewConceptTemp } from "@/src/components";
+import React, { type FC } from "react";
 
-// /books
-export default function page() {
+const Books: FC = () => {
   const router = useRouter();
   return (
     <div className="py-4">
@@ -19,4 +17,6 @@ export default function page() {
       />
     </div>
   );
-}
+};
+
+export default Books;

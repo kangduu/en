@@ -1,6 +1,48 @@
+"use client";
+
 import { NewConceptBooks, type BookLink } from "../routes";
 import Card, { type CardProps } from "./Card";
-import BookList, { type BookListProps } from "./BookList";
+import type { NewConceptBookKey } from "../utils/constant";
+import React, { useEffect, useState } from "react";
+import { getCourses, type Course } from "@/src/db/books";
+
+interface BookListProps {
+  book: NewConceptBookKey;
+  onClick?: (id: Course["id"], book: NewConceptBookKey) => void;
+}
+function BookList({ book, onClick }: BookListProps) {
+  const [courses, setCourses] = useState<Course[] | null>(null);
+
+  useEffect(() => {
+    async function fetchCourses() {
+      try {
+        const course = await getCourses(book)
+          .then((res) => res as Course[])
+          .catch(() => []);
+        setCourses(course);
+      } catch (error) {
+        console.error("Error fetching courses:", error);
+        setCourses(null);
+      }
+    }
+    fetchCourses();
+  }, [book]);
+
+  if (courses === null) return <div>Loading...</div>;
+  return (
+    <ul>
+      {courses.map(({ id, name }, index) => (
+        <li
+          key={id}
+          className="hover:text-blue-500 text-gray-700 cursor-pointer"
+          onClick={() => onClick?.(id, book)}
+        >
+          {index + 1}. {name}
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 interface NewConceptProps extends Pick<CardProps, "clickable"> {
   showList?: boolean;
@@ -9,10 +51,10 @@ interface NewConceptProps extends Pick<CardProps, "clickable"> {
 }
 
 export default function NewConcept({
-  showList = false,
-  clickable = true,
-  onClickCourse,
+  clickable,
   onClick,
+  onClickCourse,
+  showList,
 }: NewConceptProps) {
   return (
     <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -23,7 +65,7 @@ export default function NewConcept({
           onClick={() => onClick?.(book.url)}
         >
           <h2>{book.title}</h2>
-          {showList && <BookList chapter={book.id} onClick={onClickCourse} />}
+          {showList && <BookList book={book.id} onClick={onClickCourse} />}
         </Card>
       ))}
     </div>

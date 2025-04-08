@@ -1,7 +1,8 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { LexicalTemp, NewConceptTemp } from "../components";
+import { NewConceptTemp } from "../components";
+// import { LexicalTemp, NewConceptTemp } from "../components";
 
 export default function Home() {
   const router = useRouter();
@@ -11,7 +12,7 @@ export default function Home() {
       <NewConceptTemp onClick={(url) => router.push(url + "/1")} />
 
       <h1 className="my-4">Part 2 Lexical</h1>
-      <LexicalTemp />
+      {/* <LexicalTemp /> */}
 
       <h1 className="my-4">Part 3 Practices</h1>
 
