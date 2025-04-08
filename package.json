@@ -12,8 +12,9 @@
     "@nextui-org/react": "^2.6.8",
     "dayjs": "^1.11.13",
     "framer-motion": "^11.14.1",
+    "lodash": "^4.17.21",
     "lowdb": "^7.0.1",
-    "next": "^15.1.0",
+    "next": "^15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
