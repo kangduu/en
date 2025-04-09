@@ -38,7 +38,7 @@ export default async function Book({ params }: BookProps) {
     return (
       <>
         {renderName(course.name)}
-        <RenderCourse course={course.course} />
+        <RenderCourse lesson={course} />
         <RenderPagination
           page={courseIndex}
           book={book as NewConceptBookKey}
