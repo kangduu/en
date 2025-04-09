@@ -38,6 +38,10 @@ export default async function Book({ params }: BookProps) {
     return (
       <>
         {renderName(course.name)}
+        <audio controls loop autoPlay src={course.audio}>
+          <source src={course.audio} type="audio/mp3" />
+          Your browser does not support the <code>audio</code> element.
+        </audio>
         <RenderCourse lesson={course} />
         <RenderPagination
           page={courseIndex}
