@@ -40,7 +40,20 @@
       "Customer: Yes, it is.",
       "Customer: Thank you very much."
     ],
-    "translation": [],
+    "translation": [
+      "请把我的大衣和伞拿给我。",
+      "这是我（寄存东西）的牌子。",
+      "谢谢，先生。",
+      "是5号。",
+      "这是你的伞和大衣。",
+      "这不是我的伞。",
+      "对不起，先生。",
+      "这把伞是你的吗？",
+      "不，不是！",
+      "这把是吗？",
+      "是，是我的。",
+      "非常感谢。"
+    ],
     "notes": [],
     "audio": "/audio/first-things-first/1-003.mp3"
   },
