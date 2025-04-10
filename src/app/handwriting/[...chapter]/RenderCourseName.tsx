@@ -9,8 +9,11 @@ export default function RenderCourseName({ name }: { name: string }) {
   if (name === "undefined") return null;
   return (
     <h2 className="font-bold text-xl flex items-center gap-2">
-      <Media.Sound onClick={audio.play} />
-      <Media.Muted onClick={audio.pause} />
+      {audio?.playing ? (
+        <Media.Sound onClick={audio.pause} />
+      ) : (
+        <Media.Muted onClick={audio.play} />
+      )}
       {name}
     </h2>
   );

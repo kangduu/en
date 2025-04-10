@@ -1,6 +1,8 @@
 "use client";
 
-import detectAudioSegments from "@/src/utils/audio-segments";
+import detectAudioSegments, {
+  type AudioSegment,
+} from "@/src/utils/audio-segments";
 import React, {
   createContext,
   useContext,
@@ -10,17 +12,25 @@ import React, {
   useState,
   type PropsWithChildren,
 } from "react";
-import { blob } from "stream/consumers";
 
 export interface AudioContextProps {
-  path?: string;
+  path: string;
+  playing: boolean;
+  segments: AudioSegment[];
   play: () => void;
+  playSegment: (
+    start: AudioSegment["start"],
+    duration: AudioSegment["duration"]
+  ) => void;
   pause: () => void;
 }
 
 const AudioContext = createContext<AudioContextProps>({
-  path: undefined,
+  path: "",
+  playing: false,
+  segments: [],
   play: () => {},
+  playSegment: () => {},
   pause: () => {},
 });
 
@@ -28,22 +38,28 @@ const AudioContext = createContext<AudioContextProps>({
 export const useAudioContext = () => useContext(AudioContext);
 
 export interface WithAudioCtxProps {
-  path: string; // load audio with path.
+  path: AudioContextProps["path"]; // load audio with path.
 }
+
+let timerPlaySegment: NodeJS.Timeout;
 
 export default function WithAudioCtx({
   children,
   path,
 }: PropsWithChildren<WithAudioCtxProps>) {
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-
+  // filename
   const filename = useMemo(() => {
     if (path) return path.split("/").at(-1);
     return "";
   }, [path]);
 
-  // todo audio segments
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const audio = audioRef.current;
 
+  const [playing, setPlaying] = useState<AudioContextProps["playing"]>(false);
+  const [segments, setSegments] = useState<AudioSegment[]>([]);
+
+  // set audio segments
   useEffect(() => {
     if (path && filename) {
       fetch(path)
@@ -51,14 +67,19 @@ export default function WithAudioCtx({
         .then(async (blob) => {
           const file = new File([blob], filename);
           const res = await detectAudioSegments(file);
-          console.log(res);
+          setSegments(res.segments);
         });
     }
   }, [path, filename]);
 
-  const play = () => {
+  // play
+  const play: AudioContextProps["play"] = () => {
+    if (!path) return alert("path not found.");
+    if (!audio) throw Error("audio not found.");
+
     try {
-      audioRef.current?.play().catch((error) => {
+      audio.currentTime = 0;
+      audio.play().catch((error) => {
         throw Error(error);
       });
     } catch (error) {
@@ -66,22 +87,52 @@ export default function WithAudioCtx({
     }
   };
 
-  const pause = () => {
+  // pause
+  const pause: AudioContextProps["pause"] = () => {
+    if (!path) return alert("path not found.");
+    if (!audio) throw Error("audio not found.");
+
     try {
-      audioRef.current?.pause();
+      audio.pause();
     } catch (error) {
       alert("paused failure." + (error as { message: string }).message);
     }
   };
 
+  // play segment
+  const playSegment: AudioContextProps["playSegment"] = (start, duration) => {
+    try {
+      if (!audio) throw Error("audio not found.");
+      if (playing) audio.pause();
+      audio.currentTime = start;
+      audio.play();
+
+      clearTimeout(timerPlaySegment);
+      timerPlaySegment = setTimeout(() => {
+        audio.pause();
+      }, duration * 1000);
+    } catch (error) {
+      alert("play segment failure." + (error as { message: string }).message);
+    }
+  };
+
   const AudioContextValue: AudioContextProps = {
+    playing,
     path,
+    segments,
+    playSegment,
     play,
     pause,
   };
   return (
     <AudioContext.Provider value={AudioContextValue}>
-      <audio src={path} preload="metadata" ref={audioRef}></audio>
+      <audio
+        ref={audioRef}
+        src={path}
+        preload="metadata"
+        onPause={() => setPlaying(false)}
+        onPlay={() => setPlaying(true)}
+      ></audio>
       {children}
     </AudioContext.Provider>
   );

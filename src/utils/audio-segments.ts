@@ -141,10 +141,23 @@ export interface AudioSplitOptions {
   windowSize?: number; // RMS分析窗口大小(秒)
 }
 
+export interface AudioSegment {
+  start: number;
+  end: number;
+  duration: number;
+}
+
+export interface AudioSegments {
+  segments: AudioSegment[];
+  duration: number;
+  sampleRate: number;
+  sampleCount: number;
+}
+
 export default async function detectAudioSegments(
   file: File,
   options: AudioSplitOptions = {}
-) {
+): Promise<AudioSegments> {
   // 默认参数
   const {
     rmsThreshold = 0.005, // RMS能量阈值
