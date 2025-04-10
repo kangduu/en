@@ -6,6 +6,7 @@ export interface Course {
   course: string[];
   translation: string[];
   notes: unknown[];
+  audio: string
 }
 
 type ImportCourse = () => Promise<Course[]>;

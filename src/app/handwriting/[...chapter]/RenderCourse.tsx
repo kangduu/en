@@ -3,6 +3,7 @@
 import type { Course } from "@/src/db/books";
 import _ from "lodash";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
+import { useAudioContext } from "./WithAudioCtx";
 
 // custom hook to manage the state of correct answers
 // It takes a source array as input and returns an array of boolean values indicating whether each item is correct or not.
@@ -115,6 +116,9 @@ function RenderSentence({ sentence, onChange, ...props }: RenderSentenceProps) {
   // check if all words are completed
   const completed = useCompleted(correct);
 
+  // audio context
+  const audio = useAudioContext();
+
   return (
     <div className="mb-2">
       <p
@@ -125,7 +129,21 @@ function RenderSentence({ sentence, onChange, ...props }: RenderSentenceProps) {
         {props.translation}
       </p>
       <div className="flex gap-2 flex-wrap">
-        <div className="uppercase mr-2">{talker}</div>
+        <div
+          className="uppercase mr-2"
+          onClick={() => {
+            try {
+              if (!audio) return;
+              const { playSegment, segments } = audio;
+              const { start, duration } = segments[props.id];
+              playSegment(start, duration);
+            } catch (error) {
+              alert((error as { message: string }).message);
+            }
+          }}
+        >
+          {talker}
+        </div>
         {words.map((word, index) => (
           <RenderWord
             word={word}
