@@ -21,7 +21,7 @@
       "非常感谢！"
     ],
     "notes": [],
-    "audio": "/audio/1-001.mp3"
+    "audio": "/audio/first-things-first/1-001.mp3"
   },
   {
     "id": 2,
@@ -41,7 +41,8 @@
       "Customer: Thank you very much."
     ],
     "translation": [],
-    "notes": []
+    "notes": [],
+    "audio": ""
   },
   {
     "id": 3,
@@ -69,7 +70,8 @@
       "Xiaohui: Nice to meet you."
     ],
     "translation": [],
-    "notes": []
+    "notes": [],
+    "audio": ""
   },
   {
     "id": 4,
@@ -93,7 +95,8 @@
       "Robert: I'm an engineer."
     ],
     "translation": [],
-    "notes": []
+    "notes": [],
+    "audio": ""
   },
   {
     "id": 5,
@@ -115,7 +118,8 @@
       "Helen: Goodbye."
     ],
     "translation": [],
-    "notes": []
+    "notes": [],
+    "audio": ""
   },
   {
     "id": 6,
@@ -139,7 +143,8 @@
       "Sir: Thank you, sir."
     ],
     "translation": [],
-    "notes": []
+    "notes": [],
+    "audio": ""
   },
   {
     "id": 7,
@@ -160,7 +165,8 @@
       "A: That is a lovely hat!"
     ],
     "translation": [],
-    "notes": []
+    "notes": [],
+    "audio": ""
   },
   {
     "id": 8,
@@ -186,7 +192,8 @@
       "#: Thank you very much."
     ],
     "translation": [],
-    "notes": []
+    "notes": [],
+    "audio": ""
   },
   {
     "id": 9,
@@ -210,7 +217,8 @@
       "Jackson: He's our office assistant."
     ],
     "translation": [],
-    "notes": []
+    "notes": [],
+    "audio": ""
   },
   {
     "id": 10,
@@ -232,6 +240,7 @@
       "#: Yes, we are, thank you!"
     ],
     "translation": [],
-    "notes": []
+    "notes": [],
+    "audio": ""
   }
 ]
