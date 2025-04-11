@@ -71,7 +71,7 @@
       "Naoko: Nice to meet you.",
       "Blake: And this is Chang-woo. He's Korean.",
       "Chang-woo: Nice to meet you.",
-      "Blake: And this is Luming. He is Chinese.", 
+      "Blake: And this is Luming. He is Chinese.",
       "Luming: Nice to meet you.",
       "Blake: And this is Xiaohui. She's Chinese, too.",
       "Xiaohui: Nice to meet you."
@@ -112,21 +112,18 @@
       "Steven: Hello, Helen.",
       "Helen: Hi, Steven.",
       "Steven: How are you today?",
-      "Helen: I'm very well, thank you.",
-      "Helen: And you?",
+      "Helen: I'm very well, thank you. And you?",
       "Steven: I'm fine, thanks.",
       "Steven: How is Tony?",
       "Helen: He's fine, thanks.",
       "Helen: How's Emma?",
       "Steven: She's very well, too, Helen.",
-      "Steven: Goodbye, Helen.",
-      "Steven: Nice to see you.",
-      "Helen: Nice to see you, too, Steven.",
-      "Helen: Goodbye."
+      "Steven: Goodbye, Helen. Nice to see you.",
+      "Helen: Nice to see you, too, Steven. Goodbye."
     ],
     "translation": [],
     "notes": [],
-    "audio": ""
+    "audio": "/audio/first-things-first/1-009.mp3"
   },
   {
     "id": 6,
