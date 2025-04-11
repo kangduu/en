@@ -21,7 +21,7 @@
       "非常感谢！"
     ],
     "notes": [],
-    "audio": "/audio/first-things-first/1-001.mp3"
+    "audio": "/first-things-first/1-001.mp3"
   },
   {
     "id": 2,
@@ -55,7 +55,7 @@
       "非常感谢。"
     ],
     "notes": [],
-    "audio": "/audio/first-things-first/1-003.mp3"
+    "audio": "/first-things-first/1-003.mp3"
   },
   {
     "id": 3,
@@ -78,7 +78,7 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": "/audio/first-things-first/1-005.mp3"
+    "audio": "/first-things-first/1-005.mp3"
   },
   {
     "id": 4,
@@ -103,7 +103,7 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": "/audio/first-things-first/1-007.mp3"
+    "audio": "/first-things-first/1-007.mp3"
   },
   {
     "id": 5,
@@ -123,7 +123,7 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": "/audio/first-things-first/1-009.mp3"
+    "audio": "/first-things-first/1-009.mp3"
   },
   {
     "id": 6,
@@ -146,7 +146,7 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": "/audio/first-things-first/1-011.mp3"
+    "audio": "/first-things-first/1-011.mp3"
   },
   {
     "id": 7,
@@ -166,7 +166,7 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": "/audio/first-things-first/1-013.mp3"
+    "audio": "/first-things-first/1-013.mp3"
   },
   {
     "id": 8,
@@ -191,7 +191,7 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": "/audio/first-things-first/1-015.mp3"
+    "audio": "/first-things-first/1-015.mp3"
   },
   {
     "id": 9,
@@ -214,7 +214,7 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": "/audio/first-things-first/1-017.mp3"
+    "audio": "/first-things-first/1-017.mp3"
   },
   {
     "id": 10,
@@ -235,6 +235,6 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": "/audio/first-things-first/1-019.mp3"
+    "audio": "/first-things-first/1-019.mp3"
   }
 ]
