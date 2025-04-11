@@ -173,11 +173,9 @@
     "name": "Your Passports, Please.",
     "course": [
       "Customs: Are you Swedish?",
-      "#: No, we are not.",
-      "#: We are Danish.",
+      "#: No, we are not. We are Danish.",
       "Customs: Are your friends Danish, too?",
-      "#: No, they aren't.",
-      "#: They are Norwegian.",
+      "#: No, they aren't. They are Norwegian.",
       "Customs: Your passports, please.",
       "#: Here they are.",
       "Customs: Are these your cases?",
@@ -193,7 +191,7 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": ""
+    "audio": "/audio/first-things-first/1-015.mp3"
   },
   {
     "id": 9,
@@ -218,7 +216,7 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": ""
+    "audio": "/audio/first-things-first/1-017.mp3"
   },
   {
     "id": 10,
@@ -241,6 +239,6 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": ""
+    "audio": "/audio/first-things-first/1-019.mp3"
   }
 ]
