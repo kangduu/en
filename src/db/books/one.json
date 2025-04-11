@@ -152,23 +152,21 @@
     "id": 7,
     "name": "A New Dress.",
     "course": [
-      "A: What colour's your new dress?",
-      "B: It's green.",
-      "B: Come upstairs and see it.",
+      "A: What color's your new dress?",
+      "B: It's green. Come upstairs and see it.",
       "A: Thank you.",
-      "B: Look!",
-      "B: Here it is!",
+      "B: Look! Here it is!",
       "A: That's a nice dress.",
       "A: It's very smart.",
       "B: My hat's new, too.",
-      "A: What colour is it?",
-      "B: It's the same colour.",
+      "A: What color is it?",
+      "B: It's the same color.",
       "B: It's green, too.",
       "A: That is a lovely hat!"
     ],
     "translation": [],
     "notes": [],
-    "audio": ""
+    "audio": "/audio/first-things-first/1-013.mp3"
   },
   {
     "id": 8,
