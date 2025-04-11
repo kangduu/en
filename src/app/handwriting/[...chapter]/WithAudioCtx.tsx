@@ -18,10 +18,7 @@ export interface AudioContextProps {
   playing: boolean;
   segments: AudioSegment[];
   play: () => void;
-  playSegment: (
-    start: AudioSegment["start"],
-    duration: AudioSegment["duration"]
-  ) => void;
+  playSegment: (index: number /** segments index */) => void;
   pause: () => void;
 }
 
@@ -100,11 +97,15 @@ export default function WithAudioCtx({
   };
 
   // play segment
-  const playSegment: AudioContextProps["playSegment"] = (start, duration) => {
+  const playSegment: AudioContextProps["playSegment"] = (index) => {
     try {
       if (!audio) throw Error("audio not found.");
       if (playing) audio.pause();
+
+      const { start, duration } = segments[index];
+
       audio.currentTime = start;
+      audio.playbackRate = 1.0;
       audio.play();
 
       clearTimeout(timerPlaySegment);
@@ -129,7 +130,7 @@ export default function WithAudioCtx({
       <audio
         ref={audioRef}
         src={path}
-        preload="metadata"
+        preload="data"
         onPause={() => setPlaying(false)}
         onPlay={() => setPlaying(true)}
       ></audio>

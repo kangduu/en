@@ -122,7 +122,7 @@ function RenderSentence({ sentence, onChange, ...props }: RenderSentenceProps) {
   return (
     <div className="mb-2">
       <p
-        className={`text-xs text-gray-300 m-0 pl-8 ${
+        className={`text-xs text-gray-300 m-0 ${
           completed ? "opacity-100" : "opacity-0 hover:opacity-100"
         }`}
       >
@@ -132,14 +132,7 @@ function RenderSentence({ sentence, onChange, ...props }: RenderSentenceProps) {
         <div
           className="uppercase mr-2"
           onClick={() => {
-            try {
-              if (!audio) return;
-              const { playSegment, segments } = audio;
-              const { start, duration } = segments[props.id];
-              playSegment(start, duration);
-            } catch (error) {
-              alert((error as { message: string }).message);
-            }
+            audio?.playSegment(props.id);
           }}
         >
           {talker}

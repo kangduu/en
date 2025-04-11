@@ -64,22 +64,16 @@
       "Blake: Good morning.",
       "#: Good morning, Mr. Blake.",
       "Blake: This is Miss Sophie Dupont.",
-      "Blake: Sophie is a new student.",
-      "Blake: She is French.",
-      "Blake: Sophie, this is Hans.",
-      "Blake: He is German.",
+      "Blake: Sophie is a new student. She is French.",
+      "Blake: Sophie, this is Hans. He is German.",
       "Hans: Nice to meet you.",
-      "Blake: And this is Naoko.",
-      "Blake: She's Japanese.",
+      "Blake: And this is Naoko. She's Japanese.",
       "Naoko: Nice to meet you.",
-      "Blake: And this is Chang-woo.",
-      "Blake: He's Korean.",
+      "Blake: And this is Chang-woo. He's Korean.",
       "Chang-woo: Nice to meet you.",
-      "Blake: And this is Luming.",
-      "Blake: He is Chinese.",
+      "Blake: And this is Luming. He is Chinese.",
       "Luming: Nice to meet you.",
-      "Blake: And this is Xiaohui.",
-      "Blake: She's Chinese, too.",
+      "Blake: And this is Xiaohui. She's Chinese, too.",
       "Xiaohui: Nice to meet you."
     ],
     "translation": [],
@@ -109,7 +103,7 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": ""
+    "audio": "/audio/first-things-first/1-007.mp3"
   },
   {
     "id": 5,
@@ -118,21 +112,18 @@
       "Steven: Hello, Helen.",
       "Helen: Hi, Steven.",
       "Steven: How are you today?",
-      "Helen: I'm very well, thank you.",
-      "Helen: And you?",
+      "Helen: I'm very well, thank you. And you?",
       "Steven: I'm fine, thanks.",
       "Steven: How is Tony?",
       "Helen: He's fine, thanks.",
       "Helen: How's Emma?",
       "Steven: She's very well, too, Helen.",
-      "Steven: Goodbye, Helen.",
-      "Steven: Nice to see you.",
-      "Helen: Nice to see you, too, Steven.",
-      "Helen: Goodbye."
+      "Steven: Goodbye, Helen. Nice to see you.",
+      "Helen: Nice to see you, too, Steven. Goodbye."
     ],
     "translation": [],
     "notes": [],
-    "audio": ""
+    "audio": "/audio/first-things-first/1-009.mp3"
   },
   {
     "id": 6,
@@ -140,10 +131,8 @@
     "course": [
       "Sir: Whose shirt is that?",
       "Sir: Is this your shirt, Dave?",
-      "Dave: No. Sir.",
-      "Dave: It's not my shirt.",
-      "Dave: This is my shirt.",
-      "Dave: My shirt's blue.",
+      "Dave: No. Sir. It's not my shirt.",
+      "Dave: This is my shirt. My shirt's blue.",
       "Sir: Is this shirt Tim's?",
       "Dave: Perhaps it is, sir.",
       "Dave: Tim's shirt's white.",
@@ -152,45 +141,41 @@
       "Sir: Is this your shirt?",
       "Tim: Yes, sir.",
       "Sir: Here you are.",
-      "Tim: Catch!",
-      "Sir: Thank you, sir."
+      "Sir: Catch!",
+      "Tim: Thank you, sir."
     ],
     "translation": [],
     "notes": [],
-    "audio": ""
+    "audio": "/audio/first-things-first/1-011.mp3"
   },
   {
     "id": 7,
     "name": "A New Dress.",
     "course": [
-      "A: What colour's your new dress?",
-      "B: It's green.",
-      "B: Come upstairs and see it.",
+      "A: What color's your new dress?",
+      "B: It's green. Come upstairs and see it.",
       "A: Thank you.",
-      "B: Look!",
-      "B: Here it is!",
+      "B: Look! Here it is!",
       "A: That's a nice dress.",
       "A: It's very smart.",
       "B: My hat's new, too.",
-      "A: What colour is it?",
-      "B: It's the same colour.",
+      "A: What color is it?",
+      "B: It's the same color.",
       "B: It's green, too.",
       "A: That is a lovely hat!"
     ],
     "translation": [],
     "notes": [],
-    "audio": ""
+    "audio": "/audio/first-things-first/1-013.mp3"
   },
   {
     "id": 8,
     "name": "Your Passports, Please.",
     "course": [
       "Customs: Are you Swedish?",
-      "#: No, we are not.",
-      "#: We are Danish.",
+      "#: No, we are not. We are Danish.",
       "Customs: Are your friends Danish, too?",
-      "#: No, they aren't.",
-      "#: They are Norwegian.",
+      "#: No, they aren't. They are Norwegian.",
       "Customs: Your passports, please.",
       "#: Here they are.",
       "Customs: Are these your cases?",
@@ -206,7 +191,7 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": ""
+    "audio": "/audio/first-things-first/1-015.mp3"
   },
   {
     "id": 9,
@@ -223,28 +208,24 @@
       "Richards: How do you do?",
       "Richards: They aren't very busy!",
       "Richards: What are their jobs?",
-      "Jackson: They're sales reps.",
-      "Jackson: They're very lazy.",
+      "Jackson: They're sales reps. They're very lazy.",
       "Richards: Who is this young man?",
-      "Jackson: This is Jim.",
-      "Jackson: He's our office assistant."
+      "Jackson: This is Jim. He's our office assistant."
     ],
     "translation": [],
     "notes": [],
-    "audio": ""
+    "audio": "/audio/first-things-first/1-017.mp3"
   },
   {
     "id": 10,
     "name": "Tired and Thirsty.",
     "course": [
       "Mother: What's the matter, children?",
-      "Girl: We're tired",
-      "Boy: and thirsty, Mum.",
+      "#: We're tired, and thirsty, Mum.",
       "Mother: Sit down here.",
       "Mother: Are you all right now?",
       "Boy: No, we aren't.",
-      "Mother: Look!",
-      "Mother: There's an ice-cream man.",
+      "Mother: Look! There's an ice-cream man.",
       "Mother: Two ice-cream please.",
       "Mother: Here you are, children.",
       "#: Thanks, Mum.",
@@ -254,6 +235,6 @@
     ],
     "translation": [],
     "notes": [],
-    "audio": ""
+    "audio": "/audio/first-things-first/1-019.mp3"
   }
 ]
