@@ -131,10 +131,8 @@
     "course": [
       "Sir: Whose shirt is that?",
       "Sir: Is this your shirt, Dave?",
-      "Dave: No. Sir.",
-      "Dave: It's not my shirt.",
-      "Dave: This is my shirt.",
-      "Dave: My shirt's blue.",
+      "Dave: No. Sir. It's not my shirt.",
+      "Dave: This is my shirt. My shirt's blue.",
       "Sir: Is this shirt Tim's?",
       "Dave: Perhaps it is, sir.",
       "Dave: Tim's shirt's white.",
@@ -143,12 +141,12 @@
       "Sir: Is this your shirt?",
       "Tim: Yes, sir.",
       "Sir: Here you are.",
-      "Tim: Catch!",
-      "Sir: Thank you, sir."
+      "Sir: Catch!",
+      "Tim: Thank you, sir."
     ],
     "translation": [],
     "notes": [],
-    "audio": ""
+    "audio": "/audio/first-things-first/1-011.mp3"
   },
   {
     "id": 7,
