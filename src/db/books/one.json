@@ -61,22 +61,37 @@
     "id": 3,
     "name": "Nice to Meet You.",
     "course": [
-      "Blake: Good morning.",
-      "#: Good morning, Mr. Blake.",
-      "Blake: This is Miss Sophie Dupont.",
-      "Blake: Sophie is a new student. She is French.",
-      "Blake: Sophie, this is Hans. He is German.",
+      "Mr.Blake: Good morning.",
+      "Students: Good morning, Mr. Blake.",
+      "Mr.Blake: This is Miss Sophie Dupont.",
+      "Mr.Blake: Sophie is a new student. She is French.",
+      "Mr.Blake: Sophie, this is Hans. He is German.",
       "Hans: Nice to meet you.",
-      "Blake: And this is Naoko. She's Japanese.",
+      "Mr.Blake: And this is Naoko. She's Japanese.",
       "Naoko: Nice to meet you.",
-      "Blake: And this is Chang-woo. He's Korean.",
+      "Mr.Blake: And this is Chang-woo. He's Korean.",
       "Chang-woo: Nice to meet you.",
-      "Blake: And this is Luming. He is Chinese.",
+      "Mr.Blake: And this is Luming. He is Chinese.",
       "Luming: Nice to meet you.",
-      "Blake: And this is Xiaohui. She's Chinese, too.",
+      "Mr.Blake: And this is Xiaohui. She's Chinese, too.",
       "Xiaohui: Nice to meet you."
     ],
-    "translation": [],
+    "translation": [
+      "早上好。",
+      "早上好，布莱克先生",
+      "这位是索菲亚·杜邦小姐。",
+      "索菲亚是新来的学生。她是法国人。",
+      "索菲亚，这位是汉斯。他是德国人。",
+      "很高兴见到你。",
+      "这位是直子。她是日本人。",
+      "很高兴见到你。",
+      "这位是昌宇。他是韩国人。",
+      "很高兴见到你。",
+      "这位是鲁明。他是中国人。",
+      "很高兴见到你。",
+      "这位是晓慧。她也是中国人。",
+      "很高兴见到你。"
+    ],
     "notes": [],
     "audio": "/first-things-first/1-005.mp3"
   },
@@ -101,7 +116,24 @@
       "Sophie: What's your job?",
       "Robert: I'm an engineer."
     ],
-    "translation": [],
+    "translation": [
+      "我是新来的学生。",
+      "我的名字叫罗伯特。",
+      "很高兴见到你。",
+      "我的名字叫索菲亚。",
+      "你是法国人吗？",
+      "是的，我是法国人。",
+      "你也是法国人吗？",
+      "不，我不是。",
+      "你是哪国人？",
+      "我是意大利人。",
+      "你是教师吗？",
+      "不，我不是。",
+      "你是做什么工作的？",
+      "我是电脑录入员。",
+      "你是做什么工作的？",
+      "我是工程师。"
+    ],
     "notes": [],
     "audio": "/first-things-first/1-007.mp3"
   },
@@ -121,7 +153,19 @@
       "Steven: Goodbye, Helen. Nice to see you.",
       "Helen: Nice to see you, too, Steven. Goodbye."
     ],
-    "translation": [],
+    "translation": [
+      "你好，海伦。",
+      "你好，史蒂文。",
+      "你今天好吗？",
+      "很好，谢谢你。你好吗？",
+      "我很好，谢谢。",
+      "托尼好吗？",
+      "他很好，谢谢。",
+      "艾玛好吗？",
+      "她也很好，海伦。",
+      "再见，海伦。见到你很高兴。",
+      "我见到你也很高兴，史蒂文。再见。"
+    ],
     "notes": [],
     "audio": "/first-things-first/1-009.mp3"
   },
@@ -144,7 +188,22 @@
       "Sir: Catch!",
       "Tim: Thank you, sir."
     ],
-    "translation": [],
+    "translation": [
+      "那是谁的衬衫？",
+      "戴夫，这是你的衬衫吗？",
+      "不，先生。这不是我的衬衫。",
+      "这是我的衬衫。我的衬衫是蓝色的。",
+      "这件衬衫是蒂姆的吗？",
+      "也许是，先生。",
+      "蒂姆的衬衫是白色的。",
+      "蒂姆！",
+      "什么事，先生？",
+      "这是你的衬衫吗？",
+      "是的，先生。",
+      "给你。",
+      "接着！",
+      "谢谢你，先生。"
+    ],
     "notes": [],
     "audio": "/first-things-first/1-011.mp3"
   },
@@ -164,7 +223,19 @@
       "B: It's green, too.",
       "A: That is a lovely hat!"
     ],
-    "translation": [],
+    "translation": [
+      "你的新连衣裙是什么颜色的？",
+      "是绿色的。到楼上来看看吧。",
+      "谢谢。",
+      "瞧，就是这件。",
+      "这件连衣裙真好。",
+      "真漂亮。",
+      "我的帽子也是新的。",
+      "是什么颜色的？",
+      "一样的颜色。",
+      "也是绿的。",
+      "真是一顶可爱的帽子。"
+    ],
     "notes": [],
     "audio": "/first-things-first/1-013.mp3"
   },
@@ -189,7 +260,24 @@
       "Customs: That's fine.",
       "#: Thank you very much."
     ],
-    "translation": [],
+    "translation": [
+      "你们是瑞典人吗？",
+      "不，我们不死瑞典人。我们是丹麦人。",
+      "你们的朋友也是丹麦人吗？",
+      "不，他们不是丹麦人。他们是挪威人。",
+      "请出示你们的护照。",
+      "给您。",
+      "这些是你们的箱子吗？",
+      "不，不是。",
+      "我们的箱子是棕色的。",
+      "在这儿呢。",
+      "你们是来旅游的吗？",
+      "是的，我们是来旅游的。",
+      "你们的朋友也是来旅游的吗？",
+      "是的，他们也是。",
+      "好了。",
+      "非常感谢。"
+    ],
     "notes": [],
     "audio": "/first-things-first/1-015.mp3"
   },
@@ -212,7 +300,22 @@
       "Richards: Who is this young man?",
       "Jackson: This is Jim. He's our office assistant."
     ],
-    "translation": [],
+    "translation": [
+      "来见见我们的雇员，理查德先生。",
+      "谢谢，杰克逊先生。",
+      "这位是尼古丁·格雷，这位是克莱尔·泰勒。",
+      "你们好！",
+      "那些姑娘很勤快。",
+      "她们是做什么工作的？",
+      "她们是电脑录入员。",
+      "这位是迈克尔·贝克，这位是杰里米·肖特。",
+      "你们好！",
+      "他们不很忙吧！",
+      "他们是做什么工作的？",
+      "他们是推销员。他们非常懒。",
+      "这个年轻人是谁？",
+      "他是吉姆。是我们的办公室助理。"
+    ],
     "notes": [],
     "audio": "/first-things-first/1-017.mp3"
   },
@@ -233,7 +336,20 @@
       "Mother: Are you all right now?",
       "#: Yes, we are, thank you!"
     ],
-    "translation": [],
+    "translation": [
+      "怎么啦，孩子们？",
+      "我们累了...口也渴，妈妈。",
+      "坐在这儿吧。",
+      "你们现在好些了吗？",
+      "不，还没有。",
+      "瞧！有个卖冰淇淋的。",
+      "请拿两份冰淇淋。",
+      "拿着，孩子们。",
+      "谢谢，妈妈。",
+      "这些冰淇淋真好吃。",
+      "你们现在好了吗？",
+      "是的，现在好了，谢谢你！"
+    ],
     "notes": [],
     "audio": "/first-things-first/1-019.mp3"
   }

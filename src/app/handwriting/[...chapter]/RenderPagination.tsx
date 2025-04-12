@@ -21,7 +21,7 @@ function RenderButton({
         disabled
           ? "cursor-not-allowed opacity-50"
           : "cursor-pointer hover:text-primary-500 text-gray-800 "
-      }`}
+      }  dark:text-white`}
       type="button"
       onClick={onClick}
     >
@@ -57,7 +57,7 @@ export default function RenderPagination({
   };
 
   return (
-    <div className="w-full border-t-4 border-gray border-solid flex gap-4 justify-between items-center mt-12 mb-8 pt-1">
+    <div className="w-full border-t-2 border-gray dark:border-gray-300border-solid flex gap-4 justify-between items-center mt-12 mb-8 pt-1">
       <RenderButton
         disabled={page === 0}
         onClick={() => {

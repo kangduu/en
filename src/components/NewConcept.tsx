@@ -34,7 +34,7 @@ function BookList({ book, onClick }: BookListProps) {
       {courses.map(({ id, name }, index) => (
         <li
           key={id}
-          className="hover:text-blue-500 text-gray-700 cursor-pointer"
+          className="hover:text-blue-500 text-gray-700 dark:text-white cursor-pointer"
           onClick={() => onClick?.(id, book)}
         >
           {index + 1}. {name}
