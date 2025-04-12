@@ -167,7 +167,7 @@ export default function RenderCourse({ lesson }: { lesson: Course }) {
   const finish = useCompleted(correct);
 
   return (
-    <div className="w-fit max-w-full mx-auto overflow-hidden relative px-4 pb-4 select-none">
+    <div className="w-fit max-w-full mx-auto overflow-hidden relative pb-4 select-none">
       {course?.map?.((sentence, index) => (
         <RenderSentence
           translation={translation[index]}

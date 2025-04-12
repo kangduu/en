@@ -21,10 +21,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="light">
+    <html lang="en" className="dark">
       <body
         role="contentinfo"
-        className={`${geistMono.variable} antialiased bg-white dark:bg-slate-800 `}
+        className={`${geistMono.variable} antialiased bg-white dark:bg-slate-900 dark:text-white`}
       >
         <Navigation />
         <main className="p-4 w-full m-auto max-w-[1024px]">
