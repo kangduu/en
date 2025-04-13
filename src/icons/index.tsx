@@ -3,6 +3,9 @@ import Muted from "./muted";
 import Pause from "./pause";
 import Play from "./play";
 import Sound from "./sound";
+import Light from "./light";
+import Dark from "./Dark";
+import System from "./system";
 
 interface TriggerProps {
   onClick?: () => void;
@@ -37,4 +40,10 @@ export const Media = {
   Pause: withIconTriggerHOC(Pause),
   Sound: withIconTriggerHOC(Sound),
   Muted: withIconTriggerHOC(Muted),
+};
+
+export const ThemeModel = {
+  Dark: withIconTriggerHOC(Dark),
+  Light: withIconTriggerHOC(Light),
+  OS: withIconTriggerHOC(System),
 };
