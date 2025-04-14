@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useState } from "react";
@@ -12,6 +13,7 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/navbar";
 import { HeaderLinks } from "../routes";
+import DarkModel from "./dark";
 
 const GitHubSvg = () => (
   <svg
@@ -89,6 +91,9 @@ export default function Navigation() {
       {/* github library */}
       <NavbarContent justify="end">
         <NavbarItem>
+          <DarkModel />
+        </NavbarItem>
+        <NavbarItem>
           <Link href="https://github.com/kangduu/en" target="_blank">
             <GitHubSvg />
           </Link>
@@ -100,89 +105,3 @@ export default function Navigation() {
     </Navbar>
   );
 }
-
-// function App1() {
-//   return (
-//     <Navbar>
-//       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-//         <Dropdown>
-//           <NavbarItem>
-//             <DropdownTrigger>
-//               <Button
-//                 disableRipple
-//                 className="p-0 bg-transparent data-[hover=true]:bg-transparent"
-//                 endContent={icons.chevron}
-//                 radius="sm"
-//                 variant="light"
-//               >
-//                 Features
-//               </Button>
-//             </DropdownTrigger>
-//           </NavbarItem>
-//           <DropdownMenu
-//             aria-label="ACME features"
-//             itemClasses={{
-//               base: "gap-4",
-//             }}
-//           >
-//             <DropdownItem
-//               key="autoscaling"
-//               description="ACME scales apps based on demand and load"
-//               startContent={icons.scale}
-//             >
-//               Autoscaling
-//             </DropdownItem>
-//             <DropdownItem
-//               key="usage_metrics"
-//               description="Real-time metrics to debug issues"
-//               startContent={icons.activity}
-//             >
-//               Usage Metrics
-//             </DropdownItem>
-//             <DropdownItem
-//               key="production_ready"
-//               description="ACME runs on ACME, join us at web scale"
-//               startContent={icons.flash}
-//             >
-//               Production Ready
-//             </DropdownItem>
-//             <DropdownItem
-//               key="99_uptime"
-//               description="High availability and uptime guarantees"
-//               startContent={icons.server}
-//             >
-//               +99% Uptime
-//             </DropdownItem>
-//             <DropdownItem
-//               key="supreme_support"
-//               description="Support team ready to respond"
-//               startContent={icons.user}
-//             >
-//               +Supreme Support
-//             </DropdownItem>
-//           </DropdownMenu>
-//         </Dropdown>
-//         <NavbarItem isActive>
-//           <Link aria-current="page" href="#">
-//             Customers
-//           </Link>
-//         </NavbarItem>
-//         <NavbarItem>
-//           <Link color="foreground" href="#">
-//             Integrations
-//           </Link>
-//         </NavbarItem>
-//       </NavbarContent>
-//       <NavbarContent justify="end">
-//         <NavbarItem className="hidden lg:flex">
-//           <Link href="#">Login</Link>
-//         </NavbarItem>
-//         <NavbarItem>
-//           <Button as={Link} color="primary" href="#" variant="flat">
-//             Sign Up
-//           </Button>
-//         </NavbarItem>
-//       </NavbarContent>
-//     </Navbar>
-//   );
-// }

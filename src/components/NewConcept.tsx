@@ -64,7 +64,7 @@ export default function NewConcept({
           clickable={clickable}
           onClick={() => onClick?.(book.url)}
         >
-          <h2>{book.title}</h2>
+          <div className="font-bold">{book.title}</div>
           {showList && <BookList book={book.id} onClick={onClickCourse} />}
         </Card>
       ))}

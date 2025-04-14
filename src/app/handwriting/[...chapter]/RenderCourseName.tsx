@@ -8,7 +8,7 @@ export default function RenderCourseName({ name }: { name: string }) {
   const audio = useAudioContext();
   if (name === "undefined") return null;
   return (
-    <h2 className="font-bold text-xl flex items-center gap-2 mb-4">
+    <h2 className="flex items-center gap-2">
       {audio?.playing ? (
         <Media.Sound onClick={audio.pause} />
       ) : (

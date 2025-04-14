@@ -5,7 +5,7 @@ export interface Course {
   name: string;
   course: string[];
   translation: string[];
-  notes: unknown[];
+  notes: string[];
   audio: string
 }
 
