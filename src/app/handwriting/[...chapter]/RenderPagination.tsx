@@ -57,7 +57,7 @@ export default function RenderPagination({
   };
 
   return (
-    <div className="w-full border-t-1 border-solid border-gray-100/50 dark:border-gray-100/40 flex gap-4 justify-between items-center mt-12 mb-8 pt-1">
+    <div className="w-full border-t-1 border-solid border-gray-300 dark:border-gray-100/40 flex gap-4 justify-between items-center mt-8 mb-8 pt-1">
       <RenderButton
         disabled={page === 0}
         onClick={() => {

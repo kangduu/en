@@ -13,7 +13,7 @@ const Card: React.FC<PropsWithChildren<CardProps>> = ({
 }) => {
   return (
     <div
-      className={`shadow-lg p-4 bg-gray-100 dark:bg-slate-700 rounded-lg ${
+      className={`shadow-lg p-4 bg-blue-300/50 dark:bg-slate-700 rounded-lg ${
         clickable ? "cursor-pointer" : ""
       }`}
       onClick={() => {

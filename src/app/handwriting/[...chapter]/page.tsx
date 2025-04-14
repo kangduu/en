@@ -34,6 +34,12 @@ export default async function Book({ params }: BookProps) {
         <WithAudioCtx path={course.audio}>
           <RenderCourseName name={course.name} />
           <RenderCourse lesson={course} />
+
+          {/* notes */}
+          <h2>Notes on the text</h2>
+          {course.notes.map((value, index) => (
+            <div dangerouslySetInnerHTML={{ __html: value }} key={index} />
+          ))}
         </WithAudioCtx>
         <RenderPagination
           page={courseIndex}
