@@ -40,7 +40,11 @@ export default async function Book({ params }: BookProps) {
             <>
               <h2>Notes on the text</h2>
               {course.notes.map((value, index) => (
-                <div dangerouslySetInnerHTML={{ __html: value }} key={index} />
+                <ul key={index} className="list-disc pl-4">
+                  <li>
+                    <div dangerouslySetInnerHTML={{ __html: value }} />
+                  </li>
+                </ul>
               ))}
             </>
           )}
