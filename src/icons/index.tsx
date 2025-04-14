@@ -1,38 +1,10 @@
-import type { ComponentType, FC, PropsWithChildren } from "react";
 import Muted from "./muted";
 import Pause from "./pause";
 import Play from "./play";
 import Sound from "./sound";
 import Light from "./light";
-import Dark from "./Dark";
-import System from "./system";
-
-interface TriggerProps {
-  onClick?: () => void;
-}
-
-const Trigger: FC<PropsWithChildren<TriggerProps>> = ({
-  children,
-  onClick,
-}) => {
-  return (
-    <span onClick={onClick} className="cursor-pointer">
-      {children}
-    </span>
-  );
-};
-
-function withIconTriggerHOC<P extends TriggerProps>(
-  WrappedComponent: ComponentType
-): FC<P> {
-  return function Icon(props: P) {
-    return (
-      <Trigger {...props}>
-        <WrappedComponent />
-      </Trigger>
-    );
-  };
-}
+import Dark from "./dark";
+import withIconTriggerHOC from "./withIconTriggerHOC";
 
 // media controls
 export const Media = {
@@ -45,5 +17,4 @@ export const Media = {
 export const ThemeModel = {
   Dark: withIconTriggerHOC(Dark),
   Light: withIconTriggerHOC(Light),
-  OS: withIconTriggerHOC(System),
 };
