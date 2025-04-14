@@ -36,10 +36,14 @@ export default async function Book({ params }: BookProps) {
           <RenderCourse lesson={course} />
 
           {/* notes */}
-          <h2>Notes on the text</h2>
-          {course.notes.map((value, index) => (
-            <div dangerouslySetInnerHTML={{ __html: value }} key={index} />
-          ))}
+          {course?.notes?.length > 0 && (
+            <>
+              <h2>Notes on the text</h2>
+              {course.notes.map((value, index) => (
+                <div dangerouslySetInnerHTML={{ __html: value }} key={index} />
+              ))}
+            </>
+          )}
         </WithAudioCtx>
         <RenderPagination
           page={courseIndex}
