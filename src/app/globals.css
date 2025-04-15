@@ -42,3 +42,7 @@ h3 {
   margin-top: 0.5rem;
   margin-bottom: 0.25rem;
 }
+
+u {
+  text-underline-offset: 0.3rem;
+}

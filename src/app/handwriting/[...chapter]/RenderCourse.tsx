@@ -80,7 +80,7 @@ function RenderWord({
   );
 
   const len = word.length;
-  const width = len >= 5 ? len * 0.6 : len * 0.85;
+  const width = len >= 5 ? len * 0.65 : len * 0.85;
   return (
     <input
       onChange={handleInputChange}
@@ -121,30 +121,34 @@ function RenderSentence({ sentence, onChange, ...props }: RenderSentenceProps) {
 
   return (
     <div className="mb-2">
-      <p
-        className={`text-xs text-gray-300 m-0 ${
-          completed ? "opacity-100" : "opacity-0 hover:opacity-100"
-        }`}
-      >
-        {props.translation}
-      </p>
-      <div className="flex gap-2 flex-wrap">
+      <div className="flex items-start gap-2">
         <div
-          className="uppercase mr-2"
+          className="uppercase"
           onClick={() => {
             audio?.playSegment(props.id);
           }}
         >
           {talker}
         </div>
-        {words.map((word, index) => (
-          <RenderWord
-            word={word}
-            key={word + index}
-            id={index}
-            onChange={setCorrect}
-          />
-        ))}
+        <div>
+          <div className="flex gap-1 flex-wrap">
+            {words.map((word, index) => (
+              <RenderWord
+                word={word}
+                key={word + index}
+                id={index}
+                onChange={setCorrect}
+              />
+            ))}
+          </div>
+          <p
+            className={`text-xs text-gray-300 m-0 pt-1 ${
+              completed ? "opacity-100" : "opacity-0 hover:opacity-100"
+            }`}
+          >
+            {props.translation}
+          </p>
+        </div>
         <span
           className={`font-['geistMono'] text-pink-500 opacity-0 ${
             completed ? "opacity-100" : "opacity-0"
@@ -167,7 +171,7 @@ export default function RenderCourse({ lesson }: { lesson: Course }) {
   const finish = useCompleted(correct);
 
   return (
-    <div className="w-fit max-w-full mx-auto overflow-hidden relative pb-4 select-none">
+    <div className="w-fit max-w-full mx-auto overflow-hidden relative p-2 select-none">
       {course?.map?.((sentence, index) => (
         <RenderSentence
           translation={translation[index]}
