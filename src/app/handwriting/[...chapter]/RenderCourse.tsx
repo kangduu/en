@@ -2,7 +2,7 @@
 
 import type { Course } from "@/src/db/books";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
-import { useAudioContext } from "./WithAudioCtx";
+import { useAudioContext } from "@/src/context/AudioCtx";
 import InputDetect from "@/src/components/InputDetect";
 
 // custom hook to manage the state of correct answers

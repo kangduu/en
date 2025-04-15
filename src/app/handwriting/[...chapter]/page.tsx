@@ -4,7 +4,7 @@ import type { NewConceptBookKey } from "@/src/utils/constant";
 import ServerErrorRender from "@/src/components/ServerErrorRender";
 import RenderPagination from "./RenderPagination";
 import RenderCourse from "./RenderCourse";
-import WithAudioCtx from "./WithAudioCtx";
+import AudioCtx from "../../../context/AudioCtx";
 import RenderCourseName from "./RenderCourseName";
 
 interface BookProps {
@@ -32,10 +32,10 @@ export default async function Book({ params }: BookProps) {
     return (
       <>
         {/* text */}
-        <WithAudioCtx path={course.audio}>
+        <AudioCtx path={course.audio}>
           <RenderCourseName name={course.name} />
           <RenderCourse lesson={course} />
-        </WithAudioCtx>
+        </AudioCtx>
 
         {/* notes */}
         {course?.notes?.length > 0 && (

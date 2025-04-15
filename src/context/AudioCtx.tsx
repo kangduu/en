@@ -34,16 +34,16 @@ const AudioContext = createContext<AudioContextProps>({
 // Hook Audio
 export const useAudioContext = () => useContext(AudioContext);
 
-export interface WithAudioCtxProps {
+export interface AudioCtxProps {
   path: AudioContextProps["path"]; // load audio with path.
 }
 
 let timerPlaySegment: NodeJS.Timeout;
 
-export default function WithAudioCtx({
+export default function AudioCtx({
   children,
   path,
-}: PropsWithChildren<WithAudioCtxProps>) {
+}: PropsWithChildren<AudioCtxProps>) {
   // filename
   const filename = useMemo(() => {
     if (path) return path.split("/").at(-1);

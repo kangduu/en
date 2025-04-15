@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Media } from "@/src/icons";
-import { useAudioContext } from "./WithAudioCtx";
+import { useAudioContext } from "@/src/context/AudioCtx";
 
 export default function RenderCourseName({ name }: { name: string }) {
   const audio = useAudioContext();
