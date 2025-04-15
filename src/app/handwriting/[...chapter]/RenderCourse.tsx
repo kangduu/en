@@ -1,9 +1,9 @@
 "use client";
 
 import type { Course } from "@/src/db/books";
-import _ from "lodash";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { useAudioContext } from "./WithAudioCtx";
+import InputDetect from "@/src/components/InputDetect";
 
 // custom hook to manage the state of correct answers
 // It takes a source array as input and returns an array of boolean values indicating whether each item is correct or not.
@@ -46,51 +46,20 @@ function useCompleted(source: boolean[]) {
   return completed;
 }
 
-// This component is used to render a word input field that checks if the input matches the given word.
-// It uses a debounce function to limit the number of times the input change event is triggered.
-// The input field has a border color that changes based on whether the input is correct or not.
-function RenderWord({
-  id,
-  word,
-  onChange,
-}: {
-  id: number; // word index
+interface RenderWordProps {
   word: string;
-  onChange?: (id: number, success: boolean) => void;
-}) {
-  // completed the word in the input field
-  const [right, setRight] = useState(false);
-
-  const debouncedInputChange = useMemo(
-    () =>
-      _.debounce((e: React.ChangeEvent<HTMLInputElement>) => {
-        const inputValue = e.target.value;
-        const correct = inputValue === word;
-        onChange?.(id, correct);
-        setRight(correct);
-      }, 500),
-    [id, word, onChange]
-  );
-
-  const handleInputChange = useCallback(
-    (e: React.ChangeEvent<HTMLInputElement>) => {
-      debouncedInputChange(e);
+  id: number;
+  onChange: (index: number, success: boolean) => void;
+}
+function RenderWord({ word, id, onChange }: RenderWordProps) {
+  // keep onChange callback unique.
+  const handleChange = useCallback(
+    (correct: boolean) => {
+      onChange?.(id, correct);
     },
-    [debouncedInputChange]
+    [id, onChange]
   );
-
-  const len = word.length;
-  const width = len >= 5 ? len * 0.65 : len * 0.85;
-  return (
-    <input
-      onChange={handleInputChange}
-      key={word}
-      style={{ width: `${width}rem` }}
-      className={`border-b-1 ${
-        right ? "border-b-green-600 text-green-600" : "border-b-primary"
-      } text-center focus:outline-none bg-transparent `}
-    />
-  );
+  return <InputDetect target={word} key={word + id} onChange={handleChange} />;
 }
 
 interface RenderSentenceProps {

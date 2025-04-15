@@ -31,24 +31,27 @@ export default async function Book({ params }: BookProps) {
     const course = courses[courseIndex];
     return (
       <>
+        {/* text */}
         <WithAudioCtx path={course.audio}>
           <RenderCourseName name={course.name} />
           <RenderCourse lesson={course} />
-
-          {/* notes */}
-          {course?.notes?.length > 0 && (
-            <>
-              <h2>Notes on the text</h2>
-              {course.notes.map((value, index) => (
-                <ul key={index} className="list-disc pl-4">
-                  <li>
-                    <div dangerouslySetInnerHTML={{ __html: value }} />
-                  </li>
-                </ul>
-              ))}
-            </>
-          )}
         </WithAudioCtx>
+
+        {/* notes */}
+        {course?.notes?.length > 0 && (
+          <>
+            <h2>Notes on the text</h2>
+            {course.notes.map((value, index) => (
+              <ul key={index} className="list-disc pl-4">
+                <li>
+                  <div dangerouslySetInnerHTML={{ __html: value }} />
+                </li>
+              </ul>
+            ))}
+          </>
+        )}
+
+        {/* pagination */}
         <RenderPagination
           page={courseIndex}
           book={book as NewConceptBookKey}
