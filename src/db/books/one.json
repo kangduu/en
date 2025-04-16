@@ -103,9 +103,11 @@
       "很高兴见到你。"
     ],
     "notes": [
-      "<h3>Good morning.</h3><div>早上好。英语中常见的问候用语。类似的：Good afternoon、Good evening。</div>",
-      "<h3>This is Miss Sophie Dupont.</h3><div>一般用于将某人介绍给他人的句式。Miss 一般指成年未婚女子。</div>",
-      "<h3>Nice to meet you.</h3><div>用于<u>初次</u>与同学、朋友见面等非正式场合。正式的场合常用 How do you do?</div>"
+      "<h3>Good morning.</h3><div>早上好。英语中常见的问候用语。对此问候的回应一般也是Good morning。类似的：Good afternoon、Good evening。</div>",
+      "<h3>This is Miss Sophie Dupont.</h3><div><u>This is + 人名</u>是将某人介绍给他人的句式。</div>",
+      "<h3>Mr. Blake / Miss Sophie Dupont</h3><div>英语国家中人的姓名通常由3部分组成，即：<u>名 + 中间名 + 姓</u>。在一般情况下，不用中间名。</div><div>在熟悉的人中间，以名相称，而在正式的场合中用<u>Mr.(先生)</u>、<u>Mrs.(太太)</u>、<u>Miss(小姐)</u>或<u>Ms.(女士)</u>这些称呼再加上姓。</div><div>Mr.用于男士的姓之前，不能单独使用，如课文中的Mr.Blake；而sir一般单独使用，是对长者、上司或男顾客的尊称，如：Sorry,sir.</div><div>Miss一般用于指未婚女子，不过有时在不知道对方是否已婚时也可使用。</div>",
+      "<h3>Nice to meet you.</h3><div>用于<u>初次</u>与同学、朋友见面等非正式场合。正式的场合常用 How do you do? 这是一句问候语，并非问话。</div>",
+      "<h3>国籍与国家名称有别</h3><div>请不要将国家名称和与其对应的国籍搞混。课文中的French、German、Japanese、Korean以及Chinese都是表示国籍的词。句中表示中国国籍的词应为Chinese而不是China。</div>"
     ],
     "audio": "/first-things-first/1-005.mp3"
   },
@@ -143,7 +145,10 @@
       "我是工程师。"
     ],
     "notes": [
-      "<h3>What nationality are you?</h3><div>用来询问对方国籍。也可以问 Where are you from? </div>"
+      "<h3>My name's = My mame is</h3><div>这是自我介绍时通常使用的句型：My name is...（后面加上自己的姓名）。有时也用 I'm... 这一句型。</div>",
+      "<h3>Are you French, too?</h3><div>在英语中，too和either两个词都表示“也”的意思，然而too仅用于肯定句中，either则限于用在否定句中。too和either一般都放在句末，且前面通常用逗号隔开。</div>",
+      "<h3>What nationality are you?</h3><div>用来询问对方国籍。也可以问 Where are you from? 或 Where do you come form?</div>",
+      "<h3>What's your job?</h3><div>What's = What is。询问对方从事何种职业时还可以说：What do you do？"
     ],
     "audio": "/first-things-first/1-007.mp3"
   },
