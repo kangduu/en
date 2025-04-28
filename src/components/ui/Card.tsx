@@ -1,7 +1,7 @@
 "use client";
 import React, { type PropsWithChildren } from "react";
 
-export interface CardProps {
+export interface CardProps extends ComponentCssProps {
   clickable?: boolean;
   onClick?: () => void;
 }
@@ -9,18 +9,21 @@ export interface CardProps {
 const Card: React.FC<PropsWithChildren<CardProps>> = ({
   clickable = true,
   onClick = () => {},
-  children,
+  ...props
 }) => {
   return (
     <div
-      className={`shadow-lg p-4 bg-blue-300/50 dark:bg-slate-700 rounded-lg ${
-        clickable ? "cursor-pointer" : ""
-      }`}
+      className={`
+      shadow-xl p-4 bg-blue-300/50 dark:bg-slate-700 rounded-lg
+      ${clickable ? "cursor-pointer" : ""}
+      ${props.className || ""} 
+      `}
       onClick={() => {
         if (clickable) onClick();
       }}
+      style={props.style}
     >
-      {children}
+      {props.children}
     </div>
   );
 };

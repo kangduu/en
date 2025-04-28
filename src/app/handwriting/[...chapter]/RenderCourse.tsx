@@ -3,7 +3,7 @@
 import type { Course } from "@/src/db/books";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { useAudioContext } from "@/src/context/AudioCtx";
-import InputDetect from "@/src/components/InputDetect";
+import { InputDetect } from "@/src/components";
 
 // custom hook to manage the state of correct answers
 // It takes a source array as input and returns an array of boolean values indicating whether each item is correct or not.

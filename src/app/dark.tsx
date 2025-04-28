@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
-import { ThemeModel } from "../icons";
+import { ThemeModel } from "../components/icons";
 
 type ThemeType = "dark" | "light";
 

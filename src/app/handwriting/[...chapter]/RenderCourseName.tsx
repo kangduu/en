@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Media } from "@/src/icons";
+import { Media } from "@/src/components/icons";
 import { useAudioContext } from "@/src/context/AudioCtx";
 
 export default function RenderCourseName({ name }: { name: string }) {

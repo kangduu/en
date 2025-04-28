@@ -1,10 +1,11 @@
 "use client";
 
 import { NewConceptBooks, type BookLink } from "../routes";
-import Card, { type CardProps } from "./Card";
+import Card, { type CardProps } from "./ui/Card";
 import type { NewConceptBookKey } from "../utils/constant";
 import React, { useEffect, useState } from "react";
 import { getCourses, type Course } from "@/src/db/books";
+import GridLayout from "./ui/GridLayout";
 
 interface BookListProps {
   book: NewConceptBookKey;
@@ -57,7 +58,7 @@ export default function NewConcept({
   showList,
 }: NewConceptProps) {
   return (
-    <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <GridLayout>
       {NewConceptBooks.map((book: BookLink) => (
         <Card
           key={book.id}
@@ -68,6 +69,6 @@ export default function NewConcept({
           {showList && <BookList book={book.id} onClick={onClickCourse} />}
         </Card>
       ))}
-    </div>
+    </GridLayout>
   );
 }

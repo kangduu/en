@@ -1,3 +1,5 @@
-export { default as Card } from "./Card";
-export { default as NewConceptTemp } from "./NewConcept";
-export { default as LexicalTemp } from "./Lexical";
+export { default as NewConceptComp } from "./NewConcept";
+export { default as LexicalComp } from "./Lexical";
+export { default as InputDetect } from "./InputDetect";
+export { default as ServerErrorRender } from "./ServerErrorRender";
+export { default as MarkdownViewer } from "./MarkdownViewer";

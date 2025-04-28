@@ -1,0 +1,15 @@
+.md hr {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.md table {
+  display: block;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.md table th,
+.md table td {
+  white-space: nowrap;
+}

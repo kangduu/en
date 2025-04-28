@@ -1,6 +1,6 @@
 import { nextui } from "@nextui-org/theme";
 import type { Config } from "tailwindcss";
-
+import typography from "@tailwindcss/typography";
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -17,5 +17,5 @@ export default {
       },
     },
   },
-  plugins: [nextui()],
+  plugins: [typography(), nextui()],
 } satisfies Config;

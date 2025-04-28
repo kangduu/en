@@ -1,7 +1,7 @@
 import React from "react";
 import { books } from "@/src/db/books";
 import type { NewConceptBookKey } from "@/src/utils/constant";
-import ServerErrorRender from "@/src/components/ServerErrorRender";
+import { ServerErrorRender } from "@/src/components";
 import RenderPagination from "./RenderPagination";
 import RenderCourse from "./RenderCourse";
 import AudioCtx from "../../../context/AudioCtx";
