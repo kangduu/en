@@ -1,6 +1,7 @@
 "use client";
 
 import { MarkdownViewer } from "@/src/components";
+import { Spin } from "@/src/components/ui";
 import React, { useEffect, useState } from "react";
 
 interface CommentType {
@@ -17,14 +18,21 @@ interface CommentsProps {
 }
 export default function Comments({ url }: CommentsProps) {
   const [comments, setComments] = useState<CommentType[]>();
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    if (url)
-      fetch(url)
+    async function getComments() {
+      setLoading(true);
+      await fetch(url)
         .then((res) => res.json())
-        .then((data) => setComments(data));
+        .then((data) => setComments(data))
+        .catch(() => {});
+      setLoading(false);
+    }
+    if (url) getComments();
   }, [url]);
 
+  if (loading) return <Spin />;
   return (
     <>
       <hr />
