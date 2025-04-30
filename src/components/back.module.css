@@ -1,0 +1,11 @@
+.back_to_top {
+  /* transition */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.back_to_top.show {
+  opacity: 1;
+  visibility: visible;
+}

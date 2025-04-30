@@ -2,7 +2,7 @@
 
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import styles from "./styles.module.css";
+import styles from "./md.module.css";
 
 export default function MarkdownViewer({ content }: { content: string }) {
   return (

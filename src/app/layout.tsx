@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Providers from "./providers";
 import Navigation from "./header";
+import Back2Top from "../components/Back2Top";
 
 const geistMono = localFont({
   src: "./fonts/kkk.ttf",
@@ -29,6 +30,7 @@ export default function RootLayout({
         <Navigation />
         <main className="px-4 pt-4 pb-6 w-full m-auto max-w-[1024px]">
           <Providers>{children}</Providers>
+          <Back2Top />
         </main>
       </body>
     </html>
