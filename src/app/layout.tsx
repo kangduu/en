@@ -27,7 +27,7 @@ export default function RootLayout({
         className={`${geistMono.variable} antialiased bg-white dark:bg-slate-900 dark:text-white`}
       >
         <Navigation />
-        <main className="p-2 w-full m-auto max-w-[1024px]">
+        <main className="px-4 pt-4 pb-6 w-full m-auto max-w-[1024px]">
           <Providers>{children}</Providers>
         </main>
       </body>

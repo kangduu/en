@@ -8,12 +8,15 @@ import React, {
   useLayoutEffect,
   useState,
 } from "react";
+import Comments from "./comments";
 
 interface IssueType {
   id: number;
   title: string;
   html_url: string;
   body: string;
+  comments: number;
+  comments_url: string;
 }
 
 export default function IssuesPage({ label }: { label: string }) {
@@ -54,8 +57,11 @@ export default function IssuesPage({ label }: { label: string }) {
     <>
       {active && (
         <>
-          <h1 id={active.id + ""}>{active.title}</h1>
+          <h1 id={active.id + ""} className="text-primary-500">
+            {active.title}
+          </h1>
           <MarkdownViewer content={active.body} />
+          {active.comments > 0 && <Comments url={active.comments_url} />}
         </>
       )}
       {issues.length > 0 && !loading && (
