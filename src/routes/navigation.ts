@@ -5,7 +5,7 @@ import {
 } from "../utils/constant";
 
 export const HeaderLinkPathMapping = {
-  Handwriting: "/handwriting",
+  NCE: "/nce",
   Lexical: "/lexical",
 };
 
@@ -25,7 +25,7 @@ export const NewConceptBooks: BookLink[] = NewConceptBookKeys.map((key) => {
   return {
     id: key,
     title: NewConceptBookNames[key],
-    url: `${HeaderLinkPathMapping["Handwriting"]}/${key}`, // URL for the book
+    url: `${HeaderLinkPathMapping["NCE"]}/${key}`, // URL for the book
   };
 });
 
@@ -36,7 +36,7 @@ export interface HeaderLink extends LinkStore {
 // This file contains the navigation structure for the header links
 // and their respective links
 export const HeaderLinks: HeaderLink[] = [
-  { id: 1, title: "Handwriting", url: "/handwriting" },
+  { id: 1, title: "NCE", url: "/nce" },
   { id: 2, title: "Lexical", url: "/lexical" },
-  { id: 3, title: "Practices", url: "/practices" },
+  { id: 3, title: "PETS", url: "/pets" },
 ];

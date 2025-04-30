@@ -61,7 +61,7 @@ export default function RenderPagination({
       <RenderButton
         disabled={page === 0}
         onClick={() => {
-          window.location.href = `${HeaderLinkPathMapping["Handwriting"]}/${book}/${PreviousCourse.id}`;
+          window.location.href = `${HeaderLinkPathMapping["NCE"]}/${book}/${PreviousCourse.id}`;
         }}
       >
         P{renderName(PreviousCourse?.name)}
@@ -69,7 +69,7 @@ export default function RenderPagination({
       <RenderButton
         disabled={page === courses.length - 1}
         onClick={() => {
-          window.location.href = `${HeaderLinkPathMapping["Handwriting"]}/${book}/${NextCourse.id}`;
+          window.location.href = `${HeaderLinkPathMapping["NCE"]}/${book}/${NextCourse.id}`;
         }}
       >
         N{renderName(NextCourse?.name)}

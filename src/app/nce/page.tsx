@@ -7,18 +7,17 @@ import { HeaderLinkPathMapping } from "@/src/routes";
 const Books: FC = () => {
   const router = useRouter();
   return (
-    <div className="py-4">
+    <>
+      <h2 className="uppercase text-primary-500">new concept english</h2>
       <NewConceptComp
         showList
         clickable={false}
         onClickCourse={(course, book) => {
           // Handle course click
-          router.push(
-            `${HeaderLinkPathMapping["Handwriting"]}/${book}/${course}`
-          );
+          router.push(`${HeaderLinkPathMapping["NCE"]}/${book}/${course}`);
         }}
       />
-    </div>
+    </>
   );
 };
 

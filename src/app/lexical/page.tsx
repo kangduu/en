@@ -4,8 +4,9 @@ import { LexicalComp } from "@/src/components";
 
 export default function Lexical() {
   return (
-    <div className="py-4">
+    <>
+      <h2 className="uppercase text-primary-500">words</h2>
       <LexicalComp />
-    </div>
+    </>
   );
 }
