@@ -1,3 +1,4 @@
+/* ----------------- change markdown sub element style ------------------ */
 .md hr {
   margin: 0;
   margin-bottom: 1em;
@@ -12,4 +13,12 @@
 .md table th,
 .md table td {
   white-space: nowrap;
+}
+
+.md ul,
+.md ol,
+.md p,
+.md table {
+  margin-top: 1em;
+  margin-bottom: 0.75em;
 }
