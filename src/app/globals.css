@@ -46,3 +46,20 @@ h3 {
 u {
   text-underline-offset: 0.3rem;
 }
+
+/* Set the style of ul or ol under the name of the wrapper class.  */
+.wrapper ol,
+.wrapper ul {
+  margin-top: 1em;
+}
+.wrapper ol {
+  list-style: decimal-leading-zero;
+}
+.wrapper ul {
+  list-style: simp-chinese-informal;
+}
+.wrapper ol li,
+.wrapper ul li {
+  margin-left: 1em;
+  margin-bottom: 0.75em;
+}
