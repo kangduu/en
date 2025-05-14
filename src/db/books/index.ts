@@ -1,7 +1,7 @@
 import type { NewConceptBookKey } from "@/src/utils/constant";
 
 export interface Course {
-  id: number;
+  id: number; // course unique id
   name: string;
   course: string[];
   translation: string[];

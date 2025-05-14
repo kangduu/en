@@ -260,7 +260,9 @@
       "也是绿的。",
       "真是一顶可爱的帽子。"
     ],
-    "notes": [],
+    "notes": [
+      "<h3>Come upstairs and see it.</h3><div>句中的 and 不当 “和” 讲，而是<u>表示目的</u>，例：Come and see me. 来见我。</div><div>❌在英语中不能用 Come upstairs to see it. </div>"
+    ],
     "audio": "/first-things-first/1-013.mp3"
   },
   {
@@ -302,7 +304,9 @@
       "好了。",
       "非常感谢。"
     ],
-    "notes": [],
+    "notes": [
+      "<h3>可数名词的复数形式</h3><ul><li>可数名词的复数形式<u>一般</u>是在单数名词后面加上 -s，如课文中的 fiend-friends /frendz/；tourist-tourists /'tʊərsts/；case-cases /keɪsɪz/。请注意 -s 的不同发音。</li><li>如果名词是以 -s 结尾的，变成复数时要加 -es 、如 dress-dresses 。</li><li>表示复数的 -s 或 -es 一般遵循以下发音规则:<ol><li>如果名词词尾的发音是一个清辅音（/s/、/ʃ/、/tʃ/除外。-s 发 /s/ 的音，如：books /bʊks/ 、suits /su:ts/。</li><li>如果名词词尾的发音是一个浊辅音 (/z/、/ʒ/、/dʒ/除外) 或元音，-s 发 /z/ 的音，如：ties /taɪz/、dogs /dɒgz/</li><li>如果名词词尾的发音是 /s/、 /z/、/ʃ/、/ʒ/、/tʃ/ 或 /dʒ/，-s 发 /ɪz/ 的音，如：dresses /dresɪz/、blouses /'blaʊziz/ </li></ol></li></ul>"
+    ],
     "audio": "/first-things-first/1-015.mp3"
   },
   {
@@ -376,5 +380,128 @@
     ],
     "notes": [],
     "audio": "/first-things-first/1-019.mp3"
+  },
+  {
+    "id": 11,
+    "name": "Which Book?",
+    "course": [
+      "Man: Give me a book please, Jane.",
+      "Woman: Which book?",
+      "Woman: This one?",
+      "Man: No, not that one. The red one.",
+      "Woman: This one?",
+      "Man: Yes, please.",
+      "Woman: Here you are.",
+      "Man: Thank you."
+    ],
+    "translation": [
+      "请拿本书给我，简。",
+      "哪一本？",
+      "是这本吗？",
+      "不，不是那本。是那本红色的。",
+      "这本吗？",
+      "是的，请拿给我。",
+      "给你。",
+      "谢谢。"
+    ],
+    "notes": [
+      "<h3>Give me a book, please.</h3><div>这是祈使句，省略了主语 you。</div>",
+      "<h3>This one?</h3><div>句中的 one 是不定代词，表示 book。 复数形式是 ones。</div>"
+    ],
+    "audio": "/first-things-first/1-021.mp3"
+  },
+  {
+    "id": 12,
+    "name": "Which Glasses?",
+    "course": [
+      "Man: Give me some glasses please, Jane.",
+      "Woman: Which glasses?",
+      "Woman: These glasses?",
+      "Man: No, not those. The ones on the self.",
+      "Woman: These?",
+      "Man: Yes, please.",
+      "Woman: Here you are.",
+      "Man: Thank you."
+    ],
+    "translation": [
+      "请拿给我几只玻璃杯，简。",
+      "哪几只？",
+      "是这几只吗？",
+      "不，不是那几只。是架子上的那几只。",
+      "这几只？",
+      "是的，请拿给我。",
+      "给你。",
+      "谢谢。"
+    ],
+    "notes": [
+      "<h3>Give me some glasses, please.</h3><div>在 Give me some glasses 中,动间 give 后面有两个宾语，即直接宾语 some glasses 和间接宾语 me。<u>人称代词作宾语</u>时要用<u>人称代词的宾格</u>，如：me(I 的宾格)，us(we 的宾格)，you(you 的宾格)，him(he 的宾格)，her(she 的宾格)，them(they 的宾格)和it(it 的宾格)。</div>",
+      "<h3>No, not those.</h3><div>句中 those 是指 those glasses</div>",
+      "<h3>The ones on the self.</h3><div>省略句，句中的 ones 代表 glasses</div>"
+    ],
+    "audio": "/first-things-first/1-023.mp3"
+  },
+  {
+    "id": 13,
+    "name": "Mrs.Smith's Kitchen.",
+    "course": [],
+    "translation": [],
+    "notes": [],
+    "audio": "/first-things-first/1-025.mp3"
+  },
+  {
+    "id": 14,
+    "name": "Mrs.Smith's Living Room.",
+    "course": [],
+    "translation": [],
+    "notes": [],
+    "audio": "/first-things-first/1-027.mp3"
+  },
+  {
+    "id": 15,
+    "name": "Come In, Amy.",
+    "course": [],
+    "translation": [],
+    "notes": [],
+    "audio": "/first-things-first/1-029.mp3"
+  },
+  {
+    "id": 16,
+    "name": "Where's Sally?",
+    "course": [],
+    "translation": [],
+    "notes": [],
+    "audio": "/first-things-first/1-031.mp3"
+  },
+  {
+    "id": 17,
+    "name": "A Fine Day.",
+    "course": [],
+    "translation": [],
+    "notes": [],
+    "audio": "/first-things-first/1-033.mp3"
+  },
+  {
+    "id": 18,
+    "name": "Our Village.",
+    "course": [],
+    "translation": [],
+    "notes": [],
+    "audio": "/first-things-first/1-035.mp3"
+  },
+  {
+    "id": 19,
+    "name": "Making a Bookcase.",
+    "course": [],
+    "translation": [],
+    "notes": [],
+    "audio": "/first-things-first/1-037.mp3"
+  },
+  {
+    "id": 20,
+    "name": "Don't Drop it.",
+    "course": [],
+    "translation": [],
+    "notes": [],
+    "audio": "/first-things-first/1-039.mp3"
   }
 ]
