@@ -1,0 +1,69 @@
+{
+  "phonetics_chart": {
+    "vowels": {
+      "short_vowels": [
+        { "symbol": "/æ/", "example": "cat", "word": "cat" },
+        { "symbol": "/ɛ/", "example": "bed", "word": "bed" },
+        { "symbol": "/ɪ/", "example": "sit", "word": "sit" },
+        { "symbol": "/ɒ/", "example": "hot", "word": "hot (UK)" },
+        { "symbol": "/ʌ/", "example": "cup", "word": "cup" },
+        { "symbol": "/ʊ/", "example": "book", "word": "book" }
+      ],
+      "long_vowels": [
+        { "symbol": "/iː/", "example": "see", "word": "see" },
+        { "symbol": "/ɑː/", "example": "car", "word": "car (UK)" },
+        { "symbol": "/ɔː/", "example": "saw", "word": "saw" },
+        { "symbol": "/uː/", "example": "blue", "word": "blue" },
+        { "symbol": "/ɜː/", "example": "bird", "word": "bird (UK)" }
+      ],
+      "diphthongs": [
+        { "symbol": "/eɪ/", "example": "day", "word": "day" },
+        { "symbol": "/aɪ/", "example": "my", "word": "my" },
+        { "symbol": "/ɔɪ/", "example": "boy", "word": "boy" },
+        { "symbol": "/aʊ/", "example": "now", "word": "now" },
+        { "symbol": "/oʊ/", "example": "go", "word": "go (US)" },
+        { "symbol": "/ɪə/", "example": "here", "word": "here (UK)" },
+        { "symbol": "/eə/", "example": "air", "word": "air (UK)" },
+        { "symbol": "/ʊə/", "example": "tour", "word": "tour (UK)" }
+      ]
+    },
+    "consonants": {
+      "plosives": [
+        { "symbol": "/p/", "example": "pen", "word": "pen" },
+        { "symbol": "/b/", "example": "bad", "word": "bad" },
+        { "symbol": "/t/", "example": "tea", "word": "tea" },
+        { "symbol": "/d/", "example": "did", "word": "did" },
+        { "symbol": "/k/", "example": "cat", "word": "cat" },
+        { "symbol": "/ɡ/", "example": "get", "word": "get" }
+      ],
+      "fricatives": [
+        { "symbol": "/f/", "example": "fall", "word": "fall" },
+        { "symbol": "/v/", "example": "van", "word": "van" },
+        { "symbol": "/θ/", "example": "think", "word": "think" },
+        { "symbol": "/ð/", "example": "this", "word": "this" },
+        { "symbol": "/s/", "example": "see", "word": "see" },
+        { "symbol": "/z/", "example": "zoo", "word": "zoo" },
+        { "symbol": "/ʃ/", "example": "she", "word": "she" },
+        { "symbol": "/ʒ/", "example": "vision", "word": "vision" },
+        { "symbol": "/h/", "example": "how", "word": "how" }
+      ],
+      "affricates": [
+        { "symbol": "/tʃ/", "example": "chat", "word": "chat" },
+        { "symbol": "/dʒ/", "example": "judge", "word": "judge" }
+      ],
+      "nasals": [
+        { "symbol": "/m/", "example": "man", "word": "man" },
+        { "symbol": "/n/", "example": "now", "word": "now" },
+        { "symbol": "/ŋ/", "example": "sing", "word": "sing" }
+      ],
+      "liquids": [
+        { "symbol": "/l/", "example": "leg", "word": "leg" },
+        { "symbol": "/r/", "example": "red", "word": "red" }
+      ],
+      "glides": [
+        { "symbol": "/j/", "example": "yes", "word": "yes" },
+        { "symbol": "/w/", "example": "wet", "word": "wet" }
+      ]
+    }
+  }
+}
