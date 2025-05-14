@@ -40,7 +40,7 @@ export default async function Book({ params }: BookProps) {
         {/* notes */}
         {course?.notes?.length > 0 && (
           <>
-            <h2>Notes on the text</h2>
+            <h2 className="text-primary-500">Notes on the text</h2>
             {course.notes.map((value, index) => (
               <ul key={index} className="list-disc pl-4">
                 <li>

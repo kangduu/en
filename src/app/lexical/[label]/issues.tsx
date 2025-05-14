@@ -9,6 +9,7 @@ import React, {
   useState,
 } from "react";
 import Comments from "./comments";
+import { GetReposIssues } from "@/src/services";
 
 interface IssueType {
   id: number;
@@ -25,14 +26,9 @@ export default function IssuesPage({ label }: { label: string }) {
 
   const fetchIssues = useCallback(async () => {
     setLoading(true);
-    const issues = await fetch(
-      `https://api.github.com/repos/kangduu/en/issues?labels=${label}&state=open&sort=updated`
-    )
-      .then((res) => res.json())
-      .catch(() => []);
-
+    const issues = await GetReposIssues<IssueType[]>(label);
     setLoading(false);
-    setIssues(issues);
+    if (issues) setIssues(issues);
   }, [label]);
 
   // mount

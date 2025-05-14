@@ -2,6 +2,7 @@
 
 import { MarkdownViewer } from "@/src/components";
 import { Spin } from "@/src/components/ui";
+import { Request_Github_REST_API } from "@/src/services";
 import React, { useEffect, useState } from "react";
 
 interface CommentType {
@@ -23,10 +24,8 @@ export default function Comments({ url }: CommentsProps) {
   useEffect(() => {
     async function getComments() {
       setLoading(true);
-      await fetch(url)
-        .then((res) => res.json())
-        .then((data) => setComments(data))
-        .catch(() => {});
+      const comments = await Request_Github_REST_API<CommentType[]>(url);
+      if (comments) setComments(comments);
       setLoading(false);
     }
     if (url) getComments();

@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Card, Spin, GridLayout } from "./ui";
 import { hexToRgb } from "../utils";
+import { GetReposLabels } from "../services";
 
 interface LabelType {
   id: number;
@@ -21,25 +22,20 @@ export default function Lexical() {
 
   const fetchLabels = async () => {
     setLoading(true);
-
-    const labels = await fetch("https://api.github.com/repos/kangduu/en/labels")
-      .then((res) => res.json())
-      .catch(() => []);
-
-    setLabels(labels);
+    const labels = await GetReposLabels<LabelType[]>();
+    if (labels) setLabels(labels);
     setLoading(false);
   };
 
   useEffect(() => {
     fetchLabels();
-   
   }, []);
 
   const router = useRouter();
   if (loading) return <Spin />;
   return (
     <GridLayout>
-      {labels.map(({ id, name, color }) => (
+      {labels?.map(({ id, name, color }) => (
         <Card
           key={id}
           style={{ backgroundColor: `${hexToRgb(color, 0.8)}` }}
