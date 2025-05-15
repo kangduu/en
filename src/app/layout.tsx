@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Providers from "./providers";
 import Navigation from "./header";
-import Back2Top from "../components/Back2Top";
+import { Back2Top } from "../components";
 
 const geistMono = localFont({
   src: "./fonts/kkk.ttf",

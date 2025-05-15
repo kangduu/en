@@ -1,7 +1,6 @@
 "use client";
 import { MarkdownViewer } from "@/src/components";
-import { Spin } from "@/src/components/ui";
-import Collapse from "@/src/components/ui/Collapse";
+import { Spin, Collapse } from "@/src/components/ui";
 import React, {
   useCallback,
   useEffect,
@@ -9,7 +8,7 @@ import React, {
   useState,
 } from "react";
 import Comments from "./comments";
-import { GetReposIssues } from "@/src/services";
+import { GetReposIssues } from "@/src/requests";
 
 interface IssueType {
   id: number;

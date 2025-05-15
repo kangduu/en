@@ -2,7 +2,7 @@
 
 import { MarkdownViewer } from "@/src/components";
 import { Spin } from "@/src/components/ui";
-import { Request_Github_REST_API } from "@/src/services";
+import { Request_Github_REST_API } from "@/src/requests";
 import React, { useEffect, useState } from "react";
 
 interface CommentType {
