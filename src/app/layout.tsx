@@ -29,7 +29,7 @@ export default function RootLayout({
       >
         <Navigation />
         <main className="px-4 pt-4 pb-6 w-full m-auto max-w-[1024px]">
-          <Providers>{children}</Providers>
+          {children}
           <Back2Top />
         </main>
       </body>

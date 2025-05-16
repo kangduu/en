@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -16,7 +14,7 @@
 
 body {
   min-height: 100vh;
-  /* font-family: geistMono, Arial, Helvetica, sans-serif; */
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 h1 {
