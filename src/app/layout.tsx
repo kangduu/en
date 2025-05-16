@@ -4,6 +4,7 @@ import "./globals.css";
 // import Providers from "./providers";
 // import Navigation from "./header";
 import { Back2Top } from "../components";
+import { Toaster } from "@/components/ui/sonner";
 
 // const geistMono = localFont({
 //   src: "./fonts/kkk.ttf",
@@ -32,6 +33,7 @@ export default function RootLayout({
           {children}
           <Back2Top />
         </main>
+        <Toaster />
       </body>
     </html>
   );
