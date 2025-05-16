@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useCallback, useState, type PropsWithChildren } from "react";
 import Card from "./Card";
 

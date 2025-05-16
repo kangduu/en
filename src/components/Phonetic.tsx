@@ -5,7 +5,7 @@ import { vowels, consonants } from "@/src/db/phonetic.json";
 
 type DataType = Record<
   string,
-  { symbol: string; example: string; word: string }[]
+  { symbol: string; example: string; phonetic: string }[]
 >;
 
 function RenderList(data: DataType) {
@@ -37,19 +37,23 @@ function RenderList(data: DataType) {
   return Object.keys(data).map((key) => {
     const value = data[key];
     return (
-      <div key={key} className="px-4">
-        <h3>{key}</h3>
-        {value.map(({ symbol, example }) => {
+      <div key={key} className="px-4 pt-2 mb-4">
+        <div className="capitalize text-primary-400">
+          {key}：({value.length})
+        </div>
+        {value.map(({ symbol, example, phonetic }) => {
           return (
             <div
               key={symbol}
               className="float-left text-lg cursor-pointer"
               onClick={handleCopy.bind(null, symbol)}
             >
-              <span className=" " key={symbol}>
+              <span key={symbol} className="font-bold">
                 {symbol}
               </span>
-              <span className="ml-1 mr-4">({example})</span>
+              <span className="ml-2 mr-4">
+                [{example} {phonetic}]
+              </span>
             </div>
           );
         })}
@@ -61,12 +65,14 @@ function RenderList(data: DataType) {
 
 export default function Phonetic() {
   return (
-    <section className="rounded-lg bg-red-100/30  border-1 block py-1 dark:text-black">
-      <h2 className="text-center capitalize border-b-1 py-1">vowels</h2>
+    <section className="rounded-lg bg-red-50 dark:bg-red-100  border-red-300 border-1 dark:text-black">
+      <div className="font-bold text-center capitalize border-red-300 border-b-1  py-1">
+        vowels
+      </div>
       {vowels && RenderList(vowels)}
-      <h2 className="text-center capitalize border-b-1 border-t-1 py-1">
+      <div className="font-bold text-center capitalize border-red-300 border-b-1 border-t-1 py-1">
         consonants
-      </h2>
+      </div>
       {consonants && RenderList(consonants)}
     </section>
   );
