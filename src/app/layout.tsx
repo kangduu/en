@@ -27,7 +27,7 @@ export default function RootLayout({
         role="contentinfo"
         className={`${geistMono.variable} antialiased bg-white dark:bg-slate-900 dark:text-white`}
       >
-        <Navigation />
+        {/* <Navigation /> */}
         <main className="px-4 pt-4 pb-6 w-full m-auto max-w-[1024px]">
           {children}
           <Back2Top />
