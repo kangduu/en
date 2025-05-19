@@ -7,13 +7,14 @@ export interface Course {
   translation: string[];
   notes: string[];
   audio: string;
+  type?: "essay" | "dialogue"; // course type, default dialogue.
 }
 
 type ImportCourse = () => Promise<Course[]>;
 
 export const books: Record<NewConceptBookKey, ImportCourse> = {
   "first-things-first": () =>
-    import("./one.json").then((module) => module.default),
+    import("./one.json").then((module) => module.default) as Promise<Course[]>,
   "practice-and-progress": () =>
     import("./two.json").then((module) => module.default),
   "developing-skills": () =>

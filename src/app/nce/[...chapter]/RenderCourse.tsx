@@ -66,18 +66,27 @@ interface RenderSentenceProps {
   id: number; // sentence index
   sentence: string;
   translation: string;
+  type: Course["type"];
   onChange?: (index: number, complete: boolean) => void;
 }
 
 // This component is used to render a sentence input field that contains multiple words.
 // Each word is rendered as a separate input field using the RenderWord component.
-function RenderSentence({ sentence, onChange, ...props }: RenderSentenceProps) {
-  const [talker, ...words] = useMemo(() => {
+function RenderSentence({
+  type,
+  sentence,
+  onChange,
+  ...props
+}: RenderSentenceProps) {
+  const wordArr = useMemo(() => {
     return sentence.split(" ");
   }, [sentence]);
 
+  const [talker, ...words] = wordArr;
+  const isEssay = type === "essay"; // is essay content.
+
   // statistics completed of word.
-  const [correct, setCorrect] = useCorrect(words);
+  const [correct, setCorrect] = useCorrect(isEssay ? wordArr : words);
   useEffect(() => {
     onChange?.(props.id, checkCompleted(correct));
   }, [correct, props.id, onChange]);
@@ -91,17 +100,19 @@ function RenderSentence({ sentence, onChange, ...props }: RenderSentenceProps) {
   return (
     <div className="mb-2">
       <div className="flex items-start gap-2">
-        <div
-          className="uppercase"
-          onClick={() => {
-            audio?.playSegment(props.id);
-          }}
-        >
-          {talker}
-        </div>
+        {isEssay ? null : (
+          <div
+            className="uppercase"
+            onClick={() => {
+              audio?.playSegment(props.id);
+            }}
+          >
+            {talker}
+          </div>
+        )}
         <div>
           <div className="flex gap-1 flex-wrap">
-            {words.map((word, index) => (
+            {(isEssay ? wordArr : words).map((word, index) => (
               <RenderWord
                 word={word}
                 key={word + index}
@@ -148,6 +159,7 @@ export default function RenderCourse({ lesson }: { lesson: Course }) {
           key={index}
           id={index}
           onChange={setCorrect}
+          type={lesson.type}
         />
       ))}
 
