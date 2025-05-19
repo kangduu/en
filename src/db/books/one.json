@@ -385,7 +385,10 @@
       "你们现在好了吗？",
       "是的，现在好了，谢谢你！"
     ],
-    "notes": [],
+    "notes": [
+      "<h3>What’s the matter?</h3><div><strong>= Tell me what’s wrong.</strong> 怎么啦？</div>",
+      "<h3>There’s</h3><div><strong>= There is.</strong></div>"
+    ],
     "audio": "/first-things-first/1-019.mp3"
   },
   {
@@ -479,7 +482,13 @@
       "桌子上还有一只杯子。",
       "杯子很干净。"
     ],
-    "notes": [],
+    "notes": [
+      "<h3>There is 的结构</h3><div>用来说明人或物的存在，在汉语中可以译为<strong><u>“有”</u></strong>。这个结构要跟<strong>单数名词</strong>，句中往往要有一个<strong>介词短语</strong>来表示位置或地点。</div>",
+      "<h3>on the right (left)</h3><div>在右边（左边），是<strong><u>介词短语</u></strong>，在本句中作<strong>表语</strong>。</div>",
+      "<h3>cooker 和 cook 的区别</h3><div>注意不要把 <strong><u>cooker</u></strong> 和 <strong><u>cook</u></strong> 混淆，<i>cooker</i> 是<strong>炉子、锅等炊具</strong>，不是“炊事员”。炊事员在英语中是 <i>cook</i>。</div>",
+      "<h3>in the middle of</h3><div>在<strong><u>……之间</u></strong>。</div>",
+      "<h3>不定冠词 a 和定冠词 the 的用法</h3><div>在课文的第 2 行和第 3 行的名词 <i>refrigerator</i> 前面用了两种不同的冠词：<strong><u>a</u></strong>（不定冠词）和 <strong><u>the</u></strong>（定冠词）。在第 2 行，“冰箱”是<strong>第一次提到</strong>，是指冰箱这类电器中的一个，因此要用<strong>不定冠词 a</strong>。当第 2 次提到冰箱时，就不是泛指任何一个冰箱，而是<strong>特指</strong>第 2 行中的那个冰箱了，因此要用<strong>定冠词 the</strong>。</div>"
+    ],
     "audio": "/first-things-first/1-025.mp3"
   },
   {
@@ -516,7 +525,11 @@
       "客厅里有几幅画。",
       "画挂在墙上。"
     ],
-    "notes": [],
+    "notes": [
+      "<h3>There are 的结构</h3><div>中要用<strong><u>复数名词</u></strong>。</div>",
+      "<h3>near the window (door)</h3><div>靠近窗（门），为<u>介词短语</u>。在本句中作<strong>表语</strong>。</div>",
+      "<h3>on the wall</h3><div>在墙上，<u>介词短语</u>作<strong>表语</strong>。</div>"
+    ],
     "audio": "/first-things-first/1-027.mp3"
   },
   {
@@ -544,7 +557,11 @@
       "琼斯夫人：掉梳妆台上的灰尘。",
       "琼斯夫人：然后扫扫地。"
     ],
-    "notes": [],
+    "notes": [
+      "<h3>祈使语气</h3><div>英文中常用<strong>祈使语气</strong>来表示直接的命令、建议、告诫、邀请等多种意图。祈使句一般省略主语 <strong>you</strong>，动词采用<u>动词的原形</u>。如本课对话中的 <i>Come in, shut the door, open the window ...</i> 等均为祈使句。</div>",
+      "<h3>What must I do?</h3><div>我应该做些什么呢？其中的 <strong>must</strong> 是情态动词，表示<u>不可逃避的义务</u>或<u>不可推卸的责任</u>。</div>",
+      "<h3>make the bed</h3><div>铺床。</div>"
+    ],
     "audio": "/first-things-first/1-029.mp3"
   },
   {
@@ -576,7 +593,11 @@
       "琼：那么狗呢？",
       "杰克：狗也在花园里。它正在草地上跑，在追一只猫。"
     ],
-    "notes": [],
+    "notes": [
+      "<h3>现在进行时</h3><div>在英文中表示说话时正在进行的动作或事件，要用<strong>动词的现在进行时</strong>。现在进行时由 <strong>be</strong> 的现在时加上<u>现在分词</u>组成，如课文中的 <i>“She’s sitting under the tree.”</i> 和 <i>“He’s climbing the tree.”</i> 等句子均为现在进行时。对大多数动词来说，在动词后面直接加 <strong>-ing</strong> 即可组成现在分词，如 <i>doing, climbing</i>。对以 <strong>-e</strong> 结尾的动词，要去掉 <strong>-e</strong>，再加 <strong>-ing</strong>，如 <i>making</i>。如果动词只有一个元音字母，而其后跟了一个辅音字母时，则需将辅音字母双写，再加 <strong>-ing</strong>，如 <i>running, sitting</i>。</div>",
+      "<h3>What about the dog?</h3><div>那么狗呢？这句话的意思是 <i>What is the dog doing in the garden?</i> 为了避免重复原句中的主语和谓语动词，可以用 <strong>What about</strong> 这个结构，用来询问情况。</div>",
+      "<h3>run after</h3><div>追逐。例：<i>Look, Sally is running after her Mum.</i> 瞧，萨莉正在追赶她的母亲。</div>"
+    ],
     "audio": "/first-things-first/1-031.mp3"
   },
   {
@@ -608,7 +629,10 @@
       "蒂姆正望着一架飞机。",
       "飞机正从河上飞过。"
     ],
-    "notes": [],
+    "notes": [
+      "<h3>It is a fine day today.</h3><div>句中的 <strong>it</strong> 是指<u>天气</u>。</div>",
+      "<h3>some clouds</h3><div>几朵云。<strong>some</strong> 可以修饰<u>可数名词</u>，也能够修饰<u>不可数名词</u>。</div>"
+    ],
     "audio": "/first-things-first/1-033.mp3"
   },
   {
@@ -652,7 +676,11 @@
       "一些孩子正从楼里出来。",
       "他们中有几个正走进公园。"
     ],
-    "notes": [],
+    "notes": [
+      "<h3>The village is on a river.</h3><div>这句话中的介词 <strong>on</strong> 不表示“在……上”，而是<u>“邻近”、“靠近”</u>的意思。</div>",
+      "<h3>My wife and I</h3><div>我和妻子……在英语中表达“我和……”时，要把 <strong>I</strong> 放在别人的后面。</div>",
+      "<h3>Some children are coming out of the building.</h3><div><strong>out of</strong> 表示<u>“从里向外”</u>的动作。</div>"
+    ],
     "audio": "/first-things-first/1-035.mp3"
   },
   {
@@ -693,7 +721,11 @@
       "乔治：是为我的女儿苏珊做的",
       "乔治：粉红色是她最喜欢的颜色。"
     ],
-    "notes": [],
+    "notes": [
+      "<h3>You’re working hard, George.</h3><div>在这句话中 <strong>hard</strong> 是一个副词，修饰动词 <strong>work</strong>, 有<u>“努力地”、“费劲地”</u>的意思。<strong>hard</strong> 还常常与表示动作、举止的动词连用，如 <i>work, listen, play, try</i> 等，用来加强动作的强度，常译成<u>“拼命地”</u>。</div>",
+      "<h3>What are you going to do now, George?</h3><div>你现在准备做什么，乔治？<strong>be going to</strong>, 是<u>“打算”、“准备”、“按计划”</u>在最近做某事，表示将来。</div>",
+      "<h3>paint it pink</h3><div><strong>it</strong> 指 <i>bookcase</i>, 是宾语，<strong>pink</strong> 是宾语补足语。</div>"
+    ],
     "audio": "/first-things-first/1-037.mp3"
   },
   {
@@ -721,7 +753,13 @@
       "萨姆：这是只漂亮的花瓶。",
       "彭妮：那些花也很漂亮啊。"
     ],
-    "notes": [],
+    "notes": [
+      "<h3>do with</h3><div>指对某件事物或人的<u>处理</u>。</div>",
+      "<h3>祈使句的否定形式</h3><div>在第29课中，我们讲到有关文中常用<strong>祈使语气</strong>来表示直接的命令、建议等多种意图。而祈使句的否定形式则由 <strong>don't</strong> 加上<u>动词原形</u>组成，如课文中的 <i>\"Don't do that\"; \"Don't drop it\"</i> 等句子。</div>",
+      "<h3>give 的宾语结构</h3><div>在第21课有这样的句型 <i>\"give me a book\"</i>，在本课文中又出现了 <i>\"give it to me\"</i> 的句型。在动词 <strong>give</strong> 后面可以有两个宾语：<u>直接宾语</u>（指物，如 <i>a book, it</i>）和<u>间接宾语</u>（指人，如 <i>me</i>）。如果直接宾语置于动词 <strong>give</strong> 之后，间接宾语则变成有 <strong>to</strong> 的介词短语。</div>",
+      "<h3>Be careful!</h3><div>小心点！这个固定结构常用来提醒他人可能发生的<u>事故或困难</u>。</div>",
+      "<h3>There we are.</h3><div>就放在那里。参见第11课课文注释3。</div>"
+    ],
     "audio": "/first-things-first/1-039.mp3"
   },
   {
