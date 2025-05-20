@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import DarkModel from "./dark";
 import { HeaderLinks } from "../routes";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
 import { Github, HamburgerButton } from "@icon-park/react";
@@ -94,13 +94,13 @@ function NativeNavMenu() {
 
 // default menu
 function NavMenu() {
-  const pathname = usePathname();
+  // const pathname = usePathname();
   const router = useRouter();
   return (
     <NavigationMenu>
       <NavigationMenuList>
         {HeaderLinks.map(({ id, title, url, children }) => {
-          const isActive = url === pathname;
+          // const isActive = url === pathname;
           return (
             <NavigationMenuItem key={id}>
               {children && children.length > 0 ? (
@@ -128,10 +128,7 @@ function NavMenu() {
               ) : (
                 <Link href={url} passHref>
                   <NavigationMenuLink
-                    className={cn(
-                      navigationMenuTriggerStyle(),
-                      isActive ? "text-white" : ""
-                    )}
+                    className={cn(navigationMenuTriggerStyle())}
                   >
                     {title}
                   </NavigationMenuLink>

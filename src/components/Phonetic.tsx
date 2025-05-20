@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import { vowels, consonants } from "@/src/db/phonetic.json";
+import { vowels, consonants } from "@/lib/phonetic.json";
+import { toast } from "sonner";
 
 type DataType = Record<
   string,
@@ -10,27 +11,32 @@ type DataType = Record<
 
 function RenderList(data: DataType) {
   const handleCopy = (symbol: string) => {
+    const success = () => {
+      toast.success("Copy successfully!", {
+        description: "It has been successfully copied to the clipboard.",
+      });
+    };
+
+    const fail = (error: unknown) => {
+      toast.error("Copy failed!", {
+        description: (error as { message: string }).message,
+      });
+    };
+
     if (navigator.clipboard) {
-      // 现代浏览器
-      navigator.clipboard.writeText(symbol).then(
-        () => console.log("复制成功"),
-        (err) => console.error("复制失败: ", err)
-      );
+      navigator.clipboard.writeText(symbol).then(success, fail);
     } else {
-      // 旧版浏览器
       const textarea = document.createElement("textarea");
       textarea.value = symbol;
       textarea.style.position = "fixed"; // 避免滚动到页面底部
       document.body.appendChild(textarea);
       textarea.select();
-
       try {
         document.execCommand("copy");
-        console.log("复制成功");
+        success();
       } catch (err) {
-        console.error("复制失败: ", err);
+        fail(err);
       }
-
       document.body.removeChild(textarea);
     }
   };
