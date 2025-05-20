@@ -88,10 +88,15 @@ export default function Phonetic() {
           <CardHeader>
             <CardTitle className="capitalize">vowels</CardTitle>
             <CardDescription>
-              Vowels are speech sounds produced without any significant
-              obstruction of airflow in the vocal tract. In English, the vowels
-              are represented by the letters A, E, I, O, U, and sometimes Y
-              (which can function as both a vowel and a consonant).
+              <p>
+                Vowels are speech sounds produced without any significant
+                obstruction of airflow in the vocal tract.
+              </p>
+              <p>
+                In English, the vowels are represented by the letters A, E, I,
+                O, U, and sometimes Y (which can function as both a vowel and a
+                consonant).
+              </p>
             </CardDescription>
           </CardHeader>
           {vowels && <CardContent>{RenderList(vowels)}</CardContent>}
@@ -102,11 +107,16 @@ export default function Phonetic() {
           <CardHeader>
             <CardTitle className="capitalize">consonants</CardTitle>
             <CardDescription>
-              Consonants are speech sounds produced by obstructing or
-              restricting airflow in the vocal tract using the lips, teeth,
-              tongue, or palate. Unlike vowels, consonants usually cannot form
-              syllables on their own (except for syllabic consonants like /l/ in
-              bottle or /n/ in button).
+              <p>
+                Consonants are speech sounds produced by obstructing or
+                restricting airflow in the vocal tract using the lips, teeth,
+                tongue, or palate.
+              </p>
+              <p>
+                Unlike vowels, consonants usually cannot form syllables on their
+                own (except for syllabic consonants like /l/ in bottle or /n/ in
+                button).
+              </p>
             </CardDescription>
           </CardHeader>
           {consonants && <CardContent>{RenderList(consonants)}</CardContent>}
