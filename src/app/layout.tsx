@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import Navigation from "./header";
-import { Back2Top } from "../components";
-import { Toaster } from "@/components/ui/sonner";
+import Main from "./main";
 
 export const metadata: Metadata = {
   title: "English",
@@ -18,14 +15,9 @@ export default function RootLayout({
     <html lang="en" className="light">
       <body
         role="contentinfo"
-        className={`antialiased bg-white dark:bg-slate-900 dark:text-white`}
+        className={`antialiased bg-white dark:bg-[var(--background)] dark:text-white text-base`}
       >
-        <Navigation />
-        <main className="px-4 pt-4 pb-6 w-full m-auto max-w-[1024px]">
-          {children}
-          <Back2Top />
-        </main>
-        <Toaster />
+        <Main>{children}</Main>
       </body>
     </html>
   );
