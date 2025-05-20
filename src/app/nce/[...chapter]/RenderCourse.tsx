@@ -1,6 +1,6 @@
 "use client";
 
-import type { Course } from "@/src/db/books";
+import type { Course } from "@/lib/books";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { useAudioContext } from "@/src/context/AudioCtx";
 import { InputDetect } from "@/src/components";

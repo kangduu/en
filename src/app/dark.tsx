@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
-import { ThemeModel } from "../components/icons";
+import { SunOne, Moon } from "@icon-park/react";
 
 type ThemeType = "dark" | "light";
 
@@ -37,8 +37,8 @@ export default function DarkModel() {
 
   return (
     <>
-      {theme === "light" && <ThemeModel.Light onClick={setDarkModel} />}
-      {theme === "dark" && <ThemeModel.Dark active onClick={setLightModel} />}
+      {theme === "light" && <SunOne onClick={setDarkModel} />}
+      {theme === "dark" && <Moon onClick={setLightModel} />}
     </>
   );
 }

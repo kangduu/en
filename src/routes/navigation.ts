@@ -30,13 +30,19 @@ export const NewConceptBooks: BookLink[] = NewConceptBookKeys.map((key) => {
 });
 
 export interface HeaderLink extends LinkStore {
-  id: number;
+  id: number | NewConceptBookKey;
+  children?: HeaderLink[];
 }
 
 // This file contains the navigation structure for the header links
 // and their respective links
 export const HeaderLinks: HeaderLink[] = [
-  { id: 1, title: "NCE", url: "/nce" },
+  {
+    id: 1,
+    title: "NCE",
+    url: "/nce",
+    children: NewConceptBooks,
+  },
   { id: 2, title: "LEXICAL", url: "/lexical" },
   { id: 3, title: "PETS", url: "/pets" },
 ];

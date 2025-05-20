@@ -1,15 +1,5 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
-import Providers from "./providers";
-import Navigation from "./header";
-import { Back2Top } from "../components";
-
-const geistMono = localFont({
-  src: "./fonts/kkk.ttf",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import Main from "./main";
 
 export const metadata: Metadata = {
   title: "English",
@@ -25,13 +15,9 @@ export default function RootLayout({
     <html lang="en" className="light">
       <body
         role="contentinfo"
-        className={`${geistMono.variable} antialiased bg-white dark:bg-slate-900 dark:text-white`}
+        className={`antialiased bg-white dark:bg-[var(--background)] dark:text-white text-base`}
       >
-        <Navigation />
-        <main className="px-4 pt-4 pb-6 w-full m-auto max-w-[1024px]">
-          <Providers>{children}</Providers>
-          <Back2Top />
-        </main>
+        <Main>{children}</Main>
       </body>
     </html>
   );

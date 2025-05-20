@@ -1,6 +1,6 @@
 "use client";
 
-import type { Course } from "@/src/db/books";
+import type { Course } from "@/lib/books";
 import { HeaderLinkPathMapping } from "@/src/routes";
 import type { NewConceptBookKey } from "@/src/utils/constant";
 import React from "react";

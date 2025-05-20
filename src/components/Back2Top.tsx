@@ -3,6 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./back.module.css";
 import { throttle } from "lodash";
+import { Button } from "@/components/ui/button";
 
 export default function Back2Top() {
   const [show, setShow] = useState(false);
@@ -41,10 +42,11 @@ export default function Back2Top() {
 
   return (
     <>
-      <button
+      <Button
+        variant="outline"
         className={`${styles.back_to_top} ${
           show ? styles.show : ""
-        } rounded-full p-1 text-xl  bg-primary-100/50 hover:bg-primary-100 transition-colors-opacity fixed bottom-4 right-4 z-10 border-none`}
+        } rounded-full p-1 text-xl fixed bottom-4 right-4 z-10 `}
         onClick={() => {
           // 平滑滚动到顶部
           window.scrollTo({ top: 0, behavior: "smooth" });
@@ -56,12 +58,12 @@ export default function Back2Top() {
         role="button"
       >
         👆
-      </button>
+      </Button>
 
       {/* progress */}
       <div
         ref={ProgressRef}
-        className="fixed left-0 top-0 z-[100] h-1 transition-width duration-100 bg-primary-300"
+        className="fixed left-0 top-0 z-[100] h-1 transition-width duration-100 bg-blue-300"
       />
     </>
   );

@@ -1,7 +1,17 @@
 "use client";
 
 import React from "react";
-import { vowels, consonants } from "@/src/db/phonetic.json";
+import { vowels, consonants } from "@/lib/phonetic.json";
+import { toast } from "sonner";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { TabsContent } from "@radix-ui/react-tabs";
 
 type DataType = Record<
   string,
@@ -10,37 +20,40 @@ type DataType = Record<
 
 function RenderList(data: DataType) {
   const handleCopy = (symbol: string) => {
+    const success = () => {
+      toast.success("Copy successfully!", {
+        description: "It has been successfully copied to the clipboard.",
+      });
+    };
+
+    const fail = (error: unknown) => {
+      toast.error("Copy failed!", {
+        description: (error as { message: string }).message,
+      });
+    };
+
     if (navigator.clipboard) {
-      // 现代浏览器
-      navigator.clipboard.writeText(symbol).then(
-        () => console.log("复制成功"),
-        (err) => console.error("复制失败: ", err)
-      );
+      navigator.clipboard.writeText(symbol).then(success, fail);
     } else {
-      // 旧版浏览器
       const textarea = document.createElement("textarea");
       textarea.value = symbol;
       textarea.style.position = "fixed"; // 避免滚动到页面底部
       document.body.appendChild(textarea);
       textarea.select();
-
       try {
         document.execCommand("copy");
-        console.log("复制成功");
+        success();
       } catch (err) {
-        console.error("复制失败: ", err);
+        fail(err);
       }
-
       document.body.removeChild(textarea);
     }
   };
   return Object.keys(data).map((key) => {
     const value = data[key];
     return (
-      <div key={key} className="px-4 pt-2 mb-4">
-        <div className="capitalize text-primary-400">
-          {key}：({value.length})
-        </div>
+      <div key={key} className="mb-4">
+        <div className="capitalize text-blue-300">{key}</div>
         {value.map(({ symbol, example, phonetic }) => {
           return (
             <div
@@ -65,15 +78,50 @@ function RenderList(data: DataType) {
 
 export default function Phonetic() {
   return (
-    <section className="rounded-lg bg-red-50 dark:bg-red-100  border-red-300 border-1 dark:text-black">
-      <div className="font-bold text-center capitalize border-red-300 border-b-1  py-1">
-        vowels
-      </div>
-      {vowels && RenderList(vowels)}
-      <div className="font-bold text-center capitalize border-red-300 border-b-1 border-t-1 py-1">
-        consonants
-      </div>
-      {consonants && RenderList(consonants)}
-    </section>
+    <Tabs defaultValue="vowels">
+      <TabsList className="mx-auto w-full md:w-[40%]">
+        <TabsTrigger value="vowels">Vowels</TabsTrigger>
+        <TabsTrigger value="consonants">Consonants</TabsTrigger>
+      </TabsList>
+      <TabsContent value="vowels">
+        <Card>
+          <CardHeader>
+            <CardTitle className="capitalize">vowels</CardTitle>
+            <CardDescription>
+              <p>
+                Vowels are speech sounds produced without any significant
+                obstruction of airflow in the vocal tract.
+              </p>
+              <p>
+                In English, the vowels are represented by the letters A, E, I,
+                O, U, and sometimes Y (which can function as both a vowel and a
+                consonant).
+              </p>
+            </CardDescription>
+          </CardHeader>
+          {vowels && <CardContent>{RenderList(vowels)}</CardContent>}
+        </Card>
+      </TabsContent>
+      <TabsContent value="consonants">
+        <Card>
+          <CardHeader>
+            <CardTitle className="capitalize">consonants</CardTitle>
+            <CardDescription>
+              <p>
+                Consonants are speech sounds produced by obstructing or
+                restricting airflow in the vocal tract using the lips, teeth,
+                tongue, or palate.
+              </p>
+              <p>
+                Unlike vowels, consonants usually cannot form syllables on their
+                own (except for syllabic consonants like /l/ in bottle or /n/ in
+                button).
+              </p>
+            </CardDescription>
+          </CardHeader>
+          {consonants && <CardContent>{RenderList(consonants)}</CardContent>}
+        </Card>
+      </TabsContent>
+    </Tabs>
   );
 }
