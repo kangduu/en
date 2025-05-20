@@ -1,5 +1,5 @@
 import React from "react";
-import { books } from "@/src/db/books";
+import { books } from "@/lib/books";
 import type { NewConceptBookKey } from "@/src/utils/constant";
 import { ServerErrorRender } from "@/src/components";
 import RenderPagination from "./RenderPagination";

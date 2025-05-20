@@ -4,7 +4,7 @@ import { NewConceptBooks, type BookLink } from "../routes";
 import Card, { type CardProps } from "./ui/Card";
 import type { NewConceptBookKey } from "../utils/constant";
 import React, { useEffect, useState } from "react";
-import { getCourses, type Course } from "@/src/db/books";
+import { getCourses, type Course } from "@/lib/books";
 import GridLayout from "./ui/GridLayout";
 
 interface BookListProps {
