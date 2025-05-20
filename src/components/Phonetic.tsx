@@ -3,6 +3,15 @@
 import React from "react";
 import { vowels, consonants } from "@/lib/phonetic.json";
 import { toast } from "sonner";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { TabsContent } from "@radix-ui/react-tabs";
 
 type DataType = Record<
   string,
@@ -43,10 +52,8 @@ function RenderList(data: DataType) {
   return Object.keys(data).map((key) => {
     const value = data[key];
     return (
-      <div key={key} className="px-4 pt-2 mb-4">
-        <div className="capitalize text-primary-400">
-          {key}：({value.length})
-        </div>
+      <div key={key} className="mb-4">
+        <div className="capitalize text-blue-300">{key}</div>
         {value.map(({ symbol, example, phonetic }) => {
           return (
             <div
@@ -71,15 +78,40 @@ function RenderList(data: DataType) {
 
 export default function Phonetic() {
   return (
-    <section className="rounded-lg bg-red-50 dark:bg-red-100  border-red-300 border-1 dark:text-black">
-      <div className="font-bold text-center capitalize border-red-300 border-b-1  py-1">
-        vowels
-      </div>
-      {vowels && RenderList(vowels)}
-      <div className="font-bold text-center capitalize border-red-300 border-b-1 border-t-1 py-1">
-        consonants
-      </div>
-      {consonants && RenderList(consonants)}
-    </section>
+    <Tabs defaultValue="vowels">
+      <TabsList className="mx-auto w-full md:w-[40%]">
+        <TabsTrigger value="vowels">Vowels</TabsTrigger>
+        <TabsTrigger value="consonants">Consonants</TabsTrigger>
+      </TabsList>
+      <TabsContent value="vowels">
+        <Card>
+          <CardHeader>
+            <CardTitle className="capitalize">vowels</CardTitle>
+            <CardDescription>
+              Vowels are speech sounds produced without any significant
+              obstruction of airflow in the vocal tract. In English, the vowels
+              are represented by the letters A, E, I, O, U, and sometimes Y
+              (which can function as both a vowel and a consonant).
+            </CardDescription>
+          </CardHeader>
+          {vowels && <CardContent>{RenderList(vowels)}</CardContent>}
+        </Card>
+      </TabsContent>
+      <TabsContent value="consonants">
+        <Card>
+          <CardHeader>
+            <CardTitle className="capitalize">consonants</CardTitle>
+            <CardDescription>
+              Consonants are speech sounds produced by obstructing or
+              restricting airflow in the vocal tract using the lips, teeth,
+              tongue, or palate. Unlike vowels, consonants usually cannot form
+              syllables on their own (except for syllabic consonants like /l/ in
+              bottle or /n/ in button).
+            </CardDescription>
+          </CardHeader>
+          {consonants && <CardContent>{RenderList(consonants)}</CardContent>}
+        </Card>
+      </TabsContent>
+    </Tabs>
   );
 }
