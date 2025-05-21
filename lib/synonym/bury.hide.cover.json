@@ -1,0 +1,110 @@
+{
+  "words": ["bury", "conceal", "cover", "hide"],
+  "explanation": {
+    "overview": "这些词都表示‘隐藏’或‘掩盖’，但方式和语境有所不同。",
+    "details": [
+      {
+        "word": "bury",
+        "meaning": "字面意思是‘埋葬’，也可指深藏或完全覆盖",
+        "example": "He buried the treasure in the sand.（他把财宝埋在沙子里。）"
+      },
+      {
+        "word": "conceal",
+        "meaning": "正式用语，指故意隐藏不让发现，常带隐瞒意图",
+        "example": "She concealed her disappointment with a smile.（她用微笑掩饰失望。）"
+      },
+      {
+        "word": "cover",
+        "meaning": "普通用语，指用某物盖住或遮蔽",
+        "example": "Cover the food to keep it warm.（把食物盖上保温。）"
+      },
+      {
+        "word": "hide",
+        "meaning": "最通用，指使人或物不被看见或发现",
+        "example": "The children hid behind the curtains.（孩子们躲在窗帘后面。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "隐藏方式",
+      "bury": "完全埋藏",
+      "conceal": "精心掩饰",
+      "cover": "表面覆盖",
+      "hide": "通用各种方式"
+    },
+    {
+      "aspect": "使用语境",
+      "bury": "实物埋葬/情感压抑",
+      "conceal": "正式/刻意隐瞒",
+      "cover": "物理遮蔽/范围包含",
+      "hide": "日常各种情况"
+    },
+    {
+      "aspect": "情感色彩",
+      "bury": "可能带有沉重感",
+      "conceal": "常含故意性",
+      "cover": "中性",
+      "hide": "中性"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "日常生活",
+      "bury": "I buried my face in my hands.（我把脸埋在手里。）",
+      "conceal": "The spy concealed a camera in his tie.（间谍在领带里隐藏了摄像头。）",
+      "cover": "She covered the baby with a blanket.（她用毯子盖住婴儿。）",
+      "hide": "Where did you hide my keys?（你把我的钥匙藏哪了？）"
+    },
+    {
+      "scene": "自然环境",
+      "bury": "The avalanche buried the village.（雪崩掩埋了村庄。）",
+      "conceal": "The leopard's spots conceal it in the grass.（豹子的斑点在草丛中有隐蔽作用。）",
+      "cover": "Snow covered the mountain.（雪覆盖了山峰。）",
+      "hide": "The rabbit hid in the bushes.（兔子躲在灌木丛中。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He concealed the body under leaves.",
+      "correction": "✅ He buried/hid the body under leaves.（conceal不用于实物完全掩埋）"
+    },
+    {
+      "error": "❌ She covered her real feelings.",
+      "correction": "✅ She concealed/hid her real feelings.（情感掩饰用conceal/hide）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The detective ___ his identity to investigate.",
+      "options": ["A. buried", "B. concealed", "C. covered", "D. hid"],
+      "answer": "B",
+      "explanation": "精心伪装身份用conceal"
+    },
+    {
+      "question": "哪个词最适合描述用土掩埋？",
+      "options": ["A. bury", "B. conceal", "C. cover", "D. hide"],
+      "answer": "A",
+      "explanation": "bury特指埋葬"
+    },
+    {
+      "question": "填空：___ your mouth when coughing.",
+      "options": ["A. Bury", "B. Conceal", "C. Cover", "D. Hide"],
+      "answer": "C",
+      "explanation": "cover表示简单遮挡动作"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "disguise（伪装）",
+      "mask（掩饰）",
+      "obscure（使模糊）",
+      "suppress（压制）"
+    ],
+    "phrasal_verbs": [
+      "cover up（完全掩盖）",
+      "hide away（藏起来）",
+      "bury oneself in（专心于）"
+    ]
+  }
+}

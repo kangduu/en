@@ -1,0 +1,91 @@
+{
+  "words": ["see", "look", "watch"],
+  "explanation": {
+    "overview": "这三个词都与‘看’有关，但用法和侧重点不同。",
+    "details": [
+      {
+        "word": "see",
+        "meaning": "指‘看见’，强调视觉的自然结果，可能是无意识的。",
+        "example": "I can see a bird outside the window.（我能看见窗外有只鸟。）"
+      },
+      {
+        "word": "look",
+        "meaning": "指‘看’的动作，强调有意识地看向某处，通常与‘at’连用。",
+        "example": "Look at the blackboard, please.（请看黑板。）"
+      },
+      {
+        "word": "watch",
+        "meaning": "指‘观看’，强调专注地看，通常用于动态的事物（如电视、比赛等）。",
+        "example": "We watched a movie last night.（昨晚我们看了一部电影。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "动作性质",
+      "see": "被动或无意识",
+      "look": "主动、短暂",
+      "watch": "主动、持续"
+    },
+    {
+      "aspect": "常用场景",
+      "see": "看见物体/人",
+      "look": "注视静态事物",
+      "watch": "观察动态过程"
+    },
+    {
+      "aspect": "典型搭配",
+      "see": "see + 名词",
+      "look": "look at + 名词",
+      "watch": "watch + 名词"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "餐厅点餐",
+      "see": "I see a menu on the table.（我看到桌上有菜单）",
+      "look": "The chef is looking at the order list.（厨师正在看订单）",
+      "watch": "They're watching the food being cooked.（他们在看食物烹饪过程）"
+    },
+    {
+      "scene": "课堂学习",
+      "see": "Can you see the words on the PPT?（你能看到PPT上的字吗？）",
+      "look": "Look at this grammar rule carefully.（仔细看这条语法规则）",
+      "watch": "We watched an English video in class.（课上我们看了英文视频）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I look TV every night.",
+      "correction": "✅ I watch TV every night.（看电视固定用watch）"
+    },
+    {
+      "error": "❌ She saw the picture for 10 minutes.",
+      "correction": "✅ She looked at/watched the picture for 10 minutes.（see不能接时间段）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：___! There's a spider on your shoulder!",
+      "options": ["A. See", "B. Look", "C. Watch"],
+      "answer": "B",
+      "explanation": "此处需要提醒对方‘看’的动作，用look"
+    },
+    {
+      "question": "哪个搭配是错误的？",
+      "options": ["A. see a doctor", "B. watch a concert", "C. look the stars"],
+      "answer": "C",
+      "explanation": "look需接at，正确应为look at the stars"
+    },
+    {
+      "question": "填空题：We ___ a soccer game for two hours yesterday.",
+      "options": ["A. saw", "B. looked", "C. watched"],
+      "answer": "C",
+      "explanation": "观看持续性的比赛用watch"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["gaze（凝视）", "stare（盯着看）", "glance（瞥一眼）"],
+    "tip": "记住口诀：see重结果，look重动作，watch重过程"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "words": ["cave", "hole"],
+  "explanation": {
+    "overview": "这两个词都与‘洞’有关，但指代的具体对象和规模不同。",
+    "details": [
+      {
+        "word": "cave",
+        "meaning": "指自然形成的、较大的地下空间，通常人可以进入",
+        "example": "We explored a limestone cave yesterday.（昨天我们探索了一个石灰岩洞穴。）"
+      },
+      {
+        "word": "hole",
+        "meaning": "泛指各种大小、形状的洞，可以是自然形成或人为造成的",
+        "example": "There's a hole in my sock.（我的袜子上有个洞。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "规模",
+      "cave": "较大，通常可容纳人",
+      "hole": "可大可小，从针眼到地洞都可"
+    },
+    {
+      "aspect": "形成方式",
+      "cave": "自然形成（水蚀、风化等）",
+      "hole": "自然或人为造成"
+    },
+    {
+      "aspect": "典型特征",
+      "cave": "有完整空间结构",
+      "hole": "简单开口或凹陷"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "户外活动",
+      "cave": "The hikers took shelter in a cave during the storm.（徒步者在暴风雨中躲进洞穴避难。）",
+      "hole": "Be careful not to step in rabbit holes.（小心别踩到兔子洞。）"
+    },
+    {
+      "scene": "日常生活",
+      "cave": "The children pretended the blanket fort was a cave.（孩子们把毯子堡垒假装成洞穴。）",
+      "hole": "I need to fix the hole in the fence.（我需要修补篱笆上的洞。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ There's a cave in my tooth.",
+      "correction": "✅ There's a hole in my tooth.（牙齿上的洞用hole）"
+    },
+    {
+      "error": "❌ Diggers made a cave in the ground.",
+      "correction": "✅ Diggers made a hole in the ground.（人工挖掘的用hole）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：Bats usually live in dark ___.",
+      "options": ["A. caves", "B. holes"],
+      "answer": "A",
+      "explanation": "蝙蝠栖息的自然空间用cave"
+    },
+    {
+      "question": "哪个词可以描述牛仔裤的破洞？",
+      "options": ["A. cave", "B. hole"],
+      "answer": "B",
+      "explanation": "衣物上的小洞用hole"
+    },
+    {
+      "question": "填空：The miners dug a deep ___ to reach the coal.",
+      "options": ["A. cave", "B. hole"],
+      "answer": "B",
+      "explanation": "人工挖掘的深洞用hole"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "cavern（大洞穴）",
+      "grotto（小洞穴，常指风景优美的）",
+      "pit（深坑）",
+      "tunnel（隧道）"
+    ],
+    "fixed_expressions": [
+      "black hole（黑洞）",
+      "cave in（塌陷）",
+      "hole in one（高尔夫一杆进洞）"
+    ]
+  }
+}
