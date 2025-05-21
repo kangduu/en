@@ -1,0 +1,149 @@
+{
+  "words": [
+    "dismay",
+    "upset",
+    "depression",
+    "frustration",
+    "disappointment",
+    "discouragement"
+  ],
+  "explanation": {
+    "overview": "这些词都描述负面情绪，但强度和具体含义有所不同。",
+    "details": [
+      {
+        "word": "dismay",
+        "meaning": "因突发事件产生的震惊与沮丧交织的情绪",
+        "example": "To her dismay, the flight was canceled.（令她沮丧的是，航班被取消了。）"
+      },
+      {
+        "word": "upset",
+        "meaning": "泛指情绪不安或烦乱，程度较轻",
+        "example": "He was upset by the criticism.（他因批评而感到不安。）"
+      },
+      {
+        "word": "depression",
+        "meaning": "长期持续的深度抑郁，可能达到临床程度",
+        "example": "After losing his job, he fell into depression.（失业后，他陷入了抑郁。）"
+      },
+      {
+        "word": "frustration",
+        "meaning": "因受阻或无能为力而产生的挫败感",
+        "example": "She felt frustration at not being understood.（她因不被理解而感到挫败。）"
+      },
+      {
+        "word": "disappointment",
+        "meaning": "期望落空时产生的失望情绪",
+        "example": "There was great disappointment when the concert was postponed.（音乐会被推迟，大家都很失望。）"
+      },
+      {
+        "word": "discouragement",
+        "meaning": "失去信心或勇气的状态",
+        "example": "Repeated failures led to his discouragement.（屡次失败使他气馁。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "情绪强度",
+      "dismay": "中高强度（震惊+沮丧）",
+      "upset": "轻度到中度",
+      "depression": "高强度（可能病理性的）",
+      "frustration": "中度",
+      "disappointment": "轻度到中度",
+      "discouragement": "中度"
+    },
+    {
+      "aspect": "持续时间",
+      "dismay": "短期",
+      "upset": "短期",
+      "depression": "长期",
+      "frustration": "短期到中期",
+      "disappointment": "短期",
+      "discouragement": "中期"
+    },
+    {
+      "aspect": "典型触发场景",
+      "dismay": "突发坏消息",
+      "upset": "日常不顺心",
+      "depression": "重大生活变故",
+      "frustration": "目标受阻",
+      "disappointment": "期望落空",
+      "discouragement": "反复失败"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "考试成绩",
+      "dismay": "To his dismay, he failed the final exam.（令他沮丧的是，他期末考试没及格。）",
+      "upset": "She was upset about getting a B.（她为得了个B而不开心。）",
+      "depression": "After failing three times, he sank into depression.（三次失败后，他陷入了抑郁。）",
+      "frustration": "He felt frustration at not improving despite hard work.（尽管努力却没有进步，他感到挫败。）",
+      "disappointment": "There was disappointment at not making the honor roll.（没上光荣榜很失望。）",
+      "discouragement": "Constant low scores led to her discouragement.（持续低分使她气馁。）"
+    },
+    {
+      "scene": "工作场景",
+      "dismay": "To the team's dismay, the project was canceled.（令团队沮丧的是，项目被取消了。）",
+      "upset": "She was upset by her colleague's remark.（她对同事的言论感到不快。）",
+      "depression": "Long-term unemployment caused depression.（长期失业导致抑郁。）",
+      "frustration": "Technical problems caused much frustration.（技术问题带来很多挫败感。）",
+      "disappointment": "The pay raise was smaller than expected, causing disappointment.（加薪比预期少，令人失望。）",
+      "discouragement": "Rejected proposals brought discouragement.（提案屡遭拒绝带来气馁。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I feel depression because my coffee spilled.",
+      "correction": "✅ I feel upset/dismay because my coffee spilled.（轻微日常事件不用depression）"
+    },
+    {
+      "error": "❌ His discouragement lasted only five minutes.",
+      "correction": "✅ His disappointment/dismay lasted only five minutes.（discouragement通常持续时间较长）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：___ overwhelmed her when she saw the destroyed artwork.",
+      "options": [
+        "A. Depression",
+        "B. Dismay",
+        "C. Discouragement",
+        "D. Frustration"
+      ],
+      "answer": "B",
+      "explanation": "突发震惊事件用dismay"
+    },
+    {
+      "question": "哪个词描述因交通堵塞而迟到的心情？",
+      "options": [
+        "A. Depression",
+        "B. Upset",
+        "C. Frustration",
+        "D. Disappointment"
+      ],
+      "answer": "C",
+      "explanation": "目标受阻产生的情绪是frustration"
+    },
+    {
+      "question": "填空：After six failed interviews, he felt complete ___.",
+      "options": [
+        "A. disappointment",
+        "B. discouragement",
+        "C. depression",
+        "D. dismay"
+      ],
+      "answer": "B",
+      "explanation": "反复失败导致的情绪是discouragement"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "despair（绝望）",
+      "dejection（沮丧）",
+      "melancholy（忧郁）",
+      "resentment（愤恨）"
+    ],
+    "clinical_term": "只有depression可用于临床诊断（如clinical depression抑郁症）",
+    "physical_expression": "upset也可指身体不适（stomach upset胃部不适）"
+  }
+}

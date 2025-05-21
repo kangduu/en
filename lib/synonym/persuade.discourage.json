@@ -1,0 +1,101 @@
+{
+  "words": ["persuade", "discourage"],
+  "explanation": {
+    "overview": "这两个动词都涉及影响他人的行为或决定，但作用方向完全相反。",
+    "details": [
+      {
+        "word": "persuade",
+        "meaning": "通过说理或劝告使某人做某事或相信某事",
+        "example": "She persuaded me to join the project.（她说服我加入这个项目。）"
+      },
+      {
+        "word": "discourage",
+        "meaning": "劝阻某人做某事，使其失去信心或勇气",
+        "example": "The coach discouraged him from quitting the team.（教练劝他不要退出队伍。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "作用方向",
+      "persuade": "正向鼓励（使做某事）",
+      "discourage": "反向阻止（使不做某事）"
+    },
+    {
+      "aspect": "情感影响",
+      "persuade": "通常带来积极影响",
+      "discourage": "通常带来消极影响"
+    },
+    {
+      "aspect": "常用结构",
+      "persuade": "persuade sb to do sth",
+      "discourage": "discourage sb from doing sth"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "健康建议",
+      "persuade": "The doctor persuaded him to quit smoking.（医生说服他戒烟。）",
+      "discourage": "Health campaigns discourage people from eating junk food.（健康宣传活动劝阻人们吃垃圾食品。）"
+    },
+    {
+      "scene": "职业选择",
+      "persuade": "My teacher persuaded me to apply for the scholarship.（老师劝我申请奖学金。）",
+      "discourage": "They discouraged her from taking the risky job.（他们劝她不要接受那份有风险的工作。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He discouraged me to accept the offer.",
+      "correction": "✅ He discouraged me from accepting the offer.（discourage的正确搭配是from doing）"
+    },
+    {
+      "error": "❌ She persuaded him not going to the party.",
+      "correction": "✅ She persuaded him not to go to the party.（persuade的正确搭配是to do）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确的搭配：Parents should ___ their children ___ reading more books.",
+      "options": [
+        "A. persuade...to",
+        "B. discourage...to",
+        "C. persuade...from"
+      ],
+      "answer": "A",
+      "explanation": "鼓励读书用persuade...to"
+    },
+    {
+      "question": "哪个词最适合这个句子：The bad weather ___ us ___ going camping.",
+      "options": [
+        "A. persuaded...to",
+        "B. discouraged...from",
+        "C. discouraged...to"
+      ],
+      "answer": "B",
+      "explanation": "天气阻碍露营用discourage...from"
+    },
+    {
+      "question": "填空：I tried to ___ him ___ his mind, but he refused.",
+      "options": [
+        "A. persuade...to change",
+        "B. discourage...to change",
+        "C. discourage...from changing"
+      ],
+      "answer": "A",
+      "explanation": "试图说服改变主意用persuade...to change"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "convince（使确信）",
+      "dissuade（劝阻，同discourage）",
+      "encourage（鼓励，反义词）",
+      "advise（建议）"
+    ],
+    "usage_tips": {
+      "persuade_vs_convince": "persuade侧重行动说服，convince侧重观念说服",
+      "discourage_vs_dissuade": "discourage更常用，dissuade更正式"
+    }
+  }
+}

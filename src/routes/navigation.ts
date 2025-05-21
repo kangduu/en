@@ -44,6 +44,6 @@ export const HeaderLinks: HeaderLink[] = [
     children: NewConceptBooks,
   },
   { id: 2, title: "Synonym", url: "/synonym" },
-  { id: 5, title: "LEXICAL", url: "/lexical" },
+  { id: 5, title: "Lexical", url: "/lexical" },
   { id: 9, title: "PETS", url: "/pets" },
 ];

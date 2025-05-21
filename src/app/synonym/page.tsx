@@ -5,7 +5,6 @@ import Link from "next/link";
 
 export default async function Lexical() {
   const wordFiles = await readSynonymDir();
-  console.log(wordFiles);
   return (
     <>
       <Subhead>Synonym List</Subhead>

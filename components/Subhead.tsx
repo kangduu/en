@@ -10,7 +10,7 @@ export default function Subhead({
   className,
 }: PropsWithChildren<SubheadProps>) {
   return (
-    <div className={cn("flex items-center mt-2 mb-4", className)}>
+    <div className={cn("flex items-center my-4", className)}>
       <div className="w-1 h-4 mr-2 bg-blue-200 rounded-xs"></div>
       <h2 className="m-0 leading-none uppercase text-blue-500">{children}</h2>
     </div>
