@@ -29,8 +29,8 @@ export default function ComparisonTable({ words, data }: ComparisonTableProps) {
   }, [data]);
 
   return (
-    <Table className="mt-4">
-      <TableCaption>Comparison Table</TableCaption>
+    <Table>
+      {/* <TableCaption>Comparison Table</TableCaption> */}
       <TableHeader>
         <TableRow>
           {header.map((name: string) => {
