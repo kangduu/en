@@ -9,6 +9,8 @@ interface WordProps {
 }
 
 export default async function Word({ params }: WordProps) {
+  console.log(123);
+  console.log(params);
   const { filename } = await params;
   const synonymous = await readSynonymDirFile(filename);
 
