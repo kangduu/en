@@ -1,7 +1,7 @@
 "use client";
 
 import { LexicalComp, Phonetic } from "../components";
-import { Subhead } from "../components/ui";
+import Subhead from "@/components/Subhead";
 
 export default function Home() {
   return (

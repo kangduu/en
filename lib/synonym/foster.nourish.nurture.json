@@ -1,0 +1,100 @@
+{
+  "words": ["foster", "nourish", "nurture"],
+  "explanation": {
+    "overview": "这些动词都涉及'培养'或'促进发展'的概念，但侧重点和适用对象有所不同。",
+    "details": [
+      {
+        "word": "foster",
+        "meaning": "促进发展或增长（通常指抽象事物如关系、能力等），或指代养育儿",
+        "example": "The program fosters creativity in children.（这个项目培养孩子的创造力。）"
+      },
+      {
+        "word": "nourish",
+        "meaning": "提供营养使生长，既可用于生理成长也可用于精神滋养",
+        "example": "The soil nourishes the plants.（土壤滋养植物。）"
+      },
+      {
+        "word": "nurture",
+        "meaning": "通过关爱和教育培养发展，强调长期细致的培育过程",
+        "example": "She nurtured his musical talent from an early age.（她从小培养他的音乐才能。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "主要对象",
+      "foster": "关系、能力、环境等抽象概念",
+      "nourish": "生物体或精神层面的滋养",
+      "nurture": "人才、关系、技能等需要长期培养的事物"
+    },
+    {
+      "aspect": "使用场景",
+      "foster": "政策、项目、社会组织等正式语境",
+      "nourish": "生理成长或精神滋养",
+      "nurture": "教育、育儿、人才培养"
+    },
+    {
+      "aspect": "情感色彩",
+      "foster": "中性偏正式",
+      "nourish": "积极正面（尤指营养）",
+      "nurture": "温暖关怀"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "教育领域",
+      "foster": "The school fosters a love of learning.（学校培养对学习的热爱。）",
+      "nourish": "Good books nourish the mind.（好书滋养心灵。）",
+      "nurture": "Teachers nurture students' potential.（老师培育学生的潜能。）"
+    },
+    {
+      "scene": "家庭育儿",
+      "foster": "They decided to foster a child.（他们决定收养一个孩子。）",
+      "nourish": "Breast milk nourishes babies.（母乳滋养婴儿。）",
+      "nurture": "Parents nurture their children with love.（父母用爱养育孩子。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The fertilizer nurtures the crops.",
+      "correction": "✅ The fertilizer nourishes the crops.（肥料滋养作物应用nourish）"
+    },
+    {
+      "error": "❌ We need to nourish better international relations.",
+      "correction": "✅ We need to foster better international relations.（培养国际关系用foster）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The mentor ___ the young artist's career.",
+      "options": ["A. fostered", "B. nourished", "C. nurtured"],
+      "answer": "C",
+      "explanation": "导师长期培养用nurture"
+    },
+    {
+      "question": "哪个词最适合描述植物生长？",
+      "options": ["A. foster", "B. nourish", "C. nurture"],
+      "answer": "B",
+      "explanation": "植物获得营养用nourish"
+    },
+    {
+      "question": "填空：This program aims to ___ innovation in tech startups.",
+      "options": ["A. foster", "B. nourish", "C. nurture"],
+      "answer": "A",
+      "explanation": "项目促进创新用foster"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "cultivate（培养，耕作）",
+      "promote（促进）",
+      "sustain（维持）",
+      "rear（抚养）"
+    ],
+    "special_cases": {
+      "foster_parent": "养父母",
+      "nourishing_food": "营养食品",
+      "nature_vs_nurture": "先天与后天（心理学经典议题）"
+    }
+  }
+}

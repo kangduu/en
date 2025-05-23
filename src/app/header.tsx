@@ -128,9 +128,10 @@ function NavMenu() {
               ) : (
                 <Link href={url} passHref>
                   <NavigationMenuLink
+                    asChild
                     className={cn(navigationMenuTriggerStyle())}
                   >
-                    {title}
+                    <span>{title}</span>
                   </NavigationMenuLink>
                 </Link>
               )}

@@ -1,0 +1,95 @@
+{
+  "words": ["worthless", "useless", "valueless"],
+  "explanation": {
+    "overview": "这三个词都表示‘没有价值’，但侧重点和使用场景有所不同。",
+    "details": [
+      {
+        "word": "worthless",
+        "meaning": "指完全没有价值或重要性，可能曾经有价值但现在已经失去",
+        "example": "The old coins turned out to be worthless.（这些旧硬币原来一文不值。）"
+      },
+      {
+        "word": "useless",
+        "meaning": "指没有实用价值或不起作用，强调无法达到预期目的",
+        "example": "This broken umbrella is useless in the rain.（这把坏掉的伞下雨天毫无用处。）"
+      },
+      {
+        "word": "valueless",
+        "meaning": "指没有金钱或物质价值，较为正式，常用于商业或技术语境",
+        "example": "The laboratory declared the samples valueless.（实验室宣布这些样本没有价值。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "价值类型",
+      "worthless": "全面无价值（经济/情感/实用）",
+      "useless": "无使用价值",
+      "valueless": "无经济/物质价值"
+    },
+    {
+      "aspect": "情感色彩",
+      "worthless": "可能带有贬义或失望情绪",
+      "useless": "中性偏负面",
+      "valueless": "最中性正式"
+    },
+    {
+      "aspect": "典型场景",
+      "worthless": "废弃物品、失败作品",
+      "useless": "工具失效、建议不实用",
+      "valueless": "商业评估、科学分析"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "整理旧物",
+      "worthless": "Don't keep those worthless receipts.（别留着那些没用的收据。）",
+      "useless": "This expired coupon is useless.（这张过期的优惠券没用了。）",
+      "valueless": "The jeweler said my necklace was valueless.（珠宝商说我的项链不值钱。）"
+    },
+    {
+      "scene": "工作反馈",
+      "worthless": "He felt his efforts were worthless.（他觉得自己的努力毫无价值。）",
+      "useless": "Without the manual, the device is useless.（没有说明书，这个设备没法用。）",
+      "valueless": "The market research proved valueless.（市场调研被证明没有价值。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ This valueless pen won't write.",
+      "correction": "✅ This useless pen won't write.（无法书写应使用useless）"
+    },
+    {
+      "error": "❌ The advice was worthless to me.",
+      "correction": "✅ The advice was useless to me.（建议不实用用useless更准确）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：After the fire, all my documents became ___.",
+      "options": ["A. worthless", "B. useless", "C. valueless"],
+      "answer": "A",
+      "explanation": "强调完全失去价值（包括情感价值）用worthless"
+    },
+    {
+      "question": "哪个词最适合描述无法开瓶的起子？",
+      "options": ["A. worthless", "B. useless", "C. valueless"],
+      "answer": "B",
+      "explanation": "工具失效用useless"
+    },
+    {
+      "question": "填空：The auction house confirmed the painting was ___.",
+      "options": ["A. worthless", "B. useless", "C. valueless"],
+      "answer": "C",
+      "explanation": "专业鉴定无经济价值用valueless"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "pointless（无意义的）",
+      "futile（徒劳的）",
+      "ineffective（无效的）"
+    ],
+    "memory_tip": "联想记忆：worth-less（无价值），use-less（不能用），value-less（不值钱）"
+  }
+}

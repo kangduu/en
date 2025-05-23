@@ -3,8 +3,8 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Card, Spin, GridLayout } from "./ui";
-import { hexToRgb } from "../utils";
 import { GetReposLabels } from "../requests";
+import { hexToRgb } from "@/lib/utils";
 
 interface LabelType {
   id: number;
