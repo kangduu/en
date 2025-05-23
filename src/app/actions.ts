@@ -1,7 +1,12 @@
-// app/actions.ts
 "use server";
+import { unstable_cache } from "next/cache";
 
-import { readSynonymDirFile } from "@/lib/synonym";
-export async function getSynonyms(filename: string) {
-  return readSynonymDirFile(filename);
-}
+export const getSynonyms = unstable_cache(async function (filename: string) {
+  try {
+    const data = await import(`@/lib/synonym/${filename}.json`);
+    return data.default;
+  } catch (error) {
+    console.log(error);
+    return null;
+  }
+});
