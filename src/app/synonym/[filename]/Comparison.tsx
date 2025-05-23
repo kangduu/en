@@ -30,7 +30,7 @@ export default function ComparisonTable({ words, data }: ComparisonTableProps) {
 
   return (
     <Table>
-      {/* <TableCaption>Comparison Table</TableCaption> */}
+      <TableCaption>Comparison Table</TableCaption>
       <TableHeader>
         <TableRow>
           {header.map((name: string) => {
