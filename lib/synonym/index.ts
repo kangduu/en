@@ -1,6 +1,9 @@
 import fs from "fs";
+import path from "path";
 
-const DirName = "./lib/synonym";
+function setDir() {
+  return path.join(process.cwd(), "lib", "synonym");
+}
 
 /**
  * read synonym directory json file list
@@ -9,7 +12,7 @@ const DirName = "./lib/synonym";
 export function readSynonymDir(): Promise<string[]> {
   return new Promise<string[]>((resolve, reject) => {
     try {
-      const files: string[] = fs.readdirSync(DirName, "utf8");
+      const files: string[] = fs.readdirSync(setDir(), "utf8");
       const dir: string[] = files
         .filter((filename) => /\.json$/.test(filename))
         .map((filename) => filename.replace(".json", ""));
@@ -67,15 +70,19 @@ export interface Synonym {
 /**
  * read synonym directory file target
  * @param filename  file name
- * @returns { Promise<Synonym | null>}
+ * @returns { Promise<Synonym | null | unknown>}
  */
-export function readSynonymDirFile(filename: string): Promise<Synonym | null> {
+export function readSynonymDirFile(
+  filename: string
+): Promise<Synonym | null | unknown> {
   try {
-    const data = fs.readFileSync(`${DirName}/${filename}.json`, "utf8");
+    // 定义明确的目录路径
+    const DirName = setDir();
+    const filePath = path.join(DirName, `${filename}.json`);
+    const data = fs.readFileSync(filePath, "utf8");
     return JSON.parse(data);
   } catch (error) {
-    console.log(error);
-    return Promise.resolve(null);
+    return Promise.resolve(error);
   }
 }
 
@@ -99,7 +106,9 @@ export default function readSynonymDirFiles(): Promise<SynonymousData> {
     for (let i = 0; i < files.length; i++) {
       try {
         const filename = files[i];
-        const data = fs.readFileSync(`${DirName}/${filename}.json`, "utf8");
+        const DirName = setDir();
+        const filePath = path.join(DirName, `${filename}.json`);
+        const data = fs.readFileSync(filePath, "utf8");
         content[filename] = {
           filename,
           data: JSON.parse(data),

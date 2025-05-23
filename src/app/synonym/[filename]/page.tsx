@@ -1,6 +1,6 @@
 import React from "react";
 import GoBack from "@/src/components/GoBack";
-import { readSynonymDirFile } from "@/lib/synonym";
+import { readSynonymDirFile, type Synonym } from "@/lib/synonym";
 import ComparisonTable from "./Comparison";
 import ExplanationList from "./Explanation";
 
@@ -12,9 +12,9 @@ export default async function Word({ params }: WordProps) {
   const { filename } = await params;
   const synonymous = await readSynonymDirFile(filename);
 
-  if (!synonymous) return "123"; // todo Empty
+  if (!synonymous) return (synonymous as Record<string, unknown>).toString(); // todo Empty
 
-  const { words, explanation, comparison_table } = synonymous;
+  const { words, explanation, comparison_table } = synonymous as Synonym;
 
   // todo life_examples、common_errors、mini_test、additional_notes
   return (
