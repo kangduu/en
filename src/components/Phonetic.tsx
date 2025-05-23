@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { vowels, consonants } from "@/lib/phonetic.json";
+import phonetic from "@/lib/phonetic.json";
 import { toast } from "sonner";
 import {
   Card,
@@ -77,6 +77,7 @@ function RenderList(data: DataType) {
 }
 
 export default function Phonetic() {
+  const { vowels, consonants } = phonetic;
   return (
     <Tabs defaultValue="vowels">
       <TabsList className="mx-auto w-full md:w-[40%]">

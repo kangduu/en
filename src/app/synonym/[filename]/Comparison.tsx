@@ -9,7 +9,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import type { Synonym } from "@/lib/synonym";
+import type { Synonym } from "@/lib/actions";
 import React, { useMemo } from "react";
 
 interface ComparisonTableProps {

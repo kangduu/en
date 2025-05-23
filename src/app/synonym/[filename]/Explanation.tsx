@@ -1,5 +1,4 @@
 import React from "react";
-import type { Synonym } from "@/lib/synonym";
 import {
   Card,
   CardContent,
@@ -7,6 +6,7 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import List from "@/components/List";
+import type { Synonym } from "@/lib/actions";
 
 interface ExplanationProps {
   explanation: Synonym["explanation"];
