@@ -9,14 +9,15 @@ interface WordProps {
 }
 
 export default async function Word({ params }: WordProps) {
-  console.log(123);
-  console.log(params);
+  alert(0);
   const { filename } = await params;
   const synonymous = await readSynonymDirFile(filename);
 
-  console.log(filename, synonymous);
+  alert(123);
 
   if (!synonymous) return null; // todo Empty
+
+  alert(345);
 
   const { words, explanation, comparison_table } = synonymous;
 
