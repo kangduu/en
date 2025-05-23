@@ -1,10 +1,10 @@
-import { readSynonymDir } from "@/lib/synonym";
 import Subhead from "@/components/Subhead";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { getSynonymDir } from "@/lib/actions";
 
 export default async function Lexical() {
-  const wordFiles = await readSynonymDir();
+  const wordFiles = await getSynonymDir();
   return (
     <>
       <Subhead>Synonym List</Subhead>
