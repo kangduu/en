@@ -43,7 +43,7 @@ export default function ComparisonTable({ words, data }: ComparisonTableProps) {
           <TableRow key={word}>
             <TableCell>{word}</TableCell>
             {data.map((record) => (
-              <TableCell key={word}>{record[word]}</TableCell>
+              <TableCell key={record.aspect}>{record[word]}</TableCell>
             ))}
           </TableRow>
         ))}
