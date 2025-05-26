@@ -1,5 +1,12 @@
+import List from "@/components/List";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
 import type { Synonym } from "@/lib/actions";
+import { matchSentence } from "@/lib/utils";
 import React from "react";
 interface LifeExamplesProps {
   examples: Synonym["life_examples"];
@@ -7,20 +14,45 @@ interface LifeExamplesProps {
 export default function LifeExamples({ examples }: LifeExamplesProps) {
   return (
     <Card>
-      <CardHeader>
-        <CardTitle>Life Examples</CardTitle>
-      </CardHeader>
       <CardContent>
         {examples.map(({ scene, ...rest }) => {
           return (
             <div key={scene}>
-              <div className="font-medium">{scene}</div>
+              <div className="font-medium mb-4">{scene}</div>
               {Object.keys(rest).map((key) => {
+                const sentence = rest[key];
+                const { english, translate } = matchSentence(sentence);
+                const included = english.includes(key);
                 return (
-                  <div key={key} className="mb-2">
-                    <span className="text-muted-foreground mr-4">{key}</span>
-                    <span>{rest[key]}</span>
-                  </div>
+                  <List
+                    key={key}
+                    title={
+                      <Popover>
+                        <PopoverTrigger className="text-left">
+                          {included ? (
+                            english.split(key).map((part, index) => (
+                              <React.Fragment key={index}>
+                                {part}
+                                {index < english.split(key).length - 1 && (
+                                  <span className="text-blue-400">{key}</span>
+                                )}
+                              </React.Fragment>
+                            ))
+                          ) : (
+                            <span>{english}</span>
+                          )}
+
+                          {!included && (
+                            <span className="text-blue-400">（{key}）</span>
+                          )}
+                        </PopoverTrigger>
+                        <PopoverContent>
+                          <span>{translate}</span>
+                        </PopoverContent>
+                      </Popover>
+                    }
+                    className="mb-4"
+                  />
                 );
               })}
             </div>
