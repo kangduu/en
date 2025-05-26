@@ -8,6 +8,7 @@ import {
 import type { Synonym } from "@/lib/actions";
 import { matchSentence } from "@/lib/utils";
 import React from "react";
+import RenderTitle from "./RenderTitle";
 interface LifeExamplesProps {
   examples: Synonym["life_examples"];
 }
@@ -18,7 +19,7 @@ export default function LifeExamples({ examples }: LifeExamplesProps) {
         {examples.map(({ scene, ...rest }) => {
           return (
             <div key={scene}>
-              <div className="font-medium mb-4">{scene}</div>
+              <RenderTitle>{scene}</RenderTitle>
               {Object.keys(rest).map((key) => {
                 const sentence = rest[key];
                 const { english, translate } = matchSentence(sentence);
