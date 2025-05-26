@@ -1,6 +1,5 @@
 import type { Synonym } from "@/lib/actions";
 import React from "react";
-import RenderTitle from "./RenderTitle";
 import { Separator } from "@/components/ui/separator";
 interface CommonErrorsProps {
   errors: Synonym["common_errors"];
@@ -8,8 +7,7 @@ interface CommonErrorsProps {
 export default function CommonErrors({ errors }: CommonErrorsProps) {
   return (
     <>
-      <RenderTitle className="mt-6 text-center">Common Errors</RenderTitle>
-      <Separator />
+      <Separator title="Common Errors" className="mt-8" />
       {errors.length > 0 ? (
         errors.map(({ error, correction }, index) => (
           <div key={index} className="my-4">

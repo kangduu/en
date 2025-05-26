@@ -10,7 +10,6 @@ import {
 } from "@/components/ui/table";
 import type { Synonym } from "@/lib/actions";
 import React, { useMemo } from "react";
-import RenderTitle from "./RenderTitle";
 import { Separator } from "@/components/ui/separator";
 
 interface ComparisonTableProps {
@@ -31,8 +30,7 @@ export default function ComparisonTable({ words, data }: ComparisonTableProps) {
 
   return (
     <>
-      <RenderTitle className="mt-6 text-center">Comparison Table</RenderTitle>
-      <Separator />
+      <Separator title="Comparison Table" className="mt-8" />
       <Table>
         <TableHeader>
           <TableRow>
