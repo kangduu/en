@@ -1,5 +1,5 @@
 import List from "@/components/List";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import {
   Popover,
   PopoverContent,
@@ -13,7 +13,7 @@ interface LifeExamplesProps {
 }
 export default function LifeExamples({ examples }: LifeExamplesProps) {
   return (
-    <Card>
+    <Card className="flex-1">
       <CardContent>
         {examples.map(({ scene, ...rest }) => {
           return (
