@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Separator } from "@/components/ui/separator";
+// import { Separator } from "@/components/ui/separator";
 import type { Synonym } from "@/lib/actions";
 
 function RenderTest({
@@ -65,10 +65,9 @@ interface MiniTestProps {
   tests: Synonym["mini_test"];
 }
 export default function MiniTest({ tests }: MiniTestProps) {
-  console.log(tests);
   return (
     <>
-      <Separator title="Mini Test" className="mt-8" />
+      {/* <Separator title="Mini Test" className="mt-8" /> */}
       {tests.length > 0 ? (
         <div className="flex flex-col gap-4">
           {tests.map((test, index) => (

@@ -6,6 +6,7 @@ import { getSynonyms } from "@/lib/actions";
 import LifeExamples from "./LifeExamples";
 import CommonErrors from "./CommonErrors";
 import MiniTest from "./MiniTest";
+import Additional from "./Additional";
 
 interface WordProps {
   params: Promise<{ filename: string }>;
@@ -47,6 +48,9 @@ export default async function Word({ params }: WordProps) {
 
       {/* tests */}
       <MiniTest tests={mini_test} />
+
+      {/* additional notes */}
+      <Additional notes={rest.additional_notes} />
     </>
   );
 }
