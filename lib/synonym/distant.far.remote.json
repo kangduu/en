@@ -1,0 +1,100 @@
+{
+  "words": ["distant", "far", "remote"],
+  "explanation": {
+    "overview": "这些形容词都表示'距离远的'，但在使用范围和含义侧重上有所不同。",
+    "details": [
+      {
+        "word": "distant",
+        "meaning": "指空间或时间上相隔很远，也可指人际关系疏远",
+        "example": "We could see the distant mountains.（我们可以看到远处的群山。）"
+      },
+      {
+        "word": "far",
+        "meaning": "最通用的词，指空间、时间或程度上的远距离",
+        "example": "The supermarket is not far from here.（超市离这儿不远。）"
+      },
+      {
+        "word": "remote",
+        "meaning": "指地理位置偏远、难以到达，也可指可能性很小",
+        "example": "They live in a remote village.（他们住在一个偏远的村庄。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "主要用法",
+      "distant": "空间距离/时间距离/情感距离",
+      "far": "通用（空间/时间/程度）",
+      "remote": "地理位置/可能性"
+    },
+    {
+      "aspect": "使用频率",
+      "distant": "中等，较正式",
+      "far": "最高，口语和书面都常用",
+      "remote": "中等，特定语境"
+    },
+    {
+      "aspect": "搭配范围",
+      "distant": "distant relative（远亲）, distant future（遥远的未来）",
+      "far": "far away（很远）, far better（好得多）",
+      "remote": "remote area（偏远地区）, remote chance（微小的可能性）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "旅行计划",
+      "distant": "The distant island looked beautiful from the plane.（从飞机上看，那座遥远的岛屿很美。）",
+      "far": "Is the train station far from your house?（火车站离你家远吗？）",
+      "remote": "The tour includes visits to remote tribes.（这次旅行包括探访偏远部落。）"
+    },
+    {
+      "scene": "人际关系",
+      "distant": "He became distant after the argument.（争吵后他变得疏远。）",
+      "far": "Her opinion is far from mine.（她的观点与我的大相径庭。）",
+      "remote": "(不常用于人际关系)"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ This is a far possibility.",
+      "correction": "✅ This is a remote possibility.（表示可能性小用remote）"
+    },
+    {
+      "error": "❌ She has a remote cousin in Canada.",
+      "correction": "✅ She has a distant cousin in Canada.（远亲用distant）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The ___ control didn't work because the batteries were dead.",
+      "options": ["A. distant", "B. far", "C. remote"],
+      "answer": "C",
+      "explanation": "遥控器固定用remote control"
+    },
+    {
+      "question": "哪个词最适合描述人际关系的疏远？",
+      "options": ["A. distant", "B. far", "C. remote"],
+      "answer": "A",
+      "explanation": "人际关系疏远用distant"
+    },
+    {
+      "question": "填空：There's a ___ chance of rain tomorrow.",
+      "options": ["A. distant", "B. far", "C. remote"],
+      "answer": "C",
+      "explanation": "可能性小用remote"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "faraway（遥远的，文学用语）",
+      "isolated（孤立的）",
+      "inaccessible（难以到达的）",
+      "aloof（冷淡的，指人际关系）"
+    ],
+    "special_cases": {
+      "far_usage": "far作副词更常见（如go far），作形容词多用于疑问句和否定句",
+      "distant_metaphorical": "可比喻用法（distant memory遥远的记忆）",
+      "remote_technology": "也指远程的（remote work远程工作）"
+    }
+  }
+}

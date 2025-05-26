@@ -7,6 +7,12 @@ import {
 } from "@/components/ui/card";
 import List from "@/components/List";
 import type { Synonym } from "@/lib/actions";
+import { matchSentence } from "@/lib/utils";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
 
 interface ExplanationProps {
   explanation: Synonym["explanation"];
@@ -14,16 +20,26 @@ interface ExplanationProps {
 export default function ExplanationList({ explanation }: ExplanationProps) {
   const { overview, details } = explanation || {};
   return (
-    <Card>
+    <Card className="flex-1">
       <CardHeader>
         <CardDescription>{overview}</CardDescription>
       </CardHeader>
       <CardContent>
-        {details?.map(({ word, meaning, example }) => (
-          <List key={word} title={word} description={meaning}>
-            {example}
-          </List>
-        ))}
+        {details?.map(({ word, meaning, example }) => {
+          const { english, translate } = matchSentence(example);
+          return (
+            <List key={word} title={word} description={meaning}>
+              <Popover>
+                <PopoverTrigger className="text-left">
+                  <span>{english}</span>
+                </PopoverTrigger>
+                <PopoverContent>
+                  <span>{translate}</span>
+                </PopoverContent>
+              </Popover>
+            </List>
+          );
+        })}
       </CardContent>
     </Card>
   );

@@ -17,3 +17,24 @@ export function hexToRgb(hex: string, alpha: number = 0.7): string {
   const [r, g, b] = match.map((x) => parseInt(x, 16));
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
+
+type MatchSentenceReturn = {
+  translate: string;
+  english: string;
+};
+
+/**
+ * 使用正则表达式匹配英文和中文部分
+ * @param sentence
+ * @returns {MatchSentenceReturn}
+ */
+export function matchSentence(sentence: string): MatchSentenceReturn {
+  try {
+    const regex = /^([^（]+)（([^）]+)）/;
+    const match = sentence.match(regex);
+    return { english: match?.[1] || "", translate: match?.[2] || "" };
+  } catch (error) {
+    console.log(error);
+    return { english: "", translate: "" };
+  }
+}

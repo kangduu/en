@@ -65,7 +65,10 @@ export interface Synonym {
   }[];
   additional_notes: {
     extended_words: string[];
-    [key: string]: unknown;
+    [key: string]:
+      | Record<string, string | number | boolean>
+      | string[]
+      | string;
   };
 }
 
