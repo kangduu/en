@@ -62,6 +62,10 @@
     {
       "error": "❌ The advice was worthless to me.",
       "correction": "✅ The advice was useless to me.（建议不实用用useless更准确）"
+    },
+    {
+      "error": "❌ The painting is worthless in the market.",
+      "correction": "✅ The painting is valueless in the market.（市场评估用valueless）"
     }
   ],
   "mini_test": [

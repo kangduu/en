@@ -62,6 +62,10 @@
     {
       "error": "❌ She saw the picture for 10 minutes.",
       "correction": "✅ She looked at/watched the picture for 10 minutes.（see不能接时间段）"
+    },
+    {
+      "error": "❌ He is seeing at the stars.",
+      "correction": "✅ He is looking at the stars.（look需接at）"
     }
   ],
   "mini_test": [

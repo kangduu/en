@@ -62,6 +62,14 @@
     {
       "error": "❌ We need to nourish better international relations.",
       "correction": "✅ We need to foster better international relations.（培养国际关系用foster）"
+    },
+    {
+      "error": "❌ She fostered his talent with care.",
+      "correction": "✅ She nurtured his talent with care.（培养才能用nurture）"
+    },
+    {
+      "error": "❌ The garden nourishes the flowers.",
+      "correction": "✅ The garden nurtures the flowers.（花园培育花朵用nurture）"
     }
   ],
   "mini_test": [
@@ -82,6 +90,18 @@
       "options": ["A. foster", "B. nourish", "C. nurture"],
       "answer": "A",
       "explanation": "项目促进创新用foster"
+    },
+    {
+      "question": "选择最合适的词：Parents should ___ their children's emotional health.",
+      "options": ["A. foster", "B. nourish", "C. nurture"],
+      "answer": "C",
+      "explanation": "父母关爱孩子的情感健康用nurture"
+    },
+    {
+      "question": "哪个词可以描述养育孩子？",
+      "options": ["A. foster", "B. nourish", "C. nurture"],
+      "answer": "A",
+      "explanation": "养育孩子用foster"
     }
   ],
   "additional_notes": {

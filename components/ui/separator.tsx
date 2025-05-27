@@ -26,7 +26,7 @@ function Separator({
       {...props}
     >
       {title && (
-        <div className="bg-[var(--background)] font-medium px-2 leading-none">
+        <div className="bg-[var(--background)] font-medium px-2 leading-none text-blue-400">
           {title}
         </div>
       )}
