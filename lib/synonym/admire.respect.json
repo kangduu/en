@@ -1,0 +1,89 @@
+{
+  "words": ["admire", "respect"],
+  "explanation": {
+    "overview": "这两个动词都表示对他人积极的看法，但在情感深度和侧重方面有所不同。",
+    "details": [
+      {
+        "word": "admire",
+        "meaning": "因某人特质或成就而产生强烈的欣赏和赞美",
+        "example": "I admire her courage to speak up.（我钦佩她敢于直言。）"
+      },
+      {
+        "word": "respect",
+        "meaning": "因某人品质、地位或成就而给予的尊敬和重视",
+        "example": "Students should respect their teachers.（学生应该尊敬老师。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "情感强度",
+      "admire": "更热情、更个人化",
+      "respect": "更理性、更正式"
+    },
+    {
+      "aspect": "产生原因",
+      "admire": "因才华、成就、外貌等",
+      "respect": "因品德、地位、专业等"
+    },
+    {
+      "aspect": "关系方向",
+      "admire": "可以单向（如崇拜名人）",
+      "respect": "通常双向或对上的"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "工作场合",
+      "admire": "We all admire his innovative ideas.（我们都钦佩他的创新想法。）",
+      "respect": "The team respects the manager's experience.（团队尊重经理的经验。）"
+    },
+    {
+      "scene": "日常生活",
+      "admire": "Many young girls admire the pop star.（许多年轻女孩崇拜那位流行歌星。）",
+      "respect": "Children should respect their parents.（孩子应该尊重父母。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I respect her beautiful voice.",
+      "correction": "✅ I admire her beautiful voice.（欣赏才华用admire）"
+    },
+    {
+      "error": "❌ We should admire the law.",
+      "correction": "✅ We should respect the law.（对规则、法律用respect）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：___ your elders.",
+      "options": ["A. Admire", "B. Respect"],
+      "answer": "B",
+      "explanation": "尊敬长辈用respect"
+    },
+    {
+      "question": "哪个词更适合描述对艺术家的感受？",
+      "options": ["A. admire", "B. respect"],
+      "answer": "A",
+      "explanation": "欣赏艺术才华用admire更贴切"
+    },
+    {
+      "question": "填空：I ___ the way he handled the difficult situation.",
+      "options": ["A. admire", "B. respect"],
+      "answer": "A",
+      "explanation": "欣赏处理方式用admire"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "look up to（敬仰）",
+      "esteem（高度尊重）",
+      "adore（爱慕）",
+      "honor（尊敬，更正式）"
+    ],
+    "special_cases": {
+      "mutual_respect": "相互尊重（mutual respect）",
+      "secret_admiration": "暗自欣赏（secret admiration）"
+    }
+  }
+}

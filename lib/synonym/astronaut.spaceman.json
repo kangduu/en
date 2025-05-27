@@ -1,0 +1,93 @@
+{
+  "words": ["astronaut", "spaceman"],
+  "explanation": {
+    "overview": "这两个词都指'宇航员'，但在使用场合和正式程度上有所不同。",
+    "details": [
+      {
+        "word": "astronaut",
+        "meaning": "专业术语，指经过专业训练的宇航员，尤指美国或西方国家宇航员",
+        "example": "The astronaut conducted experiments on the space station.（宇航员在空间站上进行了实验。）"
+      },
+      {
+        "word": "spaceman",
+        "meaning": "非正式用语，口语化表达，也可指科幻作品中的太空人",
+        "example": "Children dressed up as spacemen for the school play.（孩子们在校剧中装扮成太空人。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "正式程度",
+      "astronaut": "正式专业术语",
+      "spaceman": "非正式口语"
+    },
+    {
+      "aspect": "使用场景",
+      "astronaut": "新闻报道、科技文献",
+      "spaceman": "日常对话、儿童读物"
+    },
+    {
+      "aspect": "文化背景",
+      "astronaut": "西方宇航员专用",
+      "spaceman": "通用，含科幻色彩"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "新闻报道",
+      "astronaut": "NASA announced the selection of new astronauts.（NASA宣布了新宇航员的选拔结果。）",
+      "spaceman": "(不适用于正式报道)"
+    },
+    {
+      "scene": "儿童活动",
+      "astronaut": "The children met a real astronaut.（孩子们见到了一位真正的宇航员。）",
+      "spaceman": "The kids pretended to be spacemen exploring Mars.（孩子们假装是探索火星的太空人。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The spaceman will walk on the moon tomorrow.",
+      "correction": "✅ The astronaut will walk on the moon tomorrow.（正式报道用astronaut）"
+    },
+    {
+      "error": "❌ My son wants to be an astronaut in the cartoon.",
+      "correction": "✅ My son wants to be a spaceman in the cartoon.（卡通角色用spaceman）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：NASA trained the ___ for five years.",
+      "options": ["A. astronaut", "B. spaceman"],
+      "answer": "A",
+      "explanation": "专业机构培训用astronaut"
+    },
+    {
+      "question": "哪个词更适合儿童玩具？",
+      "options": ["A. astronaut doll", "B. spaceman toy"],
+      "answer": "B",
+      "explanation": "儿童玩具常用spaceman"
+    },
+    {
+      "question": "填空：The ___ from the sci-fi movie wore a silver suit.",
+      "options": ["A. astronaut", "B. spaceman"],
+      "answer": "B",
+      "explanation": "科幻角色用spaceman"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "cosmonaut（俄罗斯宇航员）",
+      "taikonaut（中国宇航员）",
+      "space traveler（太空旅行者）",
+      "space explorer（太空探索者）"
+    ],
+    "special_cases": {
+      "country_specific": {
+        "astronaut": "美国等西方国家",
+        "cosmonaut": "俄罗斯",
+        "taikonaut": "中国"
+      },
+      "pop_culture": "Spaceman也是流行文化常用元素（如歌曲名、漫画角色等）"
+    }
+  }
+}

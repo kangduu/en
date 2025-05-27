@@ -1,0 +1,120 @@
+{
+  "words": ["pity", "mercy", "regret", "sympathy", "ruth"],
+  "explanation": {
+    "overview": "这些名词都与'同情'或'怜悯'相关，但在情感色彩和使用场景上有所不同。",
+    "details": [
+      {
+        "word": "pity",
+        "meaning": "对他人不幸的同情，有时带有居高临下的意味",
+        "example": "I felt pity for the homeless man.（我对那个无家可归的人感到同情。）"
+      },
+      {
+        "word": "mercy",
+        "meaning": "仁慈、宽恕，尤指强者对弱者的宽容",
+        "example": "The judge showed mercy to the first-time offender.（法官对初犯者展现了仁慈。）"
+      },
+      {
+        "word": "regret",
+        "meaning": "遗憾、懊悔，对自己行为的后悔",
+        "example": "He expressed deep regret for his actions.（他对自己的行为表示深深懊悔。）"
+      },
+      {
+        "word": "sympathy",
+        "meaning": "感同身受的理解和关心，比pity更平等",
+        "example": "She showed great sympathy for my situation.（她对我的处境表示了极大同情。）"
+      },
+      {
+        "word": "ruth",
+        "meaning": "古语，表示怜悯或同情，现代英语中极少使用",
+        "example": "The old poem spoke of the warrior's ruth.（古老的诗歌讲述了战士的怜悯。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "情感指向",
+      "pity": "对他人的同情",
+      "mercy": "宽容与宽恕",
+      "regret": "自我懊悔",
+      "sympathy": "共鸣理解",
+      "ruth": "古语怜悯"
+    },
+    {
+      "aspect": "权力关系",
+      "pity": "常含不平等",
+      "mercy": "强者对弱者",
+      "regret": "不适用",
+      "sympathy": "平等",
+      "ruth": "不明确"
+    },
+    {
+      "aspect": "现代使用频率",
+      "pity": "常用",
+      "mercy": "常用",
+      "regret": "常用",
+      "sympathy": "常用",
+      "ruth": "罕见"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "他人困境",
+      "pity": "Her eyes filled with pity for the injured animal.（她看着受伤的动物，眼中充满怜悯。）",
+      "mercy": "(不适用)",
+      "regret": "(不适用)",
+      "sympathy": "I offered my sympathy for her loss.（我对她的损失表示同情。）",
+      "ruth": "(不适用)"
+    },
+    {
+      "scene": "法律情境",
+      "pity": "(不常用)",
+      "mercy": "The prisoner begged for mercy.（囚犯乞求宽恕。）",
+      "regret": "The defendant showed no regret.（被告毫无悔意。）",
+      "sympathy": "(不常用)",
+      "ruth": "(不适用)"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I take mercy on your poor grades.",
+      "correction": "✅ I take pity on your poor grades.（同情成绩用pity）"
+    },
+    {
+      "error": "❌ She felt regret for the sick child.",
+      "correction": "✅ She felt sympathy/pity for the sick child.（对他人同情用sympathy/pity）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The king showed ___ to the rebels.",
+      "options": ["A. pity", "B. mercy", "C. regret", "D. sympathy"],
+      "answer": "B",
+      "explanation": "君主宽恕用mercy"
+    },
+    {
+      "question": "哪个词表示'对自己行为的懊悔'？",
+      "options": ["A. pity", "B. mercy", "C. regret", "D. sympathy"],
+      "answer": "C",
+      "explanation": "懊悔用regret"
+    },
+    {
+      "question": "填空：She looked at the orphan with ___ in her eyes.",
+      "options": ["A. pity", "B. mercy", "C. regret", "D. sympathy"],
+      "answer": "A/D",
+      "explanation": "同情可用pity或sympathy（后者更平等）"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "compassion（怜悯）",
+      "remorse（悔恨）",
+      "leniency（宽大）",
+      "condolence（哀悼）"
+    ],
+    "special_cases": {
+      "self-pity": "自怜",
+      "at_the_mercy_of": "受...支配",
+      "sympathy_card": "慰问卡"
+    }
+  }
+}

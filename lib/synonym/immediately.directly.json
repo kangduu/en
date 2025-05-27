@@ -1,0 +1,89 @@
+{
+  "words": ["immediately", "directly"],
+  "explanation": {
+    "overview": "这两个副词都表示'立即'或'直接'的意思，但在具体用法和含义侧重上有所不同。",
+    "details": [
+      {
+        "word": "immediately",
+        "meaning": "强调时间上的立即、马上，没有延迟",
+        "example": "Please reply immediately after receiving this email.（收到这封邮件后请立即回复。）"
+      },
+      {
+        "word": "directly",
+        "meaning": "强调方式上的直接、不绕弯，或空间上的直线距离",
+        "example": "You can speak directly to the manager.（你可以直接和经理谈。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "主要含义",
+      "immediately": "时间上的立即",
+      "directly": "方式或空间上的直接"
+    },
+    {
+      "aspect": "使用场景",
+      "immediately": "紧急情况、时间要求",
+      "directly": "沟通方式、物理距离"
+    },
+    {
+      "aspect": "常见搭配",
+      "immediately": "respond immediately（立即回应）",
+      "directly": "directly responsible（直接负责）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "工作场合",
+      "immediately": "The boss wants to see you immediately.（老板要立即见你。）",
+      "directly": "Report directly to the CEO.（直接向CEO汇报。）"
+    },
+    {
+      "scene": "日常生活",
+      "immediately": "I recognized her immediately.（我立刻认出了她。）",
+      "directly": "The supermarket is directly across the street.（超市就在街对面。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ Please contact me directly after lunch.",
+      "correction": "✅ Please contact me immediately after lunch.（时间上立即用immediately）"
+    },
+    {
+      "error": "❌ The plane will arrive immediately in London.",
+      "correction": "✅ The plane will arrive directly in London.（直达用directly）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：Call an ambulance ___!",
+      "options": ["A. immediately", "B. directly"],
+      "answer": "A",
+      "explanation": "紧急情况用immediately"
+    },
+    {
+      "question": "哪个词表示'不经过中间人'？",
+      "options": ["A. immediately", "B. directly"],
+      "answer": "B",
+      "explanation": "直接联系用directly"
+    },
+    {
+      "question": "填空：The medicine should take effect ___.",
+      "options": ["A. immediately", "B. directly"],
+      "answer": "A",
+      "explanation": "立即见效用immediately"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "instantly（瞬间）",
+      "right away（马上）",
+      "straight（直接地）",
+      "promptly（及时地）"
+    ],
+    "special_cases": {
+      "directly_proportional": "成正比的",
+      "immediate_family": "直系亲属"
+    }
+  }
+}

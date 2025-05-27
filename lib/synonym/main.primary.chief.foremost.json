@@ -1,0 +1,115 @@
+{
+  "words": ["main", "primary", "foremost", "chief"],
+  "explanation": {
+    "overview": "这些形容词都表示'主要的'，但在使用场景和强调重点上有所不同。",
+    "details": [
+      {
+        "word": "main",
+        "meaning": "最通用的词，指在大小、重要性或程度上超过其他部分",
+        "example": "The main reason for my decision was financial.（我做决定的主要原因是财务方面的。）"
+      },
+      {
+        "word": "primary",
+        "meaning": "强调在时间顺序、发展或重要性上处于首位",
+        "example": "Our primary concern is patient safety.（我们最关心的是患者安全。）"
+      },
+      {
+        "word": "foremost",
+        "meaning": "指在地位、重要性或成就方面最突出，常含赞誉之意",
+        "example": "She is the foremost expert in this field.（她是这个领域最杰出的专家。）"
+      },
+      {
+        "word": "chief",
+        "meaning": "指在权威或职位上最高，或指最重要的因素",
+        "example": "The chief engineer approved the design.（总工程师批准了这个设计。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "使用频率",
+      "main": "最高",
+      "primary": "高",
+      "foremost": "中等",
+      "chief": "高"
+    },
+    {
+      "aspect": "强调重点",
+      "main": "数量或重要性上的主要部分",
+      "primary": "时间或顺序上的第一",
+      "foremost": "地位或质量上的领先",
+      "chief": "权威或等级上的最高"
+    },
+    {
+      "aspect": "常见搭配",
+      "main": "main idea（主要观点）, main course（主菜）",
+      "primary": "primary school（小学）, primary color（原色）",
+      "foremost": "foremost authority（最高权威）, foremost concern（首要关切）",
+      "chief": "chief executive（首席执行官）, chief reason（主要原因）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "工作场景",
+      "main": "The main office is located downtown.（总部办公室位于市中心。）",
+      "primary": "His primary responsibility is quality control.（他的主要职责是质量控制。）",
+      "foremost": "She is the foremost candidate for the position.（她是这个职位的第一候选人。）",
+      "chief": "The chief accountant will review the report.（首席会计师将审核报告。）"
+    },
+    {
+      "scene": "日常生活",
+      "main": "The main gate is closed after midnight.（大门午夜后关闭。）",
+      "primary": "My primary goal this year is to learn Spanish.（我今年的主要目标是学习西班牙语。）",
+      "foremost": "He is foremost among contemporary painters.（他是当代画家中最杰出的。）",
+      "chief": "The chief advantage of this method is simplicity.（这个方法的主要优点是简单。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The foremost pipe is leaking.",
+      "correction": "✅ The main pipe is leaking.（主管道用main）"
+    },
+    {
+      "error": "❌ She is the main scientist in this research.",
+      "correction": "✅ She is the chief/foremost scientist in this research.（首席/顶尖科学家用chief或foremost）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The ___ entrance is on the south side.",
+      "options": ["A. main", "B. primary", "C. foremost", "D. chief"],
+      "answer": "A",
+      "explanation": "主要入口用main"
+    },
+    {
+      "question": "哪个词最适合描述'第一考虑因素'？",
+      "options": [
+        "A. main concern",
+        "B. primary concern",
+        "C. foremost concern",
+        "D. chief concern"
+      ],
+      "answer": "B",
+      "explanation": "第一考虑用primary concern"
+    },
+    {
+      "question": "填空：As the ___ editor, she makes final decisions.",
+      "options": ["A. main", "B. primary", "C. foremost", "D. chief"],
+      "answer": "D",
+      "explanation": "最高职位用chief"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "principal（首要的）",
+      "dominant（占主导地位的）",
+      "paramount（至高无上的）",
+      "leading（领先的）"
+    ],
+    "special_cases": {
+      "chief_as_noun": "也可作名词表示'首领'（如tribal chief部落酋长）",
+      "primary_election": "初选（美国政治术语）",
+      "foremost_position": "常与'among'搭配（foremost among...）"
+    }
+  }
+}

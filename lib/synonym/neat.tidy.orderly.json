@@ -1,0 +1,100 @@
+{
+  "words": ["neat", "orderly", "tidy"],
+  "explanation": {
+    "overview": "这些形容词都描述'整洁的'状态，但在使用场景和含义侧重上有所不同。",
+    "details": [
+      {
+        "word": "neat",
+        "meaning": "指干净整齐，令人愉悦的外观，强调简洁有序",
+        "example": "She keeps her desk very neat.（她的书桌保持得很整洁。）"
+      },
+      {
+        "word": "orderly",
+        "meaning": "强调有条理、系统化的排列，常用于正式场合",
+        "example": "The files are in orderly rows.（文件排列得井井有条。）"
+      },
+      {
+        "word": "tidy",
+        "meaning": "指物品归位、没有杂乱的状态，强调整理的结果",
+        "example": "Please make your room tidy.（请把你的房间收拾整齐。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "整洁程度",
+      "neat": "简洁美观",
+      "orderly": "系统有序",
+      "tidy": "无杂乱"
+    },
+    {
+      "aspect": "使用场景",
+      "neat": "个人外表、小空间",
+      "orderly": "公共场所、系统安排",
+      "tidy": "居住环境、工作区域"
+    },
+    {
+      "aspect": "情感色彩",
+      "neat": "积极赞美",
+      "orderly": "中性正式",
+      "tidy": "实用要求"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "办公室",
+      "neat": "He always wears neat business attire.（他总是穿着整洁的职业装。）",
+      "orderly": "The documents were stored in orderly fashion.（文件被有序地存放着。）",
+      "tidy": "Keep your workspace tidy.（保持工作区域整洁。）"
+    },
+    {
+      "scene": "家庭",
+      "neat": "She made a neat stack of magazines.（她把杂志整齐地叠放起来。）",
+      "orderly": "The children lined up in orderly rows.（孩子们整齐地排成行。）",
+      "tidy": "I spent the morning making the house tidy.（我花了一上午把房子收拾整齐。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The soldiers' uniforms were tidy.",
+      "correction": "✅ The soldiers' uniforms were neat.（军装整洁用neat）"
+    },
+    {
+      "error": "❌ Please keep your books order.",
+      "correction": "✅ Please keep your books orderly.（保持有序用orderly）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The ___ arrangement of data made analysis easy.",
+      "options": ["A. neat", "B. orderly", "C. tidy"],
+      "answer": "B",
+      "explanation": "系统化排列用orderly"
+    },
+    {
+      "question": "哪个词最适合描述'简洁的解决方案'？",
+      "options": ["A. neat", "B. orderly", "C. tidy"],
+      "answer": "A",
+      "explanation": "简洁美观用neat"
+    },
+    {
+      "question": "填空：Before guests arrive, I quickly ___ up the living room.",
+      "options": ["A. neat", "B. orderly", "C. tidy"],
+      "answer": "C",
+      "explanation": "收拾整理用tidy（动词形式）"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "organized（有条理的）",
+      "trim（整齐的）",
+      "systematic（系统化的）",
+      "spick-and-span（一尘不染的）"
+    ],
+    "special_cases": {
+      "neat_as_drink": "neat也可指酒不加冰",
+      "orderly_as_noun": "orderly作名词指勤务兵",
+      "tidy_sum": "可观的金额（a tidy sum）"
+    }
+  }
+}

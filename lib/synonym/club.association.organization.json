@@ -1,0 +1,100 @@
+{
+  "words": ["club", "association", "organization"],
+  "explanation": {
+    "overview": "这些名词都指'组织'或'团体'，但在规模、正式程度和目的上有所不同。",
+    "details": [
+      {
+        "word": "club",
+        "meaning": "小型、非正式的组织，通常基于共同兴趣或活动",
+        "example": "I joined the school's photography club.（我加入了学校的摄影俱乐部。）"
+      },
+      {
+        "word": "association",
+        "meaning": "较为正式的组织，成员通常有共同职业或目标",
+        "example": "She's a member of the American Medical Association.（她是美国医学协会的成员。）"
+      },
+      {
+        "word": "organization",
+        "meaning": "最通用的术语，指任何有组织的团体，从小型到大型",
+        "example": "The charity organization helps homeless people.（这个慈善组织帮助无家可归者。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "规模",
+      "club": "小型",
+      "association": "中型到大型",
+      "organization": "各种规模"
+    },
+    {
+      "aspect": "正式程度",
+      "club": "非正式",
+      "association": "较正式",
+      "organization": "可正式可非正式"
+    },
+    {
+      "aspect": "典型目的",
+      "club": "兴趣爱好",
+      "association": "专业或共同利益",
+      "organization": "各种目的"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校活动",
+      "club": "The chess club meets every Wednesday.（国际象棋俱乐部每周三聚会。）",
+      "association": "(不常见)",
+      "organization": "The student organization plans campus events.（学生组织策划校园活动。）"
+    },
+    {
+      "scene": "专业领域",
+      "club": "(不常见)",
+      "association": "The National Education Association represents teachers.（全国教育协会代表教师。）",
+      "organization": "The World Health Organization sets global health standards.（世界卫生组织制定全球卫生标准。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I joined the basketball association at school.",
+      "correction": "✅ I joined the basketball club at school.（学校兴趣小组用club）"
+    },
+    {
+      "error": "❌ The United Nations Club promotes world peace.",
+      "correction": "✅ The United Nations Organization promotes world peace.（大型国际组织用organization）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The local gardening ___ meets monthly to exchange plants.",
+      "options": ["A. club", "B. association", "C. organization"],
+      "answer": "A",
+      "explanation": "小型兴趣团体用club"
+    },
+    {
+      "question": "哪个词最适合描述'国际商业团体'？",
+      "options": ["A. club", "B. association", "C. organization"],
+      "answer": "B",
+      "explanation": "专业协会用association"
+    },
+    {
+      "question": "填空：The Red Cross is a humanitarian ___.",
+      "options": ["A. club", "B. association", "C. organization"],
+      "answer": "C",
+      "explanation": "大型机构用organization"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "society（学会）",
+      "institution（机构）",
+      "foundation（基金会）",
+      "union（联盟）"
+    ],
+    "special_cases": {
+      "fan_club": "粉丝俱乐部",
+      "trade_association": "行业协会",
+      "nonprofit_organization": "非营利组织"
+    }
+  }
+}

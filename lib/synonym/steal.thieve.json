@@ -1,0 +1,89 @@
+{
+  "words": ["steal", "thieve"],
+  "explanation": {
+    "overview": "这两个动词都表示'偷窃'，但在使用频率和语法特征上有所不同。",
+    "details": [
+      {
+        "word": "steal",
+        "meaning": "普通常用词，指非法拿走他人财物",
+        "example": "Someone stole my wallet on the bus.（有人在公交车上偷了我的钱包。）"
+      },
+      {
+        "word": "thieve",
+        "meaning": "较古老或文学化的词，指偷窃行为，现代英语中较少单独使用",
+        "example": "The novel tells of a man who thieved to survive.（小说讲述了一个靠偷窃为生的人。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "使用频率",
+      "steal": "非常高，日常用语",
+      "thieve": "很低，文学用语"
+    },
+    {
+      "aspect": "语法特征",
+      "steal": "及物动词（steal sth）",
+      "thieve": "多作不及物动词（thieve for a living）"
+    },
+    {
+      "aspect": "派生词",
+      "steal": "stealer（偷窃者）",
+      "thieve": "thief（小偷），thievery（偷窃行为）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "日常生活",
+      "steal": "Don't leave your phone unattended or it might get stolen.（别把手机乱放，可能会被偷。）",
+      "thieve": "(几乎不使用)"
+    },
+    {
+      "scene": "文学作品",
+      "steal": "The dragon stole the princess's golden ring.（龙偷走了公主的金戒指。）",
+      "thieve": "In his youth, he had thieved and cheated to get by.（年轻时，他曾靠偷窃和欺骗为生。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He thieved my bicycle yesterday.",
+      "correction": "✅ He stole my bicycle yesterday.（具体偷窃行为用steal）"
+    },
+    {
+      "error": "❌ The steal was caught on camera.",
+      "correction": "✅ The thief was caught on camera.（小偷应用thief）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最常用的表达：Someone ___ my lunch from the office fridge.",
+      "options": ["A. stole", "B. thieved"],
+      "answer": "A",
+      "explanation": "日常偷窃行为用steal"
+    },
+    {
+      "question": "哪个名词表示'小偷'？",
+      "options": ["A. steal", "B. thief"],
+      "answer": "B",
+      "explanation": "thieve的名词形式是thief"
+    },
+    {
+      "question": "填空：In the story, the fox ___ eggs from the farm.",
+      "options": ["A. steals", "B. thieves"],
+      "answer": "A",
+      "explanation": "具体偷窃动作用steals"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "rob（抢劫）",
+      "burgle（入室盗窃）",
+      "shoplift（商店行窃）",
+      "pilfer（小偷小摸）"
+    ],
+    "special_cases": {
+      "steal_other_meanings": "也可表示'偷偷做'(steal a kiss)或'抢风头'(steal the show)",
+      "thieve_usage": "现代英语主要出现在复合词中(如thieving)"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "words": ["angry", "annoyed", "displeased", "furious", "wrathful"],
+  "explanation": {
+    "overview": "这些词都表示'生气的'，但在愤怒程度和表现形式上有所不同。",
+    "details": [
+      {
+        "word": "angry",
+        "meaning": "普通用语，表示一般的愤怒情绪",
+        "example": "She was angry when her team lost the game.（她的队伍输了比赛，她很生气。）"
+      },
+      {
+        "word": "annoyed",
+        "meaning": "因小事而感到烦躁或恼火，程度较轻",
+        "example": "I'm annoyed by the constant noise outside.（外面持续的噪音让我很烦。）"
+      },
+      {
+        "word": "displeased",
+        "meaning": "正式用语，表示不满或不悦",
+        "example": "The manager was displeased with the report.（经理对报告不满意。）"
+      },
+      {
+        "word": "furious",
+        "meaning": "极其愤怒，暴怒",
+        "example": "He was furious when he discovered the lie.（发现谎言后他勃然大怒。）"
+      },
+      {
+        "word": "wrathful",
+        "meaning": "文学用语，表示强烈的、带有惩罚性的愤怒",
+        "example": "The wrathful king ordered their execution.（愤怒的国王下令处决他们。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "愤怒程度",
+      "annoyed": "轻微",
+      "displeased": "中等",
+      "angry": "较强",
+      "furious": "非常强烈",
+      "wrathful": "极端强烈"
+    },
+    {
+      "aspect": "使用频率",
+      "annoyed": "高",
+      "displeased": "中等",
+      "angry": "最高",
+      "furious": "高",
+      "wrathful": "低"
+    },
+    {
+      "aspect": "适用场合",
+      "annoyed": "日常琐事",
+      "displeased": "正式场合",
+      "angry": "通用",
+      "furious": "严重事件",
+      "wrathful": "文学或宗教语境"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "工作场合",
+      "annoyed": "She was annoyed by her coworker's loud phone calls.（她被同事大声打电话惹烦了。）",
+      "displeased": "The client was displeased with the delayed delivery.（客户对延迟交货感到不满。）",
+      "angry": "The boss was angry about the missed deadline.（老板对错过截止日期很生气。）",
+      "furious": "He was furious when he found out about the embezzlement.（发现贪污行为后他怒不可遏。）",
+      "wrathful": "(不常见于日常工作场景)"
+    },
+    {
+      "scene": "家庭生活",
+      "annoyed": "Mom was annoyed by the messy room.（妈妈对凌乱的房间感到恼火。）",
+      "displeased": "Dad was displeased with my grades.（爸爸对我的成绩不满意。）",
+      "angry": "They were angry about the broken vase.（他们对打碎的花瓶很生气。）",
+      "furious": "She was furious when her trust was betrayed.（当信任被背叛时她暴怒。）",
+      "wrathful": "In the story, the wrathful god punished the villagers.（故事中，愤怒的神惩罚了村民。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I'm wrathful because my coffee is cold.",
+      "correction": "✅ I'm annoyed because my coffee is cold.（小事用annoyed）"
+    },
+    {
+      "error": "❌ The teacher was displeased and started shouting.",
+      "correction": "✅ The teacher was furious and started shouting.（大喊大叫应是furious）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：She was ___ by the mosquito buzzing all night.",
+      "options": ["A. angry", "B. annoyed", "C. wrathful", "D. furious"],
+      "answer": "B",
+      "explanation": "被蚊子打扰用annoyed"
+    },
+    {
+      "question": "哪个词最适合描述对背叛的反应？",
+      "options": ["A. displeased", "B. furious", "C. annoyed", "D. angry"],
+      "answer": "B",
+      "explanation": "严重背叛用furious"
+    },
+    {
+      "question": "填空：The ___ crowd demanded justice.",
+      "options": ["A. annoyed", "B. displeased", "C. angry", "D. wrathful"],
+      "answer": "D",
+      "explanation": "文学性描述用wrathful"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "irritated（被激怒的）",
+      "enraged（暴怒的）",
+      "outraged（愤慨的）",
+      "livid（狂怒的）"
+    ],
+    "special_cases": {
+      "divine_wrath": "神怒（常用wrathful）",
+      "road_rage": "路怒（常用angry或furious）",
+      "polite_displeasure": "礼貌性不满（用displeased）"
+    }
+  }
+}

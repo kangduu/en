@@ -1,0 +1,110 @@
+{
+  "words": ["journey", "travel", "trip", "tour"],
+  "explanation": {
+    "overview": "这些名词都与'旅行'相关，但在持续时间、目的和体验上有所不同。",
+    "details": [
+      {
+        "word": "journey",
+        "meaning": "指长途旅行，强调过程而非目的地，常带有情感色彩",
+        "example": "Their journey across the desert took three weeks.（他们穿越沙漠的旅程花了三周时间。）"
+      },
+      {
+        "word": "travel",
+        "meaning": "泛指旅行行为或旅行经历，常用作不可数名词",
+        "example": "International travel requires a valid passport.（国际旅行需要有效护照。）"
+      },
+      {
+        "word": "trip",
+        "meaning": "指短途旅行或往返行程，通常有明确目的地",
+        "example": "We took a weekend trip to the mountains.（我们周末去山区旅行。）"
+      },
+      {
+        "word": "tour",
+        "meaning": "指有组织的游览，通常参观多个地点，带有观光目的",
+        "example": "They went on a guided tour of the ancient ruins.（他们参加了古遗址的导游观光。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "持续时间",
+      "journey": "较长",
+      "travel": "不特定",
+      "trip": "较短",
+      "tour": "视行程而定"
+    },
+    {
+      "aspect": "主要目的",
+      "journey": "过程体验",
+      "travel": "移动行为",
+      "trip": "到达目的地",
+      "tour": "观光游览"
+    },
+    {
+      "aspect": "情感色彩",
+      "journey": "较强",
+      "travel": "中性",
+      "trip": "中性",
+      "tour": "娱乐性"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "长途旅行",
+      "journey": "The train journey from Moscow to Vladivostok is epic.（从莫斯科到符拉迪沃斯托克的火车旅程非常壮观。）",
+      "travel": "Air travel has become more affordable.（航空旅行变得更便宜了。）",
+      "trip": "(不常用)",
+      "tour": "(不常用)"
+    },
+    {
+      "scene": "假期活动",
+      "journey": "(不常用)",
+      "travel": "Travel broadens the mind.（旅行开阔眼界。）",
+      "trip": "Our family trip to Disneyland was magical.（我们全家去迪士尼的旅行很神奇。）",
+      "tour": "The wine tour included visits to five vineyards.（葡萄酒之旅包括参观五个葡萄园。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I bought souvenirs during my journey to Paris.",
+      "correction": "✅ I bought souvenirs during my trip/tour to Paris.（短途购物旅行用trip/tour）"
+    },
+    {
+      "error": "❌ The business travel was exhausting.",
+      "correction": "✅ The business trip was exhausting.（商务出差用trip）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The ___ of self-discovery changed her life.",
+      "options": ["A. journey", "B. travel", "C. trip", "D. tour"],
+      "answer": "A",
+      "explanation": "心灵旅程用journey"
+    },
+    {
+      "question": "哪个词最适合描述'为期一天的学校郊游'？",
+      "options": ["A. journey", "B. travel", "C. trip", "D. tour"],
+      "answer": "C",
+      "explanation": "短途出行用trip"
+    },
+    {
+      "question": "填空：We booked a ___ that covers all the major landmarks.",
+      "options": ["A. journey", "B. travel", "C. trip", "D. tour"],
+      "answer": "D",
+      "explanation": "有组织的观光用tour"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "voyage（航海旅行）",
+      "excursion（短途旅行）",
+      "expedition（探险）",
+      "pilgrimage（朝圣）"
+    ],
+    "special_cases": {
+      "travel_industry": "旅游业",
+      "round_trip": "往返行程",
+      "package_tour": "跟团游"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "words": ["parcel", "package"],
+  "explanation": {
+    "overview": "这两个名词都表示'包裹'，但在使用地区和具体含义上有所不同。",
+    "details": [
+      {
+        "word": "parcel",
+        "meaning": "英式英语常用，指通过邮寄或运输发送的包裹",
+        "example": "I received a parcel from my aunt in London.（我收到了伦敦阿姨寄来的包裹。）"
+      },
+      {
+        "word": "package",
+        "meaning": "美式英语常用，含义更广，可指邮寄包裹或商品包装",
+        "example": "The package arrived with damaged wrapping.（包裹送达时包装有损坏。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "使用地区",
+      "parcel": "英国及英联邦国家",
+      "package": "美国及国际通用"
+    },
+    {
+      "aspect": "含义范围",
+      "parcel": "主要指邮寄包裹",
+      "package": "包括邮寄包裹和商品包装"
+    },
+    {
+      "aspect": "其他含义",
+      "parcel": "土地的一块",
+      "package": "软件包/一揽子计划"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "邮寄服务",
+      "parcel": "Please take this parcel to the post office.（请把这个包裹送到邮局。）",
+      "package": "I need to send a package to New York.（我需要寄一个包裹到纽约。）"
+    },
+    {
+      "scene": "商品包装",
+      "parcel": "(较少使用)",
+      "package": "The product comes in an attractive package.（产品采用吸引人的包装。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The software is available in a special parcel.",
+      "correction": "✅ The software is available in a special package.（软件包用package）"
+    },
+    {
+      "error": "❌ He bought a package of land in the countryside.",
+      "correction": "✅ He bought a parcel of land in the countryside.（一块土地用parcel）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词（英国用法）：The ___ delivery service is very efficient.",
+      "options": ["A. parcel", "B. package"],
+      "answer": "A",
+      "explanation": "英国邮寄服务常用parcel"
+    },
+    {
+      "question": "哪个词可以指'软件包'？",
+      "options": ["A. parcel", "B. package"],
+      "answer": "B",
+      "explanation": "软件包固定用package"
+    },
+    {
+      "question": "填空：This ___ contains fragile items.",
+      "options": ["A. parcel", "B. package"],
+      "answer": "B",
+      "explanation": "国际通用语境用package"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "shipment（货运）",
+      "consignment（托运货物）",
+      "mail（邮件）",
+      "bundle（捆扎包）"
+    ],
+    "special_cases": {
+      "fixed_expressions": [
+        "parcel post（包裹邮递）",
+        "package deal（一揽子交易）",
+        "parcel out（分配）",
+        "package tour（包价旅游）"
+      ]
+    }
+  }
+}

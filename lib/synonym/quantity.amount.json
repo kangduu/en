@@ -1,0 +1,90 @@
+{
+  "words": ["quantity", "amount"],
+  "explanation": {
+    "overview": "这两个名词都表示'数量'，但在使用对象和语境上有所不同。",
+    "details": [
+      {
+        "word": "quantity",
+        "meaning": "指可以计数或测量的具体数量，通常用于可数名词或可测量的事物",
+        "example": "A large quantity of books was donated to the library.（大量图书被捐赠给图书馆。）"
+      },
+      {
+        "word": "amount",
+        "meaning": "指总量或总额，通常用于不可数名词或抽象概念",
+        "example": "The amount of water in the lake is decreasing.（湖中的水量正在减少。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "适用对象",
+      "quantity": "可数名词或可测量的事物",
+      "amount": "不可数名词或抽象概念"
+    },
+    {
+      "aspect": "使用场景",
+      "quantity": "具体物品的数量统计",
+      "amount": "物质总量或抽象数量"
+    },
+    {
+      "aspect": "搭配特点",
+      "quantity": "常与具体物品搭配",
+      "amount": "常与物质、金钱、时间等搭配"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "购物",
+      "quantity": "We need to order a small quantity of samples first.（我们需要先订购少量样品。）",
+      "amount": "The amount of money spent was surprising.（花费的金额令人惊讶。）"
+    },
+    {
+      "scene": "环境保护",
+      "quantity": "The quantity of plastic bottles collected has increased.（收集的塑料瓶数量增加了。）",
+      "amount": "The amount of pollution in the river is alarming.（河流中的污染量令人担忧。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ There is a large quantity of water in the bottle.",
+      "correction": "✅ There is a large amount of water in the bottle.（水量用amount）"
+    },
+    {
+      "error": "❌ The amount of students in the class is 30.",
+      "correction": "✅ The quantity/number of students in the class is 30.（可数名词用quantity或number）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The ___ of sugar needed for this recipe is one cup.",
+      "options": ["A. quantity", "B. amount"],
+      "answer": "B",
+      "explanation": "不可数物质用amount"
+    },
+    {
+      "question": "哪个词最适合描述产品库存？",
+      "options": ["A. quantity", "B. amount"],
+      "answer": "A",
+      "explanation": "可数产品用quantity"
+    },
+    {
+      "question": "填空：A surprising ___ of people attended the event.",
+      "options": ["A. quantity", "B. amount"],
+      "answer": "A",
+      "explanation": "可数人群用quantity（也可用number）"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "number（数量，用于可数名词）",
+      "volume（体积量）",
+      "sum（总额）",
+      "measure（度量）"
+    ],
+    "special_cases": {
+      "quantity_in_math": "数学中的量",
+      "amount_in_finance": "金融中的金额",
+      "fixed_phrases": ["in quantity（大量地）", "any amount of（任何数量的）"]
+    }
+  }
+}

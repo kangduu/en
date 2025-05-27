@@ -1,0 +1,132 @@
+{
+  "words": ["sort", "assort", "classify", "kind", "type", "category"],
+  "explanation": {
+    "overview": "这些词都与'分类'或'类别'有关，但用法和侧重点有所不同。",
+    "details": [
+      {
+        "word": "sort",
+        "meaning": "普通用语，指按特征分类或类别，可作动词和名词",
+        "example": "Sort the documents by date.（按日期整理文件。）/ What sort of music do you like?（你喜欢哪种音乐？）"
+      },
+      {
+        "word": "assort",
+        "meaning": "指将不同物品分类组合，强调多样性，多作动词",
+        "example": "The store assorted candies by color.（商店按颜色分类糖果。）"
+      },
+      {
+        "word": "classify",
+        "meaning": "系统地按科学标准分类，正式用语，多作动词",
+        "example": "Scientists classify plants into different families.（科学家将植物分类到不同科。）"
+      },
+      {
+        "word": "kind",
+        "meaning": "指具有共同特征的类别，侧重自然属性，作名词",
+        "example": "This kind of apple is very sweet.（这种苹果很甜。）"
+      },
+      {
+        "word": "type",
+        "meaning": "指按明显特征区分的类型，可作名词和动词",
+        "example": "What blood type are you?（你是什么血型？）"
+      },
+      {
+        "word": "category",
+        "meaning": "正式分类系统中的类别，作名词",
+        "example": "The books fall into three main categories.（这些书分为三大类。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "词性",
+      "sort": "动/名",
+      "assort": "动",
+      "classify": "动",
+      "kind": "名",
+      "type": "名/动",
+      "category": "名"
+    },
+    {
+      "aspect": "正式程度",
+      "sort": "口语",
+      "assort": "中等",
+      "classify": "正式",
+      "kind": "通用",
+      "type": "通用",
+      "category": "正式"
+    },
+    {
+      "aspect": "分类标准",
+      "sort": "一般特征",
+      "assort": "多样性组合",
+      "classify": "科学系统",
+      "kind": "自然属性",
+      "type": "明显特征",
+      "category": "系统框架"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "图书馆",
+      "sort": "Please sort the books by author.（请按作者整理书籍。）",
+      "assort": "The librarian assorted reference books by subject.（图书管理员按主题分类参考书。）",
+      "classify": "The system classifies books using the Dewey Decimal System.（这个系统用杜威十进制法分类图书。）",
+      "kind": "What kind of novels do you prefer?（你喜欢哪类小说？）",
+      "type": "This type of binding protects books better.（这种装订类型更能保护书籍。）",
+      "category": "Fiction is a popular book category.（小说是热门图书类别。）"
+    },
+    {
+      "scene": "超市",
+      "sort": "Workers sort fruits by quality.（工人按品质分拣水果。）",
+      "assort": "The shelf assorted snacks from different countries.（货架陈列着各国零食。）",
+      "classify": "Organic products are classified separately.（有机产品单独分类。）",
+      "kind": "We have all kinds of beverages.（我们有各种饮料。）",
+      "type": "This type of packaging is eco-friendly.（这种包装是环保型的。）",
+      "category": "Dairy products are in category 5.（乳制品在第5类。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ Please category these files.",
+      "correction": "✅ Please classify/sort these files.（category是名词）"
+    },
+    {
+      "error": "❌ This assort of behavior is unacceptable.",
+      "correction": "✅ This sort/kind/type of behavior is unacceptable.（assort是动词）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的动词：Biologists ___ animals based on their characteristics.",
+      "options": ["A. sort", "B. assort", "C. classify", "D. category"],
+      "answer": "C",
+      "explanation": "科学分类用classify"
+    },
+    {
+      "question": "哪个名词最适合正式分类体系？",
+      "options": ["A. kind", "B. type", "C. category", "D. sort"],
+      "answer": "C",
+      "explanation": "正式分类体系用category"
+    },
+    {
+      "question": "填空：The gift box ___ chocolates of various flavors.",
+      "options": ["A. sorts", "B. assorts", "C. classifies", "D. types"],
+      "answer": "B",
+      "explanation": "多样化组合用assort"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "categorize（分类，动词）",
+      "group（分组）",
+      "organize（整理）",
+      "variety（种类）"
+    ],
+    "fixed_phrases": [
+      "all sorts of（各种各样的）",
+      "assorted colors（杂色）",
+      "classified information（机密信息）",
+      "blood type（血型）",
+      "product category（产品类别）"
+    ]
+  }
+}
