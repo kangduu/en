@@ -1,0 +1,95 @@
+{
+  "words": ["dream", "fantasize", "imagine"],
+  "explanation": {
+    "overview": "这些词都与‘想象’有关，但程度和使用场景不同。",
+    "details": [
+      {
+        "word": "dream",
+        "meaning": "指‘做梦’或‘梦想’，可以是睡眠中的无意识活动，也可以是对未来的向往。",
+        "example": "I dream of becoming a pilot.（我梦想成为飞行员。）"
+      },
+      {
+        "word": "fantasize",
+        "meaning": "指‘幻想’，通常带有逃避现实或性幻想的意味，内容往往不切实际。",
+        "example": "He fantasizes about being a superhero.（他幻想成为超级英雄。）"
+      },
+      {
+        "word": "imagine",
+        "meaning": "指‘想象’，是中性词，可以指合理的设想或创造性的构想。",
+        "example": "Can you imagine life without electricity?（你能想象没有电的生活吗？）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "现实程度",
+      "dream": "可能实现或完全虚幻",
+      "fantasize": "通常不切实际",
+      "imagine": "可现实可虚幻"
+    },
+    {
+      "aspect": "使用场景",
+      "dream": "未来志向/睡眠梦境",
+      "fantasize": "白日梦/性幻想",
+      "imagine": "日常假设/创意构思"
+    },
+    {
+      "aspect": "情感色彩",
+      "dream": "积极或中性",
+      "fantasize": "常带逃避现实色彩",
+      "imagine": "完全中性"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "职业规划",
+      "dream": "She dreams of opening her own cafe.（她梦想开自己的咖啡馆。）",
+      "fantasize": "He fantasizes about winning the lottery and quitting his job.（他幻想中彩票后辞职。）",
+      "imagine": "Try to imagine yourself in 10 years.（试着想象十年后的自己。）"
+    },
+    {
+      "scene": "睡前",
+      "dream": "Last night I dreamed about flying.（昨晚我梦见自己在飞。）",
+      "fantasize": "She fantasizes about romantic scenarios before sleep.（睡前她幻想浪漫场景。）",
+      "imagine": "Imagine counting sheep to fall asleep.（想象数羊入睡。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I fantasize to be a doctor when I grow up.",
+      "correction": "✅ I dream of being a doctor when I grow up.（职业理想用dream更合适）"
+    },
+    {
+      "error": "❌ Stop dreaming impossible things!",
+      "correction": "✅ Stop fantasizing about impossible things!（不切实际的幻想用fantasize）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：As a child, I ___ of becoming an astronaut.",
+      "options": ["A. fantasized", "B. dreamed", "C. imagined"],
+      "answer": "B",
+      "explanation": "童年理想用dream最贴切"
+    },
+    {
+      "question": "哪个词最适合：He ___ about dating a celebrity.",
+      "options": ["A. dreams", "B. fantasizes", "C. imagines"],
+      "answer": "B",
+      "explanation": "不现实的幻想用fantasize"
+    },
+    {
+      "question": "填空：___ what the world will be like in 100 years.",
+      "options": ["A. Dream", "B. Fantasize", "C. Imagine"],
+      "answer": "C",
+      "explanation": "中性假设用imagine"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "daydream（白日梦）",
+      "visualize（形象化）",
+      "envision（展望）"
+    ],
+    "tip": "记住：dream可实可虚，fantasize偏向虚幻，imagine最中性常用。"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "words": ["while", "as", "when"],
+  "explanation": {
+    "overview": "这三个词都可以表示时间或同时发生的动作，但用法和侧重点不同。",
+    "details": [
+      {
+        "word": "while",
+        "meaning": "表示两个动作同时发生，强调持续的时间，有时也用作转折。",
+        "example": "I listened to music while doing my homework.（我一边做作业一边听音乐。）"
+      },
+      {
+        "word": "as",
+        "meaning": "表示两个动作同时发生，侧重动作的过程，常用在正式场合。",
+        "example": "As she was leaving, the phone rang.（她正要离开时，电话响了。）"
+      },
+      {
+        "word": "when",
+        "meaning": "表示某一动作或事件发生的时间点或条件，强调时间节点。",
+        "example": "Call me when you arrive.（你到的时候给我打电话。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "表示时间的方式",
+      "while": "动作持续，强调两个动作同时进行",
+      "as": "动作过程，强调同步发生",
+      "when": "时间点，强调动作发生的具体时刻"
+    },
+    {
+      "aspect": "用法正式程度",
+      "while": "较口语和书面均用",
+      "as": "较正式",
+      "when": "口语和书面均常用"
+    },
+    {
+      "aspect": "功能",
+      "while": "同时进行的动作，偶尔表示转折",
+      "as": "动作过程的同时发生",
+      "when": "某时刻或条件触发的动作"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "做作业时听音乐",
+      "while": "I listen to music while studying.（我一边学习一边听音乐。）",
+      "as": "As I study, the radio is on.（我学习的时候，收音机开着。）",
+      "when": "I call my friend when I finish my homework.（我做完作业时给朋友打电话。）"
+    },
+    {
+      "scene": "朋友到家",
+      "while": "She was cooking while he was cleaning.（她做饭时他在打扫。）",
+      "as": "As he arrived, the party started.（他到的时候，聚会开始了。）",
+      "when": "Call me when you get home.（你到家时给我打电话。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ Call me while you arrive.",
+      "correction": "✅ Call me when you arrive.（表示时间点，用when。）"
+    },
+    {
+      "error": "❌ As I finished my homework, I listened to music.",
+      "correction": "✅ When I finished my homework, I listened to music.（动作完成时用when。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She was reading a book ___ listening to music.",
+      "options": ["A. when", "B. as", "C. while"],
+      "answer": "C",
+      "explanation": "两个动作同时持续，用while。"
+    },
+    {
+      "question": "选择正确答案：___ he entered the room, everyone stood up.",
+      "options": ["A. When", "B. While", "C. As"],
+      "answer": "C",
+      "explanation": "动作同时发生，侧重过程，用as。"
+    },
+    {
+      "question": "选择正确答案：Call me ___ you arrive.",
+      "options": ["A. as", "B. when", "C. while"],
+      "answer": "B",
+      "explanation": "表示时间点，用when。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["during（在…期间）", "at the same time（同时）"],
+    "tip": "口诀：while动作持续，as动作过程，when时间点"
+  }
+}

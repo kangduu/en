@@ -1,0 +1,119 @@
+{
+  "words": ["discover", "unearth", "find out", "detect", "expose", "reveal"],
+  "explanation": {
+    "overview": "这些词都表示“发现”或“揭示”，但在用法、对象、主动性等方面存在差异。",
+    "details": [
+      {
+        "word": "discover",
+        "meaning": "通常指首次发现未知的事物，如新大陆、新事实。",
+        "example": "They discovered a new planet.（他们发现了一颗新行星。）"
+      },
+      {
+        "word": "unearth",
+        "meaning": "字面为“从地下挖掘出”，也可指揭示被隐藏的事物。",
+        "example": "The team unearthed ancient artifacts.（团队挖掘出了古代文物。）"
+      },
+      {
+        "word": "find out",
+        "meaning": "常用口语化表达，指通过调查、学习、研究“查明、弄清”。",
+        "example": "I’ll find out what happened.（我会查明发生了什么。）"
+      },
+      {
+        "word": "detect",
+        "meaning": "强调通过仔细观察或仪器“察觉到”某些难以察觉的事物。",
+        "example": "The doctor detected a problem with my heart.（医生发现我心脏有问题。）"
+      },
+      {
+        "word": "expose",
+        "meaning": "揭露某物，尤其指揭穿错误或丑闻。",
+        "example": "The journalist exposed the corruption.（记者揭露了腐败。）"
+      },
+      {
+        "word": "reveal",
+        "meaning": "揭示、透露隐藏的信息，强调从未公开的内容被公开。",
+        "example": "She revealed the secret to me.（她向我透露了这个秘密。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "主动/被动",
+      "discover": "主动，偶然或刻意",
+      "unearth": "主动，通常伴随“挖掘”",
+      "find out": "主动调查后得知",
+      "detect": "多为技术性侦测",
+      "expose": "主动揭发（常含负面）",
+      "reveal": "主动透露或揭示"
+    },
+    {
+      "aspect": "常见对象",
+      "discover": "新事物、地点、事实",
+      "unearth": "文物、秘密",
+      "find out": "真相、信息",
+      "detect": "问题、疾病、迹象",
+      "expose": "错误、谎言、丑闻",
+      "reveal": "秘密、真相、情感"
+    },
+    {
+      "aspect": "语体风格",
+      "discover": "中性、常用于正式或学术",
+      "unearth": "正式或文学化",
+      "find out": "口语常见",
+      "detect": "技术/科学语境",
+      "expose": "新闻、揭发语境",
+      "reveal": "正式或文学中常用"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校学习",
+      "discover": "I discovered a new way to solve the math problem.（我发现了解题的新方法。）",
+      "find out": "We found out that the test is next week.（我们得知考试是下周。）",
+      "reveal": "The teacher revealed the answer after everyone guessed.（老师在大家猜完后公布答案。）"
+    },
+    {
+      "scene": "新闻报道",
+      "expose": "The reporter exposed the fraud case.（记者揭露了这起诈骗案。）",
+      "detect": "Police detected traces of poison.（警方发现了毒药的痕迹。）",
+      "unearth": "They unearthed hidden documents in the basement.（他们在地下室挖出隐藏的文件。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I exposed a new island in the Pacific.",
+      "correction": "✅ I discovered a new island in the Pacific.（发现岛屿应使用 discover）"
+    },
+    {
+      "error": "❌ The machine found out a virus in my body.",
+      "correction": "✅ The machine detected a virus in my body.（检测病毒应使用 detect）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The archaeologists ___ an ancient tomb.",
+      "options": ["A. exposed", "B. unearthed", "C. found out", "D. revealed"],
+      "answer": "B",
+      "explanation": "“挖掘古墓”应使用 unearth。"
+    },
+    {
+      "question": "选择正确答案：He ___ the truth by asking a lot of questions.",
+      "options": ["A. found out", "B. revealed", "C. detected", "D. unearthed"],
+      "answer": "A",
+      "explanation": "通过调查得知，用 find out。"
+    },
+    {
+      "question": "选择正确答案：The newspaper ___ the politician's lies.",
+      "options": ["A. revealed", "B. discovered", "C. exposed", "D. detected"],
+      "answer": "C",
+      "explanation": "揭露谎言用 expose。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "disclose（正式透露）",
+      "uncover（揭示）",
+      "divulge（泄露，常指秘密）"
+    ],
+    "tip": "口诀：discover新事物，detect靠仪器，expose揭黑料，reveal把秘密讲出来"
+  }
+}

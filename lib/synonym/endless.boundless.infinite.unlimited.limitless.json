@@ -1,0 +1,99 @@
+{
+  "words": ["endless", "boundless", "infinite", "unlimited", "limitless"],
+  "explanation": {
+    "overview": "这些词都表示‘无尽的’或‘没有限制的’，但侧重点和使用场景有所不同。",
+    "details": [
+      {
+        "word": "endless",
+        "meaning": "强调时间、空间或数量上的‘没有结束’，常用于表达感觉上的无穷。",
+        "example": "We had endless fun at the party.（我们在聚会上玩得非常尽兴。）"
+      },
+      {
+        "word": "boundless",
+        "meaning": "强调‘没有边界’或‘无限广阔’，多用于形容空间、感情等。",
+        "example": "She has boundless energy.（她有无限的精力。）"
+      },
+      {
+        "word": "infinite",
+        "meaning": "强调绝对的‘无限’，常用于数学或哲学，也表示无法测量的数量或时间。",
+        "example": "Space is infinite.（宇宙是无限的。）"
+      },
+      {
+        "word": "unlimited",
+        "meaning": "强调‘没有限制’，多用于权利、资源或机会等方面。",
+        "example": "This plan offers unlimited data usage.（这个套餐提供无限流量。）"
+      },
+      {
+        "word": "limitless",
+        "meaning": "类似unlimited，强调‘无限制的’，可以形容能力、可能性等。",
+        "example": "Her potential is limitless.（她的潜力无限。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "强调点",
+      "endless": "没有结束（时间、数量）",
+      "boundless": "没有边界（空间、感情）",
+      "infinite": "绝对无限（数学、哲学）",
+      "unlimited": "没有限制（资源、权利）",
+      "limitless": "无限制（能力、可能性）"
+    },
+    {
+      "aspect": "使用场景",
+      "endless": "时间、活动、数量",
+      "boundless": "空间、情感、能量",
+      "infinite": "科学、数学、抽象",
+      "unlimited": "服务、资源、权限",
+      "limitless": "潜力、机会、能力"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "日常生活",
+      "endless": "They had endless conversations last night.（他们昨晚聊了很久。）",
+      "boundless": "The child showed boundless curiosity.（孩子表现出无限的好奇心。）",
+      "infinite": "The universe is infinite.（宇宙是无限的。）",
+      "unlimited": "You get unlimited access to the gym.（你可以无限制使用健身房。）",
+      "limitless": "Her creativity is limitless.（她的创造力无限。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ She has unlimited time in a day.",
+      "correction": "✅ She has endless time.（时间用endless更自然）"
+    },
+    {
+      "error": "❌ Space is limitless.",
+      "correction": "✅ Space is infinite.（空间或宇宙用infinite更准确）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The universe is ___.",
+      "options": ["A. endless", "B. boundless", "C. infinite", "D. unlimited"],
+      "answer": "C",
+      "explanation": "宇宙是无限的，用infinite。"
+    },
+    {
+      "question": "选择正确答案：She has ___ energy for work.",
+      "options": ["A. endless", "B. boundless", "C. limitless", "D. unlimited"],
+      "answer": "B",
+      "explanation": "强调无限的精力，用boundless。"
+    },
+    {
+      "question": "选择正确答案：You have ___ data usage with this plan.",
+      "options": ["A. endless", "B. boundless", "C. unlimited", "D. infinite"],
+      "answer": "C",
+      "explanation": "套餐流量用unlimited更合适。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "immeasurable（无法测量的）",
+      "eternal（永恒的）",
+      "perpetual（永久的）"
+    ],
+    "tip": "记忆口诀：endless没结束，boundless无边界，infinite绝对无限，unlimited无限制资源，limitless无界潜力"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "words": ["hesitate", "waver", "vacillate"],
+  "explanation": {
+    "overview": "这三个词都表示‘犹豫’，但程度和用法不同。",
+    "details": [
+      {
+        "word": "hesitate",
+        "meaning": "犹豫不决，短暂的停顿，常因不确定或害怕。",
+        "example": "She hesitated before answering the question.（她回答问题前犹豫了一下。）"
+      },
+      {
+        "word": "waver",
+        "meaning": "摇摆不定，意志或决心不坚定，有反复变化的意思。",
+        "example": "He wavered between going to college or starting work.（他在上大学和开始工作之间犹豫不定。）"
+      },
+      {
+        "word": "vacillate",
+        "meaning": "反复无常，举棋不定，通常指反复改变想法或态度。",
+        "example": "She vacillated for hours before making a decision.（她犹豫了几个小时才做决定。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "持续时间",
+      "hesitate": "短暂",
+      "waver": "较长，有反复",
+      "vacillate": "更长时间且反复无常"
+    },
+    {
+      "aspect": "程度",
+      "hesitate": "轻微的犹豫",
+      "waver": "中度，动摇决心",
+      "vacillate": "严重，反复摇摆"
+    },
+    {
+      "aspect": "使用场景",
+      "hesitate": "日常口语或正式场合均可",
+      "waver": "表达心态或决心不稳定",
+      "vacillate": "书面语较多，形容反复无常"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "做决定",
+      "hesitate": "I hesitated to ask for help.（我犹豫着是否请求帮助。）",
+      "waver": "He wavered about accepting the job offer.（他在是否接受工作邀请上犹豫不决。）",
+      "vacillate": "She vacillated between moving abroad or staying.（她在移居国外和留下之间反复摇摆。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He vacillated for a second.",
+      "correction": "✅ He hesitated for a second.（vacillate 表示长时间犹豫，不用于短暂。）"
+    },
+    {
+      "error": "❌ She hesitated between two options for days.",
+      "correction": "✅ She vacillated/wavered between two options for days.（短暂用 hesitate，长时间用 waver 或 vacillate。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She ___ before speaking because she was nervous.",
+      "options": ["A. hesitated", "B. wavered", "C. vacillated"],
+      "answer": "A",
+      "explanation": "短暂犹豫，用 hesitate。"
+    },
+    {
+      "question": "选择正确答案：He ___ between two choices for several days.",
+      "options": ["A. hesitated", "B. wavered", "C. vacillated"],
+      "answer": "C",
+      "explanation": "长时间反复摇摆，用 vacillate。"
+    },
+    {
+      "question": "选择正确答案：They ___ in their decision to move to a new city.",
+      "options": ["A. hesitated", "B. wavered", "C. vacillated"],
+      "answer": "B",
+      "explanation": "waver 强调摇摆不定和动摇。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住：hesitate 短暂犹豫，waver 动摇决心，vacillate 反复无常。",
+    "extended_words": ["delay（拖延）", "pause（停顿）"]
+  }
+}

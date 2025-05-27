@@ -1,0 +1,95 @@
+{
+  "words": ["mend", "fix", "patch", "repair", "restore"],
+  "explanation": {
+    "overview": "这些词都表示‘修理’或‘恢复’，但具体使用场景和含义略有不同。",
+    "details": [
+      {
+        "word": "mend",
+        "meaning": "修补破损的物品，常用于衣物、关系等，强调‘修复损坏的部分’。",
+        "example": "She mended the hole in his shirt.（她缝好了他衬衫上的洞。）"
+      },
+      {
+        "word": "fix",
+        "meaning": "口语中最常用的‘修理’，适用范围广，可以修车、修电视、也可引申为‘解决问题’。",
+        "example": "Can you fix my computer?（你能修一下我的电脑吗？）"
+      },
+      {
+        "word": "patch",
+        "meaning": "用补丁修补小范围的破洞或问题，常用于布料、程序代码或软件。",
+        "example": "I patched the tire so we could keep riding.（我补了轮胎，这样我们就能继续骑了。）"
+      },
+      {
+        "word": "repair",
+        "meaning": "正式用词，指修复损坏物品使其恢复原状，多用于电子设备、建筑等。",
+        "example": "The mechanic repaired the broken engine.（机械师修好了坏掉的引擎。）"
+      },
+      {
+        "word": "restore",
+        "meaning": "恢复原状，强调‘回到原来的状态’，可以是修复物品，也可以指恢复制度、秩序或健康。",
+        "example": "They restored the old painting.（他们修复了那幅旧画。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气与正式程度",
+      "mend": "较温和，常用于衣物或抽象修复（如关系）",
+      "fix": "最常用、最口语化",
+      "patch": "强调小面积修补",
+      "repair": "较正式，适用于机械或设备",
+      "restore": "强调恢复原状或原貌"
+    },
+    {
+      "aspect": "使用对象",
+      "mend": "衣物、裂缝、关系",
+      "fix": "任何需要修的东西，通用",
+      "patch": "衣物、软件、轮胎等小修补",
+      "repair": "设备、机器、建筑",
+      "restore": "艺术品、秩序、老房子"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "日常生活",
+      "mend": "Mom mended my torn jeans.（妈妈把我破掉的牛仔裤缝好了。）",
+      "fix": "Can you fix the leaking pipe?（你能修修漏水的水管吗？）",
+      "patch": "He patched the hole in the tent.（他把帐篷上的洞补了。）",
+      "repair": "We need to repair the washing machine.（我们得修洗衣机。）",
+      "restore": "They restored the old theater to its original beauty.（他们恢复了老剧院的原貌。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I restored my bike after the tire burst.",
+      "correction": "✅ I repaired my bike after the tire burst.（restore 是恢复原貌，不适用于简单修理）"
+    },
+    {
+      "error": "❌ Can you mend my computer?",
+      "correction": "✅ Can you fix my computer?（修电脑通常用 fix 或 repair）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：He used a needle to ___ the rip in his jacket.",
+      "options": ["A. fix", "B. patch", "C. mend"],
+      "answer": "C",
+      "explanation": "缝衣服上的破洞，使用 mend 更合适。"
+    },
+    {
+      "question": "选择正确答案：The technician will ___ the broken air conditioner.",
+      "options": ["A. patch", "B. repair", "C. mend"],
+      "answer": "B",
+      "explanation": "修理设备时常用 repair。"
+    },
+    {
+      "question": "选择正确答案：We want to ___ the castle to its former glory.",
+      "options": ["A. restore", "B. fix", "C. mend"],
+      "answer": "A",
+      "explanation": "restore 表示恢复原貌，用于文物、建筑等。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["rebuild（重建）", "renovate（翻新）", "revive（复兴）"],
+    "tip": "口诀：mend小补，fix口语，patch补洞，repair正式，restore回原状"
+  }
+}

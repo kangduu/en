@@ -1,0 +1,103 @@
+{
+  "words": ["owner", "possessor", "holder", "householder"],
+  "explanation": {
+    "overview": "这些词都表示‘拥有者’，但侧重点和使用场景不同。",
+    "details": [
+      {
+        "word": "owner",
+        "meaning": "指法律或实际拥有某物的人，最常用的‘拥有者’。",
+        "example": "He is the owner of this car.（他是这辆车的主人。）"
+      },
+      {
+        "word": "possessor",
+        "meaning": "指实际持有或掌控某物的人，强调占有状态，较正式或书面用词。",
+        "example": "The possessor of the key can open the door.（持有钥匙的人可以开门。）"
+      },
+      {
+        "word": "holder",
+        "meaning": "强调持有权或持有某物（如票据、证件等），用于正式或法律场合较多。",
+        "example": "The holder of the ticket can enter the concert.（持票者可以入场。）"
+      },
+      {
+        "word": "householder",
+        "meaning": "指一家之主或户主，通常指拥有或管理一个住宅的人。",
+        "example": "The householder decided to renovate the kitchen.（户主决定翻新厨房。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "含义侧重点",
+      "owner": "拥有法律或实际权利",
+      "possessor": "实际占有某物",
+      "holder": "持有权，通常用于证件或票据",
+      "householder": "住宅的户主"
+    },
+    {
+      "aspect": "使用场景",
+      "owner": "日常生活、法律",
+      "possessor": "正式、书面",
+      "holder": "正式、法律、票据",
+      "householder": "家庭、住宅"
+    },
+    {
+      "aspect": "例句",
+      "owner": "owner of a car",
+      "possessor": "possessor of a key",
+      "holder": "holder of a passport",
+      "householder": "the householder of a family"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "买车",
+      "owner": "She is the owner of a new car.（她是新车的车主。）"
+    },
+    {
+      "scene": "持有钥匙",
+      "possessor": "Only the possessor of the key can enter.（只有持钥匙的人可以进。）"
+    },
+    {
+      "scene": "持票入场",
+      "holder": "The ticket holder must show ID.（持票者必须出示身份证。）"
+    },
+    {
+      "scene": "家庭管理",
+      "householder": "The householder pays the bills.（户主负责付账。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He is the possessor of the house.",
+      "correction": "✅ He is the owner of the house.（owner 更常用）"
+    },
+    {
+      "error": "❌ The householder holds the ticket.",
+      "correction": "✅ The holder holds the ticket.（票据用 holder）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She is the ___ of the new apartment.",
+      "options": ["A. possessor", "B. owner", "C. holder", "D. householder"],
+      "answer": "B",
+      "explanation": "房产的拥有者用 owner。"
+    },
+    {
+      "question": "选择正确答案：Only the ___ of the passport can travel abroad.",
+      "options": ["A. owner", "B. possessor", "C. holder", "D. householder"],
+      "answer": "C",
+      "explanation": "证件持有者用 holder。"
+    },
+    {
+      "question": "选择正确答案：The ___ of the house manages the household.",
+      "options": ["A. owner", "B. possessor", "C. holder", "D. householder"],
+      "answer": "D",
+      "explanation": "管理家庭用 householder。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["proprietor（业主）", "landlord（房东）"],
+    "tip": "owner 是最通用‘拥有者’，holder 多用于持有权，householder 特指户主。"
+  }
+}

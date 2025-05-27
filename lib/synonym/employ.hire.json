@@ -1,0 +1,85 @@
+{
+  "words": ["employ", "hire"],
+  "explanation": {
+    "overview": "“employ”和“hire”都表示‘雇佣’，但用法和语境有所不同。hire更常用于短期或初次雇佣，employ强调长期或正式的工作关系。",
+    "details": [
+      {
+        "word": "employ",
+        "meaning": "指正式雇佣某人长期工作，强调持续的工作关系。",
+        "example": "The company employs 200 workers.（公司雇佣了200名员工。）"
+      },
+      {
+        "word": "hire",
+        "meaning": "表示雇用某人，可以是短期、临时或长期，口语中更常用，也用于租借物品。",
+        "example": "They hired a new assistant last week.（他们上周雇了一个新助理。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "使用频率",
+      "employ": "较正式，书面和正式场合常用",
+      "hire": "较口语化，日常交流常用"
+    },
+    {
+      "aspect": "雇佣时间",
+      "employ": "通常指长期或持续的工作关系",
+      "hire": "可指短期或长期"
+    },
+    {
+      "aspect": "额外用法",
+      "employ": "主要指雇佣人员",
+      "hire": "还可指租用物品，如租车"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "公司招聘",
+      "employ": "The company employs many engineers.（公司雇佣了很多工程师。）",
+      "hire": "We hired a new intern for the summer.（我们暑期雇了个新实习生。）"
+    },
+    {
+      "scene": "日常生活",
+      "employ": "She is employed as a teacher.（她被雇为教师。）",
+      "hire": "I hired a car for the weekend.（我租了一辆车过周末。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ We employ a car for the trip.",
+      "correction": "✅ We hire a car for the trip.（租车用 hire，不用 employ。）"
+    },
+    {
+      "error": "❌ He was hired by the company last year for a permanent job.",
+      "correction": "✅ He was employed by the company last year for a permanent job.（正式、长期雇佣用 employ 更合适。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The firm ___ over 100 employees.",
+      "options": ["A. hires", "B. employs"],
+      "answer": "B",
+      "explanation": "employ 强调正式、长期雇佣。"
+    },
+    {
+      "question": "选择正确答案：We ___ a car for the weekend trip.",
+      "options": ["A. employed", "B. hired"],
+      "answer": "B",
+      "explanation": "租车用 hire。"
+    },
+    {
+      "question": "选择正确答案：They ___ a new assistant last month.",
+      "options": ["A. employed", "B. hired", "C. both"],
+      "answer": "C",
+      "explanation": "此处两词皆可，但 hire 更口语。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "recruit（招聘）",
+      "engage（聘用）",
+      "contract（合同雇佣）"
+    ],
+    "tip": "口诀：employ正式长期，hire口语短期和租用"
+  }
+}

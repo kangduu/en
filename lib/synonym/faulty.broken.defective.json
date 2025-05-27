@@ -1,0 +1,85 @@
+{
+  "words": ["faulty", "broken", "defective"],
+  "explanation": {
+    "overview": "这三个词都表示物品存在问题，但侧重点和使用场合不同。",
+    "details": [
+      {
+        "word": "faulty",
+        "meaning": "有缺陷的，通常指设计或制造上的缺点导致不能正常工作。",
+        "example": "The faulty wiring caused the fire.（有缺陷的线路引发了火灾。）"
+      },
+      {
+        "word": "broken",
+        "meaning": "坏了，指物理上损坏或不完整，无法正常使用。",
+        "example": "The broken phone won’t turn on.（坏掉的手机无法开机。）"
+      },
+      {
+        "word": "defective",
+        "meaning": "有缺陷的，尤其指产品在制造时存在质量问题，影响功能或安全。",
+        "example": "The company recalled the defective toys.（公司召回了有缺陷的玩具。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "侧重点",
+      "faulty": "设计或制造上的缺点",
+      "broken": "物理损坏或破裂",
+      "defective": "质量缺陷影响功能或安全"
+    },
+    {
+      "aspect": "使用场合",
+      "faulty": "广泛用于产品、系统或部件",
+      "broken": "用于物体损坏、断裂或损失功能",
+      "defective": "多用于产品质量问题，正式场合"
+    },
+    {
+      "aspect": "语气正式度",
+      "faulty": "中性偏正式",
+      "broken": "口语和书面均用",
+      "defective": "正式，多用于法律或质量报告"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "电子产品",
+      "faulty": "The faulty charger stopped working after a week.（有缺陷的充电器一周后坏了。）",
+      "broken": "My broken laptop screen needs to be fixed.（我坏掉的笔记本屏幕需要修理。）",
+      "defective": "Defective batteries can cause overheating.（有缺陷的电池可能导致过热。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The broken product means it was made with mistakes.",
+      "correction": "✅ Faulty or defective product means manufacturing mistakes; broken means physically damaged.（broken指物理损坏，不是制造缺陷。）"
+    },
+    {
+      "error": "❌ A defective lamp just stopped working after a fall.",
+      "correction": "✅ It’s broken because of the fall; defective means it had problems from the start.（摔坏了是broken，不是defective。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The ___ toaster does not heat the bread properly due to a design problem.",
+      "options": ["A. faulty", "B. broken", "C. defective"],
+      "answer": "A",
+      "explanation": "设计缺陷用faulty。"
+    },
+    {
+      "question": "选择正确答案：The ___ vase fell and shattered on the floor.",
+      "options": ["A. faulty", "B. broken", "C. defective"],
+      "answer": "B",
+      "explanation": "物理损坏用broken。"
+    },
+    {
+      "question": "选择正确答案：The company recalled the ___ toys because they were unsafe.",
+      "options": ["A. faulty", "B. broken", "C. defective"],
+      "answer": "C",
+      "explanation": "安全缺陷产品用defective。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "faulty和defective都表示有缺陷，但defective更正式且强调质量问题；broken强调物理损坏。",
+    "extended_words": ["flawed（有缺陷的）", "damaged（损坏的）"]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "words": ["point", "aim", "dot", "tip", "gist"],
+  "explanation": {
+    "overview": "这些词都有‘点’的含义，但用法和侧重点不同，涉及位置、目标、细节或核心。",
+    "details": [
+      {
+        "word": "point",
+        "meaning": "指明确的位置、要点或目的，也可指指出或强调某事。",
+        "example": "She pointed to the map to show the route.（她指着地图指明路线。）"
+      },
+      {
+        "word": "aim",
+        "meaning": "强调目标或目的，通常是希望达成的结果。",
+        "example": "His aim is to improve his English skills.（他的目标是提高英语水平。）"
+      },
+      {
+        "word": "dot",
+        "meaning": "指小圆点，常用于标记或装饰。",
+        "example": "There is a red dot on the paper.（纸上有一个红点。）"
+      },
+      {
+        "word": "tip",
+        "meaning": "可以指尖端、小建议，或者给小费，具体意思根据语境变化。",
+        "example": "Be careful of the sharp tip of the knife.（小心刀尖。）"
+      },
+      {
+        "word": "gist",
+        "meaning": "指主要内容、要点或大意。",
+        "example": "I understood the gist of his speech.（我明白了他演讲的要点。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "主要含义",
+      "point": "位置、要点、指示",
+      "aim": "目标、目的",
+      "dot": "小圆点",
+      "tip": "尖端、小建议、小费",
+      "gist": "要点、核心内容"
+    },
+    {
+      "aspect": "使用场景",
+      "point": "指物理位置或说话重点",
+      "aim": "设定或描述目标",
+      "dot": "标记、装饰",
+      "tip": "物体末端、建议或报酬",
+      "gist": "理解文章或话语的大意"
+    },
+    {
+      "aspect": "词性",
+      "point": "名词/动词",
+      "aim": "名词/动词",
+      "dot": "名词",
+      "tip": "名词/动词",
+      "gist": "名词"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学习场景",
+      "point": "The teacher pointed out the important grammar rule.（老师指出了重要语法规则。）",
+      "aim": "Our aim is to finish the project by Friday.（我们的目标是周五完成项目。）",
+      "dot": "Please put a dot on the correct answer.（请在正确答案上打点。）",
+      "tip": "Here's a tip to remember this word.（这里有个记单词的小建议。）",
+      "gist": "Can you tell me the gist of the story?（你能告诉我故事的要点吗？）"
+    },
+    {
+      "scene": "日常生活",
+      "point": "She pointed at the clock.（她指着时钟。）",
+      "aim": "His aim is to save money.（他的目标是存钱。）",
+      "dot": "There are dots on the ladybug’s back.（瓢虫背上有点点。）",
+      "tip": "Don't forget to tip the waiter.（别忘了给服务员小费。）",
+      "gist": "I got the gist of the conversation.（我懂了谈话的大意。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I aim at a red dot on the wall.",
+      "correction": "✅ I point at a red dot on the wall.（aim指目标，point指指向）"
+    },
+    {
+      "error": "❌ The gist of this sentence is a dot.",
+      "correction": "✅ The gist of this sentence is the main idea.（gist指要点，不是‘点’）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：He ___ at the map to show where we are.",
+      "options": ["A. aimed", "B. pointed", "C. dotted"],
+      "answer": "B",
+      "explanation": "指示位置用pointed。"
+    },
+    {
+      "question": "选择正确答案：Her ___ is to become a doctor.",
+      "options": ["A. tip", "B. dot", "C. aim"],
+      "answer": "C",
+      "explanation": "目标用aim。"
+    },
+    {
+      "question": "选择正确答案：Can you tell me the ___ of the story?",
+      "options": ["A. tip", "B. gist", "C. point"],
+      "answer": "B",
+      "explanation": "故事的要点是gist。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "indicator（指标，指示器）",
+      "objective（目标）",
+      "hint（提示）"
+    ],
+    "tip": "记忆口诀：point指点，aim定目标，dot小圆点，tip尖端或建议，gist抓重点"
+  }
+}

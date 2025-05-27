@@ -1,0 +1,85 @@
+{
+  "words": ["income", "earnings", "gains"],
+  "explanation": {
+    "overview": "这三个词都和‘收入’有关，但含义和用法有所不同。",
+    "details": [
+      {
+        "word": "income",
+        "meaning": "总收入，指个人或机构在一定时期内获得的所有钱财，包括工资、利息、租金等。",
+        "example": "My monthly income comes from my job and investments.（我的月收入来自工作和投资。）"
+      },
+      {
+        "word": "earnings",
+        "meaning": "赚得的钱，通常指通过劳动或经营获得的收入，特别是工资或利润。",
+        "example": "Her earnings increased after she got a promotion.（她晋升后收入增加了。）"
+      },
+      {
+        "word": "gains",
+        "meaning": "收益，强调通过买卖资产或投资获得的利润，常用于财务或投资领域。",
+        "example": "He made significant gains from the stock market last year.（去年他在股市获得了可观的收益。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "范围",
+      "income": "包括所有收入来源",
+      "earnings": "主要是劳动或经营赚得的钱",
+      "gains": "主要是资产或投资的利润"
+    },
+    {
+      "aspect": "使用场合",
+      "income": "个人或公司的总收入",
+      "earnings": "工资、薪水或经营利润",
+      "gains": "投资收益、资本利得"
+    },
+    {
+      "aspect": "语气正式度",
+      "income": "中性，广泛使用",
+      "earnings": "较正式，多用于工资和利润",
+      "gains": "正式，多用于财务和投资"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "个人理财",
+      "income": "My total income includes salary and rental income.（我的总收入包括工资和租金。）",
+      "earnings": "Her earnings from the job doubled last year.（她的工作收入去年翻倍了。）",
+      "gains": "He had big gains from selling his shares.（他卖股票赚了很多利润。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He has big income from selling stocks.",
+      "correction": "✅ He has big gains from selling stocks.（卖股票的利润用gains。）"
+    },
+    {
+      "error": "❌ Earnings include interest and rental income.",
+      "correction": "✅ Income includes interest and rental income.（earnings主要指工资或利润，不包括所有收入。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She gets most of her ___ from her salary.",
+      "options": ["A. income", "B. earnings", "C. gains"],
+      "answer": "B",
+      "explanation": "工资属于earnings。"
+    },
+    {
+      "question": "选择正确答案：The company reported high ___ from investments.",
+      "options": ["A. income", "B. earnings", "C. gains"],
+      "answer": "C",
+      "explanation": "投资的利润称为gains。"
+    },
+    {
+      "question": "选择正确答案：His total ___ includes salary, rental, and dividends.",
+      "options": ["A. income", "B. earnings", "C. gains"],
+      "answer": "A",
+      "explanation": "income指全部收入。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "income是总收入，earnings侧重工资和经营收入，gains多指投资和资产利润。",
+    "extended_words": ["revenue（收入）", "profit（利润）"]
+  }
+}

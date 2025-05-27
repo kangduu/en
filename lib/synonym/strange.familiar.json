@@ -1,0 +1,85 @@
+{
+  "words": ["strange", "familiar"],
+  "explanation": {
+    "overview": "这对反义词描述对事物的认知程度，构成完全相反的含义。",
+    "details": [
+      {
+        "word": "strange",
+        "meaning": "指'陌生的'、'奇怪的'，表示不熟悉或不同寻常",
+        "example": "The food had a strange taste I'd never experienced before.（这食物有种我从未体验过的奇怪味道。）"
+      },
+      {
+        "word": "familiar",
+        "meaning": "指'熟悉的'、'常见的'，表示认识或了解",
+        "example": "Her face looked familiar, but I couldn't remember her name.（她的脸看起来很熟悉，但我想不起名字。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "认知程度",
+      "strange": "完全不认识/不了解",
+      "familiar": "认识/了解"
+    },
+    {
+      "aspect": "情感联想",
+      "strange": "可能伴随好奇/不安",
+      "familiar": "带来舒适/安全感"
+    },
+    {
+      "aspect": "语法特征",
+      "strange": "strange to sb（对某人陌生）",
+      "familiar": "familiar with（熟悉...）/familiar to（对...熟悉）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "旅行经历",
+      "strange": "The customs here seem strange to foreign visitors.（这里的风俗对外国游客来说很陌生。）",
+      "familiar": "Seeing McDonald's in a foreign country feels familiar.（在国外看到麦当劳让人感到熟悉。）"
+    },
+    {
+      "scene": "学习过程",
+      "strange": "These math concepts were strange at first.（这些数学概念起初很陌生。）",
+      "familiar": "After practicing daily, the piano piece became familiar.（经过每日练习，这首钢琴曲变得熟悉了。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I'm strange with this neighborhood.",
+      "correction": "✅ I'm unfamiliar with this neighborhood.（表达'不熟悉'用unfamiliar）"
+    },
+    {
+      "error": "❌ This song sounds familiar to me.",
+      "correction": "✅ This song sounds familiar to me.（正确，但也可说I'm familiar with this song）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：After living abroad for years, his hometown felt ___.",
+      "options": ["A. strange", "B. familiar"],
+      "answer": "A",
+      "explanation": "长期离乡后返乡可能产生陌生感"
+    },
+    {
+      "question": "填空：The instructions are ___ to anyone who's used smartphones before.",
+      "options": ["A. strange", "B. familiar"],
+      "answer": "B",
+      "explanation": "对用过智能手机的人来说是熟悉的"
+    },
+    {
+      "question": "哪个介词正确：This tradition is strange ___ most foreigners.",
+      "options": ["A. with", "B. to"],
+      "answer": "B",
+      "explanation": "strange固定搭配介词to"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "unfamiliar（不熟悉的）",
+      "alien（完全陌生的）",
+      "well-known（众所周知的）"
+    ],
+    "tip": "记忆技巧：strange=陌生的（含str-开头，联想'stray迷路'）；familiar=熟悉的（含family词根，联想'家人般熟悉'）"
+  }
+}

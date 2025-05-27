@@ -1,0 +1,86 @@
+{
+  "words": ["arrest", "capture"],
+  "explanation": {
+    "overview": "“arrest”和“capture”都表示‘抓住’，但用法和含义不同。arrest侧重法律上的逮捕，capture更广泛，指抓获、捕捉或俘获。",
+    "details": [
+      {
+        "word": "arrest",
+        "meaning": "指警方或权力机关依法逮捕某人，通常涉及法律程序。",
+        "example": "The police arrested the suspect last night.（警方昨晚逮捕了嫌疑人。）"
+      },
+      {
+        "word": "capture",
+        "meaning": "表示抓住或俘获，可以指捕捉动物、敌人，也可以指获得某物（如照片、注意力等）。",
+        "example": "The soldiers captured the enemy base.（士兵们攻占了敌方基地。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "含义侧重",
+      "arrest": "依法逮捕，拘留人",
+      "capture": "抓获、捕捉（人、物、地点等）"
+    },
+    {
+      "aspect": "使用场景",
+      "arrest": "法律、警察执法",
+      "capture": "军事、捕猎、拍摄、广泛捕获"
+    },
+    {
+      "aspect": "对象",
+      "arrest": "主要指人",
+      "capture": "人、动物、物品、地点等"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "法律执法",
+      "arrest": "The police arrested the thief yesterday.（警察昨天逮捕了小偷。）",
+      "capture": "N/A"
+    },
+    {
+      "scene": "军事行动",
+      "arrest": "N/A",
+      "capture": "The army captured the city after a long battle.（军队经过长时间战斗攻占了城市。）"
+    },
+    {
+      "scene": "拍照或捕捉瞬间",
+      "arrest": "N/A",
+      "capture": "She captured a beautiful sunset on camera.（她用相机捕捉到了美丽的日落。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The police captured the suspect.",
+      "correction": "✅ The police arrested the suspect.（警方逮捕嫌疑人用 arrest。）"
+    },
+    {
+      "error": "❌ The soldiers arrested the enemy base.",
+      "correction": "✅ The soldiers captured the enemy base.（攻占基地用 capture。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The police ___ the criminal yesterday.",
+      "options": ["A. captured", "B. arrested"],
+      "answer": "B",
+      "explanation": "警方逮捕罪犯用 arrest。"
+    },
+    {
+      "question": "选择正确答案：The photographer ___ the beautiful moment.",
+      "options": ["A. arrested", "B. captured"],
+      "answer": "B",
+      "explanation": "捕捉瞬间用 capture。"
+    },
+    {
+      "question": "选择正确答案：The army ___ the fortress after the battle.",
+      "options": ["A. arrested", "B. captured"],
+      "answer": "B",
+      "explanation": "攻占堡垒用 capture。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["detain（拘留）", "seize（夺取）"],
+    "tip": "口诀：arrest法律逮捕，capture捕获更广泛"
+  }
+}

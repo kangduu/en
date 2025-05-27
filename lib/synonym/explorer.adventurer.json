@@ -1,0 +1,81 @@
+{
+  "words": ["explorer", "adventurer"],
+  "explanation": {
+    "overview": "这两个词都表示喜欢探索未知或经历刺激的人，但侧重点不同。",
+    "details": [
+      {
+        "word": "explorer",
+        "meaning": "指专门去发现、调查未知地方或事物的人，常带科学或地理探索的含义。",
+        "example": "Marco Polo was a famous explorer who traveled to Asia.（马可·波罗是著名的探险家，曾游历亚洲。）"
+      },
+      {
+        "word": "adventurer",
+        "meaning": "指喜欢冒险、追求刺激和新奇经历的人，强调经历和勇气，范围更广泛。",
+        "example": "She is an adventurer who loves skydiving and mountain climbing.（她是个冒险家，喜欢跳伞和登山。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "侧重点",
+      "explorer": "探索未知地点，注重发现和调查",
+      "adventurer": "追求刺激和冒险经历"
+    },
+    {
+      "aspect": "活动范围",
+      "explorer": "考察、科学探险、地理发现",
+      "adventurer": "户外活动、极限运动、冒险旅行"
+    },
+    {
+      "aspect": "目的",
+      "explorer": "寻找新知和地点",
+      "adventurer": "体验刺激和挑战"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "历史故事",
+      "explorer": "Christopher Columbus was an explorer who discovered America.（哥伦布是发现美洲的探险家。）",
+      "adventurer": "Indiana Jones is a famous adventurer in movies.（印第安纳·琼斯是电影中著名的冒险家。）"
+    },
+    {
+      "scene": "旅行计划",
+      "explorer": "He wants to be an explorer and study the Amazon rainforest.（他想成为探险家，研究亚马逊雨林。）",
+      "adventurer": "She is an adventurer who enjoys hiking in wild places.（她是个喜欢野外徒步的冒险家。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He is an adventurer who maps new lands.",
+      "correction": "✅ He is an explorer who maps new lands.（绘制地图通常用explorer。）"
+    },
+    {
+      "error": "❌ Explorers always take big risks like skydiving.",
+      "correction": "✅ Adventurers often take big risks like skydiving.（跳伞属于冒险行为，更适合adventurer。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She studies new plants in the jungle. She is a ___.",
+      "options": ["A. adventurer", "B. explorer"],
+      "answer": "B",
+      "explanation": "研究新植物，强调探索，用explorer。"
+    },
+    {
+      "question": "选择正确答案：He loves extreme sports and challenges. He is an ___.",
+      "options": ["A. explorer", "B. adventurer"],
+      "answer": "B",
+      "explanation": "喜欢极限运动，强调冒险精神，用adventurer。"
+    },
+    {
+      "question": "选择正确答案：Marco Polo was a famous ___.",
+      "options": ["A. adventurer", "B. explorer"],
+      "answer": "B",
+      "explanation": "历史上的地理发现者称为explorer。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["pioneer（先锋，开拓者）", "traveler（旅行者）"],
+    "tip": "口诀：explorer专注发现，adventurer喜欢刺激"
+  }
+}

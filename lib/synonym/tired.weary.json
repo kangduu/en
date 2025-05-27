@@ -1,0 +1,79 @@
+{
+  "words": ["tired", "weary"],
+  "explanation": {
+    "overview": "这两个词都表示‘疲劳’，但用法和语气有所不同。",
+    "details": [
+      {
+        "word": "tired",
+        "meaning": "一般指身体或精神上的疲劳，较常用，日常生活中广泛使用。",
+        "example": "After running for an hour, I felt very tired.（跑了一小时后，我感到很累。）"
+      },
+      {
+        "word": "weary",
+        "meaning": "强调极度疲惫，有时带有精神疲劳、厌倦的意思，语气更正式或文学化。",
+        "example": "She was weary after the long journey.（长途旅行后，她感到疲惫不堪。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气",
+      "tired": "普通、日常",
+      "weary": "正式、文学，带有厌倦感"
+    },
+    {
+      "aspect": "疲劳程度",
+      "tired": "一般疲劳",
+      "weary": "更深的疲惫"
+    },
+    {
+      "aspect": "使用场合",
+      "tired": "日常对话",
+      "weary": "书面语、文学、正式场合"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "运动后",
+      "tired": "I am tired after playing basketball.（打篮球后我很累。）"
+    },
+    {
+      "scene": "长途旅行后",
+      "weary": "He looked weary after the long flight.（长时间飞行后，他显得疲惫。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I feel very weary after a short walk.",
+      "correction": "✅ I feel very tired after a short walk.（短途走路一般用 tired）"
+    },
+    {
+      "error": "❌ She is tired of the long journey.",
+      "correction": "✅ She is weary of the long journey.（表达厌倦时用 weary 更合适）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：After working all day, he felt ___ and wanted to rest.",
+      "options": ["A. tired", "B. weary"],
+      "answer": "A",
+      "explanation": "一般疲劳，选择 tired。"
+    },
+    {
+      "question": "选择正确答案：She grew ___ of the endless meetings.",
+      "options": ["A. tired", "B. weary"],
+      "answer": "B",
+      "explanation": "表示厌倦、疲惫，选择 weary。"
+    },
+    {
+      "question": "选择正确答案：He looked ___ after the marathon.",
+      "options": ["A. tired", "B. weary"],
+      "answer": "B",
+      "explanation": "强调深度疲劳，选 weary。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["exhausted（精疲力尽）", "fatigued（疲劳）"],
+    "tip": "tired 普通疲劳，weary 更正式且带厌倦感。"
+  }
+}

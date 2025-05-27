@@ -1,0 +1,79 @@
+{
+  "words": ["meanwhile", "meantime"],
+  "explanation": {
+    "overview": "这两个词都表示‘与此同时’，用来连接两个同时发生的动作或事件，但用法稍有不同。",
+    "details": [
+      {
+        "word": "meanwhile",
+        "meaning": "作为副词使用，强调在某件事发生的同时，另一件事也在发生，通常放在句首或句中。",
+        "example": "She was cooking dinner. Meanwhile, he was setting the table.（她在做饭， meanwhile 他在摆餐具。）"
+      },
+      {
+        "word": "meantime",
+        "meaning": "作为名词使用，表示‘在此期间’或‘同时’，常用于固定短语 in the meantime。",
+        "example": "The new sofa will arrive next week. In the meantime, you can use the old one.（新沙发下周到。与此同时，你可以用旧的。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "词性",
+      "meanwhile": "副词",
+      "meantime": "名词（常见短语：in the meantime）"
+    },
+    {
+      "aspect": "常用位置",
+      "meanwhile": "句首、句中",
+      "meantime": "一般用于短语 in the meantime"
+    },
+    {
+      "aspect": "用法差异",
+      "meanwhile": "强调两件事同时进行",
+      "meantime": "强调期间或空档"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "做饭和布置餐桌",
+      "meanwhile": "She cleaned the kitchen. Meanwhile, he prepared the drinks.（她打扫厨房， meanwhile 他准备饮料。）"
+    },
+    {
+      "scene": "家具等待期间",
+      "meantime": "The repair will take two days. In the meantime, please be patient.（维修要两天。 meantime，请耐心等待。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ She is cooking dinner in meantime he sets the table.",
+      "correction": "✅ She is cooking dinner. Meanwhile, he is setting the table."
+    },
+    {
+      "error": "❌ We will wait meanwhile the bus arrives.",
+      "correction": "✅ We will wait in the meantime until the bus arrives."
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She studied for the exam. ___, her brother played outside.",
+      "options": ["A. Meanwhile", "B. In the meantime"],
+      "answer": "A",
+      "explanation": "两个动作同时发生，用 meanwhile。"
+    },
+    {
+      "question": "选择正确答案：The new computer will arrive soon. ___, you can use the old one.",
+      "options": ["A. Meanwhile", "B. In the meantime"],
+      "answer": "B",
+      "explanation": "强调期间，常用短语 in the meantime。"
+    },
+    {
+      "question": "选择正确答案：___, he was fixing the car.",
+      "options": ["A. Meanwhile", "B. Meantime"],
+      "answer": "A",
+      "explanation": "放句首，作副词用 meanwhile。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["simultaneously（同时地）", "at the same time（同时）"],
+    "tip": "meanwhile 是副词，meantime 多用短语 in the meantime 表示‘在此期间’。"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "words": ["lighthouse", "lamp", "pharos", "beacon"],
+  "explanation": {
+    "overview": "这些词都和光源或指示光有关，但用法、范围和含义有所不同。",
+    "details": [
+      {
+        "word": "lighthouse",
+        "meaning": "建在海岸或岛上的高塔，配有强光，用来引导航船避开危险。",
+        "example": "The lighthouse guides ships safely at night.（灯塔在夜晚指引船只安全航行。）"
+      },
+      {
+        "word": "lamp",
+        "meaning": "泛指任何照明用的灯具，如台灯、路灯等。",
+        "example": "Please turn on the lamp in the room.（请开一下房间里的灯。）"
+      },
+      {
+        "word": "pharos",
+        "meaning": "古代灯塔，特指古埃及亚历山大港的法罗斯灯塔，是灯塔的原型。",
+        "example": "The Pharos of Alexandria was one of the Seven Wonders.（亚历山大灯塔是七大奇迹之一。）"
+      },
+      {
+        "word": "beacon",
+        "meaning": "用来发光或发信号的标志，范围广，可以是灯塔、火炬或信号灯。",
+        "example": "The mountain beacon helped lost hikers find their way.（山上的信号灯帮助迷路的徒步者找到路。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "功能",
+      "lighthouse": "引导航船，防止触礁",
+      "lamp": "提供照明",
+      "pharos": "古代灯塔，特指著名古灯塔",
+      "beacon": "发信号或指示方向"
+    },
+    {
+      "aspect": "位置",
+      "lighthouse": "海岸或岛屿",
+      "lamp": "室内外多种地方",
+      "pharos": "特指古代灯塔",
+      "beacon": "多样，山顶、海边等"
+    },
+    {
+      "aspect": "范围和用法",
+      "lighthouse": "专指海上灯塔",
+      "lamp": "一般照明灯具",
+      "pharos": "历史专用词",
+      "beacon": "信号灯及指示灯"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "海边旅行",
+      "lighthouse": "We saw the lighthouse shining at night.（我们看到灯塔在夜晚闪烁。）",
+      "lamp": "She turned on the lamp in the hotel room.（她打开了酒店房间里的灯。）",
+      "pharos": "The pharos is famous in history books.（法罗斯灯塔在历史书中很有名。）",
+      "beacon": "The beacon on the hill guided the rescue team.（山上的信号灯引导了救援队。）"
+    },
+    {
+      "scene": "家里",
+      "lighthouse": "—",
+      "lamp": "I bought a new desk lamp for studying.（我买了一个新的台灯用来学习。）",
+      "pharos": "—",
+      "beacon": "—"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The lamp guided ships safely at sea.",
+      "correction": "✅ The lighthouse guided ships safely at sea.（海上指引用lighthouse。）"
+    },
+    {
+      "error": "❌ The pharos is just a lamp.",
+      "correction": "✅ The Pharos was a famous ancient lighthouse.（Pharos是古灯塔。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：A ___ helps ships avoid danger at night.",
+      "options": ["A. lamp", "B. lighthouse", "C. beacon", "D. pharos"],
+      "answer": "B",
+      "explanation": "灯塔引导航船用lighthouse。"
+    },
+    {
+      "question": "选择正确答案：The ___ is an ancient famous lighthouse in Egypt.",
+      "options": ["A. beacon", "B. pharos", "C. lamp", "D. lighthouse"],
+      "answer": "B",
+      "explanation": "Pharos特指古代灯塔。"
+    },
+    {
+      "question": "选择正确答案：Please turn on the ___ to read at night.",
+      "options": ["A. beacon", "B. pharos", "C. lamp", "D. lighthouse"],
+      "answer": "C",
+      "explanation": "室内灯用lamp。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "torch（火把）",
+      "signal light（信号灯）",
+      "streetlight（街灯）"
+    ],
+    "tip": "口诀：lighthouse海上灯塔，lamp一般灯具，pharos古代灯塔，beacon信号灯"
+  }
+}

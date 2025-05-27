@@ -1,0 +1,98 @@
+{
+  "words": ["astonish", "surprise", "amaze", "shock"],
+  "explanation": {
+    "overview": "这四个词都表示‘让人吃惊’，但语气强弱和感情色彩不同。",
+    "details": [
+      {
+        "word": "astonish",
+        "meaning": "强调让人极度惊讶，带有一定程度的震撼，通常是出乎意料的事。",
+        "example": "His performance astonished everyone.（他的表现让所有人都震惊了。）"
+      },
+      {
+        "word": "surprise",
+        "meaning": "最常用、语气最中性的‘惊讶’，可以是好事也可以是坏事。",
+        "example": "She surprised me with a birthday cake.（她用一个生日蛋糕给了我惊喜。）"
+      },
+      {
+        "word": "amaze",
+        "meaning": "带有积极意味的‘惊讶’，强调令人敬佩或难以置信的事情。",
+        "example": "I was amazed by the magician’s trick.（魔术师的把戏让我惊叹。）"
+      },
+      {
+        "word": "shock",
+        "meaning": "最强烈的‘震惊’，通常带有负面情绪，如意外、恐惧或悲伤。",
+        "example": "The news of the accident shocked the whole town.（事故的消息震惊了整个镇。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气强度",
+      "surprise": "最轻",
+      "amaze": "中等，偏正面",
+      "astonish": "更强，偏中性",
+      "shock": "最强烈，常为负面"
+    },
+    {
+      "aspect": "感情色彩",
+      "surprise": "中性",
+      "amaze": "正面，惊叹",
+      "astonish": "中性偏强",
+      "shock": "负面，震惊/难以接受"
+    },
+    {
+      "aspect": "使用场景",
+      "surprise": "日常惊喜或出乎意料的事",
+      "amaze": "非凡的能力或成就",
+      "astonish": "难以置信的事实或成就",
+      "shock": "灾难、意外、死亡等"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "生活/课堂场景",
+      "surprise": "The teacher surprised us with no homework.（老师让我们惊喜的是没布置作业。）",
+      "amaze": "Her singing really amazed the audience.（她的歌声真让观众惊叹。）",
+      "astonish": "It astonished me that he finished the test in 10 minutes.（他十分钟完成测试让我非常震惊。）",
+      "shock": "We were shocked by the sudden blackout during the exam.（考试中突然停电让我们大吃一惊。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I was shocked by the birthday gift.",
+      "correction": "✅ I was surprised by the birthday gift.（shock 常用于负面情境）"
+    },
+    {
+      "error": "❌ The magic trick shocked me.",
+      "correction": "✅ The magic trick amazed me.（令人佩服/出奇的事用 amaze 更自然）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The magician’s final trick really ___ the audience.",
+      "options": ["A. surprised", "B. shocked", "C. amazed"],
+      "answer": "C",
+      "explanation": "令人惊叹的表演，用 amazed 最恰当。"
+    },
+    {
+      "question": "选择正确答案：The terrible news ___ us all.",
+      "options": ["A. surprised", "B. shocked", "C. astonished"],
+      "answer": "B",
+      "explanation": "带有负面震惊时用 shock。"
+    },
+    {
+      "question": "选择正确答案：Her sudden decision to move abroad ___ her friends.",
+      "options": ["A. shocked", "B. amazed", "C. astonished"],
+      "answer": "C",
+      "explanation": "不可思议的决定，更偏中性惊讶，用 astonish。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "stun（震惊，常用于新闻/突发事件）",
+      "flabbergast（极度震惊，较夸张）",
+      "startle（惊吓，瞬间）"
+    ],
+    "tip": "口诀：surprise 小惊喜，amaze 让人佩服，astonish 真惊到，shock 太震撼"
+  }
+}

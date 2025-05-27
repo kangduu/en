@@ -1,0 +1,89 @@
+{
+  "words": ["occur", "happen", "arise"],
+  "explanation": {
+    "overview": "这三个词都表示‘发生’，但语气、使用场合和句型结构不同。",
+    "details": [
+      {
+        "word": "occur",
+        "meaning": "比较正式，通常用于书面语或科技/法律语境，强调事情‘出现’或‘被记录’。",
+        "example": "An earthquake occurred last night.（昨晚发生了地震。）"
+      },
+      {
+        "word": "happen",
+        "meaning": "最常用最口语化的‘发生’，多指偶然或意外的事件。",
+        "example": "What happened yesterday?（昨天发生了什么？）"
+      },
+      {
+        "word": "arise",
+        "meaning": "语气较正式，通常指‘问题、情况、机会’的产生或冒出，而不是具体事件。",
+        "example": "A few problems arose during the meeting.（会议中出现了一些问题。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气风格",
+      "occur": "正式/书面语",
+      "happen": "常用/口语化",
+      "arise": "正式，用于抽象事物"
+    },
+    {
+      "aspect": "使用对象",
+      "occur": "自然现象、事故等",
+      "happen": "日常事件、意外情况",
+      "arise": "问题、冲突、机会等抽象名词"
+    },
+    {
+      "aspect": "常用结构",
+      "occur": "事件 + occur（不用于被动语态）",
+      "happen": "主语常为 it，不能用于被动语态",
+      "arise": "多用于 ‘a problem/chance arises’"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "校园/生活场景",
+      "occur": "The error occurred while saving the file.（保存文件时发生了错误。）",
+      "happen": "It happened when I was walking to school.（那是我上学路上发生的。）",
+      "arise": "If any difficulties arise, call the teacher.（如果出现任何困难，就叫老师。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ An accident was happened yesterday.",
+      "correction": "✅ An accident happened yesterday.（happen 不能用于被动语态）"
+    },
+    {
+      "error": "❌ A new problem happened in class.",
+      "correction": "✅ A new problem arose in class.（抽象问题用 arise 更自然）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：A chance to study abroad may ___ at any time.",
+      "options": ["A. happen", "B. arise", "C. occur"],
+      "answer": "B",
+      "explanation": "机会是抽象的，用 arise 更合适。"
+    },
+    {
+      "question": "选择正确答案：The accident ___ on the highway last night.",
+      "options": ["A. arose", "B. happened", "C. arises"],
+      "answer": "B",
+      "explanation": "描述意外事件，用 happen。"
+    },
+    {
+      "question": "选择正确答案：The power outage ___ during the storm.",
+      "options": ["A. occurred", "B. happened", "C. arose"],
+      "answer": "A",
+      "explanation": "正式、书面语场景中用 occur 更恰当。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "emerge（出现，尤指逐渐）",
+      "take place（发生，多用于计划中的事件）",
+      "ensue（接着发生，尤用于结果）"
+    ],
+    "tip": "口诀：happen口语，occur书面，arise抽象"
+  }
+}

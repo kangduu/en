@@ -1,0 +1,101 @@
+{
+  "words": ["hospital", "clinic", "infirmary", "dispensary"],
+  "explanation": {
+    "overview": "这几个词都与医疗机构有关，但规模、功能和使用场景不同。",
+    "details": [
+      {
+        "word": "hospital",
+        "meaning": "大型医疗机构，提供全面的医疗服务，包括急诊、手术和住院。",
+        "example": "She was taken to the hospital after the accident.（事故后她被送进医院。）"
+      },
+      {
+        "word": "clinic",
+        "meaning": "规模较小的医疗机构，通常提供门诊服务，诊断和治疗常见疾病。",
+        "example": "I have an appointment at the dental clinic.（我在牙科诊所预约了。）"
+      },
+      {
+        "word": "infirmary",
+        "meaning": "通常指学校、工厂或军事基地内的小型医疗站，提供基础医疗和急救。",
+        "example": "The school infirmary treats minor injuries.（学校医务室处理小伤。）"
+      },
+      {
+        "word": "dispensary",
+        "meaning": "药房或小型医疗机构，主要负责发放药物和基本诊疗，有时附属于医院或诊所。",
+        "example": "The dispensary provides free medicine to the local community.（药房为社区提供免费药品。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "规模",
+      "hospital": "大型",
+      "clinic": "中小型",
+      "infirmary": "小型",
+      "dispensary": "小型"
+    },
+    {
+      "aspect": "功能",
+      "hospital": "全面治疗，包括手术和住院",
+      "clinic": "门诊诊断和治疗",
+      "infirmary": "基础医疗和急救",
+      "dispensary": "发药和简单治疗"
+    },
+    {
+      "aspect": "使用场景",
+      "hospital": "公共医疗系统和紧急情况",
+      "clinic": "社区或专科诊所",
+      "infirmary": "学校、工厂、军营",
+      "dispensary": "社区药房或医疗点"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校",
+      "hospital": "N/A",
+      "clinic": "N/A",
+      "infirmary": "The school infirmary helped him after he fell.（他摔倒后，学校医务室帮助了他。）",
+      "dispensary": "N/A"
+    },
+    {
+      "scene": "社区医疗",
+      "hospital": "She was admitted to the hospital for surgery.（她住院做手术。）",
+      "clinic": "I visited the clinic for a flu shot.（我去诊所打流感疫苗。）",
+      "infirmary": "N/A",
+      "dispensary": "The dispensary gave me the prescribed medicine.（药房给了我处方药。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I went to the infirmary for surgery.",
+      "correction": "✅ I went to the hospital for surgery.（手术通常在医院进行。）"
+    },
+    {
+      "error": "❌ The dispensary performs surgeries.",
+      "correction": "✅ The hospital performs surgeries.（药房不做手术。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：He was taken to the ___ for emergency treatment.",
+      "options": ["A. clinic", "B. hospital", "C. infirmary", "D. dispensary"],
+      "answer": "B",
+      "explanation": "紧急治疗一般在医院进行。"
+    },
+    {
+      "question": "选择正确答案：The school has a small ___ for minor injuries.",
+      "options": ["A. infirmary", "B. dispensary", "C. hospital"],
+      "answer": "A",
+      "explanation": "学校的小医疗点称为infirmary。"
+    },
+    {
+      "question": "选择正确答案：You can get medicine at the ___.",
+      "options": ["A. hospital", "B. clinic", "C. dispensary"],
+      "answer": "C",
+      "explanation": "dispensary主要负责发药。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["medical center（医疗中心）", "health post（卫生站）"],
+    "tip": "口诀：hospital大且全面，clinic门诊，infirmary学校厂医务室，dispensary发药"
+  }
+}

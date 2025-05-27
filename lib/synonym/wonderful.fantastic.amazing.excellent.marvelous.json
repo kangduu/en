@@ -1,0 +1,125 @@
+{
+  "words": ["wonderful", "fantastic", "amazing", "excellent", "marvelous"],
+  "explanation": {
+    "overview": "这几个词都是形容非常好的意思，但用法和语气有细微区别。它们都表达赞赏和惊叹，但侧重点和正式程度不同。",
+    "details": [
+      {
+        "word": "wonderful",
+        "meaning": "极好，令人愉快，常用来表达温暖和赞美。",
+        "example": "You did a wonderful job on your homework.（你作业做得非常好。）"
+      },
+      {
+        "word": "fantastic",
+        "meaning": "非常棒，超出预期，有时带一点夸张和兴奋感。",
+        "example": "The movie was fantastic!（那部电影太棒了！）"
+      },
+      {
+        "word": "amazing",
+        "meaning": "令人惊讶和赞叹，强调令人难以置信的好。",
+        "example": "The magician’s tricks were amazing.（魔术师的表演令人惊叹。）"
+      },
+      {
+        "word": "excellent",
+        "meaning": "优秀的，质量很高，通常比wonderful更正式。",
+        "example": "She gave an excellent presentation.（她做了一个出色的演讲。）"
+      },
+      {
+        "word": "marvelous",
+        "meaning": "极好的，令人赞叹，较为正式且带一点文学色彩。",
+        "example": "What a marvelous view from here!（这里的景色真是极好！）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气",
+      "wonderful": "温暖、友好",
+      "fantastic": "兴奋、夸张",
+      "amazing": "惊讶、赞叹",
+      "excellent": "正式、专业",
+      "marvelous": "正式、文学"
+    },
+    {
+      "aspect": "使用场合",
+      "wonderful": "日常、口语",
+      "fantastic": "口语、非正式",
+      "amazing": "口语、描述奇迹",
+      "excellent": "正式、工作学习",
+      "marvelous": "书面、正式、诗意"
+    },
+    {
+      "aspect": "侧重点",
+      "wonderful": "整体感觉好",
+      "fantastic": "特别棒，超出预期",
+      "amazing": "惊人、难以置信",
+      "excellent": "品质和表现优异",
+      "marvelous": "令人赞叹且美好"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校",
+      "wonderful": "You did a wonderful job on the test.（你考试考得很棒。）",
+      "fantastic": "That was a fantastic story you told!（你讲的故事太棒了！）",
+      "amazing": "It’s amazing how fast you learned English.（你学英语学得真快，真令人惊讶。）",
+      "excellent": "Her essay is excellent.（她的作文很出色。）",
+      "marvelous": "The teacher gave a marvelous explanation.（老师做了精彩的讲解。）"
+    },
+    {
+      "scene": "旅行",
+      "wonderful": "We had a wonderful time at the beach.（我们在海滩玩得很开心。）",
+      "fantastic": "The hotel was fantastic!（酒店太棒了！）",
+      "amazing": "The view from the mountain was amazing.（山上的景色令人惊叹。）",
+      "excellent": "The service at the hotel was excellent.（酒店服务很优秀。）",
+      "marvelous": "What a marvelous sunset!（多么美妙的日落！）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The movie was excellent! (用于非常口语兴奋的场合)",
+      "correction": "✅ The movie was fantastic! 或 The movie was amazing!（口语场合用 fantastic 或 amazing 更合适。）"
+    },
+    {
+      "error": "❌ She gave a marvelous answer in casual chat.",
+      "correction": "✅ She gave a wonderful or excellent answer.（casual chat 中 marvelous 用得少，wonderful 更合适。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The cake you baked tastes ___.",
+      "options": [
+        "A. marvelous",
+        "B. excellent",
+        "C. fantastic",
+        "D. wonderful"
+      ],
+      "answer": "D",
+      "explanation": "表达食物好吃，用 wonderful 最自然。"
+    },
+    {
+      "question": "选择正确答案：Her performance was ____, surprising everyone.",
+      "options": ["A. excellent", "B. amazing", "C. marvelous", "D. wonderful"],
+      "answer": "B",
+      "explanation": "强调惊讶和赞叹，用 amazing。"
+    },
+    {
+      "question": "选择正确答案：The presentation was very ___ and professional.",
+      "options": [
+        "A. fantastic",
+        "B. wonderful",
+        "C. excellent",
+        "D. marvelous"
+      ],
+      "answer": "C",
+      "explanation": "正式场合，用 excellent。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "awesome（棒极了）",
+      "brilliant（才华横溢的/精彩的）",
+      "terrific（极好的）"
+    ],
+    "tip": "口诀：wonderful温暖，fantastic夸张，amazing惊讶，excellent正式，marvelous文学"
+  }
+}

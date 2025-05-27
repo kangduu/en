@@ -1,0 +1,110 @@
+{
+  "words": ["wicked", "bad", "evil", "naughty"],
+  "explanation": {
+    "overview": "这些词都与“不好”或“行为不当”有关，但它们的语气、语境和程度不同，尤其在描述人或行为时有明显差异。",
+    "details": [
+      {
+        "word": "wicked",
+        "meaning": "邪恶的，常用于形容极坏或具有害意的人或行为，也可在俚语中表示“很棒的”（英式口语）。",
+        "example": "The witch was wicked and cruel.（那个女巫又邪恶又残忍。）"
+      },
+      {
+        "word": "bad",
+        "meaning": "最常用的通用词，表示不好、糟糕，可以指人、行为、东西。",
+        "example": "He got a bad grade on the test.（他考试得了个很差的分数。）"
+      },
+      {
+        "word": "evil",
+        "meaning": "比 wicked 更强烈，强调道德上的“邪恶、本质上的坏”，常用于宗教、文学中。",
+        "example": "The villain was pure evil.（这个反派是彻头彻尾的邪恶。）"
+      },
+      {
+        "word": "naughty",
+        "meaning": "形容孩子或宠物“调皮、不听话”，语气轻微，有时也带调侃意味。",
+        "example": "The naughty boy drew on the wall.（那个调皮的男孩在墙上乱画。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "程度强弱",
+      "naughty": "轻微",
+      "bad": "中等",
+      "wicked": "严重或阴险",
+      "evil": "极端邪恶"
+    },
+    {
+      "aspect": "适用对象",
+      "naughty": "孩子、宠物",
+      "bad": "通用",
+      "wicked": "人、行为",
+      "evil": "人、意图、力量"
+    },
+    {
+      "aspect": "语气语境",
+      "naughty": "调皮/可爱",
+      "bad": "通俗/日常",
+      "wicked": "正式/文学",
+      "evil": "宗教/道德"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "家庭教育",
+      "naughty": "Don’t be naughty, clean up your toys.（别调皮，把玩具收好。）",
+      "bad": "It’s bad to lie to your parents.（对父母撒谎是不好的。）",
+      "wicked": "That was a wicked thing to do to your sister.（你对妹妹做的事太恶毒了。）",
+      "evil": "Only an evil person could hurt a child.（只有邪恶的人才会伤害孩子。）"
+    },
+    {
+      "scene": "影视评价",
+      "naughty": "The movie was about a naughty dog.（电影讲的是一只调皮的狗。）",
+      "bad": "That was a bad movie.（那部电影很差。）",
+      "wicked": "He played a wicked villain.（他演了一个邪恶的反派角色。）",
+      "evil": "The evil queen cast a curse.（邪恶的女王施了一个诅咒。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He is evil because he didn’t do his homework.",
+      "correction": "✅ He is naughty or lazy because he didn’t do his homework.（不写作业不是‘邪恶’，语气太严重）"
+    },
+    {
+      "error": "❌ That naughty man stole a car.",
+      "correction": "✅ That bad/wicked man stole a car.（naughty 只用于轻微的调皮，不适合罪犯）"
+    },
+    {
+      "error": "❌ She is a bad person because she loves horror movies.",
+      "correction": "✅ She is not a bad person, just has a different taste.（喜欢恐怖片不是‘坏人’）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The ___ child hid his mom’s phone as a joke.",
+      "options": ["A. evil", "B. bad", "C. naughty"],
+      "answer": "C",
+      "explanation": "naughty 用于孩子的小调皮行为。"
+    },
+    {
+      "question": "选择正确答案：The ___ witch turned the prince into a frog.",
+      "options": ["A. naughty", "B. wicked", "C. bad"],
+      "answer": "B",
+      "explanation": "wicked 常用来形容童话中的女巫等邪恶角色。"
+    },
+    {
+      "question": "选择正确答案：Murder is an ___ act.",
+      "options": ["A. naughty", "B. bad", "C. evil"],
+      "answer": "C",
+      "explanation": "evil 用于非常严重、道德上邪恶的行为。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "mean（刻薄）",
+      "cruel（残忍）",
+      "sinister（阴险）",
+      "mischievous（淘气但不坏）"
+    ],
+    "tip": "口诀：naughty调皮，bad一般，wicked坏得狠，evil魔王本"
+  }
+}

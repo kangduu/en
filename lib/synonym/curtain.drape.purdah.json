@@ -1,0 +1,91 @@
+{
+  "words": ["curtain", "drape", "purdah"],
+  "explanation": {
+    "overview": "这三个词都与遮挡有关，但用途和文化背景不同。curtain 和 drape 常用于窗户遮挡，purdah 是特定文化中的遮挡方式，更多指女性遮面或隔离。",
+    "details": [
+      {
+        "word": "curtain",
+        "meaning": "挂在窗户上的布，用来遮挡光线或保护隐私，通常较轻且简单。",
+        "example": "Please close the curtain to block the sunlight.（请拉上窗帘挡住阳光。）"
+      },
+      {
+        "word": "drape",
+        "meaning": "指较厚重、装饰性强的窗帘，常用复数形式 drapes，具有较华丽或正式感。",
+        "example": "The living room has beautiful velvet drapes.（客厅挂着漂亮的天鹅绒窗帘。）"
+      },
+      {
+        "word": "purdah",
+        "meaning": "一种印度及一些伊斯兰文化中，女性为了保持贞洁和隐私而使用的遮盖方式，既指帷幕也指隔离制度。",
+        "example": "In some regions, women observe purdah by covering their faces.（在某些地区，女性通过遮盖脸部来遵守帕尔达制度。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "主要用途",
+      "curtain": "遮光、隐私保护",
+      "drape": "遮光、装饰",
+      "purdah": "女性遮面、隔离"
+    },
+    {
+      "aspect": "厚度和材质",
+      "curtain": "较轻薄，多样材质",
+      "drape": "较厚重，通常较重的布料",
+      "purdah": "布或帷幕，也指文化制度"
+    },
+    {
+      "aspect": "文化背景",
+      "curtain": "广泛使用，无特定文化",
+      "drape": "主要用于装饰性窗帘",
+      "purdah": "印度和伊斯兰文化特有"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "家庭生活",
+      "curtain": "I opened the curtain to let in the sunlight.（我拉开窗帘让阳光进来。）",
+      "drape": "She bought new drapes for the living room.（她为客厅买了新的窗帘。）",
+      "purdah": "In traditional purdah, women stay behind a curtain.（在传统帕尔达制度中，女性待在帷幕后面。）"
+    },
+    {
+      "scene": "文化介绍",
+      "curtain": "The curtain in the theater was red.（剧院的幕布是红色的。）",
+      "drape": "The stage was decorated with heavy drapes.（舞台装饰着厚重的窗帘。）",
+      "purdah": "Purdah is a practice in some Muslim and Indian communities.（帕尔达是一些穆斯林和印度社区的习俗。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ She pulled the drape to block the light like a curtain.",
+      "correction": "✅ She pulled the curtain to block the light.（curtain 更常用，drape 多指较厚重窗帘。）"
+    },
+    {
+      "error": "❌ Purdah means just curtain in English.",
+      "correction": "✅ Purdah 指的是一种文化遮挡和隔离制度，不只是窗帘。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The theater ___ rose as the show began.",
+      "options": ["A. curtain", "B. drape", "C. purdah"],
+      "answer": "A",
+      "explanation": "剧院中用 curtain 表示舞台幕布。"
+    },
+    {
+      "question": "选择正确答案：The room was decorated with heavy velvet ___.",
+      "options": ["A. curtain", "B. drape", "C. purdah"],
+      "answer": "B",
+      "explanation": "drape 指厚重且装饰性窗帘。"
+    },
+    {
+      "question": "选择正确答案：In some cultures, women observe ___ to maintain privacy.",
+      "options": ["A. curtain", "B. drape", "C. purdah"],
+      "answer": "C",
+      "explanation": "purdah 是文化中女性遮挡和隔离制度。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["veil（面纱）", "blind（百叶窗）", "screen（屏风）"],
+    "tip": "口诀记忆：curtain拉开光进来，drape厚重显华丽，purdah文化遮隐私"
+  }
+}

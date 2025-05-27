@@ -1,0 +1,81 @@
+{
+  "words": ["seem", "look"],
+  "explanation": {
+    "overview": "这两个词都用来表达‘看起来’的意思，但‘seem’更偏向感觉或判断，‘look’更偏重视觉观察。",
+    "details": [
+      {
+        "word": "seem",
+        "meaning": "表示主观感觉或推测，侧重于‘好像、似乎’，不一定有视觉依据。",
+        "example": "She seems happy today.（她今天看起来很开心。）"
+      },
+      {
+        "word": "look",
+        "meaning": "表示通过视觉观察得出的印象，强调‘看上去’的样子。",
+        "example": "He looks tired after work.（他下班后看起来很累。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "侧重点",
+      "seem": "感觉或推测",
+      "look": "视觉观察"
+    },
+    {
+      "aspect": "是否有视觉依据",
+      "seem": "不一定，有时凭感觉",
+      "look": "通常有视觉依据"
+    },
+    {
+      "aspect": "词性",
+      "seem": "动词（连系动词）",
+      "look": "动词（连系动词，也可作动作动词）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "情绪判断",
+      "seem": "She seems sad today.（她今天似乎很伤心。）",
+      "look": "She looks sad in the photo.（她在照片中看起来很伤心。）"
+    },
+    {
+      "scene": "外貌描述",
+      "seem": "The weather seems nice.（天气好像不错。）",
+      "look": "The sky looks clear now.（天空现在看起来很晴朗。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ She looks like she is tired. (重复使用like)",
+      "correction": "✅ She looks tired.（look后直接加形容词）"
+    },
+    {
+      "error": "❌ It seems like it is raining outside.",
+      "correction": "✅ It seems to be raining outside. 或 It looks like it is raining outside.（seem后常用不定式）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：He ___ very happy today.",
+      "options": ["A. seems", "B. looks"],
+      "answer": "A",
+      "explanation": "表达‘似乎开心’，强调感觉，用seem。"
+    },
+    {
+      "question": "选择正确答案：She ___ tired after running.",
+      "options": ["A. seems", "B. looks"],
+      "answer": "B",
+      "explanation": "通过视觉观察‘看起来累’，用look。"
+    },
+    {
+      "question": "选择正确答案：The sky ___ clear and blue.",
+      "options": ["A. seems", "B. looks"],
+      "answer": "B",
+      "explanation": "天空颜色可见，用look。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["appear（出现，看上去）", "feel（感觉上）"],
+    "tip": "记住口诀：seem重感觉，look重视觉"
+  }
+}

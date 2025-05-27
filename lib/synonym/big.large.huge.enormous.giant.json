@@ -1,5 +1,15 @@
 {
-  "words": ["big", "large", "huge", "enormous", "giant"],
+  "words": [
+    "big",
+    "large",
+    "huge",
+    "enormous",
+    "giant",
+    "vast",
+    "immense",
+    "colossal",
+    "massive"
+  ],
   "explanation": {
     "overview": "这些形容词都表示'大的'，但在程度和使用场景上有所不同。",
     "details": [
@@ -27,6 +37,26 @@
         "word": "giant",
         "meaning": "字面指'巨人般的'大小，也常作名词表示'巨人'",
         "example": "They discovered giant footprints in the forest.（他们在森林发现了巨大的脚印。）"
+      },
+      {
+        "word": "immense",
+        "meaning": "极其巨大，带有强烈感情色彩，强调惊人。",
+        "example": "He has immense talent.（他有极大的天赋。）"
+      },
+      {
+        "word": "colossal",
+        "meaning": "极其巨大，形容极大且令人震惊的规模。",
+        "example": "The statue is colossal.（这座雕像巨大无比。）"
+      },
+      {
+        "word": "massive",
+        "meaning": "庞大、沉重，强调重量或体积大。",
+        "example": "The building has massive walls.（这栋楼有着厚重的墙壁。）"
+      },
+      {
+        "word": "vast",
+        "meaning": "特别大且广阔，通常形容面积或范围。",
+        "example": "The desert is vast and empty.（沙漠广袤而空旷。）"
       }
     ]
   },
@@ -37,7 +67,11 @@
       "large": "普通大（较正式）",
       "huge": "非常大",
       "enormous": "异常巨大",
-      "giant": "巨人般大"
+      "giant": "巨人般大",
+      "immense": "极其巨大",
+      "colossal": "极其巨大且令人震惊",
+      "massive": "庞大、沉重",
+      "vast": "特别大且广阔"
     },
     {
       "aspect": "使用频率",
@@ -45,7 +79,11 @@
       "large": "高（正式场合）",
       "huge": "高（强调时）",
       "enormous": "中等",
-      "giant": "中等（特定语境）"
+      "giant": "中等（特定语境）",
+      "immense": "中等（特定语境）",
+      "colossal": "中等（特定语境）",
+      "massive": "中等（特定语境）",
+      "vast": "中等（特定语境）"
     },
     {
       "aspect": "常见搭配",
@@ -53,7 +91,11 @@
       "large": "large population（人口众多）, large scale（大规模）",
       "huge": "huge success（巨大成功）, huge difference（巨大差异）",
       "enormous": "enormous pressure（巨大压力）, enormous impact（巨大影响）",
-      "giant": "giant panda（大熊猫）, giant screen（巨幕）"
+      "giant": "giant panda（大熊猫）, giant screen（巨幕）",
+      "immense": "immense resources（巨大的资源）, immense talent（极大的天赋）",
+      "colossal": "colossal statue（巨大的雕像）, colossal mistake（巨大的错误）",
+      "massive": "massive structure（庞大的结构）, massive support（强大的支持）",
+      "vast": "vast ocean（广阔的海洋）, vast knowledge（渊博的知识）"
     }
   ],
   "life_examples": [
@@ -63,7 +105,11 @@
       "large": "I wear a large size.（我穿大号。）",
       "huge": "There was a huge crowd at the concert.（音乐会上人山人海。）",
       "enormous": "The project required an enormous effort.（这个项目需要付出巨大努力。）",
-      "giant": "We saw a giant statue in the park.（我们在公园看到一尊巨大的雕像。）"
+      "giant": "We saw a giant statue in the park.（我们在公园看到一尊巨大的雕像。）",
+      "vast": "She has a vast collection of books.（她有一个庞大的书籍收藏。）",
+      "colossal": "The company made a colossal mistake.（公司犯了一个巨大的错误。）",
+      "immense": "He has immense knowledge in this field.（他在这个领域有着极大的知识。）",
+      "massive": "The building has a massive structure.（这栋楼有着庞大的结构。）"
     },
     {
       "scene": "自然景观",
@@ -71,7 +117,11 @@
       "large": "The lake is quite large.（这个湖相当大。）",
       "huge": "We saw a huge waterfall.（我们看到一个巨大的瀑布。）",
       "enormous": "An enormous iceberg floated by.（一座巨大的冰山漂过。）",
-      "giant": "Giant sequoias can live for thousands of years.（巨杉可以存活数千年。）"
+      "giant": "Giant sequoias can live for thousands of years.（巨杉可以存活数千年。）",
+      "vast": "The ocean is vast and deep.（海洋辽阔而深邃。）",
+      "colossal": "They saw a colossal mountain.（他们看见了一座巨大的山。）",
+      "immense": "The forest covers an immense area.（森林覆盖了极大的区域。）",
+      "massive": "The canyon is massive and breathtaking.（峡谷巨大且令人叹为观止。）"
     }
   ],
   "common_errors": [
@@ -200,12 +250,7 @@
     }
   ],
   "additional_notes": {
-    "extended_words": [
-      "gigantic（巨人似的，比giant更夸张）",
-      "massive（大而重的）",
-      "colossal（极其巨大的）",
-      "immense（广大的，无限的）"
-    ],
+    "extended_words": ["gigantic（巨人似的，比giant更夸张）"],
     "special_cases": {
       "fixed_phrases": [
         "big data（大数据）",
@@ -214,6 +259,7 @@
         "giant leap（巨大飞跃）"
       ],
       "size_order": "big/large < huge < enormous/giant"
-    }
+    },
+    "tip": "口诀：big一般大，large正式，huge/enormous极大，vast辽阔，colossal震撼，massive沉重"
   }
 }

@@ -25,11 +25,9 @@ export default async function Word({ params }: WordProps) {
     life_examples,
     common_errors,
     mini_test,
-    ...rest
+    additional_notes,
   } = synonymous;
 
-  console.log(rest);
-  // todo  additional_notes
   return (
     <>
       <GoBack>{words.join("、")}的区别</GoBack>
@@ -50,7 +48,7 @@ export default async function Word({ params }: WordProps) {
       <MiniTest tests={mini_test} />
 
       {/* additional notes */}
-      <Additional notes={rest.additional_notes} />
+      <Additional notes={additional_notes} />
     </>
   );
 }

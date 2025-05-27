@@ -1,0 +1,90 @@
+{
+  "words": ["several", "some"],
+  "explanation": {
+    "overview": "“several”和“some”都表示‘一些’，但它们在数量、语气和使用场合上有细微区别。",
+    "details": [
+      {
+        "word": "some",
+        "meaning": "表示‘一些’，数量不确定，可以是可数或不可数，语气较模糊。",
+        "example": "I have some friends in Canada.（我在加拿大有一些朋友。）"
+      },
+      {
+        "word": "several",
+        "meaning": "表示‘几个’，强调数量比 two 多但不是很多，通常用于可数名词，语气比 some 更明确。",
+        "example": "She has visited several countries.（她去过几个国家。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "数量",
+      "some": "不确定，可能是1个或多个",
+      "several": "一般为3-7个左右，比two多、比many少"
+    },
+    {
+      "aspect": "是否可数",
+      "some": "可数和不可数都可以",
+      "several": "只能用于可数名词复数"
+    },
+    {
+      "aspect": "语气",
+      "some": "更模糊、温和",
+      "several": "更明确，强调数量略多"
+    },
+    {
+      "aspect": "例子",
+      "some": "some water, some books",
+      "several": "several books（✅），several water（❌）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "购物",
+      "some": "I bought some apples and milk.（我买了一些苹果和牛奶。）",
+      "several": "I bought several apples, but no milk.（我买了几个苹果，但没买牛奶。）"
+    },
+    {
+      "scene": "课堂作业",
+      "some": "Some students finished their homework.（一些学生完成了作业。）",
+      "several": "Several students asked the same question.（有几位学生问了相同的问题。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I drank several water.",
+      "correction": "✅ I drank some water.（不可数名词 water 不能与 several 搭配）"
+    },
+    {
+      "error": "❌ I have some of pens.",
+      "correction": "✅ I have some pens.（some 后直接接可数名词复数，无需 of）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：I saw ___ birds in the garden.",
+      "options": ["A. some", "B. several"],
+      "answer": "B",
+      "explanation": "语境强调数量，birds 是可数名词，用 several 更合适。"
+    },
+    {
+      "question": "选择正确答案：Can I have ___ water?",
+      "options": ["A. some", "B. several"],
+      "answer": "A",
+      "explanation": "water 是不可数名词，需用 some。"
+    },
+    {
+      "question": "选择正确答案：___ students are absent today, but most are here.",
+      "options": ["A. Some", "B. Several"],
+      "answer": "A",
+      "explanation": "语境中未特别强调数量，使用模糊语气的 some 更自然。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "a few（几个）",
+      "many（很多）",
+      "a couple of（两个左右）"
+    ],
+    "tip": "口诀记忆：some模糊随意用，several可数三五成群"
+  }
+}

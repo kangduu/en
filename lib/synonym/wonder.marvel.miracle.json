@@ -1,0 +1,101 @@
+{
+  "words": ["wonder", "marvel", "miracle"],
+  "explanation": {
+    "overview": "这三个词都表示令人惊奇或赞叹的事物，但含义和用法有细微区别：wonder 和 marvel 强调惊奇和赞叹，miracle 更强调超自然或不可思议的奇迹。",
+    "details": [
+      {
+        "word": "wonder",
+        "meaning": "惊奇、惊叹，既可以指对事物的好奇或疑问，也可以指美好或令人惊讶的事物。",
+        "example": "The Grand Canyon is a natural wonder.（大峡谷是自然奇观。）"
+      },
+      {
+        "word": "marvel",
+        "meaning": "奇迹般的事物或景象，强调赞叹和惊叹，常用作名词或动词。",
+        "example": "People marveled at the amazing fireworks.（人们惊叹于壮观的烟花。）"
+      },
+      {
+        "word": "miracle",
+        "meaning": "奇迹，通常指违反自然规律、超自然的事件，带有宗教或神秘色彩。",
+        "example": "It was a miracle that she survived the accident.（她能在事故中幸存简直是个奇迹。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "含义",
+      "wonder": "令人惊奇、好奇或赞叹的事物或感觉",
+      "marvel": "令人赞叹的奇迹或壮观的景象",
+      "miracle": "超自然的奇迹，违反自然规律"
+    },
+    {
+      "aspect": "词性",
+      "wonder": "名词、动词",
+      "marvel": "名词、动词",
+      "miracle": "主要是名词"
+    },
+    {
+      "aspect": "语气",
+      "wonder": "中性或正面，强调惊奇",
+      "marvel": "积极，强调赞叹",
+      "miracle": "强烈，强调不可思议"
+    },
+    {
+      "aspect": "常见用法",
+      "wonder": "The world is full of wonders.",
+      "marvel": "She marveled at the painting.",
+      "miracle": "A miracle happened."
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "旅游",
+      "wonder": "The Great Wall of China is a wonder of the world.（长城是世界奇观。）",
+      "marvel": "We marveled at the beautiful sunset.（我们惊叹美丽的日落。）",
+      "miracle": "It was a miracle that the lost hikers were found alive.（迷路的徒步者被找到活着简直是个奇迹。）"
+    },
+    {
+      "scene": "日常生活",
+      "wonder": "I wonder how birds fly.（我想知道鸟是怎么飞的。）",
+      "marvel": "She marveled at her baby's first steps.（她惊叹宝宝的第一次走路。）",
+      "miracle": "For her, every new day is a miracle.（对她来说，每一天都是奇迹。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ This is a wonder that he can do it.",
+      "correction": "✅ It is a miracle that he can do it.（表示超自然或不可思议时用 miracle。）"
+    },
+    {
+      "error": "❌ I marvel how it happened.",
+      "correction": "✅ I wonder how it happened.（marvel 多用作及物动词，wonder 用于表达疑问更合适。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：It was a ___ that she recovered so quickly after the accident.",
+      "options": ["A. wonder", "B. marvel", "C. miracle"],
+      "answer": "C",
+      "explanation": "miracle 强调超自然或不可思议的奇迹。"
+    },
+    {
+      "question": "选择正确答案：We all ___ at the beautiful performance.",
+      "options": ["A. wondered", "B. marveled", "C. miraculed"],
+      "answer": "B",
+      "explanation": "marveled 用于表示对壮观事物的赞叹。"
+    },
+    {
+      "question": "选择正确答案：I ___ if he will come to the party.",
+      "options": ["A. marvel", "B. wonder", "C. miracle"],
+      "answer": "B",
+      "explanation": "wonder 用于表达疑问或好奇。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "astonishment（惊讶）",
+      "awe（敬畏）",
+      "phenomenon（现象）"
+    ],
+    "tip": "口诀记忆：wonder想问奇妙，marvel赞叹美妙，miracle超自然妙"
+  }
+}

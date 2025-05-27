@@ -1,0 +1,105 @@
+{
+  "words": ["right", "correct", "proper", "justice"],
+  "explanation": {
+    "overview": "这几个词都与‘正确’或‘公正’有关，但含义和用法不同。right 和 correct 常指正确或准确，proper 侧重合适、恰当，justice 指公正、公平。",
+    "details": [
+      {
+        "word": "right",
+        "meaning": "表示正确或符合道德规范，也可以指权利。",
+        "example": "You have the right answer.（你的答案是正确的。）"
+      },
+      {
+        "word": "correct",
+        "meaning": "强调无错误，准确无误，通常用于回答问题或事实。",
+        "example": "Please correct your mistakes.（请改正你的错误。）"
+      },
+      {
+        "word": "proper",
+        "meaning": "强调适当、合适，符合规范或礼仪。",
+        "example": "Wear proper clothes for the interview.（面试要穿得得体。）"
+      },
+      {
+        "word": "justice",
+        "meaning": "指法律或道德上的公正、公平。",
+        "example": "The court seeks justice for all.（法院追求人人公平。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "意思侧重",
+      "right": "正确，权利，道德对错",
+      "correct": "准确，无错误",
+      "proper": "合适，恰当",
+      "justice": "公正，公平"
+    },
+    {
+      "aspect": "使用场合",
+      "right": "回答、权利、道德判断",
+      "correct": "答题、事实、纠错",
+      "proper": "礼仪、规范、合适性",
+      "justice": "法律、道德、社会问题"
+    },
+    {
+      "aspect": "词性",
+      "right": "形容词，名词",
+      "correct": "形容词，动词",
+      "proper": "形容词",
+      "justice": "名词"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学习",
+      "right": "You gave the right answer in class.（你在课堂上答对了。）",
+      "correct": "The teacher corrected my homework.（老师改正了我的作业。）",
+      "proper": "Make sure you use proper grammar.（确保使用正确的语法。）",
+      "justice": "We learn about justice in social studies.（我们在社会课学公正。）"
+    },
+    {
+      "scene": "日常生活",
+      "right": "It's right to help others.（帮助别人是正确的。）",
+      "correct": "Please correct your mistakes.（请改正你的错误。）",
+      "proper": "He wore proper clothes to the party.（他穿得很得体去参加聚会。）",
+      "justice": "People want justice in court cases.（人们希望法院公正裁决。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ You gave a justice answer.",
+      "correction": "✅ You gave the right/correct answer.（答案正确用 right 或 correct。）"
+    },
+    {
+      "error": "❌ Wear correct clothes to the interview.",
+      "correction": "✅ Wear proper clothes to the interview.（穿着得体用 proper。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She gave the ___ answer to the question.",
+      "options": ["A. justice", "B. right", "C. proper", "D. correct"],
+      "answer": "B",
+      "explanation": "答案正确用 right。"
+    },
+    {
+      "question": "选择正确答案：Please ___ your spelling mistakes.",
+      "options": ["A. right", "B. correct", "C. proper", "D. justice"],
+      "answer": "B",
+      "explanation": "改正错误用 correct。"
+    },
+    {
+      "question": "选择正确答案：It's important to wear ___ clothes to a formal event.",
+      "options": ["A. right", "B. correct", "C. proper", "D. justice"],
+      "answer": "C",
+      "explanation": "合适的穿着用 proper。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "accuracy（准确性）",
+      "fairness（公平）",
+      "appropriateness（适当性）"
+    ],
+    "tip": "口诀：right答对，correct改错，proper合适，justice公正"
+  }
+}

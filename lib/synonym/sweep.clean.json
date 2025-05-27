@@ -1,0 +1,81 @@
+{
+  "words": ["sweep", "clean"],
+  "explanation": {
+    "overview": "这两个词都与清洁有关，但含义和用法有所不同。",
+    "details": [
+      {
+        "word": "sweep",
+        "meaning": "用扫帚等工具扫除地面上的灰尘、垃圾，强调动作和方法。",
+        "example": "She sweeps the floor every morning.（她每天早上扫地。）"
+      },
+      {
+        "word": "clean",
+        "meaning": "指使某物变干净，可以是用扫、擦、洗等多种方法，范围更广。",
+        "example": "I clean my room every weekend.（我每周末打扫房间。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "动作性质",
+      "sweep": "用扫帚扫，动作具体",
+      "clean": "使干净，动作不限于扫"
+    },
+    {
+      "aspect": "适用范围",
+      "sweep": "通常用于地面、地板",
+      "clean": "用于任何需要清洁的地方或物品"
+    },
+    {
+      "aspect": "例句",
+      "sweep": "He swept the kitchen floor.",
+      "clean": "She cleaned the windows and the floor."
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "家务",
+      "sweep": "I sweep the floor after dinner.（晚饭后我扫地。）",
+      "clean": "I clean the whole house on Saturday.（星期六我打扫整个房子。）"
+    },
+    {
+      "scene": "办公室",
+      "sweep": "The janitor sweeps the hallway.（清洁工扫走廊。）",
+      "clean": "She cleans her desk every day.（她每天清理办公桌。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I clean the floor by sweeping.",
+      "correction": "✅ I sweep the floor to clean it.（sweep 是动作，clean 是结果。）"
+    },
+    {
+      "error": "❌ Sweep your desk.",
+      "correction": "✅ Clean your desk.（桌面不能用 sweep，应用 clean。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：Please ___ the kitchen floor after cooking.",
+      "options": ["A. sweep", "B. clean"],
+      "answer": "A",
+      "explanation": "具体扫地用 sweep。"
+    },
+    {
+      "question": "选择正确答案：I need to ___ my room before guests come.",
+      "options": ["A. sweep", "B. clean"],
+      "answer": "B",
+      "explanation": "整体打扫用 clean。"
+    },
+    {
+      "question": "选择正确答案：She ___ the windows every weekend.",
+      "options": ["A. sweeps", "B. cleans"],
+      "answer": "B",
+      "explanation": "擦窗户用 clean，不用 sweep。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["dust（掸去灰尘）", "mop（拖地）"],
+    "tip": "sweep 是用扫帚扫地，clean 是更广义的‘清洁’动作。"
+  }
+}

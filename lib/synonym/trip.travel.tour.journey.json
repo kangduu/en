@@ -1,5 +1,5 @@
 {
-  "words": ["journey", "travel", "trip", "tour"],
+  "words": ["journey", "travel", "trip", "tour", "excursion"],
   "explanation": {
     "overview": "这些名词都与'旅行'相关，但在持续时间、目的和体验上有所不同。",
     "details": [
@@ -22,6 +22,11 @@
         "word": "tour",
         "meaning": "指有组织的游览，通常参观多个地点，带有观光目的",
         "example": "They went on a guided tour of the ancient ruins.（他们参加了古遗址的导游观光。）"
+      },
+      {
+        "word": "excursion",
+        "meaning": "通常指短途的、有组织的游览或郊游，常常是一天内或几小时的活动。",
+        "example": "We went on an excursion to the nearby waterfall.（我们去附近的瀑布进行了短途游。）"
       }
     ]
   },
@@ -31,37 +36,46 @@
       "journey": "较长",
       "travel": "不特定",
       "trip": "较短",
-      "tour": "视行程而定"
+      "tour": "视行程而定",
+      "excursion": "通常较短"
     },
     {
       "aspect": "主要目的",
       "journey": "过程体验",
       "travel": "移动行为",
       "trip": "到达目的地",
-      "tour": "观光游览"
+      "tour": "观光游览",
+      "excursion": "休闲或教育"
     },
     {
       "aspect": "情感色彩",
       "journey": "较强",
       "travel": "中性",
       "trip": "中性",
-      "tour": "娱乐性"
+      "tour": "娱乐性",
+      "excursion": "轻松愉快"
+    },
+    {
+      "aspect": "例句",
+      "journey": "a long journey by train",
+      "travel": "travel around the world",
+      "trip": "a business trip",
+      "tour": "a guided tour",
+      "excursion": "a school excursion"
     }
   ],
   "life_examples": [
     {
       "scene": "长途旅行",
       "journey": "The train journey from Moscow to Vladivostok is epic.（从莫斯科到符拉迪沃斯托克的火车旅程非常壮观。）",
-      "travel": "Air travel has become more affordable.（航空旅行变得更便宜了。）",
-      "trip": "(不常用)",
-      "tour": "(不常用)"
+      "travel": "Air travel has become more affordable.（航空旅行变得更便宜了。）"
     },
     {
       "scene": "假期活动",
-      "journey": "(不常用)",
       "travel": "Travel broadens the mind.（旅行开阔眼界。）",
       "trip": "Our family trip to Disneyland was magical.（我们全家去迪士尼的旅行很神奇。）",
-      "tour": "The wine tour included visits to five vineyards.（葡萄酒之旅包括参观五个葡萄园。）"
+      "tour": "The wine tour included visits to five vineyards.（葡萄酒之旅包括参观五个葡萄园。）",
+      "excursion": "We went on an excursion to the nearby waterfall.（我们去附近的瀑布进行了短途游。）"
     }
   ],
   "common_errors": [
@@ -72,6 +86,22 @@
     {
       "error": "❌ The business travel was exhausting.",
       "correction": "✅ The business trip was exhausting.（商务出差用trip）"
+    },
+    {
+      "error": "❌ We went on a journey to the museum.",
+      "correction": "✅ We went on a tour of the museum.（参观博物馆用tour）"
+    },
+    {
+      "error": "❌ She loves to travel on long journeys.",
+      "correction": "✅ She loves to travel on long trips.（长途旅行用trip）"
+    },
+    {
+      "error": "❌ The tour was a great travel experience.",
+      "correction": "✅ The tour was a great journey experience.（有组织的观光用tour）"
+    },
+    {
+      "error": "❌ I went on an excursion to another country.",
+      "correction": "✅ I went on a trip to another country.（excursion 多用于短途，国家间旅行用 trip。）"
     }
   ],
   "mini_test": [
@@ -92,6 +122,24 @@
       "options": ["A. journey", "B. travel", "C. trip", "D. tour"],
       "answer": "D",
       "explanation": "有组织的观光用tour"
+    },
+    {
+      "question": "选择正确答案：We went on a ___ to visit many cities in Europe.",
+      "options": ["A. journey", "B. trip", "C. tour", "D. excursion"],
+      "answer": "C",
+      "explanation": "多城市观光用 tour。"
+    },
+    {
+      "question": "选择正确答案：The hikers had a long ___ through the forest.",
+      "options": ["A. trip", "B. journey", "C. excursion", "D. tour"],
+      "answer": "B",
+      "explanation": "强调路程长用 journey。"
+    },
+    {
+      "question": "选择正确答案：The class went on an ___ to the museum.",
+      "options": ["A. excursion", "B. trip", "C. tour", "D. journey"],
+      "answer": "A",
+      "explanation": "学校短途游用 excursion。"
     }
   ],
   "additional_notes": {

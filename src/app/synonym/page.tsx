@@ -7,17 +7,23 @@ export default async function Lexical() {
   const wordFiles = await getSynonymDir();
   return (
     <>
-      <Subhead>Synonym List</Subhead>
-      {wordFiles.map((filename) => {
-        const name = filename.replaceAll(".", " & ");
-        return (
-          <Link key={filename} href={`/synonym/${filename}`}>
-            <Button asChild variant="secondary" className="mr-4 mb-4">
-              <span>{name}</span>
-            </Button>
-          </Link>
-        );
-      })}
+      <Subhead>Synonymous</Subhead>
+      <div className="flex flex-wrap justify-center items-center gap-4">
+        {wordFiles.map((filename) => {
+          const name = filename.replaceAll(".", " & ");
+          return (
+            <Link key={filename} href={`/synonym/${filename}`}>
+              <Button
+                asChild
+                variant="secondary"
+                className="whitespace-break-spaces h-fit"
+              >
+                <span>{name}</span>
+              </Button>
+            </Link>
+          );
+        })}
+      </div>
     </>
   );
 }

@@ -1,5 +1,5 @@
 {
-  "words": ["see", "look", "watch"],
+  "words": ["see", "look", "watch", "gaze", "stare", "glance"],
   "explanation": {
     "overview": "这三个词都与‘看’有关，但用法和侧重点不同。",
     "details": [
@@ -17,6 +17,21 @@
         "word": "watch",
         "meaning": "指‘观看’，强调专注地看，通常用于动态的事物（如电视、比赛等）。",
         "example": "We watched a movie last night.（昨晚我们看了一部电影。）"
+      },
+      {
+        "word": "gaze",
+        "meaning": "长时间而专注地看，通常带有感情或思考的意味。",
+        "example": "She gazed at the stars for hours.（她凝视星空好几个小时。）"
+      },
+      {
+        "word": "stare",
+        "meaning": "目不转睛地盯着看，常带有惊讶、不礼貌或质疑的感觉。",
+        "example": "Don't stare at people like that.（别那样盯着别人看。）"
+      },
+      {
+        "word": "glance",
+        "meaning": "快速地瞥一眼，动作短暂且轻快。",
+        "example": "He glanced at his watch and hurried away.（他看了一眼手表，然后赶快走了。）"
       }
     ]
   },
@@ -25,19 +40,46 @@
       "aspect": "动作性质",
       "see": "被动或无意识",
       "look": "主动、短暂",
-      "watch": "主动、持续"
+      "watch": "主动、持续",
+      "gaze": "安静凝视",
+      "stare": "盯着看",
+      "glance": "快速一瞥"
     },
     {
       "aspect": "常用场景",
       "see": "看见物体/人",
       "look": "注视静态事物",
-      "watch": "观察动态过程"
+      "watch": "观察动态过程",
+      "gaze": "凝视星空/风景",
+      "stare": "盯着人/物",
+      "glance": "快速查看时间/信息"
     },
     {
       "aspect": "典型搭配",
       "see": "see + 名词",
       "look": "look at + 名词",
-      "watch": "watch + 名词"
+      "watch": "watch + 名词",
+      "gaze": "gaze at + 名词",
+      "stare": "stare at + 名词",
+      "glance": "glance at + 名词"
+    },
+    {
+      "aspect": "观看时间",
+      "see": "瞬间",
+      "look": "短暂",
+      "watch": "持续",
+      "gaze": "长时间",
+      "stare": "长时间（但更强烈或不礼貌）",
+      "glance": "短暂"
+    },
+    {
+      "aspect": "语气和感情",
+      "see": "中性",
+      "look": "中性或专注",
+      "watch": "专注、投入",
+      "gaze": "专注、温柔或思考",
+      "stare": "生硬、惊讶或无礼",
+      "glance": "轻快、随意"
     }
   ],
   "life_examples": [
@@ -45,13 +87,19 @@
       "scene": "餐厅点餐",
       "see": "I see a menu on the table.（我看到桌上有菜单）",
       "look": "The chef is looking at the order list.（厨师正在看订单）",
-      "watch": "They're watching the food being cooked.（他们在看食物烹饪过程）"
+      "watch": "They're watching the food being cooked.（他们在看食物烹饪过程）",
+      "gaze": "She gazed at the delicious dessert.（她凝视着美味的甜点）",
+      "stare": "He stared at the bill in disbelief.（他难以置信地盯着账单看）",
+      "glance": "I glanced at the dessert menu quickly.（我快速瞥了一眼甜点菜单）"
     },
     {
       "scene": "课堂学习",
       "see": "Can you see the words on the PPT?（你能看到PPT上的字吗？）",
       "look": "Look at this grammar rule carefully.（仔细看这条语法规则）",
-      "watch": "We watched an English video in class.（课上我们看了英文视频）"
+      "watch": "We watched an English video in class.（课上我们看了英文视频）",
+      "gaze": "The student gazed thoughtfully at the blackboard.（学生若有所思地凝视黑板。）",
+      "stare": "The teacher caught him staring out the window.（老师发现他盯着窗外看。）",
+      "glance": "She glanced at her notes during the test.（考试时她看了一眼笔记。）"
     }
   ],
   "common_errors": [
@@ -66,6 +114,14 @@
     {
       "error": "❌ He is seeing at the stars.",
       "correction": "✅ He is looking at the stars.（look需接at）"
+    },
+    {
+      "error": "❌ He glanced for a long time.",
+      "correction": "✅ He gazed for a long time.（glance强调短暂，长时间用gaze。）"
+    },
+    {
+      "error": "❌ Don't gaze at people like that.",
+      "correction": "✅ Don't stare at people like that.（不礼貌或惊讶时用stare。）"
     }
   ],
   "mini_test": [
@@ -86,10 +142,28 @@
       "options": ["A. saw", "B. looked", "C. watched"],
       "answer": "C",
       "explanation": "观看持续性的比赛用watch"
+    },
+    {
+      "question": "选择正确答案：She ___ at the stars all night.",
+      "options": ["A. glanced", "B. gazed", "C. stared"],
+      "answer": "B",
+      "explanation": "整晚凝视用gaze。"
+    },
+    {
+      "question": "选择正确答案：Don't ___ at strangers.",
+      "options": ["A. glance", "B. gaze", "C. stare"],
+      "answer": "C",
+      "explanation": "盯着看通常用stare（不礼貌）。"
+    },
+    {
+      "question": "选择正确答案：He took a quick ___ at his phone.",
+      "options": ["A. stare", "B. glance", "C. gaze"],
+      "answer": "B",
+      "explanation": "快速看一眼用glance。"
     }
   ],
   "additional_notes": {
-    "extended_words": ["gaze（凝视）", "stare（盯着看）", "glance（瞥一眼）"],
-    "tip": "记住口诀：see重结果，look重动作，watch重过程"
+    "extended_words": ["ogle（色迷迷地盯着看）", "peer（费力地看）"],
+    "tip": "记住口诀：see重结果，look重动作，watch重过程，gaze重情感，stare重强度，glance重速度"
   }
 }

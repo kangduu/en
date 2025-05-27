@@ -1,0 +1,85 @@
+{
+  "words": ["sum", "part"],
+  "explanation": {
+    "overview": "这两个词都与‘整体和部分’有关，但侧重点和使用方式不同。",
+    "details": [
+      {
+        "word": "sum",
+        "meaning": "指‘总数’或‘总和’，强调通过加法得到的最终结果。",
+        "example": "The sum of 5 and 7 is 12.（5和7的和是12。）"
+      },
+      {
+        "word": "part",
+        "meaning": "指‘部分’或‘零件’，强调整体中的某个组成部分。",
+        "example": "This is only part of the story.（这只是故事的一部分。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "数学关系",
+      "sum": "加法运算的结果",
+      "part": "整体被分割后的组成单元"
+    },
+    {
+      "aspect": "使用场景",
+      "sum": "数学计算/金额总计",
+      "part": "机械零件/文章段落/参与角色"
+    },
+    {
+      "aspect": "常用搭配",
+      "sum": "sum up（总结）, total sum（总和）",
+      "part": "part of（...的一部分）, spare part（备用零件）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "数学课堂",
+      "sum": "Please calculate the sum of these numbers.（请计算这些数字的总和。）",
+      "part": "Each student solved part of the problem.（每个学生解决了问题的一部分。）"
+    },
+    {
+      "scene": "机械维修",
+      "sum": "The sum of all repair costs was $500.（所有维修费用总计500美元。）",
+      "part": "We need to replace this damaged part.（我们需要更换这个损坏的零件。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The part of 10 and 15 is 25.",
+      "correction": "✅ The sum of 10 and 15 is 25.（表示和要用sum）"
+    },
+    {
+      "error": "❌ This is just the sum of our plan.",
+      "correction": "✅ This is just part of our plan.（表示部分要用part）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The ___ of all angles in a triangle is 180 degrees.",
+      "options": ["A. part", "B. sum"],
+      "answer": "B",
+      "explanation": "角度总和用sum"
+    },
+    {
+      "question": "哪个词更适合：I only understood ___ of the lecture.",
+      "options": ["A. sum", "B. part"],
+      "answer": "B",
+      "explanation": "表示理解的部分内容用part"
+    },
+    {
+      "question": "填空：Can you ___ up the main points?",
+      "options": ["A. part", "B. sum"],
+      "answer": "B",
+      "explanation": "sum up是固定搭配，表示总结"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "total（总量）",
+      "portion（一部分）",
+      "component（组件）"
+    ],
+    "tip": "sum强调累加结果，part强调组成关系。数学中sum对应加法，part对应除法或分割。"
+  }
+}

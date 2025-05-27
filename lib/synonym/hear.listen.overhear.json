@@ -1,0 +1,85 @@
+{
+  "words": ["hear", "listen", "overhear"],
+  "explanation": {
+    "overview": "这三个词都与‘听’有关，但用法和侧重点不同。",
+    "details": [
+      {
+        "word": "hear",
+        "meaning": "指‘听到’，强调听觉的自然结果，可能是无意识的。",
+        "example": "I can hear the rain outside.（我能听到外面的雨声。）"
+      },
+      {
+        "word": "listen",
+        "meaning": "指‘倾听’，强调有意识地集中注意力去听。",
+        "example": "Please listen to the teacher carefully.（请认真听老师讲话。）"
+      },
+      {
+        "word": "overhear",
+        "meaning": "指‘无意中听到’，通常是偶然听到别人的谈话。",
+        "example": "I overheard them talking about the party.（我无意中听到他们在谈论派对。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "动作性质",
+      "hear": "被动或无意识",
+      "listen": "主动、有意识",
+      "overhear": "被动、偶然"
+    },
+    {
+      "aspect": "常用搭配",
+      "hear": "hear + 名词（hear a sound）",
+      "listen": "listen to + 名词（listen to music）",
+      "overhear": "overhear + 名词/从句（overhear a conversation）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "音乐课",
+      "hear": "I can hear the piano from the next room.（我能听到隔壁房间的钢琴声。）",
+      "listen": "The students are listening to the music carefully.（学生们正在认真听音乐。）",
+      "overhear": "I overheard the teacher saying there will be a test.（我无意中听到老师说会有测验。）"
+    },
+    {
+      "scene": "咖啡馆",
+      "hear": "Can you hear the coffee machine?（你能听到咖啡机的声音吗？）",
+      "listen": "She is listening to her friend's story.（她在听朋友的故事。）",
+      "overhear": "He overheard a couple arguing at the next table.（他无意中听到隔壁桌的一对情侣在吵架。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I hear to music every day.",
+      "correction": "✅ I listen to music every day.（听音乐固定用listen to）"
+    },
+    {
+      "error": "❌ She listened their secret plan.",
+      "correction": "✅ She overheard their secret plan.（无意中听到用overhear）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：___! The baby is crying!",
+      "options": ["A. Hear", "B. Listen", "C. Overhear"],
+      "answer": "B",
+      "explanation": "此处需要提醒对方‘听’的动作，用listen"
+    },
+    {
+      "question": "选择正确答案：I ___ a strange noise last night.",
+      "options": ["A. heard", "B. listened", "C. overheard"],
+      "answer": "A",
+      "explanation": "此处强调‘听到’的结果，用hear"
+    },
+    {
+      "question": "选择正确答案：She ___ them discussing the surprise party.",
+      "options": ["A. heard", "B. listened", "C. overheard"],
+      "answer": "C",
+      "explanation": "此处强调‘无意中听到’，用overhear"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["eavesdrop（偷听）", "audit（旁听）", "monitor（监听）"],
+    "tip": "记住口诀：hear重结果，listen重动作，overhear重偶然"
+  }
+}
