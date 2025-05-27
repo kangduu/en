@@ -81,13 +81,11 @@
       "space traveler（太空旅行者）",
       "space explorer（太空探索者）"
     ],
-    "special_cases": {
-      "country_specific": {
-        "astronaut": "美国等西方国家",
-        "cosmonaut": "俄罗斯",
-        "taikonaut": "中国"
-      },
-      "pop_culture": "Spaceman也是流行文化常用元素（如歌曲名、漫画角色等）"
-    }
+    "country_specific": {
+      "astronaut": "美国等西方国家",
+      "cosmonaut": "俄罗斯",
+      "taikonaut": "中国"
+    },
+    "pop_culture": "Spaceman也是流行文化常用元素（如歌曲名、漫画角色等）"
   }
 }

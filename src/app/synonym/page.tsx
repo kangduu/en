@@ -2,12 +2,13 @@ import Subhead from "@/components/Subhead";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { getSynonymDir } from "@/lib/actions";
+import SearchSynonym from "./Search";
 
-export default async function Lexical() {
+export default async function Synonymous() {
   const wordFiles = await getSynonymDir();
   return (
     <>
-      <Subhead>Synonymous</Subhead>
+      <Subhead extra={<SearchSynonym />}>Synonymous</Subhead>
       <div className="flex flex-wrap justify-center items-center gap-4">
         {wordFiles.map((filename) => {
           const name = filename.replaceAll(".", " & ");
