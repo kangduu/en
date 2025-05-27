@@ -1,0 +1,89 @@
+{
+  "words": ["expect", "anticipate"],
+  "explanation": {
+    "overview": "这两个动词都表示'预期'或'预料'，但在使用场景和含义侧重上有所不同。",
+    "details": [
+      {
+        "word": "expect",
+        "meaning": "基于合理依据认为某事会发生，含有较强确定性",
+        "example": "I expect the package to arrive tomorrow.（我预计包裹明天会到。）"
+      },
+      {
+        "word": "anticipate",
+        "meaning": "不仅预料某事会发生，还常包含提前准备或期待的意思",
+        "example": "We anticipated the traffic jam and left early.（我们预料到会堵车，所以提前出发了。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "确定性",
+      "expect": "较高，基于事实或承诺",
+      "anticipate": "较低，基于预测或直觉"
+    },
+    {
+      "aspect": "情感色彩",
+      "expect": "中性",
+      "anticipate": "常带积极期待"
+    },
+    {
+      "aspect": "行动暗示",
+      "expect": "不一定采取行动",
+      "anticipate": "常暗示提前准备"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "工作场景",
+      "expect": "The boss expects the report by Friday.（老板预期周五前收到报告。）",
+      "anticipate": "We anticipated market changes and adjusted our strategy.（我们预见到市场变化并调整了策略。）"
+    },
+    {
+      "scene": "日常生活",
+      "expect": "Do you expect many guests for the party?（你预计会有很多客人来参加派对吗？）",
+      "anticipate": "She anticipated the rain and brought an umbrella.（她预料到会下雨所以带了伞。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I anticipate you to finish on time.",
+      "correction": "✅ I expect you to finish on time.（对他人的明确期望用expect）"
+    },
+    {
+      "error": "❌ They expected problems and prepared solutions.",
+      "correction": "✅ They anticipated problems and prepared solutions.（预料并准备用anticipate更准确）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：___ a large crowd at the concert.",
+      "options": ["A. Expect", "B. Anticipate"],
+      "answer": "A",
+      "explanation": "单纯预测人数用expect"
+    },
+    {
+      "question": "哪个词暗示了提前准备？",
+      "options": ["A. expect", "B. anticipate"],
+      "answer": "B",
+      "explanation": "anticipate常包含准备的意思"
+    },
+    {
+      "question": "填空：The team ___ winning the championship this year.",
+      "options": ["A. expects", "B. anticipates"],
+      "answer": "B",
+      "explanation": "表达积极期待用anticipate"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "predict（预测）",
+      "foresee（预见）",
+      "await（等待）",
+      "hope（希望）"
+    ],
+    "special_cases": {
+      "grammar_difference": "expect可接不定式(to do)，anticipate接动名词(doing)",
+      "legal_context": "expectation在法律中有特殊含义（合理期待原则）"
+    }
+  }
+}

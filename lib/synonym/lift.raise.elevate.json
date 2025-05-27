@@ -1,0 +1,100 @@
+{
+  "words": ["lift", "raise", "elevate"],
+  "explanation": {
+    "overview": "这些动词都表示'举起'或'提升'的意思，但在具体用法和语境上有所不同。",
+    "details": [
+      {
+        "word": "lift",
+        "meaning": "指物理上的举起，通常需要用力将物体从低处移到高处",
+        "example": "Can you help me lift this heavy box?（你能帮我抬起这个重箱子吗？）"
+      },
+      {
+        "word": "raise",
+        "meaning": "指使某物升高或增加，可用于具体物体或抽象概念",
+        "example": "She raised her hand to ask a question.（她举手提问。）"
+      },
+      {
+        "word": "elevate",
+        "meaning": "正式用语，指提升到更高位置或地位，常用于抽象概念",
+        "example": "The promotion elevated his status in the company.（这次晋升提高了他在公司的地位。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "使用频率",
+      "lift": "日常口语常用",
+      "raise": "通用，口语书面均可",
+      "elevate": "正式用语"
+    },
+    {
+      "aspect": "适用对象",
+      "lift": "具体物体",
+      "raise": "具体物体或抽象概念",
+      "elevate": "多为抽象概念"
+    },
+    {
+      "aspect": "力量要求",
+      "lift": "通常需要较大体力",
+      "raise": "力量要求可大可小",
+      "elevate": "不强调体力"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "体力活动",
+      "lift": "Weightlifters lift heavy barbells.（举重运动员举起沉重的杠铃。）",
+      "raise": "He raised the flag to the top of the pole.（他把旗子升到旗杆顶端。）",
+      "elevate": "(不常用)"
+    },
+    {
+      "scene": "抽象概念",
+      "lift": "(不常用)",
+      "raise": "The company raised prices due to inflation.（由于通货膨胀，公司提高了价格。）",
+      "elevate": "The program aims to elevate public awareness.（该项目旨在提升公众意识。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ Please elevate the window blinds.",
+      "correction": "✅ Please raise the window blinds.（升起百叶窗用raise）"
+    },
+    {
+      "error": "❌ He lifted his position in the company.",
+      "correction": "✅ He elevated his position in the company.（提升职位用elevate）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：___ your glass for a toast!",
+      "options": ["A. Lift", "B. Raise", "C. Elevate"],
+      "answer": "B",
+      "explanation": "祝酒时举杯用raise"
+    },
+    {
+      "question": "哪个词最适合描述'用起重机吊起货物'？",
+      "options": ["A. lift", "B. raise", "C. elevate"],
+      "answer": "A",
+      "explanation": "机械起重用lift"
+    },
+    {
+      "question": "填空：The new law will ___ standards across the industry.",
+      "options": ["A. lift", "B. raise", "C. elevate"],
+      "answer": "C",
+      "explanation": "提升标准用elevate更正式"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "hoist（用绳索升起）",
+      "uplift（鼓舞）",
+      "boost（推动提高）",
+      "heighten（增高）"
+    ],
+    "special_cases": {
+      "lift_as_noun": "可作名词指电梯（英式）",
+      "raise_salary": "加薪",
+      "elevated_railway": "高架铁路"
+    }
+  }
+}

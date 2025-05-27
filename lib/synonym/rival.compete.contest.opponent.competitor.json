@@ -1,0 +1,119 @@
+{
+  "words": [
+    "rival",
+    "compete",
+    "contest",
+    "competitor",
+    "opponent",
+    "contestant"
+  ],
+  "explanation": {
+    "overview": "这些词都与竞争相关，但词性和具体含义不同。",
+    "details": [
+      {
+        "word": "rival",
+        "meaning": "名词或动词，指竞争对手，强调长期或重要的竞争关系。",
+        "example": "The two companies are rivals in the smartphone market.（这两家公司是智能手机市场的竞争对手。）"
+      },
+      {
+        "word": "compete",
+        "meaning": "动词，表示‘竞争’，强调行动或过程。",
+        "example": "Athletes compete for the gold medal.（运动员们为了金牌而竞争。）"
+      },
+      {
+        "word": "contest",
+        "meaning": "动词或名词，指比赛或竞争，作为动词时强调争夺或质疑。",
+        "example": "She contested the election results.（她对选举结果提出质疑。）"
+      },
+      {
+        "word": "competitor",
+        "meaning": "名词，指参与竞争的人或组织，强调身份。",
+        "example": "He is a strong competitor in the chess tournament.（他是国际象棋比赛中的强劲竞争者。）"
+      },
+      {
+        "word": "opponent",
+        "meaning": "名词，指对手，通常指比赛或辩论中的对方。",
+        "example": "She defeated her opponent in the tennis match.（她在网球比赛中战胜了对手。）"
+      },
+      {
+        "word": "contestant",
+        "meaning": "名词，指比赛中的参赛者，强调参与者身份。",
+        "example": "There are 10 contestants in the singing competition.（唱歌比赛中有10名参赛者。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "词性",
+      "rival": "名词/动词",
+      "compete": "动词",
+      "contest": "名词/动词",
+      "competitor": "名词",
+      "opponent": "名词",
+      "contestant": "名词"
+    },
+    {
+      "aspect": "侧重点",
+      "rival": "长期竞争对手",
+      "compete": "进行竞争的动作",
+      "contest": "比赛/争夺，或质疑",
+      "competitor": "竞争身份",
+      "opponent": "比赛或辩论对手",
+      "contestant": "比赛参与者"
+    },
+    {
+      "aspect": "使用场景",
+      "rival": "商业、体育、政治等长期竞争",
+      "compete": "任何竞争场合",
+      "contest": "正式比赛或质疑",
+      "competitor": "正式比赛或市场竞争",
+      "opponent": "比赛或辩论",
+      "contestant": "比赛"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "体育比赛",
+      "rival": "The two teams have been rivals for years.（这两队多年来一直是竞争对手。）",
+      "compete": "Players compete hard to win the trophy.（选手们努力竞争奖杯。）",
+      "contest": "She contested the final match.（她参加了决赛。）",
+      "competitor": "Every competitor wants to do their best.（每个竞争者都想表现最好。）",
+      "opponent": "He defeated his opponent easily.（他轻松击败了对手。）",
+      "contestant": "There are many contestants in the race.（比赛中有很多参赛者。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He is a contestant to me.",
+      "correction": "✅ He is a competitor/rival to me.（对手用competitor或rival更合适。）"
+    },
+    {
+      "error": "❌ I rival in the race.",
+      "correction": "✅ I compete in the race.（compete表示‘参加竞争’。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She is a strong ___ in the cooking contest.",
+      "options": ["A. competitor", "B. opponent", "C. contestant"],
+      "answer": "C",
+      "explanation": "参赛者用 contestant 更合适。"
+    },
+    {
+      "question": "选择正确答案：Two companies ___ for market share.",
+      "options": ["A. rival", "B. compete", "C. contest"],
+      "answer": "B",
+      "explanation": "表示‘竞争’，用动词 compete。"
+    },
+    {
+      "question": "选择正确答案：He is my biggest ___ in the game.",
+      "options": ["A. contestant", "B. rival", "C. competitor"],
+      "answer": "B",
+      "explanation": "强调长期重要对手用 rival。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["challenge（挑战）", "duel（决斗）"],
+    "tip": "rival 和 competitor 都指竞争对手，但 rival 多强调长期和重要性；contestant 专指比赛参与者；compete 是动词，表示‘竞争’的动作。"
+  }
+}

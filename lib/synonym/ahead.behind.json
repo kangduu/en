@@ -1,0 +1,81 @@
+{
+  "words": ["ahead", "behind"],
+  "explanation": {
+    "overview": "“ahead”和“behind”都是表示位置或时间的副词，但方向和含义相反。",
+    "details": [
+      {
+        "word": "ahead",
+        "meaning": "在前面，领先，表示空间或时间上的领先位置。",
+        "example": "She is ahead of me in the race.（她在比赛中领先我。）"
+      },
+      {
+        "word": "behind",
+        "meaning": "在后面，落后，表示空间或时间上的落后位置。",
+        "example": "He is behind schedule on his project.（他的项目进度落后了。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "方向",
+      "ahead": "向前，在前面",
+      "behind": "向后，在后面"
+    },
+    {
+      "aspect": "时间",
+      "ahead": "提前，领先",
+      "behind": "延后，落后"
+    },
+    {
+      "aspect": "使用场景",
+      "ahead": "比赛、计划、未来事件等",
+      "behind": "进度、位置、计划等"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "比赛",
+      "ahead": "She is ahead by 2 meters.（她领先2米。）",
+      "behind": "He is behind the others in the race.（他在比赛中落后别人。）"
+    },
+    {
+      "scene": "工作进度",
+      "ahead": "We are ahead of schedule.（我们进度提前。）",
+      "behind": "The team is behind schedule.（团队进度落后。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He is ahead schedule.",
+      "correction": "✅ He is ahead of schedule.（表达“提前”，应加of。）"
+    },
+    {
+      "error": "❌ She is behind the race.",
+      "correction": "✅ She is behind in the race.（表示落后时，用 behind in/on + 具体事物。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：We are ___ of schedule.",
+      "options": ["A. ahead", "B. behind"],
+      "answer": "A",
+      "explanation": "ahead of schedule表示提前。"
+    },
+    {
+      "question": "选择正确答案：He is ___ the others in the competition.",
+      "options": ["A. ahead", "B. behind"],
+      "answer": "B",
+      "explanation": "behind表示落后。"
+    },
+    {
+      "question": "选择正确答案：The car is ___ of us on the road.",
+      "options": ["A. ahead", "B. behind"],
+      "answer": "A",
+      "explanation": "ahead表示在前面。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["forward（向前）", "backward（向后）"],
+    "tip": "口诀：ahead向前领先，behind向后落后"
+  }
+}

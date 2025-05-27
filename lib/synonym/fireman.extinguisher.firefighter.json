@@ -1,0 +1,86 @@
+{
+  "words": ["fireman", "extinguisher", "firefighter"],
+  "explanation": {
+    "overview": "这些词都和‘消防’有关，但含义和用法不同。",
+    "details": [
+      {
+        "word": "fireman",
+        "meaning": "旧称，指消防员，通常指男性，现代英语更推荐使用gender-neutral（无性别歧视）词。",
+        "example": "The fireman rescued the cat from the tree.（消防员把猫从树上救了下来。）"
+      },
+      {
+        "word": "firefighter",
+        "meaning": "现代更常用的词，指消防员，无论男女，强调职业身份。",
+        "example": "The firefighter put out the fire quickly.（消防员迅速扑灭了火灾。）"
+      },
+      {
+        "word": "extinguisher",
+        "meaning": "指‘灭火器’，是一种用来扑灭火灾的工具，不指人。",
+        "example": "Please use the fire extinguisher to put out the small fire.（请用灭火器扑灭小火。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "词性",
+      "fireman": "名词，指人",
+      "firefighter": "名词，指人",
+      "extinguisher": "名词，指物"
+    },
+    {
+      "aspect": "性别倾向",
+      "fireman": "通常指男性，略显过时",
+      "firefighter": "中性，无性别区分",
+      "extinguisher": "不适用"
+    },
+    {
+      "aspect": "用途",
+      "fireman": "指消防员",
+      "firefighter": "指消防员，现代用词",
+      "extinguisher": "灭火工具"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "紧急救火",
+      "fireman": "The fireman climbed the ladder to save people.（消防员爬上梯子救人。）",
+      "firefighter": "Firefighters work in teams to control fires.（消防员们团队合作控制火势。）",
+      "extinguisher": "Use the extinguisher to stop the fire before it spreads.（用灭火器控制火势，防止蔓延。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The extinguisher saved the family from fire.",
+      "correction": "✅ The firefighter saved the family from fire.（灭火器是工具，不会‘救人’。）"
+    },
+    {
+      "error": "❌ The fireman used the extinguisher to put out the fire.",
+      "correction": "✅ The firefighter used the extinguisher to put out the fire.（现代用firefighter更合适。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The ___ arrived quickly to control the blaze.",
+      "options": ["A. fireman", "B. extinguisher", "C. firefighter"],
+      "answer": "C",
+      "explanation": "强调现代中性词用 firefighter。"
+    },
+    {
+      "question": "选择正确答案：Please use the ___ to put out the small fire.",
+      "options": ["A. fireman", "B. extinguisher", "C. firefighter"],
+      "answer": "B",
+      "explanation": "灭火器是工具，用 extinguisher。"
+    },
+    {
+      "question": "选择正确答案：The ___ climbed the ladder to rescue the kitten.",
+      "options": ["A. firefighter", "B. extinguisher", "C. fireman"],
+      "answer": "A",
+      "explanation": "现代说法更推荐 firefighter。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [],
+    "tip": "fireman 是旧词，现代更推荐 firefighter；extinguisher 是灭火器，不是人。",
+    "related_words": ["hose（水管）", "alarm（警报器）", "rescue（救援）"]
+  }
+}

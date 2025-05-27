@@ -1,0 +1,149 @@
+{
+  "words": [
+    "suggest",
+    "advise",
+    "recommend",
+    "hint",
+    "indicate",
+    "imply",
+    "denote",
+    "signify"
+  ],
+  "explanation": {
+    "overview": "这些词都涉及‘表达’或‘提出’想法或信息，但语气、明确程度和语境不同。",
+    "details": [
+      {
+        "word": "suggest",
+        "meaning": "提出想法或建议，语气较温和，可用于意见交流。",
+        "example": "I suggest we take a break.（我建议我们休息一下。）"
+      },
+      {
+        "word": "advise",
+        "meaning": "基于经验或知识给予具体建议，语气较正式或权威。",
+        "example": "The doctor advised him to quit smoking.（医生建议他戒烟。）"
+      },
+      {
+        "word": "recommend",
+        "meaning": "强烈建议，常用于推荐人或事物，适度正式。",
+        "example": "I recommend this book to beginners.（我向初学者推荐这本书。）"
+      },
+      {
+        "word": "hint",
+        "meaning": "暗示，用隐晦的话表达信息或态度。",
+        "example": "She hinted that she wanted a gift.（她暗示她想要礼物。）"
+      },
+      {
+        "word": "indicate",
+        "meaning": "表明、显示某种事实或可能性，常用于数据、证据等正式场合。",
+        "example": "The results indicate that he was right.（结果表明他是对的。）"
+      },
+      {
+        "word": "imply",
+        "meaning": "暗示或意味，通常不直接说出，而通过语境表达。",
+        "example": "Are you implying that I lied?（你是在暗示我说谎？）"
+      },
+      {
+        "word": "denote",
+        "meaning": "明确指代、表示某个具体意思，常用于定义或符号。",
+        "example": "A red flag denotes danger.（红旗表示危险。）"
+      },
+      {
+        "word": "signify",
+        "meaning": "象征、意味着某种抽象概念，风格较正式。",
+        "example": "White doves signify peace.（白鸽象征和平。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气强度",
+      "suggest": "中等，温和建议",
+      "advise": "较强，带权威性",
+      "recommend": "较强，通常带有信心或认可",
+      "hint": "较弱，隐晦",
+      "indicate": "客观、中性",
+      "imply": "隐含推论",
+      "denote": "客观定义",
+      "signify": "正式、抽象象征"
+    },
+    {
+      "aspect": "是否直接表达",
+      "suggest": "直接",
+      "advise": "直接",
+      "recommend": "直接",
+      "hint": "不直接",
+      "indicate": "可直接也可间接",
+      "imply": "间接",
+      "denote": "直接",
+      "signify": "可直接或象征性"
+    },
+    {
+      "aspect": "常见语境",
+      "suggest": "日常建议",
+      "advise": "专业建议（如医生/老师）",
+      "recommend": "评价/推荐",
+      "hint": "暗示、委婉表达",
+      "indicate": "报告、数据分析",
+      "imply": "语境中推测意义",
+      "denote": "语言、符号学",
+      "signify": "象征意义"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学习建议",
+      "suggest": "I suggest reviewing your notes every day.（我建议你每天复习笔记。）",
+      "advise": "The teacher advised using flashcards.（老师建议使用抽认卡。）",
+      "recommend": "I recommend this grammar book.（我推荐这本语法书。）"
+    },
+    {
+      "scene": "约会或对话",
+      "hint": "He hinted that he wanted to go to the movies.（他暗示他想去看电影。）",
+      "imply": "Are you implying I’m not smart enough?（你是在暗示我不够聪明吗？）"
+    },
+    {
+      "scene": "标志意义",
+      "indicate": "The arrow indicates the correct direction.（箭头表明正确方向。）",
+      "denote": "‘%’ denotes percent.（% 表示百分比。）",
+      "signify": "Roses can signify love.（玫瑰可以象征爱情。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He advised me to this restaurant.",
+      "correction": "✅ He recommended this restaurant to me.（推荐餐馆用 recommend）"
+    },
+    {
+      "error": "❌ A red light imply danger.",
+      "correction": "✅ A red light indicates or denotes danger.（红灯明确表示危险）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：My doctor ___ me to exercise more.",
+      "options": ["A. recommended", "B. hinted", "C. signified", "D. denoted"],
+      "answer": "A",
+      "explanation": "推荐做某事常用 recommend 或 advise。"
+    },
+    {
+      "question": "选择正确答案：The word ‘dog’ ___ an animal.",
+      "options": ["A. suggests", "B. denotes", "C. signifies", "D. implies"],
+      "answer": "B",
+      "explanation": "denote 用于定义或指代。"
+    },
+    {
+      "question": "选择正确答案：She didn’t say it directly, but she ___ that she was unhappy.",
+      "options": ["A. advised", "B. implied", "C. denoted", "D. indicated"],
+      "answer": "B",
+      "explanation": "imply 表示‘暗示’而不是直接表达。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "propose（正式建议）",
+      "signal（传递信号）",
+      "symbolize（象征）"
+    ],
+    "tip": "口诀记忆：suggest是建议，advise是指导，hint是暗示，imply是语气；denote指具体，signify讲意义。"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "words": ["real", "actual", "true"],
+  "explanation": {
+    "overview": "这三个词都表示‘真实的’，但用法和语气有细微差别。",
+    "details": [
+      {
+        "word": "real",
+        "meaning": "指真实存在的，强调与虚假、想象相对。",
+        "example": "Is this a real diamond?（这是真钻石吗？）"
+      },
+      {
+        "word": "actual",
+        "meaning": "强调事实上的、实际发生的，常用来强调与预期或理论不同的情况。",
+        "example": "The actual cost was higher than expected.（实际费用比预期高。）"
+      },
+      {
+        "word": "true",
+        "meaning": "强调真实性、准确性或符合事实，常用来表示正确、真实的状态。",
+        "example": "Her story is true.（她的故事是真的。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "侧重点",
+      "real": "真实存在，非虚构",
+      "actual": "事实发生的，实际的",
+      "true": "符合事实，正确的"
+    },
+    {
+      "aspect": "常见用法",
+      "real": "名词或形容词，用于实体或情况",
+      "actual": "形容词，强调事实与预期差异",
+      "true": "形容词，强调真实性和准确性"
+    },
+    {
+      "aspect": "用法示例",
+      "real": "real diamond（真钻石）",
+      "actual": "actual result（实际结果）",
+      "true": "true story（真实的故事）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "珠宝店",
+      "real": "Is this a real gold ring?（这是真金戒指吗？）"
+    },
+    {
+      "scene": "财务报告",
+      "actual": "The actual sales were better than predicted.（实际销售比预测好。）"
+    },
+    {
+      "scene": "朋友讲故事",
+      "true": "I believe your story is true.（我相信你的故事是真的。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The actual diamond is fake.",
+      "correction": "✅ The real diamond is fake.（强调是否真实存在用 real。）"
+    },
+    {
+      "error": "❌ Is this actual?（单独用actual问‘这是真的吗？’不自然）",
+      "correction": "✅ Is this true?（询问真实性用 true。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：Is that ___ diamond really expensive?",
+      "options": ["A. actual", "B. real", "C. true"],
+      "answer": "B",
+      "explanation": "强调真实存在用 real。"
+    },
+    {
+      "question": "选择正确答案：The ___ number of visitors was lower than expected.",
+      "options": ["A. real", "B. actual", "C. true"],
+      "answer": "B",
+      "explanation": "强调事实数字用 actual。"
+    },
+    {
+      "question": "选择正确答案：Her story is ___ and touching.",
+      "options": ["A. real", "B. actual", "C. true"],
+      "answer": "C",
+      "explanation": "强调真实性用 true。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["genuine（真正的）", "authentic（可靠的，真实的）"],
+    "tip": "real 强调存在，actual 强调事实，true 强调真实性和正确性。"
+  }
+}

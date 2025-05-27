@@ -1,0 +1,105 @@
+{
+  "words": ["smell", "odour", "scent", "sniff"],
+  "explanation": {
+    "overview": "这四个词都与气味有关，但含义和用法有所不同。smell 是最常用且通用的，odour 偏向不好的气味，scent 多指香味或特定气味，sniff 是闻气味的动作。",
+    "details": [
+      {
+        "word": "smell",
+        "meaning": "气味，也指闻的动作，既可以是好的气味，也可以是坏的气味。",
+        "example": "I smell something burning.（我闻到有什么东西在烧。）"
+      },
+      {
+        "word": "odour",
+        "meaning": "气味，通常指难闻或不好的气味，较正式或书面语。",
+        "example": "There was an unpleasant odour in the room.（房间里有一股难闻的气味。）"
+      },
+      {
+        "word": "scent",
+        "meaning": "香味，气味，尤其指花香、香水等令人愉快的气味。",
+        "example": "The scent of roses filled the garden.（玫瑰的香味充满了花园。）"
+      },
+      {
+        "word": "sniff",
+        "meaning": "动词，指用鼻子吸气闻气味，也可作名词表示闻的动作。",
+        "example": "The dog sniffed the ground.（狗闻了闻地面。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "词性",
+      "smell": "名词/动词",
+      "odour": "名词",
+      "scent": "名词",
+      "sniff": "动词/名词"
+    },
+    {
+      "aspect": "气味性质",
+      "smell": "中性，可好可坏",
+      "odour": "负面，难闻",
+      "scent": "正面，香味",
+      "sniff": "动作，闻"
+    },
+    {
+      "aspect": "使用场合",
+      "smell": "口语和书面皆可",
+      "odour": "正式或书面，强调不良气味",
+      "scent": "文学、描述香味",
+      "sniff": "描述动作或短暂的闻"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "厨房",
+      "smell": "I smell garlic cooking.（我闻到蒜味在炒菜。）",
+      "odour": "There was a bad odour from the trash.（垃圾有股难闻的气味。）",
+      "scent": "The kitchen had the scent of fresh herbs.（厨房有新鲜香草的香味。）",
+      "sniff": "She sniffed the soup to check its smell.（她闻了闻汤的味道。）"
+    },
+    {
+      "scene": "花园",
+      "smell": "Can you smell the flowers?（你能闻到花香吗？）",
+      "odour": "The odour of wet soil was strong after rain.（雨后湿土的气味很浓。）",
+      "scent": "The garden was filled with the scent of jasmine.（花园里充满了茉莉花的香气。）",
+      "sniff": "He sniffed the rose gently.（他轻轻地闻了闻玫瑰。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I like the odour of perfume.",
+      "correction": "✅ I like the scent of perfume.（scent 用于正面香味，odour 多指难闻气味。）"
+    },
+    {
+      "error": "❌ She smell the flower.",
+      "correction": "✅ She smells the flower.（动词第三人称单数要加-s。）"
+    },
+    {
+      "error": "❌ The dog smell the ground.",
+      "correction": "✅ The dog sniffed the ground.（描述动作用 sniff 更准确。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The room has a strange ___ after the party.",
+      "options": ["A. smell", "B. odour", "C. scent", "D. sniff"],
+      "answer": "B",
+      "explanation": "强调奇怪且可能难闻的气味，用 odour。"
+    },
+    {
+      "question": "选择正确答案：She ___ the perfume before buying it.",
+      "options": ["A. smelled", "B. sniffed", "C. odoured", "D. scented"],
+      "answer": "B",
+      "explanation": "描述闻香水动作用 sniff。"
+    },
+    {
+      "question": "选择正确答案：I love the ___ of fresh coffee in the morning.",
+      "options": ["A. smell", "B. odour", "C. scent", "D. sniff"],
+      "answer": "C",
+      "explanation": "scent 表示令人愉快的香味。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["fragrance（芳香）", "aroma（香气）", "stench（恶臭）"],
+    "tip": "口诀记忆：smell通用气味，odour多指难闻，scent专香味，sniff闻动作"
+  }
+}

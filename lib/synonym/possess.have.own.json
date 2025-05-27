@@ -1,0 +1,91 @@
+{
+  "words": ["possess", "have", "own"],
+  "explanation": {
+    "overview": "这三个词都表示‘拥有’，但使用场合和语气有区别。",
+    "details": [
+      {
+        "word": "possess",
+        "meaning": "正式用词，强调法律或实际控制权，常用于书面或正式语境。",
+        "example": "He possesses great knowledge about history.（他拥有丰富的历史知识。）"
+      },
+      {
+        "word": "have",
+        "meaning": "最常用，日常口语和书面语均适用，泛指拥有、持有、具备。",
+        "example": "I have a car.（我有一辆车。）"
+      },
+      {
+        "word": "own",
+        "meaning": "强调合法拥有权，常用于财产或物品，语气比 have 更强。",
+        "example": "She owns a house in New York.（她在纽约拥有一套房子。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "正式程度",
+      "possess": "正式、书面语",
+      "have": "口语和书面均用，最通用",
+      "own": "稍正式，强调所有权"
+    },
+    {
+      "aspect": "使用范围",
+      "possess": "抽象或具体都可，如知识、权利、物品",
+      "have": "广泛，物品、状态、关系等均可",
+      "own": "通常用于物品、财产"
+    },
+    {
+      "aspect": "语气强度",
+      "possess": "强调控制和权利",
+      "have": "中性，简单陈述",
+      "own": "强调真正归属权"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "财产拥有",
+      "possess": "The museum possesses many ancient artifacts.（博物馆拥有许多古代文物。）",
+      "have": "I have two smartphones.（我有两部手机。）",
+      "own": "They own a large farm outside the city.（他们拥有城市外一大片农场。）"
+    },
+    {
+      "scene": "抽象事物",
+      "possess": "She possesses great talent.（她拥有很大的天赋。）",
+      "have": "I have a good idea.（我有个好主意。）",
+      "own": "（通常不用于抽象名词）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I own a lot of knowledge.",
+      "correction": "✅ I possess a lot of knowledge.（own 多指具体物品，不用于知识。）"
+    },
+    {
+      "error": "❌ He possesses three cars.",
+      "correction": "✅ He owns three cars.（谈论物品所有权时用 own 更自然。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She ___ a beautiful painting.",
+      "options": ["A. possess", "B. have", "C. own"],
+      "answer": "C",
+      "explanation": "强调拥有画作，own 最合适。"
+    },
+    {
+      "question": "选择正确答案：The company ___ several patents.",
+      "options": ["A. possesses", "B. has", "C. owns"],
+      "answer": "A",
+      "explanation": "强调公司法律或实际控制权，用 possess。"
+    },
+    {
+      "question": "选择正确答案：I ___ a headache now.",
+      "options": ["A. possess", "B. have", "C. own"],
+      "answer": "B",
+      "explanation": "have 可用于状态和感觉。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住：possess 多用于正式和法律语境，have 最通用，own 强调所有权。",
+    "extended_words": ["hold（持有）", "acquire（获得）"]
+  }
+}

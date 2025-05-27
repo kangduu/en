@@ -1,0 +1,85 @@
+{
+  "words": ["except", "besides"],
+  "explanation": {
+    "overview": "这两个词都可以表示‘除…之外’，但用法和含义不同。",
+    "details": [
+      {
+        "word": "except",
+        "meaning": "表示排除，意思是‘除了…不包括’，用来表示例外。",
+        "example": "Everyone came to the party except John.（除了约翰，大家都来了派对。）"
+      },
+      {
+        "word": "besides",
+        "meaning": "表示除了…之外还包括，常用来增加信息，表示‘除此之外’。",
+        "example": "Besides English, she speaks French and Spanish.（除了英语，她还会说法语和西班牙语。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "含义",
+      "except": "排除，不包括",
+      "besides": "包括，添加"
+    },
+    {
+      "aspect": "用法",
+      "except": "表示例外，通常放在句中或句末",
+      "besides": "表示额外补充，常用作副词或介词"
+    },
+    {
+      "aspect": "例句位置",
+      "except": "He ate all the cookies except one.",
+      "besides": "She likes swimming. Besides, she enjoys running."
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校作业",
+      "except": "I finished all my homework except the math part.（我完成了所有作业，除了数学部分。）",
+      "besides": "Besides math, I also study English and science.（除了数学，我还学英语和科学。）"
+    },
+    {
+      "scene": "朋友聚会",
+      "except": "Everyone went to the park except Mary.（除了玛丽，大家都去了公园。）",
+      "besides": "Besides Mary, Tom and Anna are coming too.（除了玛丽，汤姆和安娜也来了。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I like all fruits besides apples.",
+      "correction": "✅ I like all fruits except apples.（这里是排除，用except。）"
+    },
+    {
+      "error": "❌ Besides John, no one came to the party.",
+      "correction": "✅ Except John, no one came to the party.（这里排除，用except。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：I can eat all vegetables ___ broccoli.",
+      "options": ["A. except", "B. besides"],
+      "answer": "A",
+      "explanation": "排除西兰花，用except。"
+    },
+    {
+      "question": "选择正确答案：___ English, she knows French and German.",
+      "options": ["A. Except", "B. Besides"],
+      "answer": "B",
+      "explanation": "除了英语，还会其他语言，用besides。"
+    },
+    {
+      "question": "选择正确答案：Everyone was invited ___ Tom.",
+      "options": ["A. besides", "B. except"],
+      "answer": "B",
+      "explanation": "排除汤姆，用except。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "excluding（排除）",
+      "in addition to（除了）",
+      "apart from（除…之外）"
+    ],
+    "tip": "口诀：except表示排除，besides表示增加或包含"
+  }
+}

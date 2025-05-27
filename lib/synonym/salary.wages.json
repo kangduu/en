@@ -1,0 +1,90 @@
+{
+  "words": ["salary", "wages"],
+  "explanation": {
+    "overview": "这两个词都指'工资'，但在支付方式和适用对象上有所不同。",
+    "details": [
+      {
+        "word": "salary",
+        "meaning": "通常指白领或专业人士的固定年薪或月薪，按固定周期支付",
+        "example": "Her monthly salary is paid on the last Friday of each month.（她的月薪在每个月的最后一个星期五支付。）"
+      },
+      {
+        "word": "wages",
+        "meaning": "通常指蓝领工人或按小时计酬的工资，按周或小时计算支付",
+        "example": "The factory workers receive their wages every Friday.（工厂工人每周五领取工资。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "支付对象",
+      "salary": "白领、管理人员",
+      "wages": "蓝领、小时工"
+    },
+    {
+      "aspect": "计算方式",
+      "salary": "固定年薪/月薪",
+      "wages": "按时/按件计酬"
+    },
+    {
+      "aspect": "支付周期",
+      "salary": "月薪或双周薪",
+      "wages": "周薪或日薪"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "办公室工作",
+      "salary": "The company offers a competitive salary package.（公司提供有竞争力的薪资方案。）",
+      "wages": "(不常用)"
+    },
+    {
+      "scene": "临时工作",
+      "salary": "(不常用)",
+      "wages": "He earns minimum wages at the part-time job.（他的兼职工作拿最低工资。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ Teachers receive their wages at the end of each month.",
+      "correction": "✅ Teachers receive their salary at the end of each month.（教师工资用salary）"
+    },
+    {
+      "error": "❌ The construction workers negotiated for a higher salary.",
+      "correction": "✅ The construction workers negotiated for higher wages.（建筑工人工资用wages）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The CEO's annual ___ is over $1 million.",
+      "options": ["A. salary", "B. wages"],
+      "answer": "A",
+      "explanation": "高管薪资用salary"
+    },
+    {
+      "question": "哪个词适合描述餐厅服务员的收入？",
+      "options": ["A. salary", "B. wages"],
+      "answer": "B",
+      "explanation": "小时工工资用wages"
+    },
+    {
+      "question": "填空：The union is fighting for better ___ and working conditions.",
+      "options": ["A. salaries", "B. wages"],
+      "answer": "B",
+      "explanation": "工会通常为蓝领争取wages"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "income（收入）",
+      "pay（报酬）",
+      "compensation（薪酬）",
+      "remuneration（酬金）"
+    ],
+    "special_cases": {
+      "living_wage": "生活工资",
+      "base_salary": "基本工资",
+      "minimum_wage": "最低工资"
+    }
+  }
+}

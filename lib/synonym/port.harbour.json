@@ -1,0 +1,90 @@
+{
+  "words": ["port", "harbour"],
+  "explanation": {
+    "overview": "这两个名词都指'港口'，但在使用地区和功能侧重上有所不同。",
+    "details": [
+      {
+        "word": "port",
+        "meaning": "指商业港口，强调货物装卸和船舶停靠的商业功能",
+        "example": "The ship docked at the busy container port.（船只停靠在繁忙的集装箱港口。）"
+      },
+      {
+        "word": "harbour",
+        "meaning": "指天然或人工的避风港，强调为船只提供安全停泊的功能",
+        "example": "The fishing boats returned to the safety of the harbour.（渔船返回安全的港湾。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "主要功能",
+      "port": "商业运输",
+      "harbour": "安全停泊"
+    },
+    {
+      "aspect": "地区偏好",
+      "port": "美国英语更常用",
+      "harbour": "英国英语更常用"
+    },
+    {
+      "aspect": "构成类型",
+      "port": "多为人工建造",
+      "harbour": "天然或人工"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "商业运输",
+      "port": "Shanghai is one of the busiest ports in the world.（上海是全球最繁忙的港口之一。）",
+      "harbour": "(较少用于商业语境)"
+    },
+    {
+      "scene": "航海安全",
+      "port": "(较少使用)",
+      "harbour": "The storm forced all ships to seek harbour.（暴风雨迫使所有船只寻找避风港。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The cruise ship docked at New York Harbour.",
+      "correction": "✅ The cruise ship docked at New York Port.（商业港口用port）"
+    },
+    {
+      "error": "❌ The small boats took shelter in the fishing port.",
+      "correction": "✅ The small boats took shelter in the fishing harbour.（避风港用harbour）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The ___ handles over 10 million containers annually.",
+      "options": ["A. port", "B. harbour"],
+      "answer": "A",
+      "explanation": "商业货运港口用port"
+    },
+    {
+      "question": "哪个词更适合描述'风景如画的渔船停泊处'？",
+      "options": ["A. port", "B. harbour"],
+      "answer": "B",
+      "explanation": "渔船停泊用harbour"
+    },
+    {
+      "question": "填空：Pearl ___ is a famous natural deep-water harbor in Hawaii.",
+      "options": ["A. Port", "B. Harbour"],
+      "answer": "B",
+      "explanation": "天然港湾用harbour"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "dock（码头）",
+      "marina（小船停泊区）",
+      "wharf（码头）",
+      "quay（突堤码头）"
+    ],
+    "special_cases": {
+      "port_city": "港口城市",
+      "safe_harbour": "安全港（法律术语）",
+      "harbour_master": "港务长"
+    }
+  }
+}

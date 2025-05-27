@@ -1,0 +1,108 @@
+{
+  "words": ["break", "crack", "smash", "shatter"],
+  "explanation": {
+    "overview": "这四个词都可以表示物体被破坏，但在破坏程度、完整性以及声音或视觉效果上有细微差别。",
+    "details": [
+      {
+        "word": "break",
+        "meaning": "最通用，表示打破、断裂、损坏，不强调方式或程度。",
+        "example": "He broke his glasses.（他把眼镜弄坏了。）"
+      },
+      {
+        "word": "crack",
+        "meaning": "强调表面出现裂纹或轻微破裂，整体结构未完全破碎。",
+        "example": "There's a crack in the window.（窗户上有一道裂纹。）"
+      },
+      {
+        "word": "smash",
+        "meaning": "表示猛烈撞击导致碎裂，常伴随响声和破坏感。",
+        "example": "He smashed the cup on the floor.（他把杯子砸在地上打碎了。）"
+      },
+      {
+        "word": "shatter",
+        "meaning": "强调破裂成很多碎片，通常用于玻璃等易碎物。",
+        "example": "The glass shattered into pieces.（玻璃碎成了很多块。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "破坏程度",
+      "break": "中等，整体破损",
+      "crack": "轻微，表面裂开",
+      "smash": "严重，用力砸碎",
+      "shatter": "完全碎裂成片"
+    },
+    {
+      "aspect": "常见对象",
+      "break": "眼镜、骨头、玩具",
+      "crack": "玻璃、墙壁、手机屏幕",
+      "smash": "杯子、电视、窗户",
+      "shatter": "玻璃、心（比喻）、镜子"
+    },
+    {
+      "aspect": "动作感觉",
+      "break": "通用、不强调方式",
+      "crack": "逐渐出现裂缝",
+      "smash": "猛力砸下",
+      "shatter": "瞬间破碎成小块"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "厨房失误",
+      "break": "I accidentally broke a bowl.（我不小心打破了一个碗。）",
+      "crack": "The plate cracked but didn’t break completely.（盘子出现了裂纹，但没完全碎。）",
+      "smash": "He smashed a bottle in anger.（他愤怒地砸碎了一个瓶子。）",
+      "shatter": "The wine glass fell and shattered.（酒杯掉下来摔得粉碎。）"
+    },
+    {
+      "scene": "意外事件",
+      "break": "She broke her phone screen.（她的手机屏幕坏了。）",
+      "crack": "There’s a crack on the road.（路上有一道裂缝。）",
+      "shatter": "The mirror fell and shattered into tiny pieces.（镜子掉下来碎成了小块。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I cracked the mirror into pieces.",
+      "correction": "✅ I shattered the mirror into pieces.（shatter 才表示碎成很多块）"
+    },
+    {
+      "error": "❌ I smashed my glasses by sitting on them.",
+      "correction": "✅ I broke my glasses by sitting on them.（glasses 用 break 更自然）"
+    },
+    {
+      "error": "❌ The screen shattered with a small line.",
+      "correction": "✅ The screen cracked with a small line.（小裂缝用 crack）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：I dropped the plate, and it ___ loudly on the floor.",
+      "options": ["A. cracked", "B. smashed", "C. broke"],
+      "answer": "B",
+      "explanation": "smash 表示用力撞击后破裂，并伴随声音，符合情境。"
+    },
+    {
+      "question": "选择正确答案：There’s a ___ on my phone screen, but it still works.",
+      "options": ["A. smash", "B. crack", "C. shatter"],
+      "answer": "B",
+      "explanation": "crack 表示轻微裂缝，手机还能用。"
+    },
+    {
+      "question": "选择正确答案：The glass fell and ___ into hundreds of pieces.",
+      "options": ["A. cracked", "B. broke", "C. shattered"],
+      "answer": "C",
+      "explanation": "shatter 表示彻底碎成很多小块。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "fracture（骨折、断裂）",
+      "burst（爆裂）",
+      "chip（崩边、缺口）"
+    ],
+    "tip": "口诀：crack是裂，break是断，smash猛砸，shatter碎散"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "words": ["ask", "inquire", "question", "demand"],
+  "explanation": {
+    "overview": "这四个词都与“提问”或“要求”有关，但语气、正式程度和使用对象不同，初学者要特别注意它们的区别。",
+    "details": [
+      {
+        "word": "ask",
+        "meaning": "最常见的“问”，既可用于提问，也可表示请求，语气最柔和。",
+        "example": "Can I ask you a question?（我能问你一个问题吗？）"
+      },
+      {
+        "word": "inquire",
+        "meaning": "较正式，通常用于书面或礼貌场合，表示“询问”或“查询”。",
+        "example": "She inquired about the train schedule.（她询问了火车时刻。）"
+      },
+      {
+        "word": "question",
+        "meaning": "作动词时表示“质疑”、“盘问”，语气比 ask 更强烈；作名词是“问题”。",
+        "example": "The police questioned the suspect.（警察盘问了嫌疑人。）"
+      },
+      {
+        "word": "demand",
+        "meaning": "语气强烈，表示“强烈要求”，常用于表达不容拒绝的命令式语气。",
+        "example": "He demanded an explanation.（他要求一个解释。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气强弱",
+      "ask": "最常见、柔和",
+      "inquire": "正式、客气",
+      "question": "较强、带怀疑或调查意味",
+      "demand": "非常强硬、命令式"
+    },
+    {
+      "aspect": "常见用途",
+      "ask": "提问、请求",
+      "inquire": "官方、商业、正式场合的询问",
+      "question": "质问、调查",
+      "demand": "索取、命令"
+    },
+    {
+      "aspect": "是否能接人",
+      "ask": "✅ ask someone something",
+      "inquire": "✅ inquire about something",
+      "question": "✅ question someone",
+      "demand": "✅ demand something / that someone do something"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校生活",
+      "ask": "The student asked the teacher a question.（学生问老师一个问题。）",
+      "inquire": "I inquired about the course requirements.（我询问了课程要求。）",
+      "question": "The teacher questioned the student's excuse.（老师质疑学生的借口。）",
+      "demand": "The parents demanded better facilities.（家长要求更好的设施。）"
+    },
+    {
+      "scene": "日常对话",
+      "ask": "She asked me for help.（她向我请求帮助。）",
+      "inquire": "He inquired politely if I was available.（他礼貌地询问我是否有空。）",
+      "question": "I questioned his decision.（我质疑了他的决定。）",
+      "demand": "She demanded a refund.（她要求退款。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He inquired me the price.",
+      "correction": "✅ He inquired about the price.（inquire 通常不直接接人）"
+    },
+    {
+      "error": "❌ She questioned a question.",
+      "correction": "✅ She asked a question.（提问用 ask，不是 question）"
+    },
+    {
+      "error": "❌ He demanded me to leave.",
+      "correction": "✅ He demanded that I leave.（demand 后接虚拟语气）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The customer politely ___ about the delivery time.",
+      "options": ["A. asked", "B. inquired", "C. demanded"],
+      "answer": "B",
+      "explanation": "inquire 更适合正式、礼貌地询问。"
+    },
+    {
+      "question": "选择正确答案：The boss ___ an immediate answer.",
+      "options": ["A. questioned", "B. asked", "C. demanded"],
+      "answer": "C",
+      "explanation": "demand 表示强烈要求，语气更符合情境。"
+    },
+    {
+      "question": "选择正确答案：She ___ me if I could help her move.",
+      "options": ["A. asked", "B. inquired", "C. questioned"],
+      "answer": "A",
+      "explanation": "日常请求使用 ask 更自然。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["request（请求）", "interrogate（审问）", "beg（乞求）"],
+    "tip": "口诀：ask最常见，inquire更礼貌，question带质疑，demand强命令"
+  }
+}

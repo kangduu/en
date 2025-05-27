@@ -1,0 +1,120 @@
+{
+  "words": [
+    "honesty",
+    "integrity",
+    "truthfulness",
+    "trustworthiness",
+    "decency"
+  ],
+  "explanation": {
+    "overview": "这些词都与‘品德’相关，表示诚实、正直、值得信赖等品质，但各有不同的重点和使用场景，容易混用。",
+    "details": [
+      {
+        "word": "honesty",
+        "meaning": "表示不说谎、不欺骗，强调诚实、坦率的行为或性格。",
+        "example": "She is known for her honesty.（她以诚实著称。）"
+      },
+      {
+        "word": "integrity",
+        "meaning": "比 honesty 更高级，强调整体的正直、道德操守和一贯性。",
+        "example": "A leader must have integrity.（领导者必须具有正直品格。）"
+      },
+      {
+        "word": "truthfulness",
+        "meaning": "侧重“说实话”，是 honesty 的一种具体表现。",
+        "example": "I appreciate your truthfulness.（我很欣赏你的坦诚。）"
+      },
+      {
+        "word": "trustworthiness",
+        "meaning": "表示‘值得信赖’，强调别人是否能依靠你，不仅仅是说实话，也包括行为。",
+        "example": "He proved his trustworthiness by keeping his promise.（他信守承诺，证明了自己值得信赖。）"
+      },
+      {
+        "word": "decency",
+        "meaning": "更广义，表示得体、正派、合乎道德，也可用于外表或行为是否文明有礼。",
+        "example": "She has the decency to help others.（她有助人的正直品格。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "核心含义",
+      "honesty": "诚实，不说谎",
+      "integrity": "正直，有道德底线",
+      "truthfulness": "说真话",
+      "trustworthiness": "值得信任",
+      "decency": "正派、有礼、合乎道德"
+    },
+    {
+      "aspect": "是否强调“说实话”",
+      "honesty": "✅",
+      "truthfulness": "✅ 更强调",
+      "integrity": "⭕ 包含但更广",
+      "trustworthiness": "⭕ 包含行为",
+      "decency": "❌ 更强调行为得体"
+    },
+    {
+      "aspect": "使用场合",
+      "honesty": "日常广泛",
+      "integrity": "正式、道德层面",
+      "truthfulness": "书面、强调陈述真实",
+      "trustworthiness": "人际关系、推荐信常见",
+      "decency": "行为礼貌或道德方面"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "借钱还钱",
+      "honesty": "He honestly admitted he couldn't pay today.（他诚实地承认今天还不上。）",
+      "trustworthiness": "I trust him because he’s always paid back on time.（我信任他，因为他总是按时还钱。）",
+      "integrity": "She kept her promise even when it was hard—that's integrity.（她即使在困难时也信守承诺——这就是正直。）"
+    },
+    {
+      "scene": "课堂上",
+      "truthfulness": "Thank you for your truthfulness about why you were late.（谢谢你如实说出迟到的原因。）",
+      "decency": "Please show some decency and don’t interrupt others.（请保持礼貌，不要打断别人。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He has a lot of truthfulness with money.",
+      "correction": "✅ He has a lot of honesty with money.（谈及诚实处理金钱时，用 honesty 更自然）"
+    },
+    {
+      "error": "❌ I like her because she is decency.",
+      "correction": "✅ I like her because she is decent.（decency 是名词，这里应使用形容词 decent）"
+    },
+    {
+      "error": "❌ Trustworthiness means you always tell the truth.",
+      "correction": "✅ Trustworthiness means people can rely on you, not just telling the truth.（它还包括行为可靠）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：A good friend should have both honesty and ___.",
+      "options": ["A. decency", "B. truthfulness", "C. trustworthiness"],
+      "answer": "C",
+      "explanation": "trustworthiness 表示‘值得信赖’，与 honesty 搭配更常见。"
+    },
+    {
+      "question": "选择正确答案：She always says what really happened. That’s ___.",
+      "options": ["A. integrity", "B. truthfulness", "C. decency"],
+      "answer": "B",
+      "explanation": "truthfulness 强调‘说实话’。"
+    },
+    {
+      "question": "选择正确答案：He refused to cheat even when no one was watching. That shows ___.",
+      "options": ["A. honesty", "B. decency", "C. integrity"],
+      "answer": "C",
+      "explanation": "integrity 强调道德底线和一致性。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "sincerity（真诚）",
+      "morality（道德）",
+      "ethics（伦理）"
+    ],
+    "tip": "口诀记忆：honesty重不骗，truthfulness重说实话，integrity是全面正直，trustworthiness是别人信你，decency讲文明礼貌"
+  }
+}

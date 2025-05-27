@@ -1,0 +1,100 @@
+{
+  "words": ["bill", "account", "charge"],
+  "explanation": {
+    "overview": "这些名词都与'费用'或'账单'相关，但在具体含义和使用场景上有所不同。",
+    "details": [
+      {
+        "word": "bill",
+        "meaning": "指需要支付的款项清单，通常是具体消费后的账单",
+        "example": "The waiter brought us the bill after dinner.（晚餐后服务员给我们拿来了账单。）"
+      },
+      {
+        "word": "account",
+        "meaning": "指银行或服务商的账户，或累计的往来账目",
+        "example": "I need to check my bank account balance.（我需要查看银行账户余额。）"
+      },
+      {
+        "word": "charge",
+        "meaning": "指单笔收费或费用，也可指信用卡扣款",
+        "example": "There's a small charge for delivery.（送货需要支付少量费用。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "主要含义",
+      "bill": "应付账单",
+      "account": "账户/账目",
+      "charge": "单笔费用"
+    },
+    {
+      "aspect": "使用场景",
+      "bill": "餐厅、水电费等",
+      "account": "银行、客户关系",
+      "charge": "服务费、信用卡"
+    },
+    {
+      "aspect": "时间范围",
+      "bill": "特定消费后",
+      "account": "持续关系",
+      "charge": "即时发生"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "餐厅消费",
+      "bill": "Could we have the bill, please?（请给我们账单好吗？）",
+      "account": "(不适用)",
+      "charge": "There's no charge for the extra bread.（额外的面包不收费。）"
+    },
+    {
+      "scene": "银行业务",
+      "bill": "(不适用)",
+      "account": "I opened a new savings account.（我开了一个新的储蓄账户。）",
+      "charge": "The bank charges a monthly fee.（银行收取月费。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I received my electricity account this morning.",
+      "correction": "✅ I received my electricity bill this morning.（水电费账单用bill）"
+    },
+    {
+      "error": "❌ There's a bill for using the hotel gym.",
+      "correction": "✅ There's a charge for using the hotel gym.（单项费用用charge）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The hotel ___ includes all taxes.",
+      "options": ["A. bill", "B. account", "C. charge"],
+      "answer": "A",
+      "explanation": "酒店结账用bill"
+    },
+    {
+      "question": "哪个词指'银行中的资金存储关系'？",
+      "options": ["A. bill", "B. account", "C. charge"],
+      "answer": "B",
+      "explanation": "银行账户用account"
+    },
+    {
+      "question": "填空：There will be a 2% ___ for credit card payments.",
+      "options": ["A. bill", "B. account", "C. charge"],
+      "answer": "C",
+      "explanation": "手续费用charge"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "invoice（发票）",
+      "fee（费用）",
+      "statement（结算单）",
+      "debit（借记）"
+    ],
+    "special_cases": {
+      "bill_of_rights": "权利法案",
+      "on_account": "赊账",
+      "free_of_charge": "免费"
+    }
+  }
+}

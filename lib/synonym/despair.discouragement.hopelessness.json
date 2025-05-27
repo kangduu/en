@@ -1,0 +1,95 @@
+{
+  "words": ["despair", "discouragement", "hopelessness"],
+  "explanation": {
+    "overview": "这三个词都与失去希望或信心有关，但程度和用法有所不同。",
+    "details": [
+      {
+        "word": "despair",
+        "meaning": "极度绝望，完全失去希望。",
+        "example": "After failing the exam, he was filled with despair.（考试失败后，他充满了绝望。）"
+      },
+      {
+        "word": "discouragement",
+        "meaning": "灰心、气馁，暂时失去信心或勇气。",
+        "example": "She felt discouragement when she didn’t get the job.（她没得到工作时感到气馁。）"
+      },
+      {
+        "word": "hopelessness",
+        "meaning": "无望感，感到没有解决办法或未来的希望。",
+        "example": "The situation gave them a sense of hopelessness.（这种情况让他们感到无望。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "情绪强度",
+      "despair": "非常强烈的绝望",
+      "discouragement": "较轻的气馁和失望",
+      "hopelessness": "感觉未来无望，较持续"
+    },
+    {
+      "aspect": "时间持续",
+      "despair": "可能是瞬间或长时间的极端情绪",
+      "discouragement": "通常是短暂的失落感",
+      "hopelessness": "持续的无望感"
+    },
+    {
+      "aspect": "用法",
+      "despair": "常用作名词和动词（to despair）",
+      "discouragement": "主要作名词使用",
+      "hopelessness": "主要作名词使用"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "考试失败",
+      "despair": "He fell into despair after failing the final exam.（他期末考试失败后陷入绝望。）",
+      "discouragement": "She felt discouragement but decided to try again.（她感到气馁，但决定再试一次。）",
+      "hopelessness": "The hopelessness made it hard for him to study.（无望感让他很难继续学习。）"
+    },
+    {
+      "scene": "找工作",
+      "despair": "After many rejections, he was close to despair.（多次被拒后，他几乎绝望了。）",
+      "discouragement": "Discouragement didn’t stop her from applying to more jobs.（气馁没有阻止她继续申请工作。）",
+      "hopelessness": "Hopelessness grew when no one replied.（没人回复时无望感加重了。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ She was in discouragement for days.",
+      "correction": "✅ She was discouraged for days.（用形容词discouraged更自然。）"
+    },
+    {
+      "error": "❌ He feels hopelessness to find a job.",
+      "correction": "✅ He feels hopeless about finding a job.（用形容词hopeless更常见。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：After losing his job, he was full of ___.",
+      "options": ["A. despair", "B. discouragement", "C. hopelessness"],
+      "answer": "A",
+      "explanation": "失业后极度绝望，用despair。"
+    },
+    {
+      "question": "选择正确答案：She felt ___ but kept trying.",
+      "options": ["A. despair", "B. discouragement", "C. hopelessness"],
+      "answer": "B",
+      "explanation": "气馁但继续努力，用discouragement。"
+    },
+    {
+      "question": "选择正确答案：The ___ made him give up hope.",
+      "options": ["A. despair", "B. discouragement", "C. hopelessness"],
+      "answer": "C",
+      "explanation": "无望感让他放弃希望，用hopelessness。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "despondency（沮丧）",
+      "dejection（失落）",
+      "melancholy（忧郁）"
+    ],
+    "tip": "口诀：despair是极度绝望，discouragement是暂时气馁，hopelessness是持续无望"
+  }
+}

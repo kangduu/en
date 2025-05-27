@@ -1,0 +1,84 @@
+{
+  "words": ["campfire", "bonfire"],
+  "explanation": {
+    "overview": "这两个词都表示户外的火，但用法和含义不同。campfire 是指露营时生的小火，主要用于取暖、做饭或照明；bonfire 通常指大型的、用于庆祝或聚会的大火堆。",
+    "details": [
+      {
+        "word": "campfire",
+        "meaning": "露营时的小火堆，常用于烤食物、取暖或围坐聊天。",
+        "example": "We sat around the campfire and told stories.（我们围着篝火讲故事。）"
+      },
+      {
+        "word": "bonfire",
+        "meaning": "大型的火堆，常用于庆祝、仪式或丢弃废弃物。",
+        "example": "The town held a bonfire party on Halloween night.（镇上在万圣节晚上举行了篝火晚会。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "火堆大小",
+      "campfire": "小型，便于控制",
+      "bonfire": "大型，火势较大"
+    },
+    {
+      "aspect": "用途",
+      "campfire": "露营取暖、做饭、社交",
+      "bonfire": "庆祝、仪式、焚烧废弃物"
+    },
+    {
+      "aspect": "场合",
+      "campfire": "户外露营地",
+      "bonfire": "节日、公共活动或农村"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "露营",
+      "campfire": "We made a campfire to roast marshmallows.（我们生了篝火烤棉花糖。）",
+      "bonfire": "We didn't have a bonfire at the campsite.（露营地没有大型篝火。）"
+    },
+    {
+      "scene": "节日活动",
+      "campfire": "No campfire is needed for this festival.（这个节日不需要小篝火。）",
+      "bonfire": "The bonfire lit up the whole field during the festival.（节日期间篝火照亮了整个场地。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ We had a bonfire for cooking marshmallows while camping.",
+      "correction": "✅ We had a campfire for cooking marshmallows while camping.（露营烤棉花糖用 campfire 更合适。）"
+    },
+    {
+      "error": "❌ The bonfire was small and easy to control.",
+      "correction": "✅ The campfire was small and easy to control.（小而易控的是 campfire，不是 bonfire。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：During camping, we sat around the ___ to stay warm.",
+      "options": ["A. bonfire", "B. campfire"],
+      "answer": "B",
+      "explanation": "露营时围坐取暖用 campfire。"
+    },
+    {
+      "question": "选择正确答案：The town's ___ celebration was huge and bright.",
+      "options": ["A. campfire", "B. bonfire"],
+      "answer": "B",
+      "explanation": "大型节日庆典用 bonfire。"
+    },
+    {
+      "question": "选择正确答案：We didn’t have a ___ because the fire was small and controlled.",
+      "options": ["A. bonfire", "B. campfire"],
+      "answer": "B",
+      "explanation": "小型、易控制的是 campfire。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "firepit（火坑，用于控制火焰的小场所）",
+      "hearth（炉边，家中火炉）"
+    ],
+    "tip": "口诀：campfire 小火露营用，bonfire 大火节日燃"
+  }
+}

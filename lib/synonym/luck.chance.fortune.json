@@ -1,0 +1,100 @@
+{
+  "words": ["luck", "chance", "fortune"],
+  "explanation": {
+    "overview": "这些词都与'机会'或'运气'相关，但在具体含义和使用场景上有所不同。",
+    "details": [
+      {
+        "word": "luck",
+        "meaning": "指随机发生的好或坏结果，强调偶然性",
+        "example": "I had good luck finding a parking space.（我很幸运找到了停车位。）"
+      },
+      {
+        "word": "chance",
+        "meaning": "指可能性或机会，可以是中性的或积极的",
+        "example": "There's a chance of rain tomorrow.（明天有可能下雨。）"
+      },
+      {
+        "word": "fortune",
+        "meaning": "指重大运气或财富，通常带有积极含义",
+        "example": "He made a fortune in the stock market.（他在股市发了财。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "主要含义",
+      "luck": "随机运气",
+      "chance": "可能性/机会",
+      "fortune": "重大运气/财富"
+    },
+    {
+      "aspect": "情感色彩",
+      "luck": "可好可坏",
+      "chance": "中性",
+      "fortune": "通常积极"
+    },
+    {
+      "aspect": "常见搭配",
+      "luck": "good luck（好运）",
+      "chance": "by chance（偶然）",
+      "fortune": "make a fortune（发财）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "日常生活",
+      "luck": "Wish me luck on my exam!（祝我考试好运！）",
+      "chance": "We met by chance at the supermarket.（我们在超市偶遇。）",
+      "fortune": "She inherited a large fortune.（她继承了一大笔财富。）"
+    },
+    {
+      "scene": "商业活动",
+      "luck": "We've had bad luck with suppliers recently.（我们最近供应商方面运气不好。）",
+      "chance": "This investment carries a high chance of risk.（这项投资风险很高。）",
+      "fortune": "The company's fortune changed after the merger.（公司合并后时来运转。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I had a good fortune finding my lost keys.",
+      "correction": "✅ I had good luck finding my lost keys.（小事运气用luck）"
+    },
+    {
+      "error": "❌ There's a luck that he'll be late.",
+      "correction": "✅ There's a chance that he'll be late.（可能性用chance）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：___ favors the prepared mind.",
+      "options": ["A. Luck", "B. Chance", "C. Fortune"],
+      "answer": "B",
+      "explanation": "名言'机会眷顾有准备的人'用chance"
+    },
+    {
+      "question": "哪个词最适合描述'中彩票'？",
+      "options": ["A. luck", "B. chance", "C. fortune"],
+      "answer": "C",
+      "explanation": "重大财运用fortune"
+    },
+    {
+      "question": "填空：Cross your fingers for good ___!",
+      "options": ["A. luck", "B. chance", "C. fortune"],
+      "answer": "A",
+      "explanation": "祈求好运用luck"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "opportunity（机会）",
+      "fate（命运）",
+      "destiny（天命）",
+      "providence（天意）"
+    ],
+    "special_cases": {
+      "Lady_Luck": "幸运女神",
+      "game_of_chance": "概率游戏",
+      "fortune_cookie": "幸运饼干"
+    }
+  }
+}

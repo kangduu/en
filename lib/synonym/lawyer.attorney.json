@@ -1,0 +1,90 @@
+{
+  "words": ["lawyer", "attorney"],
+  "explanation": {
+    "overview": "这两个词都指'律师'，但在具体含义和使用上有所不同。",
+    "details": [
+      {
+        "word": "lawyer",
+        "meaning": "泛指受过法律训练、有律师资格的人，通用术语",
+        "example": "She's a lawyer specializing in corporate law.（她是专攻公司法的律师。）"
+      },
+      {
+        "word": "attorney",
+        "meaning": "特指有资格代表客户出庭的律师，在美国更常用",
+        "example": "You should consult an attorney before signing the contract.（签署合同前你应该咨询律师。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "使用范围",
+      "lawyer": "通用，全球使用",
+      "attorney": "主要用于美国"
+    },
+    {
+      "aspect": "法律权限",
+      "lawyer": "有法律资格",
+      "attorney": "有代理权（可代表客户）"
+    },
+    {
+      "aspect": "正式程度",
+      "lawyer": "通用",
+      "attorney": "更正式"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "法律咨询",
+      "lawyer": "I need to talk to my lawyer about this case.（我需要和我的律师讨论这个案子。）",
+      "attorney": "The district attorney will prosecute the case.（地方检察官将起诉此案。）"
+    },
+    {
+      "scene": "职业描述",
+      "lawyer": "After law school, he became a lawyer.（法学院毕业后，他成为了一名律师。）",
+      "attorney": "She works as a defense attorney in Chicago.（她在芝加哥做辩护律师。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I need to hire an attorney to draft my will.（虽然不错，但非必须）",
+      "correction": "✅ I need to hire a lawyer to draft my will.（起草遗嘱用lawyer即可）"
+    },
+    {
+      "error": "❌ The lawyer general will make a statement.",
+      "correction": "✅ The attorney general will make a statement.（司法部长固定用attorney general）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最通用的词：My ___ advised me not to speak to the press.",
+      "options": ["A. lawyer", "B. attorney"],
+      "answer": "A",
+      "explanation": "通用情况用lawyer"
+    },
+    {
+      "question": "在美国，哪个词指'有代理权的律师'？",
+      "options": ["A. lawyer", "B. attorney"],
+      "answer": "B",
+      "explanation": "美国用attorney指有代理权的律师"
+    },
+    {
+      "question": "填空：The ___ for the defendant objected to the evidence.",
+      "options": ["A. lawyer", "B. attorney"],
+      "answer": "B",
+      "explanation": "法庭上代理用attorney"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "barrister（出庭律师，英国）",
+      "solicitor（事务律师，英国）",
+      "counsel（法律顾问）",
+      "advocate（辩护人）"
+    ],
+    "special_cases": {
+      "power_of_attorney": "委托书（法律文件）",
+      "attorney_at_law": "执业律师（正式称呼）",
+      "district_attorney": "地方检察官"
+    }
+  }
+}

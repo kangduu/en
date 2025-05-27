@@ -1,0 +1,110 @@
+{
+  "words": ["foreigner", "alien", "outsider", "outlander"],
+  "explanation": {
+    "overview": "这些词都可以表达‘外来人’或‘外地人’，但语气、使用场景和文化含义有所不同，有些词带有贬义或正式含义，容易误用。",
+    "details": [
+      {
+        "word": "foreigner",
+        "meaning": "指来自其他国家的人，是最中性、常见的表达方式。",
+        "example": "She is a foreigner from France.（她是来自法国的外国人。）"
+      },
+      {
+        "word": "alien",
+        "meaning": "在法律或科幻语境中使用，指‘非本国人’或‘外星人’，语气正式或陌生。",
+        "example": "He is a legal alien in the U.S.（他是美国的合法外籍人士。）"
+      },
+      {
+        "word": "outsider",
+        "meaning": "强调“不是这个圈子/组织/地方的人”，可指外地人、局外人，有时有疏离或排斥意味。",
+        "example": "As an outsider, I found it hard to join their group.（作为外来者，我很难融入他们的团体。）"
+      },
+      {
+        "word": "outlander",
+        "meaning": "主要用于文学或历史语境，意为“外乡人”，在现代英语中不常用，有点过时。",
+        "example": "The villagers were suspicious of the outlander.（村民们对那个外乡人很警惕。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "是否指外国人",
+      "foreigner": "✅ 明确指外国人",
+      "alien": "✅ 在法律或正式语境中",
+      "outsider": "❌ 更广义，强调圈外",
+      "outlander": "✅ 可指外国人或外乡人（过时）"
+    },
+    {
+      "aspect": "语气",
+      "foreigner": "中性",
+      "alien": "正式/生硬，有时带贬义",
+      "outsider": "可能有疏离感",
+      "outlander": "文学/过时"
+    },
+    {
+      "aspect": "常见语境",
+      "foreigner": "日常用语、旅游场景",
+      "alien": "法律/科幻/移民局",
+      "outsider": "人际圈子/小团体",
+      "outlander": "小说/古代场景"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "旅行中",
+      "foreigner": "He helped a foreigner find the bus stop.（他帮一个外国人找公交站。）",
+      "alien": "She got an alien registration card after moving to the U.S.（她在移居美国后拿到了外籍注册卡。）"
+    },
+    {
+      "scene": "校园生活",
+      "outsider": "At first, I felt like an outsider in this new school.（一开始我在这所新学校觉得像个局外人。）",
+      "outlander": "The story is about an outlander who enters a mysterious village.（这个故事讲述一个外乡人进入神秘村庄。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He is an alien from Canada.",
+      "correction": "✅ He is a foreigner from Canada.（指‘加拿大人’应用 foreigner，更自然。）"
+    },
+    {
+      "error": "❌ All aliens are dangerous.",
+      "correction": "✅ Be careful: ‘alien’ 可能让人觉得你指外星人或带贬义，应明确语境。"
+    },
+    {
+      "error": "❌ She is an outsider from Japan.",
+      "correction": "✅ She is a foreigner from Japan.（outsider 更像“圈外人”而不是国籍区别）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：He just moved here from Germany. He is a ___.",
+      "options": ["A. foreigner", "B. outsider", "C. alien", "D. outlander"],
+      "answer": "A",
+      "explanation": "foreigner 是最中性、自然的表达‘外国人’。"
+    },
+    {
+      "question": "选择正确答案：The club members don’t like ___.",
+      "options": [
+        "A. foreigners",
+        "B. outsiders",
+        "C. aliens",
+        "D. outlanders"
+      ],
+      "answer": "B",
+      "explanation": "outsider 表示“圈外人”，适合用于社交、团体情境。"
+    },
+    {
+      "question": "选择正确答案：In immigration law, the term ___ is often used.",
+      "options": ["A. outsider", "B. outlander", "C. alien", "D. foreigner"],
+      "answer": "C",
+      "explanation": "alien 是法律术语，表示‘非本国人’。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "immigrant（移民）",
+      "visitor（访客）",
+      "stranger（陌生人）"
+    ],
+    "tip": "口诀记忆：foreigner最常见，alien需谨慎；outsider是圈外人，outlander书里见"
+  }
+}

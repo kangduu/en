@@ -1,0 +1,105 @@
+{
+  "words": ["pretend", "feign", "fake", "sham"],
+  "explanation": {
+    "overview": "这四个词都涉及‘假装’或‘伪装’，但用法和语气有所不同。pretend 是最常用且口语化的，feign 较正式，fake 和 sham 强调假的本质。",
+    "details": [
+      {
+        "word": "pretend",
+        "meaning": "假装，通常指故意表现某种状态或情绪，多用于日常生活或儿童游戏。",
+        "example": "The children pretended to be superheroes.（孩子们假装自己是超级英雄。）"
+      },
+      {
+        "word": "feign",
+        "meaning": "假装，常用于较正式或书面语，表示装作某种感情或状况。",
+        "example": "She feigned illness to avoid the meeting.（她假装生病以逃避会议。）"
+      },
+      {
+        "word": "fake",
+        "meaning": "伪造或假装，强调不真实，多指物品或行为的欺骗性质。",
+        "example": "He faked his signature on the document.（他伪造了文件上的签名。）"
+      },
+      {
+        "word": "sham",
+        "meaning": "假冒的，虚假的，通常指骗局或欺骗性质的事物或行为。",
+        "example": "The product was a sham and didn't work at all.（那个产品是假货，根本不起作用。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "用法场合",
+      "pretend": "日常生活，儿童游戏",
+      "feign": "正式、书面表达",
+      "fake": "强调欺骗和伪造",
+      "sham": "欺骗性的假冒或骗局"
+    },
+    {
+      "aspect": "语气",
+      "pretend": "轻松、无恶意",
+      "feign": "较正式，有策略性",
+      "fake": "负面，强调假冒",
+      "sham": "强烈负面，强调骗局"
+    },
+    {
+      "aspect": "词性",
+      "pretend": "动词",
+      "feign": "动词",
+      "fake": "形容词、动词、名词",
+      "sham": "形容词、名词"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "日常生活",
+      "pretend": "He pretended to be asleep when his mom called.（他假装睡着了，妈妈叫他时。）",
+      "feign": "She feigned surprise at the party.（她假装对派对感到惊讶。）",
+      "fake": "He faked illness to skip school.（他假装生病逃学。）",
+      "sham": "The whole meeting was a sham to trick us.（整个会议都是一个骗局，想骗我们。）"
+    },
+    {
+      "scene": "工作场合",
+      "pretend": "Don't pretend you understand if you don't.（如果你不懂，别假装懂。）",
+      "feign": "He feigned interest during the presentation.（他在演讲时假装感兴趣。）",
+      "fake": "They sold fake products to customers.（他们向客户卖假货。）",
+      "sham": "That certificate is a sham and invalid.（那张证书是假的，无效。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He faked to be happy.",
+      "correction": "✅ He pretended to be happy.（fake 多用作‘伪造’，假装情绪用 pretend。）"
+    },
+    {
+      "error": "❌ She shams illness to avoid work.",
+      "correction": "✅ She feigns illness to avoid work.（feign 用于正式语境下的假装。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：He ___ surprise when he saw the gift, but he already knew about it.",
+      "options": ["A. pretended", "B. feigned", "C. faked", "D. shammed"],
+      "answer": "B",
+      "explanation": "feign 用于正式场合假装感情。"
+    },
+    {
+      "question": "选择正确答案：The watch he bought was a ___.",
+      "options": ["A. pretend", "B. feign", "C. fake", "D. sham"],
+      "answer": "C",
+      "explanation": "fake 强调假冒的物品。"
+    },
+    {
+      "question": "选择正确答案：The meeting was a ___ to trick the investors.",
+      "options": ["A. pretend", "B. feign", "C. fake", "D. sham"],
+      "answer": "D",
+      "explanation": "sham 指欺骗性质的骗局或假冒。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "simulate（模拟）",
+      "disguise（伪装）",
+      "counterfeit（伪造）"
+    ],
+    "tip": "口诀记忆：pretend假装玩游戏，feign假装正式情绪，fake假货骗你，sham骗局真恶意"
+  }
+}

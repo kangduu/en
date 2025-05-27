@@ -1,0 +1,105 @@
+{
+  "words": ["speak", "talk", "say", "tell"],
+  "explanation": {
+    "overview": "这四个词都和“说话”有关，但用法和搭配对象不同，初学者常常混淆。",
+    "details": [
+      {
+        "word": "speak",
+        "meaning": "正式、强调发言或说某种语言，后面常接语言名或对象。",
+        "example": "She speaks English very well.（她英语说得很好。）"
+      },
+      {
+        "word": "talk",
+        "meaning": "较随意，强调交流或对话，常用于非正式场合。",
+        "example": "They talked for hours.（他们聊了好几个小时。）"
+      },
+      {
+        "word": "say",
+        "meaning": "强调说出的具体话语，常接“说的话”，不直接接人。",
+        "example": "He said he was tired.（他说他累了。）"
+      },
+      {
+        "word": "tell",
+        "meaning": "强调“告诉某人某事”，必须接人。",
+        "example": "She told me the truth.（她告诉了我真相。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "正式/非正式",
+      "speak": "正式",
+      "talk": "非正式",
+      "say": "中性",
+      "tell": "中性"
+    },
+    {
+      "aspect": "是否强调对象",
+      "speak": "可以接语言或人",
+      "talk": "通常是双向交流",
+      "say": "说‘什么’",
+      "tell": "告诉‘谁+什么’"
+    },
+    {
+      "aspect": "常见搭配",
+      "speak": "speak English / speak to someone",
+      "talk": "talk to someone / talk about something",
+      "say": "say something / say that...",
+      "tell": "tell someone something / tell a story"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "上课时",
+      "speak": "Please speak clearly during your presentation.（演讲时请讲清楚。）",
+      "talk": "Don't talk in class.（上课不要聊天。）",
+      "say": "She said the homework is due tomorrow.（她说作业明天交。）",
+      "tell": "The teacher told us to be quiet.（老师叫我们安静。）"
+    },
+    {
+      "scene": "朋友聚会",
+      "speak": "He spoke to me in Spanish.（他用西班牙语和我说话。）",
+      "talk": "We talked about our weekend plans.（我们聊了周末计划。）",
+      "say": "She said ‘hello’ to everyone.（她向大家说了‘你好’。）",
+      "tell": "I told him a funny story.（我给他讲了个有趣的故事。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He said me the truth.",
+      "correction": "✅ He told me the truth.（tell 要接人，say 不行）"
+    },
+    {
+      "error": "❌ She told ‘goodbye’.",
+      "correction": "✅ She said ‘goodbye’.（say 后才能直接跟说的话）"
+    },
+    {
+      "error": "❌ I want to speak about the movie.",
+      "correction": "✅ I want to talk about the movie.（speak 不常接 about，talk about 更自然）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She ___ me a secret last night.",
+      "options": ["A. said", "B. told", "C. talked"],
+      "answer": "B",
+      "explanation": "tell 要接人 + 事情，符合语法结构。"
+    },
+    {
+      "question": "选择正确答案：Don’t ___ in the library.",
+      "options": ["A. say", "B. tell", "C. talk"],
+      "answer": "C",
+      "explanation": "talk 表示聊天交流，符合“保持安静”语境。"
+    },
+    {
+      "question": "选择正确答案：He ___ he was tired and went to bed.",
+      "options": ["A. told", "B. spoke", "C. said"],
+      "answer": "C",
+      "explanation": "say 后接具体说的话，不接人。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["chat（闲聊）", "discuss（讨论）", "mention（提到）"],
+    "tip": "口诀：speak说语言，talk聊事情，say说话语，tell告诉人"
+  }
+}

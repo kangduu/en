@@ -52,6 +52,18 @@
     {
       "error": "❌ Diggers made a cave in the ground.",
       "correction": "✅ Diggers made a hole in the ground.（人工挖掘的用hole）"
+    },
+    {
+      "error": "❌ The cave in my jeans is getting bigger.",
+      "correction": "✅ The hole in my jeans is getting bigger.（牛仔裤上的洞用hole）"
+    },
+    {
+      "error": "❌ The cave is too small for a person.",
+      "correction": "✅ The hole is too small for a person.（小洞用hole）"
+    },
+    {
+      "error": "❌ The cave in the wall is beautiful.",
+      "correction": "✅ The hole in the wall is beautiful.（墙上的洞用hole）"
     }
   ],
   "mini_test": [
@@ -72,6 +84,21 @@
       "options": ["A. cave", "B. hole"],
       "answer": "B",
       "explanation": "人工挖掘的深洞用hole"
+    },
+    {
+      "question": "选择正确的句子：",
+      "options": [
+        "A. The cave in the mountain is famous.",
+        "B. The hole in the mountain is famous."
+      ],
+      "answer": "A",
+      "explanation": "山中的洞穴用cave"
+    },
+    {
+      "question": "哪个词可以描述地面上的小洞？",
+      "options": ["A. cave", "B. hole"],
+      "answer": "B",
+      "explanation": "地面上的小洞用hole"
     }
   ],
   "additional_notes": {
@@ -84,7 +111,10 @@
     "fixed_expressions": [
       "black hole（黑洞）",
       "cave in（塌陷）",
-      "hole in one（高尔夫一杆进洞）"
+      "hole in one（高尔夫一杆进洞）",
+      "rabbit hole（兔子洞，常指复杂的情况或问题）",
+      "cave painting（洞穴画）",
+      "cave diving（洞穴潜水）"
     ]
   }
 }

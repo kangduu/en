@@ -1,0 +1,100 @@
+{
+  "words": ["root", "base", "foundation"],
+  "explanation": {
+    "overview": "这些名词都表示某事物的'基础'或'根本'，但在具体含义和使用场景上有所不同。",
+    "details": [
+      {
+        "word": "root",
+        "meaning": "指事物的根源、起源或本质，常比喻为植物根系般的根本支撑",
+        "example": "The root of the problem lies in poor communication.（问题的根源在于沟通不畅。）"
+      },
+      {
+        "word": "base",
+        "meaning": "指物体底部支撑部分或活动开展的起点/中心",
+        "example": "The lamp has a heavy base.（这盏灯有个沉重的底座。）"
+      },
+      {
+        "word": "foundation",
+        "meaning": "指建筑物地基或抽象事物的坚实基础，强调稳固性",
+        "example": "The foundation of the house is made of concrete.（房子的地基是混凝土的。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "主要含义",
+      "root": "起源/本质",
+      "base": "底部/起点",
+      "foundation": "地基/基础"
+    },
+    {
+      "aspect": "使用场景",
+      "root": "问题分析/植物学/语言学",
+      "base": "物体结构/军事/商业",
+      "foundation": "建筑/教育/机构"
+    },
+    {
+      "aspect": "比喻用法",
+      "root": "多用（如root cause根本原因）",
+      "base": "较少",
+      "foundation": "常用（如solid foundation坚实基础）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "建筑领域",
+      "root": "(较少使用)",
+      "base": "The base of the column is decorated.（柱子的底座有装饰。）",
+      "foundation": "They poured the foundation yesterday.（他们昨天浇筑了地基。）"
+    },
+    {
+      "scene": "问题解决",
+      "root": "Let's get to the root of this issue.（让我们找出这个问题的根源。）",
+      "base": "We need more data as a base for our research.（我们需要更多数据作为研究基础。）",
+      "foundation": "Trust is the foundation of good teamwork.（信任是良好团队合作的基础。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The root of the building is unstable.",
+      "correction": "✅ The foundation of the building is unstable.（建筑物基础用foundation）"
+    },
+    {
+      "error": "❌ This theory lacks a solid base.",
+      "correction": "✅ This theory lacks a solid foundation.（理论基础用foundation）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The ___ of the tree extended deep into the soil.",
+      "options": ["A. root", "B. base", "C. foundation"],
+      "answer": "A",
+      "explanation": "植物根系用root"
+    },
+    {
+      "question": "哪个词最适合描述军事基地？",
+      "options": ["A. root", "B. base", "C. foundation"],
+      "answer": "B",
+      "explanation": "军事基地固定用base"
+    },
+    {
+      "question": "填空：Early education provides a ___ for future learning.",
+      "options": ["A. root", "B. base", "C. foundation"],
+      "answer": "C",
+      "explanation": "教育基础用foundation"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "origin（起源）",
+      "bedrock（基岩/基本原则）",
+      "footing（基础/立足点）",
+      "groundwork（基础工作）"
+    ],
+    "special_cases": {
+      "root_in_linguistics": "词根（word root）",
+      "base_in_chemistry": "碱（化学用语）",
+      "foundation_as_organization": "基金会（慈善机构）"
+    }
+  }
+}

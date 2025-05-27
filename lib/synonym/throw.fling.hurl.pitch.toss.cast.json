@@ -1,0 +1,128 @@
+{
+  "words": ["throw", "fling", "hurl", "pitch", "toss", "cast"],
+  "explanation": {
+    "overview": "这些词都表示‘扔、投’，但在动作的力量、目的、随意程度和使用场景上有所不同。",
+    "details": [
+      {
+        "word": "throw",
+        "meaning": "最常用的一般词，表示‘扔、投’，既可随意也可正式。",
+        "example": "He threw the ball to me.（他把球扔给我。）"
+      },
+      {
+        "word": "fling",
+        "meaning": "指快速、粗鲁或愤怒地扔，常带有情绪。",
+        "example": "She flung her bag on the bed angrily.（她愤怒地把包扔在床上。）"
+      },
+      {
+        "word": "hurl",
+        "meaning": "表示用很大的力气扔，常用于暴力或激烈场景。",
+        "example": "He hurled a rock at the window.（他朝窗户扔了一块石头。）"
+      },
+      {
+        "word": "pitch",
+        "meaning": "多用于体育或正式投掷动作，如棒球投球，也可用于比喻。",
+        "example": "The player pitched the ball fast.（这名球员快速地投出了球。）"
+      },
+      {
+        "word": "toss",
+        "meaning": "指轻轻地或随意地抛掷，动作比较轻柔或随性。",
+        "example": "She tossed the keys on the table.（她把钥匙轻轻扔到桌子上。）"
+      },
+      {
+        "word": "cast",
+        "meaning": "较正式，常指有目的地投掷（如钓鱼、魔法、投票），也可引申为“投射”。",
+        "example": "He cast his fishing line into the river.（他把钓鱼线抛入河中。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "力度",
+      "throw": "中等",
+      "fling": "较猛",
+      "hurl": "非常猛",
+      "pitch": "中等（有技巧）",
+      "toss": "轻",
+      "cast": "因情境而异"
+    },
+    {
+      "aspect": "随意/正式",
+      "throw": "通用",
+      "fling": "随意/冲动",
+      "hurl": "猛烈/暴力",
+      "pitch": "正式/体育",
+      "toss": "随意/轻松",
+      "cast": "正式/比喻"
+    },
+    {
+      "aspect": "常见场景",
+      "throw": "日常扔东西",
+      "fling": "愤怒或急促",
+      "hurl": "攻击、抗议",
+      "pitch": "棒球、销售演示",
+      "toss": "厨房、睡觉时扔枕头",
+      "cast": "钓鱼、投票、咒语"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "家庭日常",
+      "throw": "He threw the dirty clothes into the basket.（他把脏衣服扔进篮子里。）",
+      "fling": "She flung the remote on the couch.（她把遥控器甩在沙发上。）",
+      "toss": "He tossed a pillow onto the bed.（他把枕头随手扔到床上。）"
+    },
+    {
+      "scene": "体育活动",
+      "throw": "She threw the basketball to her friend.（她把篮球扔给朋友。）",
+      "pitch": "The pitcher pitched the ball with great speed.（投手迅速地投出了球。）",
+      "hurl": "He hurled the discus as far as he could.（他尽力把铁饼掷得很远。）"
+    },
+    {
+      "scene": "休闲/比喻场景",
+      "cast": "He cast his vote for the new leader.（他投票支持新领袖。）",
+      "toss": "Toss the salad before serving.（上菜前把沙拉拌一下。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He tossed the rock with all his strength.",
+      "correction": "✅ He hurled the rock with all his strength.（hurl 才表示用尽全力的‘扔’）"
+    },
+    {
+      "error": "❌ She cast the ball to her friend.",
+      "correction": "✅ She threw the ball to her friend.（cast 不适合日常抛球）"
+    },
+    {
+      "error": "❌ He flung the ball in the baseball game.",
+      "correction": "✅ He pitched the ball in the baseball game.（棒球中用 pitch）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：She was angry and ___ her phone onto the sofa.",
+      "options": ["A. tossed", "B. cast", "C. flung"],
+      "answer": "C",
+      "explanation": "fling 表示带有情绪、用力的扔，符合愤怒场景。"
+    },
+    {
+      "question": "选择正确词语：The fisherman ___ his line into the sea.",
+      "options": ["A. pitched", "B. hurled", "C. cast"],
+      "answer": "C",
+      "explanation": "钓鱼场景中常用 cast。"
+    },
+    {
+      "question": "选择最佳词语：He ___ the salad before serving it.",
+      "options": ["A. tossed", "B. threw", "C. flung"],
+      "answer": "A",
+      "explanation": "toss 在这里表示轻轻地搅拌，适用于沙拉。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "chuck（口语，扔）",
+      "lob（高抛，运动用语）",
+      "launch（发射、推出）"
+    ],
+    "tip": "口诀：toss随手扔，fling情绪扔，hurl用力扔，pitch讲技巧，cast多用比喻，throw最常用"
+  }
+}

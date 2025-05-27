@@ -1,0 +1,98 @@
+{
+  "words": ["pile", "stack", "heap", "bunch"],
+  "explanation": {
+    "overview": "这些词都表示‘一堆’、‘一叠’，但它们描述的物品类型和排列方式略有不同。",
+    "details": [
+      {
+        "word": "pile",
+        "meaning": "泛指杂乱或整齐堆放的东西，常用于具体或抽象物品。",
+        "example": "There’s a pile of clothes on the bed.（床上有一堆衣服。）"
+      },
+      {
+        "word": "stack",
+        "meaning": "强调整齐、规则地堆放，常指叠放整齐的书、本子、盘子等。",
+        "example": "He put the books in a neat stack.（他把书整齐地叠放在一起。）"
+      },
+      {
+        "word": "heap",
+        "meaning": "强调杂乱无序的一堆，通常是乱七八糟的堆积。",
+        "example": "There’s a heap of trash in the corner.（角落里有一堆垃圾。）"
+      },
+      {
+        "word": "bunch",
+        "meaning": "常用于成束、成串的东西，如花、钥匙、香蕉，也可指一群人。",
+        "example": "He gave me a bunch of flowers.（他送了我一束花。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "是否整齐",
+      "pile": "不一定整齐",
+      "stack": "整齐地堆放",
+      "heap": "杂乱地堆放",
+      "bunch": "捆成束、成串"
+    },
+    {
+      "aspect": "常见对象",
+      "pile": "衣服、纸张、书",
+      "stack": "书、碗、纸",
+      "heap": "垃圾、衣服、沙土",
+      "bunch": "花、钥匙、香蕉、人"
+    },
+    {
+      "aspect": "搭配方式",
+      "pile": "a pile of ...",
+      "stack": "a stack of ...",
+      "heap": "a heap of ...",
+      "bunch": "a bunch of ..."
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "家庭/房间整理",
+      "pile": "There’s a pile of homework on the desk.（桌上有一堆作业。）",
+      "stack": "She made a stack of dishes after dinner.（她把盘子整齐堆好。）",
+      "heap": "He threw his clothes into a heap on the floor.（他把衣服扔成一堆在地上。）",
+      "bunch": "I bought a bunch of bananas.（我买了一串香蕉。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I have a stack of keys.",
+      "correction": "✅ I have a bunch of keys.（钥匙是成串的，用 bunch）"
+    },
+    {
+      "error": "❌ He made a bunch of books.",
+      "correction": "✅ He made a stack of books.（书通常是整齐叠放，用 stack）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She gave me a ___ of roses.",
+      "options": ["A. pile", "B. stack", "C. bunch", "D. heap"],
+      "answer": "C",
+      "explanation": "花通常是成束的，用 bunch。"
+    },
+    {
+      "question": "选择正确答案：He left a ___ of dirty clothes in the bathroom.",
+      "options": ["A. bunch", "B. stack", "C. heap", "D. pile"],
+      "answer": "C",
+      "explanation": "杂乱无序的堆，选 heap。"
+    },
+    {
+      "question": "选择正确答案：The waiter carried a ___ of plates.",
+      "options": ["A. stack", "B. bunch", "C. heap", "D. pile"],
+      "answer": "A",
+      "explanation": "盘子整齐堆放，用 stack。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "cluster（小团，如葡萄或星星）",
+      "bundle（捆，一捆柴火）",
+      "group（泛指一组/一群）"
+    ],
+    "tip": "口诀：stack整齐，heap乱堆，pile都可用，bunch成串花果用"
+  }
+}

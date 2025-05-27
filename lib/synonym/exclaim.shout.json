@@ -1,0 +1,81 @@
+{
+  "words": ["exclaim", "shout"],
+  "explanation": {
+    "overview": "这两个词都与‘大声说话’有关，但使用场景和语气不同。",
+    "details": [
+      {
+        "word": "exclaim",
+        "meaning": "指因惊讶、兴奋或强烈感情而‘突然大声说出’，通常带有特定情绪。",
+        "example": "\"Wow!\" she exclaimed when she saw the gift.（看到礼物时她惊呼：“哇！”）"
+      },
+      {
+        "word": "shout",
+        "meaning": "泛指‘大声喊叫’，可能是为了引起注意、表达愤怒或在嘈杂环境中说话。",
+        "example": "He shouted to warn people about the fire.（他大声呼喊警告人们有火灾。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气特征",
+      "exclaim": "带有惊讶/喜悦等强烈情绪",
+      "shout": "可能是任何情绪（愤怒/紧急/普通）"
+    },
+    {
+      "aspect": "典型场景",
+      "exclaim": "惊喜/赞叹/突然发现时",
+      "shout": "远距离交流/警告/争吵时"
+    },
+    {
+      "aspect": "语法特点",
+      "exclaim": "常直接引用说话内容（exclaimed \"...\"）",
+      "shout": "可用shout at（对某人喊）或shout to（向某人喊）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "生日派对",
+      "exclaim": "\"This is the best cake ever!\" the child exclaimed.（孩子惊呼：“这是最棒的蛋糕！”）",
+      "shout": "The mother shouted from the kitchen: \"Don't touch the candles yet!\"（妈妈从厨房喊道：“先别碰蜡烛！”）"
+    },
+    {
+      "scene": "足球比赛",
+      "exclaim": "\"What a goal!\" fans exclaimed.（球迷们惊呼：“这球太精彩了！”）",
+      "shout": "The coach shouted instructions to the players.（教练向球员大声指示。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ She shouted \"How beautiful!\" when seeing the sunset.",
+      "correction": "✅ She exclaimed \"How beautiful!\"（表达赞叹用exclaim更自然）"
+    },
+    {
+      "error": "❌ The teacher exclaimed at the noisy class.",
+      "correction": "✅ The teacher shouted at the noisy class.（维持纪律用shout）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：___ \"Happy New Year!\" as the clock struck twelve.",
+      "options": ["A. shouted", "B. exclaimed"],
+      "answer": "B",
+      "explanation": "节日欢呼用exclaim更能体现喜悦情绪"
+    },
+    {
+      "question": "哪个词更适合这个场景：父亲对马路对面的孩子___ \"小心车！\"",
+      "options": ["A. exclaimed", "B. shouted"],
+      "answer": "B",
+      "explanation": "远距离警告用shout"
+    },
+    {
+      "question": "\"I won the lottery!\" he ___ in disbelief.",
+      "options": ["A. shouted", "B. exclaimed"],
+      "answer": "B",
+      "explanation": "表达难以置信的惊喜用exclaim"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["yell（吼叫）", "scream（尖叫）", "cheer（欢呼）"],
+    "tip": "exclaim常与直接引语连用，shout更多用于实际需要提高音量的场景"
+  }
+}

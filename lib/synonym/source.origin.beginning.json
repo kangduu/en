@@ -1,0 +1,91 @@
+{
+  "words": ["source", "origin", "beginning"],
+  "explanation": {
+    "overview": "这三个词都表示事物的起点，但用法和侧重点不同。",
+    "details": [
+      {
+        "word": "source",
+        "meaning": "来源，强调事物的出处或起因，多用于信息、材料、水流等。",
+        "example": "The river’s source is high in the mountains.（这条河的源头在高山上。）"
+      },
+      {
+        "word": "origin",
+        "meaning": "起源，强调事物开始的根本原因或历史起点，常用于文化、语言、物种等。",
+        "example": "The origin of the language is still debated.（这种语言的起源仍然存在争议。）"
+      },
+      {
+        "word": "beginning",
+        "meaning": "开始，强调时间上的起点，多用于事件、故事或过程。",
+        "example": "At the beginning of the story, the hero is poor.（故事开头，主人公很穷。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "侧重点",
+      "source": "事物的出处或根源",
+      "origin": "根本原因或历史起点",
+      "beginning": "时间上的起点"
+    },
+    {
+      "aspect": "使用场合",
+      "source": "信息、物质、水等的出处",
+      "origin": "文化、历史、语言、生物等的起点",
+      "beginning": "事件、故事、过程的开始"
+    },
+    {
+      "aspect": "语气正式度",
+      "source": "中性，较常用",
+      "origin": "正式，有学术感",
+      "beginning": "口语和书面均用"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "自然现象",
+      "source": "The source of the river is a glacier.（这条河的源头是一座冰川。）",
+      "origin": "Scientists study the origin of earthquakes.（科学家研究地震的起源。）",
+      "beginning": "The beginning of the storm was sudden.（暴风雨的开始很突然。）"
+    },
+    {
+      "scene": "故事叙述",
+      "source": "The story’s source is a real event.（这个故事来源于真实事件。）",
+      "origin": "The origin of the legend is unknown.（这个传说的起源不明。）",
+      "beginning": "At the beginning of the book, we meet the main character.（书的开头，我们见到了主角。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The beginning of the river is in the mountain.",
+      "correction": "✅ The source of the river is in the mountain.（河流的‘源头’用source更准确。）"
+    },
+    {
+      "error": "❌ The origin of the story is when it started.",
+      "correction": "✅ The origin of the story is where or how it began.（origin强调根源或起因，不是时间点。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The ___ of this river is in the mountains.",
+      "options": ["A. source", "B. origin", "C. beginning"],
+      "answer": "A",
+      "explanation": "河流的源头用source。"
+    },
+    {
+      "question": "选择正确答案：Scientists study the ___ of human language.",
+      "options": ["A. source", "B. origin", "C. beginning"],
+      "answer": "B",
+      "explanation": "语言的起源用origin。"
+    },
+    {
+      "question": "选择正确答案：At the ___ of the meeting, the manager welcomed everyone.",
+      "options": ["A. source", "B. origin", "C. beginning"],
+      "answer": "C",
+      "explanation": "会议的开始用beginning。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "source侧重‘出处’，origin侧重‘根源’和‘起源’，beginning侧重时间‘开始’。",
+    "extended_words": ["root（根源）", "start（开始）"]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "words": ["forest", "grove", "wood"],
+  "explanation": {
+    "overview": "这三个词都与树木相关，但表示的树林规模和类型不同。",
+    "details": [
+      {
+        "word": "forest",
+        "meaning": "大面积的树林，树木密集且范围广，常指天然森林。",
+        "example": "The forest is home to many wild animals.（森林是许多野生动物的家。）"
+      },
+      {
+        "word": "grove",
+        "meaning": "较小的树丛或果树林，通常树木较少且分布较稀疏，有时特指种植的果树丛。",
+        "example": "They walked through the olive grove.（他们走过橄榄树丛。）"
+      },
+      {
+        "word": "wood",
+        "meaning": "中等规模的树林，比forest小，但比grove大，多指小森林或林地。",
+        "example": "We had a picnic in the woods.（我们在树林里野餐。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "规模大小",
+      "forest": "最大，大片树林",
+      "wood": "中等规模，小森林",
+      "grove": "最小，树丛或果树林"
+    },
+    {
+      "aspect": "树木密度",
+      "forest": "非常密集",
+      "wood": "比较密集",
+      "grove": "稀疏，少量树木"
+    },
+    {
+      "aspect": "用途",
+      "forest": "自然生态系统，野生动物栖息地",
+      "wood": "休闲、野餐、小规模森林",
+      "grove": "果树栽培或小树丛"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "郊游",
+      "forest": "We went hiking deep in the forest.（我们深入森林徒步。）",
+      "wood": "Children played games in the woods near the village.（孩子们在村子附近的树林玩耍。）",
+      "grove": "There is a small orange grove behind the house.（房子后面有一小片橘子树丛。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ We walked through a big grove.",
+      "correction": "✅ We walked through a big forest.（grove通常指小树林）"
+    },
+    {
+      "error": "❌ The forest near my house is small.",
+      "correction": "✅ The wood near my house is small.（较小的树林用wood更合适）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：A ___ is a large area full of trees.",
+      "options": ["A. grove", "B. wood", "C. forest"],
+      "answer": "C",
+      "explanation": "forest表示大片树林。"
+    },
+    {
+      "question": "选择正确答案：We had a picnic in the ___.",
+      "options": ["A. forest", "B. grove", "C. wood"],
+      "answer": "C",
+      "explanation": "wood指较小的树林，适合野餐。"
+    },
+    {
+      "question": "选择正确答案：An orange ___ is a small group of orange trees.",
+      "options": ["A. forest", "B. grove", "C. wood"],
+      "answer": "B",
+      "explanation": "grove指果树林或小树丛。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "jungle（丛林，热带雨林）",
+      "thicket（灌木丛）",
+      "orchard（果园）"
+    ],
+    "tip": "记忆口诀：forest大面积，wood中等，grove小果树丛"
+  }
+}

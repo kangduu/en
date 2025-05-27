@@ -1,0 +1,125 @@
+{
+  "words": ["sympathetic", "kind", "supporting", "agreeable", "compassionate"],
+  "explanation": {
+    "overview": "这些形容词都描述'友善'或'支持'的态度，但在情感深度和行为表现上有所不同。",
+    "details": [
+      {
+        "word": "sympathetic",
+        "meaning": "能够理解并体谅他人困境，给予情感支持",
+        "example": "The teacher was sympathetic when I explained my family problems.（当我解释家庭问题时，老师表现得很理解。）"
+      },
+      {
+        "word": "kind",
+        "meaning": "本性善良，待人友好，乐于助人",
+        "example": "It was very kind of you to help me move.（你帮我搬家真是太好了。）"
+      },
+      {
+        "word": "supporting",
+        "meaning": "提供实际支持或帮助，强调行动而非情感",
+        "example": "She plays a supporting role in the project.（她在这个项目中扮演支持角色。）"
+      },
+      {
+        "word": "agreeable",
+        "meaning": "随和的，容易相处的，愿意配合的",
+        "example": "He's always so agreeable to everyone's suggestions.（他总是乐于接受大家的建议。）"
+      },
+      {
+        "word": "compassionate",
+        "meaning": "富有同情心的，对他人痛苦感同身受并愿意帮助",
+        "example": "The compassionate nurse comforted the grieving family.（富有同情心的护士安慰了悲伤的家属。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "情感深度",
+      "sympathetic": "理解他人感受",
+      "kind": "普遍友善",
+      "supporting": "行动导向",
+      "agreeable": "配合态度",
+      "compassionate": "深切共情"
+    },
+    {
+      "aspect": "行为表现",
+      "sympathetic": "情感支持",
+      "kind": "友好行为",
+      "supporting": "实际帮助",
+      "agreeable": "愿意配合",
+      "compassionate": "主动关怀"
+    },
+    {
+      "aspect": "使用场景",
+      "sympathetic": "困境中的理解",
+      "kind": "日常友善",
+      "supporting": "工作/项目",
+      "agreeable": "社交互动",
+      "compassionate": "痛苦处境"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "工作场合",
+      "sympathetic": "My boss was sympathetic about my childcare issues.（老板对我的育儿问题表示理解。）",
+      "kind": "A kind coworker brought me coffee when I was stressed.（一位好心的同事在我压力大时给我带了咖啡。）",
+      "supporting": "The IT department provided supporting documents for the presentation.（IT部门为演示提供了支持文件。）",
+      "agreeable": "She's always agreeable to schedule changes.（她总是乐于接受日程变更。）",
+      "compassionate": "The compassionate HR manager helped me through a difficult time.（富有同情心的人力资源经理帮我度过了困难时期。）"
+    },
+    {
+      "scene": "日常生活",
+      "sympathetic": "My friend was sympathetic when my pet died.（我的朋友在我的宠物去世时很理解我。）",
+      "kind": "A kind stranger returned my lost wallet.（一位好心的陌生人归还了我丢失的钱包。）",
+      "supporting": "(较少使用)",
+      "agreeable": "He's very agreeable to try new restaurants.（他很乐意尝试新餐厅。）",
+      "compassionate": "The compassionate doctor spent extra time with elderly patients.（富有同情心的医生为老年患者多花时间。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The agreeable nurse comforted the crying child.",
+      "correction": "✅ The compassionate/sympathetic nurse comforted the crying child.（安慰哭泣的孩子用compassionate/sympathetic）"
+    },
+    {
+      "error": "❌ She showed kind understanding of my situation.",
+      "correction": "✅ She showed sympathetic/compassionate understanding of my situation.（对处境的理解用sympathetic/compassionate）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The ___ neighbor always shovels snow from my driveway.",
+      "options": ["A. sympathetic", "B. kind", "C. supporting", "D. agreeable"],
+      "answer": "B",
+      "explanation": "友善行为用kind"
+    },
+    {
+      "question": "哪个词最适合描述'对他人痛苦感同身受'？",
+      "options": [
+        "A. sympathetic",
+        "B. kind",
+        "C. agreeable",
+        "D. compassionate"
+      ],
+      "answer": "D",
+      "explanation": "深切共情用compassionate"
+    },
+    {
+      "question": "填空：She's very ___ to work with because she never complains.",
+      "options": ["A. sympathetic", "B. kind", "C. supporting", "D. agreeable"],
+      "answer": "D",
+      "explanation": "配合态度用agreeable"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "empathetic（同理心强的）",
+      "considerate（体贴的）",
+      "helpful（乐于助人的）",
+      "benevolent（仁慈的）"
+    ],
+    "special_cases": {
+      "sympathetic_nervous_system": "交感神经系统（生理学术语）",
+      "supporting_actor": "配角",
+      "compassionate_leave": "丧假"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "words": ["risk", "danger", "peril"],
+  "explanation": {
+    "overview": "这三个词都表示‘危险’的概念，但语气强弱、使用场景和侧重点不同。",
+    "details": [
+      {
+        "word": "risk",
+        "meaning": "指有可能发生不好的事情，是‘风险’或‘潜在的危险’，常用于商业、健康、安全等语境。",
+        "example": "Smoking increases the risk of cancer.（吸烟会增加患癌症的风险。）"
+      },
+      {
+        "word": "danger",
+        "meaning": "实际存在或即将发生的危险，语气比risk更强烈，强调正在面对的威胁。",
+        "example": "The building is in danger of collapsing.（这栋建筑有倒塌的危险。）"
+      },
+      {
+        "word": "peril",
+        "meaning": "比danger更正式或文学化，表示极大的危险或严重的威胁，多用于书面语或文学中。",
+        "example": "They were in great peril during the storm.（他们在风暴中处于极大的危险中。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气强度",
+      "risk": "最轻，潜在的可能",
+      "danger": "中等，现实中的威胁",
+      "peril": "最强，严重/紧急的危险"
+    },
+    {
+      "aspect": "使用场合",
+      "risk": "日常、商业、健康、安全",
+      "danger": "日常口语/书面",
+      "peril": "正式、文学、严峻情境"
+    },
+    {
+      "aspect": "词性",
+      "risk": "名词/动词",
+      "danger": "名词",
+      "peril": "名词（正式）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "生活情境",
+      "risk": "There’s a risk of getting wet if you don’t take an umbrella.（如果你不带伞，有淋雨的风险。）",
+      "danger": "You're in danger if you stand too close to the fire.（你站得太靠近火，很危险。）",
+      "peril": "The sailors faced peril on the open sea.（水手们在公海上面临危险。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He is in risk of falling.",
+      "correction": "✅ He is at risk of falling.（固定搭配是at risk）"
+    },
+    {
+      "error": "❌ We should avoid this perilous.（错误的词性）",
+      "correction": "✅ We should avoid this peril.（peril是名词）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：___ is the possibility that something bad may happen.",
+      "options": ["A. Risk", "B. Danger", "C. Peril"],
+      "answer": "A",
+      "explanation": "risk 表示‘风险’，强调可能性。"
+    },
+    {
+      "question": "选择正确答案：The hikers were in great ___ after they got lost.",
+      "options": ["A. risk", "B. danger", "C. peril"],
+      "answer": "C",
+      "explanation": "peril 更正式、强调严重性，符合语境。"
+    },
+    {
+      "question": "选择正确答案：This road is closed due to ___ of falling rocks.",
+      "options": ["A. peril", "B. danger", "C. risk"],
+      "answer": "B",
+      "explanation": "falling rocks 是现实威胁，使用 danger 更合适。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "hazard（危险，特别用于工作或健康）",
+      "threat（威胁）",
+      "jeopardy（正式用词，处于危险之中）"
+    ],
+    "tip": "记忆口诀：risk 是可能，danger 是现实，peril 是严重正式"
+  }
+}

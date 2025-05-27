@@ -1,0 +1,148 @@
+{
+  "words": [
+    "amusing",
+    "funny",
+    "interesting",
+    "delightful",
+    "pleasing",
+    "humorous",
+    "entertaining"
+  ],
+  "explanation": {
+    "overview": "这些形容词都描述'令人愉快的'体验，但在具体情感色彩和适用场景上有所不同。",
+    "details": [
+      {
+        "word": "amusing",
+        "meaning": "令人觉得有趣好笑的，程度较温和",
+        "example": "The clown's antics were amusing to the children.（小丑的滑稽动作让孩子们觉得有趣。）"
+      },
+      {
+        "word": "funny",
+        "meaning": "引人发笑的，强调幽默效果",
+        "example": "His joke was so funny that everyone laughed out loud.（他的笑话太有趣了，大家都大笑起来。）"
+      },
+      {
+        "word": "interesting",
+        "meaning": "引起兴趣或注意的，不一定会笑",
+        "example": "She gave an interesting talk about space exploration.（她做了一个关于太空探索的有趣演讲。）"
+      },
+      {
+        "word": "delightful",
+        "meaning": "令人愉悦的，带来强烈满足感",
+        "example": "We had a delightful evening at the concert.（我们在音乐会上度过了一个愉快的夜晚。）"
+      },
+      {
+        "word": "pleasing",
+        "meaning": "令人满意的，感官或情感上的愉悦",
+        "example": "The garden has a pleasing arrangement of colors.（花园的色彩搭配令人赏心悦目。）"
+      },
+      {
+        "word": "humorous",
+        "meaning": "有幽默感的，刻意制造喜剧效果",
+        "example": "The speaker delivered a humorous speech.（演讲者发表了一场幽默的演讲。）"
+      },
+      {
+        "word": "entertaining",
+        "meaning": "提供娱乐的，能吸引注意力",
+        "example": "The movie was highly entertaining.（这部电影非常 entertaining。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "情感强度",
+      "amusing": "温和有趣",
+      "funny": "强烈好笑",
+      "interesting": "智力吸引",
+      "delightful": "高度愉悦",
+      "pleasing": "感官满足",
+      "humorous": "刻意幽默",
+      "entertaining": "娱乐吸引"
+    },
+    {
+      "aspect": "引发反应",
+      "amusing": "微笑",
+      "funny": "大笑",
+      "interesting": "思考",
+      "delightful": "欣喜",
+      "pleasing": "满意",
+      "humorous": "会心一笑",
+      "entertaining": "享受"
+    },
+    {
+      "aspect": "适用场景",
+      "amusing": "轻松场合",
+      "funny": "幽默场合",
+      "interesting": "知识性内容",
+      "delightful": "美好体验",
+      "pleasing": "美学体验",
+      "humorous": "刻意喜剧",
+      "entertaining": "表演娱乐"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "观看表演",
+      "amusing": "The magician's tricks were amusing.（魔术师的把戏很有趣。）",
+      "funny": "The comedian's routine was really funny.（喜剧演员的表演真的很好笑。）",
+      "interesting": "The documentary was surprisingly interesting.（这部纪录片出奇地有趣。）",
+      "delightful": "The ballet performance was absolutely delightful.（芭蕾舞表演绝对令人愉快。）",
+      "pleasing": "The symphony's melody was very pleasing.（交响乐的旋律非常悦耳。）",
+      "humorous": "The play had many humorous moments.（这部剧有很多幽默的时刻。）",
+      "entertaining": "The circus show was highly entertaining.（马戏表演非常 entertaining。）"
+    },
+    {
+      "scene": "日常交流",
+      "amusing": "Your story about the cat was quite amusing.（你讲的关于猫的故事相当有趣。）",
+      "funny": "That meme you sent was really funny.（你发的那个表情包真的很好笑。）",
+      "interesting": "I find your perspective very interesting.（我觉得你的观点非常 interesting。）",
+      "delightful": "It was delightful to meet your family.（见到你的家人很愉快。）",
+      "pleasing": "The aroma from the kitchen was very pleasing.（厨房飘来的香气很怡人。）",
+      "humorous": "He has a humorous way of telling stories.（他讲故事的方式很幽默。）",
+      "entertaining": "Your travel anecdotes are always entertaining.（你的旅行轶事总是很 entertaining。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The funeral was very funny.",
+      "correction": "✅ The comedy show was very funny.（注意场合适当性）"
+    },
+    {
+      "error": "❌ The scientific lecture was delightful.",
+      "correction": "✅ The scientific lecture was interesting.（学术内容通常用interesting）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The puppy's attempts to catch its tail were ___.",
+      "options": ["A. amusing", "B. funny", "C. delightful", "D. humorous"],
+      "answer": "A",
+      "explanation": "可爱有趣用amusing"
+    },
+    {
+      "question": "哪个词最适合描述'精心设计的喜剧表演'？",
+      "options": ["A. funny", "B. humorous", "C. entertaining", "D. all above"],
+      "answer": "D",
+      "explanation": "三个词都适用"
+    },
+    {
+      "question": "填空：The ___ color scheme of the room created a calm atmosphere.",
+      "options": ["A. amusing", "B. pleasing", "C. funny", "D. humorous"],
+      "answer": "B",
+      "explanation": "视觉愉悦用pleasing"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "comical（滑稽的）",
+      "hilarious（非常滑稽的）",
+      "charming（迷人的）",
+      "engaging（吸引人的）"
+    ],
+    "special_cases": {
+      "funny_peculiar": "古怪的（英式用法）",
+      "delightful_surprise": "惊喜",
+      "pleasing_to_the_eye": "赏心悦目"
+    }
+  }
+}

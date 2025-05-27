@@ -1,0 +1,77 @@
+{
+  "words": ["crash", "collision"],
+  "explanation": {
+    "overview": "这两个词都表示‘碰撞’，但用法和侧重点有所不同。",
+    "details": [
+      {
+        "word": "crash",
+        "meaning": "指猛烈的撞击，常带有破坏性和声音，强调事故或碰撞的突然和严重。",
+        "example": "The car crashed into the tree.（汽车撞上了树。）"
+      },
+      {
+        "word": "collision",
+        "meaning": "指两个或多个人或物体相撞的事件，强调碰撞的动作和过程，较正式和书面。",
+        "example": "The collision between the two trains caused delays.（两列火车的碰撞导致了延误。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "含义侧重",
+      "crash": "猛烈撞击，强调破坏和声音",
+      "collision": "碰撞事件，强调动作和过程"
+    },
+    {
+      "aspect": "使用场景",
+      "crash": "口语、描述事故、破坏",
+      "collision": "正式书面语、事故报告"
+    },
+    {
+      "aspect": "词性",
+      "crash": "名词/动词",
+      "collision": "名词"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "交通事故",
+      "crash": "A car crashed into a wall.（一辆车撞到了墙。）",
+      "collision": "There was a collision between two cars on the highway.（高速公路上发生了两车碰撞。）"
+    },
+    {
+      "scene": "运动",
+      "crash": "He crashed into his opponent during the game.（比赛中他撞到了对手。）",
+      "collision": "The collision caused the game to stop temporarily.（碰撞导致比赛暂时停止。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The collision crashed the car.",
+      "correction": "✅ The crash damaged the car.（crash作事故，collision作碰撞事件，不用collision作动词。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：There was a ___ between two buses on the street.",
+      "options": ["A. crash", "B. collision"],
+      "answer": "B",
+      "explanation": "强调碰撞事件，用正式的collision。"
+    },
+    {
+      "question": "选择正确答案：The plane ___ into the mountain.",
+      "options": ["A. collided", "B. crashed"],
+      "answer": "B",
+      "explanation": "强调严重的撞击和事故，用crash。"
+    },
+    {
+      "question": "选择正确答案：A serious car ___ happened last night.",
+      "options": ["A. crash", "B. collision"],
+      "answer": "A",
+      "explanation": "口语中更常用crash描述事故。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["wreck（废墟，毁坏）", "impact（撞击，影响）"],
+    "tip": "记住口诀：crash重撞击和破坏，collision重碰撞事件"
+  }
+}

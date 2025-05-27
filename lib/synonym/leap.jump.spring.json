@@ -1,0 +1,91 @@
+{
+  "words": ["leap", "jump", "spring"],
+  "explanation": {
+    "overview": "这三个词都表示‘跳跃’，但用法和侧重点不同。它们描述跳跃动作时，强调的方式和语气各有区别。",
+    "details": [
+      {
+        "word": "leap",
+        "meaning": "强调大幅度、有力的跳跃，常用于文学或正式语境。",
+        "example": "The cat leaped over the fence.（猫跃过了篱笆。）"
+      },
+      {
+        "word": "jump",
+        "meaning": "最常用，指任何一般的跳跃动作，既可以指小跳，也可以指大跳。",
+        "example": "She jumped over the puddle.（她跳过了水坑。）"
+      },
+      {
+        "word": "spring",
+        "meaning": "强调突然有力地跳起或弹起，也可以指弹簧动作，常带有快速、轻快的感觉。",
+        "example": "The frog sprang into the water.（青蛙突然跳入水中。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "动作大小",
+      "leap": "大且有力的跳跃",
+      "jump": "一般跳跃，大小不定",
+      "spring": "突然、有力且轻快的跳"
+    },
+    {
+      "aspect": "使用频率",
+      "leap": "较正式或文学用法",
+      "jump": "最常用，口语和书面均适用",
+      "spring": "较正式，带突然和弹跳感"
+    },
+    {
+      "aspect": "动作特点",
+      "leap": "强调距离和力量",
+      "jump": "动作本身",
+      "spring": "强调突然弹起"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "运动场景",
+      "leap": "The athlete leaped across the pit.（运动员大跳过坑。）",
+      "jump": "He jumped over the rope.（他跳过了绳子。）",
+      "spring": "The cat sprang onto the table.（猫突然跳上桌子。）"
+    },
+    {
+      "scene": "日常生活",
+      "leap": "She took a leap of faith and started a new job.（她勇敢地开始了新工作。）",
+      "jump": "The child jumped with joy.（孩子高兴地跳了起来。）",
+      "spring": "He sprang up when he heard the noise.（听到声音他迅速跳起来。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He springed over the fence.",
+      "correction": "✅ He sprang over the fence.（spring 的过去式是 sprang，不是 springed。）"
+    },
+    {
+      "error": "❌ She leapt a little.",
+      "correction": "✅ She jumped a little.（leap 通常表示较大跳跃，小跳用 jump。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The frog ___ into the pond suddenly.",
+      "options": ["A. leaped", "B. jumped", "C. sprang"],
+      "answer": "C",
+      "explanation": "spring 强调突然有力跳跃。"
+    },
+    {
+      "question": "选择正确答案：He ___ over the wall easily.",
+      "options": ["A. leapt", "B. jumped", "C. sprang"],
+      "answer": "A",
+      "explanation": "leap 强调大跨度跳跃。"
+    },
+    {
+      "question": "选择正确答案：The child happily ___ up and down.",
+      "options": ["A. leaped", "B. jumped", "C. sprang"],
+      "answer": "B",
+      "explanation": "jump 最常用，适合一般跳跃。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["hop（小跳）", "vault（撑杆跳）", "bound（大步跳跃）"],
+    "tip": "口诀：leap大跳，jump通用，spring突跳"
+  }
+}

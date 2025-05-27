@@ -1,0 +1,89 @@
+{
+  "words": ["gather", "collect"],
+  "explanation": {
+    "overview": "这两个动词都表示'收集'，但在收集方式和目的上有所不同。",
+    "details": [
+      {
+        "word": "gather",
+        "meaning": "指将分散的人或物聚集到一起，通常是非正式的、自然的过程",
+        "example": "We gathered wild berries in the forest.（我们在森林里采集野莓。）"
+      },
+      {
+        "word": "collect",
+        "meaning": "指有目的、系统性地收集特定物品，通常是有选择性的",
+        "example": "He collects rare stamps from around the world.（他收集世界各地的稀有邮票。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "收集方式",
+      "gather": "自然、非正式",
+      "collect": "系统、有目的"
+    },
+    {
+      "aspect": "收集对象",
+      "gather": "可以是人或物",
+      "collect": "通常是物品"
+    },
+    {
+      "aspect": "持续时间",
+      "gather": "一次性或短期",
+      "collect": "长期持续"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "户外活动",
+      "gather": "The children gathered shells on the beach.（孩子们在海滩上捡贝壳。）",
+      "collect": "She collects different types of seashells.（她收集各种类型的海贝。）"
+    },
+    {
+      "scene": "社交活动",
+      "gather": "People gathered in the town square for the festival.（人们聚集在镇广场上参加节日活动。）",
+      "collect": "(不常用)"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I collect my thoughts before speaking.",
+      "correction": "✅ I gather my thoughts before speaking.（整理思绪用gather）"
+    },
+    {
+      "error": "❌ He gathers antique coins as a hobby.",
+      "correction": "✅ He collects antique coins as a hobby.（收藏爱好用collect）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：Please ___ your belongings before leaving.",
+      "options": ["A. gather", "B. collect"],
+      "answer": "A",
+      "explanation": "收拾个人物品用gather"
+    },
+    {
+      "question": "哪个词最适合描述'集邮'？",
+      "options": ["A. gather stamps", "B. collect stamps"],
+      "answer": "B",
+      "explanation": "集邮用collect stamps"
+    },
+    {
+      "question": "填空：The teacher asked the students to ___ around the demonstration table.",
+      "options": ["A. gather", "B. collect"],
+      "answer": "A",
+      "explanation": "人群聚集用gather"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "assemble（组装/集合）",
+      "accumulate（积累）",
+      "amass（大量聚集）",
+      "round up（围拢）"
+    ],
+    "special_cases": {
+      "gather_speed": "也可表示'逐渐增加'(如The train gathered speed)",
+      "collect_oneself": "表示'镇定下来'"
+    }
+  }
+}

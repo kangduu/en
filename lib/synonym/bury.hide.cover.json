@@ -72,6 +72,18 @@
     {
       "error": "❌ She covered her real feelings.",
       "correction": "✅ She concealed/hid her real feelings.（情感掩饰用conceal/hide）"
+    },
+    {
+      "error": "❌ Don't bury your emotions.",
+      "correction": "✅ Don't conceal/hide your emotions.（bury通常指实物或情感压抑）"
+    },
+    {
+      "error": "❌ He covered the secret.",
+      "correction": "✅ He concealed/hid the secret.（cover不用于秘密）"
+    },
+    {
+      "error": "❌ The cat buried under the bed.",
+      "correction": "✅ The cat hid under the bed.（bury不用于动物躲藏）"
     }
   ],
   "mini_test": [
@@ -92,6 +104,18 @@
       "options": ["A. Bury", "B. Conceal", "C. Cover", "D. Hide"],
       "answer": "C",
       "explanation": "cover表示简单遮挡动作"
+    },
+    {
+      "question": "选择正确的句子：He tried to ___ his nervousness.",
+      "options": ["A. bury", "B. conceal", "C. cover", "D. hide"],
+      "answer": "B",
+      "explanation": "conceal表示故意隐藏情感"
+    },
+    {
+      "question": "哪个词最适合描述动物躲藏？",
+      "options": ["A. Bury", "B. Conceal", "C. Cover", "D. Hide"],
+      "answer": "D",
+      "explanation": "hide是最通用的躲藏方式"
     }
   ],
   "additional_notes": {
@@ -104,7 +128,12 @@
     "phrasal_verbs": [
       "cover up（完全掩盖）",
       "hide away（藏起来）",
-      "bury oneself in（专心于）"
+      "bury oneself in（专心于）",
+      "conceal from（隐瞒）",
+      "hide behind（躲在...后面）",
+      "bury in work（埋头工作）",
+      "cover for（替...掩护）",
+      "hide in plain sight（明目张胆地隐藏）"
     ]
   }
 }

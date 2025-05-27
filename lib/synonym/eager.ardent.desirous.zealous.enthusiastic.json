@@ -1,0 +1,121 @@
+{
+  "words": ["eager", "ardent", "desirous", "zealous", "enthusiastic"],
+  "explanation": {
+    "overview": "这些词都表示强烈的兴趣或渴望，但语气和使用场合有所不同。",
+    "details": [
+      {
+        "word": "eager",
+        "meaning": "急切的，渴望做某事，常用于日常口语。",
+        "example": "She is eager to start her new job.（她急切地想开始新工作。）"
+      },
+      {
+        "word": "ardent",
+        "meaning": "热情的，强烈的感情，多用于书面或正式场合。",
+        "example": "He is an ardent supporter of environmental protection.（他是环境保护的热情支持者。）"
+      },
+      {
+        "word": "desirous",
+        "meaning": "渴望的，想得到某物，较正式，较少用于口语。",
+        "example": "She was desirous of fame and fortune.（她渴望名利。）"
+      },
+      {
+        "word": "zealous",
+        "meaning": "狂热的，极其热心，常含积极的执着，有时带有过度意味。",
+        "example": "The volunteers were zealous in their efforts.（志愿者们热心投入工作。）"
+      },
+      {
+        "word": "enthusiastic",
+        "meaning": "热情的，积极的态度，常用于描述人对活动或事物的态度。",
+        "example": "He is enthusiastic about learning new languages.（他对学习新语言很热情。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气强弱",
+      "eager": "轻到中度",
+      "ardent": "强烈、热烈",
+      "desirous": "正式且带渴望",
+      "zealous": "非常强烈，近乎狂热",
+      "enthusiastic": "积极热情，情绪饱满"
+    },
+    {
+      "aspect": "使用频率",
+      "eager": "常见，口语和书面均用",
+      "ardent": "书面语居多",
+      "desirous": "较正式，少见口语",
+      "zealous": "书面和正式场合，多用于描述态度",
+      "enthusiastic": "日常和正式场合均用"
+    },
+    {
+      "aspect": "典型场景",
+      "eager": "想做某事",
+      "ardent": "支持、热爱某事",
+      "desirous": "渴望某物",
+      "zealous": "努力和执着",
+      "enthusiastic": "对活动或兴趣的热情"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学习英语",
+      "eager": "I am eager to improve my English.（我急切想提高英语。）",
+      "ardent": "She is an ardent fan of English literature.（她是英国文学的热情粉丝。）",
+      "desirous": "He is desirous of mastering English pronunciation.（他渴望掌握英语发音。）",
+      "zealous": "The teacher is zealous about helping students.（老师热心帮助学生。）",
+      "enthusiastic": "They are enthusiastic learners.（他们是积极热情的学习者。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He is very desirous about the trip.",
+      "correction": "✅ He is very eager about the trip.（desirous 不常与 about 连用。）"
+    },
+    {
+      "error": "❌ She is zealous to play football.",
+      "correction": "✅ She is eager/enthusiastic to play football.（zealous 多用于态度，少用于简单愿望。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：He is ___ to start his new project.",
+      "options": [
+        "A. eager",
+        "B. ardent",
+        "C. desirous",
+        "D. zealous",
+        "E. enthusiastic"
+      ],
+      "answer": "A",
+      "explanation": "开始新项目时，常用 eager 表示急切。"
+    },
+    {
+      "question": "选择正确答案：She is a ___ supporter of animal rights.",
+      "options": [
+        "A. eager",
+        "B. ardent",
+        "C. desirous",
+        "D. zealous",
+        "E. enthusiastic"
+      ],
+      "answer": "B",
+      "explanation": "支持者用 ardent 表示热情且强烈。"
+    },
+    {
+      "question": "选择正确答案：The volunteers are ___ about the cause.",
+      "options": [
+        "A. eager",
+        "B. ardent",
+        "C. desirous",
+        "D. zealous",
+        "E. enthusiastic"
+      ],
+      "answer": "E",
+      "explanation": "enthusiastic 常用于描述对事业的热情。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住区别：eager 表示‘急切想做’，ardent 强调‘热情且深厚’，desirous 是‘渴望某物’，zealous 是‘狂热且执着’，enthusiastic 是‘积极热情的态度’。",
+    "extended_words": ["passionate（充满激情的）", "keen（热衷的）"]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "words": ["forbid", "ban", "prohibit"],
+  "explanation": {
+    "overview": "这三个词都表示‘禁止’，但用法和语气有细微差别。",
+    "details": [
+      {
+        "word": "forbid",
+        "meaning": "通常用于正式或口语中，表示某人有权力或权威不允许某事发生。",
+        "example": "The teacher forbids students from using phones in class.（老师禁止学生在课堂上使用手机。）"
+      },
+      {
+        "word": "ban",
+        "meaning": "通常指官方或法律层面禁止某物或某行为，较为正式，强调完全禁止。",
+        "example": "The government banned smoking in public places.（政府禁止在公共场所吸烟。）"
+      },
+      {
+        "word": "prohibit",
+        "meaning": "正式用词，多用于法律、规章制度，强调不允许某行为发生。",
+        "example": "The school prohibits students from cheating on exams.（学校禁止学生考试作弊。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "使用场合",
+      "forbid": "口语或正式，都可用",
+      "ban": "官方、法律、政策禁止",
+      "prohibit": "正式、书面、法律文件"
+    },
+    {
+      "aspect": "强调程度",
+      "forbid": "主观禁止，个人权威",
+      "ban": "客观、强制性全面禁止",
+      "prohibit": "正式法律意义上的禁止"
+    },
+    {
+      "aspect": "例句",
+      "forbid": "Parents forbid children to stay out late.",
+      "ban": "The city banned plastic bags.",
+      "prohibit": "The law prohibits texting while driving."
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校规定",
+      "forbid": "Teachers forbid students to use phones during tests.",
+      "ban": "The school banned smoking on campus.",
+      "prohibit": "The school prohibits bringing pets to class."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The law forbids smoking in all public areas.",
+      "correction": "✅ The law bans smoking in all public areas.（法律文件中通常用 ban 或 prohibit。）"
+    },
+    {
+      "error": "❌ The teacher banned us from talking.",
+      "correction": "✅ The teacher forbids us from talking.（老师一般用 forbid 来表达禁止学生行为。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The government ___ the sale of alcohol to minors.",
+      "options": ["A. forbids", "B. bans", "C. prohibits"],
+      "answer": "C",
+      "explanation": "正式法律禁止用 prohibit。"
+    },
+    {
+      "question": "选择正确答案：My parents ___ me from staying out late.",
+      "options": ["A. forbid", "B. ban", "C. prohibit"],
+      "answer": "A",
+      "explanation": "个人权威禁止用 forbid。"
+    },
+    {
+      "question": "选择正确答案：The city ___ smoking in parks.",
+      "options": ["A. forbids", "B. bans", "C. prohibits"],
+      "answer": "B",
+      "explanation": "官方禁止多用 ban。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["disallow（不允许）", "exclude（排除）"],
+    "tip": "forbid 重主观禁止，ban 强调官方全面禁止，prohibit 多用于法律和正式文档。"
+  }
+}

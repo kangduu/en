@@ -1,0 +1,111 @@
+{
+  "words": ["precious", "loved", "priceless", "rare"],
+  "explanation": {
+    "overview": "这些形容词都描述有价值或特别的事物，但在具体含义和用法上有所不同。",
+    "details": [
+      {
+        "word": "precious",
+        "meaning": "指因稀缺、情感价值或实际价值而珍贵，强调值得珍惜和保护",
+        "example": "She keeps her precious jewelry in a safe.（她把珍贵的珠宝保存在保险箱里。）"
+      },
+      {
+        "word": "loved",
+        "meaning": "指被深爱或珍视的，强调情感纽带",
+        "example": "This teddy bear was my loved childhood companion.（这个泰迪熊是我珍爱的童年伙伴。）"
+      },
+      {
+        "word": "priceless",
+        "meaning": "字面意思是'无价的'，强调价值高到无法估量",
+        "example": "The museum houses many priceless artworks.（博物馆收藏了许多无价的艺术品。）"
+      },
+      {
+        "word": "rare",
+        "meaning": "指稀有、不常见的，强调稀缺性",
+        "example": "This stamp is rare and highly sought after.（这枚邮票很稀有，备受追捧。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "价值性质",
+      "precious": "实际或情感价值",
+      "loved": "纯情感价值",
+      "priceless": "极高价值",
+      "rare": "稀缺性价值"
+    },
+    {
+      "aspect": "使用场景",
+      "precious": "珠宝、时间、资源等",
+      "loved": "人、纪念品等",
+      "priceless": "艺术品、经历等",
+      "rare": "物品、现象等"
+    },
+    {
+      "aspect": "情感色彩",
+      "precious": "温暖、珍视",
+      "loved": "深情、亲密",
+      "priceless": "惊叹、敬畏",
+      "rare": "客观描述"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "家庭",
+      "precious": "These photos are precious to our family.（这些照片对我们家很珍贵。）",
+      "loved": "My loved grandmother passed away last year.（我敬爱的祖母去年去世了。）",
+      "priceless": "The look on her face was priceless.（她脸上的表情是无价的。）",
+      "rare": "It's rare to see such a large family these days.（如今很少见到这么大的家庭了。）"
+    },
+    {
+      "scene": "收藏",
+      "precious": "He collects precious stones.（他收集宝石。）",
+      "loved": "The loved painting was donated to the museum.（这幅珍爱的画作被捐赠给了博物馆。）",
+      "priceless": "The auction featured several priceless antiques.（拍卖会展示了几件无价的古董。）",
+      "rare": "This rare book was printed in the 15th century.（这本稀有书籍印刷于15世纪。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ This loved diamond is very expensive.",
+      "correction": "✅ This precious/priceless diamond is very expensive.（钻石价值应用precious/priceless）"
+    },
+    {
+      "error": "❌ Time with family is rare.",
+      "correction": "✅ Time with family is precious.（家庭时光的珍贵应用precious）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The ___ manuscript was kept in a climate-controlled room.",
+      "options": ["A. precious", "B. loved", "C. priceless", "D. rare"],
+      "answer": "D",
+      "explanation": "强调稀有性用rare"
+    },
+    {
+      "question": "哪个词最适合描述'无法用金钱衡量的经历'？",
+      "options": ["A. precious", "B. loved", "C. priceless", "D. rare"],
+      "answer": "C",
+      "explanation": "无价经历用priceless"
+    },
+    {
+      "question": "填空：Her ___ childhood toy was falling apart but she couldn't bear to throw it away.",
+      "options": ["A. precious", "B. loved", "C. priceless", "D. rare"],
+      "answer": "B",
+      "explanation": "情感依恋用loved"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "cherished（珍爱的）",
+      "valuable（有价值的）",
+      "irreplaceable（不可替代的）",
+      "unique（独特的）"
+    ],
+    "special_cases": {
+      "precious_metals": "贵金属（如gold,silver）",
+      "loved_ones": "亲人（固定表达）",
+      "priceless_moments": "珍贵时刻",
+      "rare_species": "稀有物种"
+    }
+  }
+}

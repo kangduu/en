@@ -1,0 +1,100 @@
+{
+  "words": ["service", "help", "assistance"],
+  "explanation": {
+    "overview": "这些词都涉及'帮助'或'服务'的概念，但在使用场景和含义侧重上有所不同。",
+    "details": [
+      {
+        "word": "service",
+        "meaning": "指系统化、专业化的服务，常作为商业或机构提供的常规服务",
+        "example": "The hotel provides excellent room service.（这家酒店提供优质的客房服务。）"
+      },
+      {
+        "word": "help",
+        "meaning": "最通用的词，指任何形式的帮助，强调解决问题或困难",
+        "example": "Can I help you with your luggage?（需要我帮你拿行李吗？）"
+      },
+      {
+        "word": "assistance",
+        "meaning": "较正式的帮助，通常指专业或有组织的支持",
+        "example": "She needs financial assistance to continue her studies.（她需要经济资助来继续学业。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "正式程度",
+      "service": "中等，商业用语",
+      "help": "非正式，日常用语",
+      "assistance": "正式"
+    },
+    {
+      "aspect": "使用场景",
+      "service": "商业服务、公共服务",
+      "help": "日常生活、紧急情况",
+      "assistance": "正式场合、专业支持"
+    },
+    {
+      "aspect": "持续时间",
+      "service": "通常是持续性的",
+      "help": "可以是即时或短期的",
+      "assistance": "可短期可长期"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "客户服务",
+      "service": "Our after-sales service is available 24/7.（我们的售后服务全天候提供。）",
+      "help": "Let me help you find the right product.（让我帮您找到合适的产品。）",
+      "assistance": "For technical assistance, please contact our support team.（如需技术协助，请联系我们的支持团队。）"
+    },
+    {
+      "scene": "日常生活",
+      "service": "The bus service in this area is very reliable.（这个地区的公交服务很可靠。）",
+      "help": "Could you help me move this table?（你能帮我搬一下这张桌子吗？）",
+      "assistance": "The elderly woman receives daily assistance from a caregiver.（这位老妇人每天都会得到护理员的协助。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I need a service to carry my bags.",
+      "correction": "✅ I need help/assistance to carry my bags.（个人帮助用help或assistance）"
+    },
+    {
+      "error": "❌ The government provides help for the homeless.",
+      "correction": "✅ The government provides assistance/services for the homeless.（正式援助用assistance或services）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：___ is available at the front desk.",
+      "options": ["A. Service", "B. Help", "C. Assistance"],
+      "answer": "C",
+      "explanation": "前台协助通常用assistance"
+    },
+    {
+      "question": "哪个词最适合描述911紧急救援？",
+      "options": ["A. service", "B. help", "C. assistance"],
+      "answer": "B",
+      "explanation": "紧急情况用help最直接"
+    },
+    {
+      "question": "填空：The airline offers premium ___ for first-class passengers.",
+      "options": ["A. help", "B. assistance", "C. service"],
+      "answer": "C",
+      "explanation": "商业等级服务用service"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "support（支持）",
+      "aid（援助）",
+      "maintenance（维护服务）",
+      "care（照料）"
+    ],
+    "special_cases": {
+      "customer_service": "客户服务（固定搭配）",
+      "help_desk": "帮助台（IT支持）",
+      "financial_assistance": "经济援助（正式用语）"
+    }
+  }
+}

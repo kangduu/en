@@ -1,0 +1,101 @@
+{
+  "words": ["change", "turn", "alter", "vary"],
+  "explanation": {
+    "overview": "这几个词都与“变化”有关，但用法和侧重点不同。它们可以表示不同程度和不同类型的变化。",
+    "details": [
+      {
+        "word": "change",
+        "meaning": "最常用，表示使某物从一种状态变到另一种状态，范围广泛。",
+        "example": "I want to change my clothes.（我想换衣服。）"
+      },
+      {
+        "word": "turn",
+        "meaning": "表示转变方向、状态或性质，有时强调突然或明显的变化。",
+        "example": "The leaves turn yellow in autumn.（秋天树叶变黄。）"
+      },
+      {
+        "word": "alter",
+        "meaning": "指对某物做细微或局部修改，常用于正式场合。",
+        "example": "She altered the dress to fit better.（她修改了裙子，使之更合身。）"
+      },
+      {
+        "word": "vary",
+        "meaning": "强调变化的多样性或不同情况的存在，常用来描述数量、程度等的变化。",
+        "example": "Prices vary from store to store.（价格因商店而异。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "变化范围",
+      "change": "广泛，全面变化",
+      "turn": "状态或性质的转变",
+      "alter": "局部、细微修改",
+      "vary": "多样性或范围内变化"
+    },
+    {
+      "aspect": "正式程度",
+      "change": "中性，口语常用",
+      "turn": "中性，口语和书面",
+      "alter": "较正式，多用于书面",
+      "vary": "较正式，多用于书面"
+    },
+    {
+      "aspect": "使用场合",
+      "change": "生活各方面",
+      "turn": "颜色、状态变化等自然现象",
+      "alter": "服装、计划、设计等具体修改",
+      "vary": "统计、数据、情况变化"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "穿衣服",
+      "change": "I need to change my shirt.（我需要换衬衫。）",
+      "turn": "My hair turned gray last year.（我头发去年变白了。）",
+      "alter": "She altered her jacket to make it shorter.（她修改了夹克，把它改短了。）",
+      "vary": "Sizes vary between brands.（尺码因品牌不同而不同。）"
+    },
+    {
+      "scene": "天气",
+      "change": "The weather changed suddenly.（天气突然变化了。）",
+      "turn": "The sky turned dark before the storm.（暴风雨前天空变暗了。）",
+      "alter": "No common use for alter in this scene.",
+      "vary": "Temperatures vary throughout the day.（温度全天变化。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ She turned the dress to fit better.",
+      "correction": "✅ She altered the dress to fit better.（这里用 alter，表示修改。）"
+    },
+    {
+      "error": "❌ Prices turn a lot in different stores.",
+      "correction": "✅ Prices vary a lot in different stores.（价格变化用 vary。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The leaves ___ red in autumn.",
+      "options": ["A. change", "B. turn", "C. alter", "D. vary"],
+      "answer": "B",
+      "explanation": "颜色的变化通常用 turn。"
+    },
+    {
+      "question": "选择正确答案：You should ___ your plans if the weather is bad.",
+      "options": ["A. change", "B. turn", "C. alter", "D. vary"],
+      "answer": "C",
+      "explanation": "计划的细微调整用 alter。"
+    },
+    {
+      "question": "选择正确答案：Prices ___ from city to city.",
+      "options": ["A. change", "B. turn", "C. alter", "D. vary"],
+      "answer": "D",
+      "explanation": "表示范围内的不同和变化用 vary。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["modify（修改）", "transform（变形）", "shift（转变）"],
+    "tip": "口诀：change广，turn变状态，alter细改，vary多样"
+  }
+}

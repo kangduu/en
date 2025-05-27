@@ -1,0 +1,121 @@
+{
+  "words": ["reputation", "fame", "honor", "renown", "prestige"],
+  "explanation": {
+    "overview": "这些词都与人的名声和地位有关，但侧重点和使用场景不同。",
+    "details": [
+      {
+        "word": "reputation",
+        "meaning": "名声，通常指别人对某人的看法，可以是好也可以是坏。",
+        "example": "The company has a good reputation for quality products.（这家公司以产品质量好闻名。）"
+      },
+      {
+        "word": "fame",
+        "meaning": "名气，强调广为人知，通常是公众关注度高。",
+        "example": "She gained fame after starring in the movie.（她因主演电影而成名。）"
+      },
+      {
+        "word": "honor",
+        "meaning": "荣誉，强调尊敬和崇高的地位，是对成就的认可。",
+        "example": "He received an honor for his bravery.（他因勇敢而获得荣誉。）"
+      },
+      {
+        "word": "renown",
+        "meaning": "声誉，尤指因成就而获得的广泛赞誉，较正式。",
+        "example": "The scientist achieved international renown.（这位科学家获得了国际声誉。）"
+      },
+      {
+        "word": "prestige",
+        "meaning": "威望，强调社会地位和尊重，通常来源于成就或背景。",
+        "example": "The university has great prestige worldwide.（这所大学在世界上享有很高威望。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "词义重点",
+      "reputation": "别人对你的看法，含好坏",
+      "fame": "广为人知的名气",
+      "honor": "获得的尊敬和奖励",
+      "renown": "因成就得到的广泛赞誉",
+      "prestige": "社会地位和尊重"
+    },
+    {
+      "aspect": "使用场合",
+      "reputation": "日常和正式均用",
+      "fame": "娱乐、名人相关多用",
+      "honor": "正式场合，奖项和表彰",
+      "renown": "正式，学术或艺术领域",
+      "prestige": "正式，机构、职业或社会地位"
+    },
+    {
+      "aspect": "语气正式度",
+      "reputation": "中性，普通",
+      "fame": "较口语和大众化",
+      "honor": "正式、庄重",
+      "renown": "较正式和文学性",
+      "prestige": "正式且庄重"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "职场评价",
+      "reputation": "He has a reputation for being reliable.（他以可靠著称。）",
+      "fame": "The actor rose to fame quickly.（这位演员迅速成名。）",
+      "honor": "She was given an honor for her community service.（她因社区服务获得荣誉。）",
+      "renown": "The professor enjoys worldwide renown.（这位教授享有世界声誉。）",
+      "prestige": "Working at that firm brings a lot of prestige.（在那家公司工作很有威望。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ She has honor because she is famous.",
+      "correction": "✅ She has fame because she is famous.（honor 不等同于 fame，honor 是奖赏或尊敬。）"
+    },
+    {
+      "error": "❌ The university has a good fame.",
+      "correction": "✅ The university has a good reputation.（reputation 更适合形容学校的综合评价。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The scientist gained international ___ for his discoveries.",
+      "options": [
+        "A. reputation",
+        "B. fame",
+        "C. honor",
+        "D. renown",
+        "E. prestige"
+      ],
+      "answer": "D",
+      "explanation": "renown 强调因成就获得的广泛赞誉。"
+    },
+    {
+      "question": "选择正确答案：She is well known and enjoys great ___.",
+      "options": [
+        "A. reputation",
+        "B. fame",
+        "C. honor",
+        "D. renown",
+        "E. prestige"
+      ],
+      "answer": "B",
+      "explanation": "fame 指广为人知的名气。"
+    },
+    {
+      "question": "选择正确答案：He received an ___ for his heroic act.",
+      "options": [
+        "A. reputation",
+        "B. fame",
+        "C. honor",
+        "D. renown",
+        "E. prestige"
+      ],
+      "answer": "C",
+      "explanation": "honor 是对成就的正式认可和奖赏。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住区别：reputation 是别人对你的整体看法，fame 是广为人知，honor 是获得的奖赏，renown 是正式的声誉，prestige 是社会地位。",
+    "extended_words": ["glory（荣耀）", "distinction（卓越）"]
+  }
+}

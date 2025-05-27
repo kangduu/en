@@ -1,0 +1,105 @@
+{
+  "words": ["remark", "comment", "review", "criticism"],
+  "explanation": {
+    "overview": "这几个词都与表达观点或评价有关，但用法和含义有所区别。",
+    "details": [
+      {
+        "word": "remark",
+        "meaning": "简短的评论或说法，通常是中性的或随意的观察。",
+        "example": "She made a remark about the weather.（她对天气发表了看法。）"
+      },
+      {
+        "word": "comment",
+        "meaning": "对某事的评价或说明，可以是口头或书面的，既可正面也可负面。",
+        "example": "He commented on the new policy.（他对新政策发表了评论。）"
+      },
+      {
+        "word": "review",
+        "meaning": "较详细的评价或分析，通常针对书籍、电影、产品等。",
+        "example": "I read a review of the new movie.（我看了一篇新电影的评论。）"
+      },
+      {
+        "word": "criticism",
+        "meaning": "批评，指出缺点或不足，语气通常较为负面。",
+        "example": "The movie received a lot of criticism.（这部电影收到了很多批评。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "长度和详细程度",
+      "remark": "简短，偶尔即兴",
+      "comment": "适中，可以较详细",
+      "review": "较长，系统分析",
+      "criticism": "详细且带批评"
+    },
+    {
+      "aspect": "语气",
+      "remark": "中性或轻松",
+      "comment": "中性，可正面或负面",
+      "review": "中性，分析性强",
+      "criticism": "通常负面"
+    },
+    {
+      "aspect": "对象",
+      "remark": "任何话题",
+      "comment": "任何话题",
+      "review": "通常作品或产品",
+      "criticism": "指出问题的任何对象"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "课堂讨论",
+      "remark": "She made a remark about the homework.（她对作业发表了看法。）",
+      "comment": "He commented that the homework was difficult.（他说作业很难。）",
+      "review": "The teacher gave a review of the students’ performance.（老师对学生表现进行了评价。）",
+      "criticism": "Some students received criticism for being late.（一些学生因迟到受到了批评。）"
+    },
+    {
+      "scene": "电影观后感",
+      "remark": "My friend made a quick remark about the movie.（我朋友对电影做了简短评论。）",
+      "comment": "I commented that the movie was interesting.（我评论电影很有趣。）",
+      "review": "She wrote a detailed review of the movie.（她写了电影的详细影评。）",
+      "criticism": "The film faced criticism for its weak plot.（这部电影因剧情薄弱受到了批评。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He gave a criticism about the book.",
+      "correction": "✅ He gave a comment about the book.（评论书籍用comment更合适。）"
+    },
+    {
+      "error": "❌ I wrote a comment on the new film.",
+      "correction": "✅ I wrote a review on the new film.（写较长的电影评价用review。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She wrote a detailed ___ of the restaurant.",
+      "options": ["A. remark", "B. comment", "C. review", "D. criticism"],
+      "answer": "C",
+      "explanation": "详细的评价用review。"
+    },
+    {
+      "question": "选择正确答案：He made a quick ___ about the weather.",
+      "options": ["A. remark", "B. review", "C. criticism", "D. comment"],
+      "answer": "A",
+      "explanation": "简短的说法用remark。"
+    },
+    {
+      "question": "选择正确答案：The movie received a lot of ___.",
+      "options": ["A. remark", "B. comment", "C. review", "D. criticism"],
+      "answer": "D",
+      "explanation": "电影收到批评，用criticism。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "feedback（反馈）",
+      "observation（观察）",
+      "evaluation（评估）"
+    ],
+    "tip": "口诀：remark简短，comment中性，review详细，criticism负面"
+  }
+}

@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 // import { Separator } from "@/components/ui/separator";
 import type { Synonym } from "@/lib/actions";
+import { Separator } from "@/components/ui/separator";
 
 function RenderTest({
   value: { options = [], answer, explanation },
@@ -67,7 +68,7 @@ interface MiniTestProps {
 export default function MiniTest({ tests }: MiniTestProps) {
   return (
     <>
-      {/* <Separator title="Mini Test" className="mt-8" /> */}
+      <Separator title="Mini Test" className="mt-8" />
       {tests.length > 0 ? (
         <div className="flex flex-col gap-4">
           {tests.map((test, index) => (

@@ -1,0 +1,91 @@
+{
+  "words": ["standard", "criterion", "norms"],
+  "explanation": {
+    "overview": "这三个词都涉及衡量或评价的基准，但含义和用法有所不同。",
+    "details": [
+      {
+        "word": "standard",
+        "meaning": "标准，表示被广泛接受或设定的规格、水平。",
+        "example": "The school follows high educational standards.（学校遵循高教育标准。）"
+      },
+      {
+        "word": "criterion",
+        "meaning": "评判标准，通常是用来评价或判断的具体条件或原则（单数），复数为criteria。",
+        "example": "One criterion for admission is good grades.（录取的一个标准是成绩优秀。）"
+      },
+      {
+        "word": "norms",
+        "meaning": "规范、准则，表示社会或团体中普遍认可的行为或规则，通常是非正式的。",
+        "example": "Social norms vary between cultures.（社会规范因文化而异。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "含义",
+      "standard": "明确的质量或性能基准",
+      "criterion": "具体的评判条件",
+      "norms": "行为的社会准则"
+    },
+    {
+      "aspect": "用法",
+      "standard": "常指制定的标准或规则",
+      "criterion": "用来判断或选择的条件",
+      "norms": "描述社会习惯和行为模式"
+    },
+    {
+      "aspect": "形式",
+      "standard": "可数名词，单复数同形",
+      "criterion": "单数，复数是criteria",
+      "norms": "复数名词，一般不用于单数"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校评价",
+      "standard": "The school has high standards for students.（学校对学生有高标准。）",
+      "criterion": "The main criterion for the award is creativity.（奖励的主要标准是创造力。）",
+      "norms": "Following classroom norms helps everyone learn.（遵守课堂规范帮助大家学习。）"
+    },
+    {
+      "scene": "职场",
+      "standard": "The company maintains strict quality standards.（公司保持严格的质量标准。）",
+      "criterion": "Experience is a key criterion for the job.（经验是这份工作的关键标准。）",
+      "norms": "Office norms include being punctual and polite.（办公室规范包括准时和礼貌。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ We must follow the criterion of the society.",
+      "correction": "✅ We must follow the norms of society.（社会的准则用norms更合适。）"
+    },
+    {
+      "error": "❌ This is the norms for quality.",
+      "correction": "✅ This is the standard for quality.（质量标准用standard。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The ___ for the test is a score above 90.",
+      "options": ["A. standard", "B. criterion", "C. norms"],
+      "answer": "B",
+      "explanation": "这里指具体评判条件，用criterion。"
+    },
+    {
+      "question": "选择正确答案：We need to meet safety ___.",
+      "options": ["A. criterion", "B. norms", "C. standards"],
+      "answer": "C",
+      "explanation": "安全的规定用standards。"
+    },
+    {
+      "question": "选择正确答案：Cultural ___ affect how people behave.",
+      "options": ["A. standards", "B. norms", "C. criterion"],
+      "answer": "B",
+      "explanation": "文化规范用norms。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["benchmark(基准)", "guideline(指导方针)", "rule(规则)"],
+    "tip": "口诀：standard是‘标准’，criterion是‘评判标准’，norms是‘社会规范’"
+  }
+}

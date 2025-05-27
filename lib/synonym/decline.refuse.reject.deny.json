@@ -1,0 +1,100 @@
+{
+  "words": ["decline", "refuse", "reject", "deny"],
+  "explanation": {
+    "overview": "这四个词都表示‘不接受’或‘否定’，但语气、用法和侧重点不同。",
+    "details": [
+      {
+        "word": "decline",
+        "meaning": "委婉地拒绝，通常用于正式或礼貌场合。",
+        "example": "She politely declined the invitation.（她礼貌地拒绝了邀请。）"
+      },
+      {
+        "word": "refuse",
+        "meaning": "直接拒绝，不愿意接受或做某事，语气比 decline 强烈。",
+        "example": "He refused to answer the question.（他拒绝回答这个问题。）"
+      },
+      {
+        "word": "reject",
+        "meaning": "拒绝某物或某人，通常强调不接受提议、建议、申请等。",
+        "example": "The company rejected his job application.（公司拒绝了他的求职申请。）"
+      },
+      {
+        "word": "deny",
+        "meaning": "否认事实、指控或请求，强调不承认或不允许。",
+        "example": "She denied breaking the vase.（她否认打破了花瓶。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气",
+      "decline": "委婉、礼貌",
+      "refuse": "坚决、直接",
+      "reject": "正式、拒绝接受",
+      "deny": "否认、不承认"
+    },
+    {
+      "aspect": "常用场景",
+      "decline": "拒绝邀请、提议",
+      "refuse": "拒绝做某事",
+      "reject": "拒绝申请、建议、物品",
+      "deny": "否认事实、指控"
+    },
+    {
+      "aspect": "是否涉及事实否认",
+      "decline": "否",
+      "refuse": "否",
+      "reject": "否",
+      "deny": "是"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "接受邀请",
+      "decline": "I have to decline your dinner invitation tonight.（今晚我得婉拒你的晚餐邀请。）",
+      "refuse": "He refused to join the party.（他拒绝参加派对。）"
+    },
+    {
+      "scene": "工作申请",
+      "reject": "The company rejected my job application.（公司拒绝了我的求职申请。）"
+    },
+    {
+      "scene": "否认事实",
+      "deny": "She denied stealing the money.（她否认偷了钱。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He denied to come to the meeting.",
+      "correction": "✅ He refused to come to the meeting.（deny后不能直接接不定式）"
+    },
+    {
+      "error": "❌ She rejected the invitation politely.",
+      "correction": "✅ She declined the invitation politely.（用decline更委婉）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：I have to ___ your offer because I am busy.",
+      "options": ["A. refuse", "B. decline", "C. reject", "D. deny"],
+      "answer": "B",
+      "explanation": "拒绝邀请或提议时用decline更礼貌。"
+    },
+    {
+      "question": "选择正确答案：He ___ that he was at the scene of the crime.",
+      "options": ["A. refused", "B. denied", "C. declined", "D. rejected"],
+      "answer": "B",
+      "explanation": "否认事实用deny。"
+    },
+    {
+      "question": "选择正确答案：The editor ___ my article because it was too long.",
+      "options": ["A. declined", "B. refused", "C. rejected", "D. denied"],
+      "answer": "C",
+      "explanation": "拒绝接受文章用reject。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["turn down（口语，拒绝）", "disapprove（不赞成）"],
+    "tip": "拒绝邀请用 decline，拒绝行动用 refuse，拒绝接受用 reject，否认事实用 deny。"
+  }
+}

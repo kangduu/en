@@ -1,0 +1,140 @@
+{
+  "words": [
+    "contain",
+    "comprehend",
+    "comprise",
+    "embrace",
+    "have",
+    "include",
+    "involve"
+  ],
+  "explanation": {
+    "overview": "这些词都涉及“包含”或“涵盖”的含义，但在语气、语法结构、使用范围和侧重点上各不相同，英语初学者容易混淆它们。",
+    "details": [
+      {
+        "word": "contain",
+        "meaning": "指“物理上或抽象地包含”，强调内部有某物，常用于容器、书籍等。",
+        "example": "This box contains books.（这个盒子里装着书。）"
+      },
+      {
+        "word": "comprehend",
+        "meaning": "正式用语，表示“理解”或“包含”，现代多用于“理解”的含义。",
+        "example": "He couldn’t comprehend the reason.（他无法理解这个原因。）"
+      },
+      {
+        "word": "comprise",
+        "meaning": "正式用语，表示“由...组成”，整体主动包括部分，不能用被动形式。",
+        "example": "The committee comprises five members.（委员会由五名成员组成。）"
+      },
+      {
+        "word": "embrace",
+        "meaning": "原意是“拥抱”，引申为“欣然接受”或“包含”，常用于抽象概念。",
+        "example": "The plan embraces several new ideas.（这个计划包含几个新想法。）"
+      },
+      {
+        "word": "have",
+        "meaning": "最常见的“有”，适用范围广，可以是所有权、特征、关系等。",
+        "example": "She has two brothers.（她有两个兄弟。）"
+      },
+      {
+        "word": "include",
+        "meaning": "表示“包括”，强调部分列举，后面列举的是其中一部分，常用于写作。",
+        "example": "The price includes tax.（价格包含税。）"
+      },
+      {
+        "word": "involve",
+        "meaning": "表示“涉及”，强调某事是复杂或必须的一部分，常带有“需要参与”的意味。",
+        "example": "The job involves a lot of travel.（这份工作涉及很多出差。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "是否具体物品",
+      "contain": "✅ 可具体",
+      "have": "✅ 可具体",
+      "include": "✅ 部分列举",
+      "comprise": "✅ 整体组成",
+      "embrace": "⭕ 多为抽象",
+      "comprehend": "❌ 主指理解",
+      "involve": "✅ 多为抽象行为"
+    },
+    {
+      "aspect": "语气正式程度",
+      "have": "最常用，口语",
+      "contain": "中等",
+      "include": "中等",
+      "comprise": "较正式",
+      "embrace": "较正式",
+      "comprehend": "正式",
+      "involve": "中等偏上"
+    },
+    {
+      "aspect": "语法特点",
+      "comprise": "不用于被动语态",
+      "include": "可用被动",
+      "contain": "可用被动",
+      "have": "通常主动",
+      "comprehend": "用于抽象理解",
+      "embrace": "常主动用法",
+      "involve": "常用于被动，如 be involved in"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "旅行打包",
+      "contain": "The suitcase contains clothes and shoes.（行李箱里装着衣服和鞋。）",
+      "have": "I have a backpack and a suitcase.（我有一个背包和一个行李箱。）",
+      "include": "My luggage includes a hair dryer.（我的行李里包括一个吹风机。）",
+      "comprise": "My packing list comprises essentials only.（我的打包清单只包括必需品。）"
+    },
+    {
+      "scene": "学习计划",
+      "embrace": "The course embraces writing, speaking, and reading.（这门课程包括写作、口语和阅读。）",
+      "involve": "The project involves teamwork and presentations.（这个项目涉及团队合作和演讲。）",
+      "comprehend": "Some students can’t comprehend advanced grammar.（有些学生无法理解高级语法。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The team is comprised of five people.",
+      "correction": "✅ The team comprises five people.（comprise 不用被动语态）"
+    },
+    {
+      "error": "❌ This job includes traveling a lot.",
+      "correction": "✅ This job involves traveling a lot.（involve 更适合表达“需要/包含行为”）"
+    },
+    {
+      "error": "❌ I comprehend a phone.",
+      "correction": "✅ I have a phone.（comprehend 是“理解”，不能表示“有”）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The conference ___ topics such as AI and robotics.",
+      "options": ["A. comprises", "B. includes", "C. comprehends"],
+      "answer": "B",
+      "explanation": "include 更适合列举内容的一部分。"
+    },
+    {
+      "question": "选择正确答案：The job ___ working long hours and traveling.",
+      "options": ["A. includes", "B. involves", "C. contains"],
+      "answer": "B",
+      "explanation": "involve 表示“需要、牵涉”到某事。"
+    },
+    {
+      "question": "选择正确答案：This book ___ useful grammar tips.",
+      "options": ["A. has", "B. comprehends", "C. involves"],
+      "answer": "A",
+      "explanation": "最常见的“有”用法，选 has。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "encompass（全面包含）",
+      "entail（必然包含）",
+      "consist of（由…组成）"
+    ],
+    "tip": "口诀：have最基础，contain在里头，include列一部分，comprise整组成，involve行为需参与，embrace抽象接受，comprehend强调理解"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "words": ["bright", "shining"],
+  "explanation": {
+    "overview": "这两个形容词都与'明亮'相关，但在具体含义和使用上有所不同。",
+    "details": [
+      {
+        "word": "bright",
+        "meaning": "指光线充足或颜色鲜艳，也可形容人聪明",
+        "example": "The sun is very bright today.（今天阳光非常明亮。）"
+      },
+      {
+        "word": "shining",
+        "meaning": "指物体表面反射光线而发亮，或表现突出",
+        "example": "She wore shining silver jewelry.（她戴着闪亮的银饰。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "光源",
+      "bright": "自身发光或反射光",
+      "shining": "主要强调反射光"
+    },
+    {
+      "aspect": "使用范围",
+      "bright": "光线、颜色、智力等",
+      "shining": "物体表面、表现等"
+    },
+    {
+      "aspect": "时间性",
+      "bright": "持续状态",
+      "shining": "可表持续或瞬间"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "自然光线",
+      "bright": "The bright moonlight lit up the path.（明亮的月光照亮了小路。）",
+      "shining": "(不常用)"
+    },
+    {
+      "scene": "物体表面",
+      "bright": "(较少使用)",
+      "shining": "The car's shining paint looked new.（车子闪亮的漆面看起来像新的一样。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The shining sun hurt my eyes.",
+      "correction": "✅ The bright sun hurt my eyes.（太阳明亮用bright）"
+    },
+    {
+      "error": "❌ She wore bright silver earrings.",
+      "correction": "✅ She wore shining silver earrings.（饰品闪亮用shining）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The ___ stars were visible in the night sky.",
+      "options": ["A. bright", "B. shining"],
+      "answer": "A",
+      "explanation": "星星明亮用bright"
+    },
+    {
+      "question": "哪个词最适合描述'擦亮的皮鞋'？",
+      "options": ["A. bright", "B. shining"],
+      "answer": "B",
+      "explanation": "表面反光用shining"
+    },
+    {
+      "question": "填空：Her ___ performance earned a standing ovation.",
+      "options": ["A. bright", "B. shining"],
+      "answer": "B",
+      "explanation": "出色表现用shining"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "radiant（光芒四射的）",
+      "glowing（发红光的）",
+      "lustrous（有光泽的）",
+      "dazzling（耀眼的）"
+    ],
+    "special_cases": {
+      "bright_idea": "好主意",
+      "shining_example": "典范"
+    }
+  }
+}

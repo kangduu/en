@@ -1,0 +1,102 @@
+{
+  "words": ["mad", "crazy", "insane", "angry", "enraged"],
+  "explanation": {
+    "overview": "这些词都与‘愤怒’或‘疯狂’有关，但用法和程度不同。",
+    "details": [
+      {
+        "word": "mad",
+        "meaning": "通常表示‘生气’，但也可以表示‘疯狂’（非正式用法）。",
+        "example": "She was mad at me for forgetting her birthday.（她因为我忘记她的生日而生气。）"
+      },
+      {
+        "word": "crazy",
+        "meaning": "表示‘疯狂的’或‘不理智的’，也可以形容极度兴奋或喜爱（非正式）。",
+        "example": "He's crazy about football.（他对足球非常狂热。）"
+      },
+      {
+        "word": "insane",
+        "meaning": "正式用语，表示‘精神失常的’，也可以夸张地形容极其疯狂或难以置信的事情。",
+        "example": "The idea sounds insane!（这个想法听起来太疯狂了！）"
+      },
+      {
+        "word": "angry",
+        "meaning": "普通用语，表示‘生气的’，情绪程度中等。",
+        "example": "My boss was angry because I was late.（老板因为我迟到而生气。）"
+      },
+      {
+        "word": "enraged",
+        "meaning": "表示‘暴怒的’，情绪极其强烈。",
+        "example": "The crowd was enraged by the unfair decision.（人群因不公平的决定而暴怒。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "情绪强度",
+      "mad": "中等（生气）或轻度（疯狂）",
+      "crazy": "轻度到中度（疯狂/狂热）",
+      "insane": "中度到重度（疯狂/精神失常）",
+      "angry": "中等（生气）",
+      "enraged": "极强（暴怒）"
+    },
+    {
+      "aspect": "正式程度",
+      "mad": "非正式",
+      "crazy": "非正式",
+      "insane": "正式或夸张用法",
+      "angry": "中性",
+      "enraged": "正式或书面"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "朋友吵架",
+      "mad": "She's mad at me for not calling her back.（她因为我没回电话而生气。）",
+      "crazy": "You're crazy if you think I'll forgive you so easily!（如果你觉得我会轻易原谅你，那你真是疯了！）",
+      "angry": "He was angry but didn't say anything.（他很生气，但什么都没说。）"
+    },
+    {
+      "scene": "交通纠纷",
+      "insane": "The driver's behavior was insane!（那个司机的行为太疯狂了！）",
+      "enraged": "The cyclist was enraged when the car cut him off.（骑车人被汽车别车时暴怒。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I'm so insane with you!",
+      "correction": "✅ I'm so mad at you!（表示生气用mad/angry，insane不用于此语境）"
+    },
+    {
+      "error": "❌ The professor was enraged about the new theory.",
+      "correction": "✅ The professor was excited/crazy about the new theory.（enraged只用于极端愤怒）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：After waiting 2 hours, the customers were ___.",
+      "options": ["A. crazy", "B. angry", "C. insane"],
+      "answer": "B",
+      "explanation": "此处描述普通程度的生气，用angry最合适"
+    },
+    {
+      "question": "哪个词表示最强烈的愤怒？",
+      "options": ["A. mad", "B. enraged", "C. crazy"],
+      "answer": "B",
+      "explanation": "enraged表示暴怒，程度最强"
+    },
+    {
+      "question": "哪个词可以形容精神疾病？",
+      "options": ["A. insane", "B. mad", "C. angry"],
+      "answer": "A",
+      "explanation": "insane是正式的精神疾病术语"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "furious（狂怒的）",
+      "livid（怒不可遏的）",
+      "irate（愤怒的）"
+    ],
+    "tip": "愤怒程度排序：enraged > furious/angry > mad；疯狂程度排序：insane > crazy > mad"
+  }
+}

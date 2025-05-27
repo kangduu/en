@@ -1,0 +1,89 @@
+{
+  "words": ["important", "essential"],
+  "explanation": {
+    "overview": "这两个形容词都表示'重要的'，但在重要程度和必要性上有所不同。",
+    "details": [
+      {
+        "word": "important",
+        "meaning": "指有价值、有意义或有影响的，强调重要性",
+        "example": "It's important to drink enough water every day.（每天喝足够的水很重要。）"
+      },
+      {
+        "word": "essential",
+        "meaning": "指绝对必要的、不可或缺的，强调必要性",
+        "example": "Water is essential for human survival.（水是人类生存所必需的。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "重要程度",
+      "important": "重要",
+      "essential": "必不可少"
+    },
+    {
+      "aspect": "必要性",
+      "important": "可以有替代",
+      "essential": "不可替代"
+    },
+    {
+      "aspect": "使用场景",
+      "important": "通用",
+      "essential": "强调基本需求"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "健康",
+      "important": "Exercise is important for good health.（运动对健康很重要。）",
+      "essential": "Oxygen is essential to life.（氧气是生命必需的。）"
+    },
+    {
+      "scene": "工作",
+      "important": "Punctuality is important in this company.（守时在这家公司很重要。）",
+      "essential": "A valid passport is essential for international travel.（有效护照是国际旅行必需的。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ It's essential to check your email regularly.",
+      "correction": "✅ It's important to check your email regularly.（常规检查用important）"
+    },
+    {
+      "error": "❌ Water is important for survival.",
+      "correction": "✅ Water is essential for survival.（生存必需用essential）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：___ nutrients for plant growth.",
+      "options": ["A. Important", "B. Essential"],
+      "answer": "B",
+      "explanation": "植物生长必需用essential"
+    },
+    {
+      "question": "哪个词更适合描述'会议准时开始'？",
+      "options": ["A. important", "B. essential"],
+      "answer": "A",
+      "explanation": "重要但非必需用important"
+    },
+    {
+      "question": "填空：Teamwork is ___ for project success.",
+      "options": ["A. important", "B. essential"],
+      "answer": "A",
+      "explanation": "团队合作重要用important"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "crucial（关键的）",
+      "vital（至关重要的）",
+      "necessary（必要的）",
+      "fundamental（基本的）"
+    ],
+    "special_cases": {
+      "essential_oils": "精油",
+      "important_person": "重要人物"
+    }
+  }
+}

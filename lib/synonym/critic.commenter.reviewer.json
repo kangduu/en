@@ -1,0 +1,95 @@
+{
+  "words": ["critic", "commenter", "reviewer"],
+  "explanation": {
+    "overview": "这三个词都表示对作品或事件发表意见的人，但侧重点和使用场景不同。critic 更正式且专业，commenter 通常指网络或日常评论者，reviewer 则强调评价和审查。",
+    "details": [
+      {
+        "word": "critic",
+        "meaning": "专业人士，对艺术、文学、电影等进行系统评价，通常带有分析和判断。",
+        "example": "The movie critic gave the film a positive review.（电影评论家对这部电影给予了好评。）"
+      },
+      {
+        "word": "commenter",
+        "meaning": "在网络、社交媒体或论坛中发表评论的人，表达个人看法，不一定专业。",
+        "example": "Many commenters shared their opinions under the video.（很多评论者在视频下发表了意见。）"
+      },
+      {
+        "word": "reviewer",
+        "meaning": "评价者，通常指写产品、书籍、电影等评测的人，注重评价的内容和质量。",
+        "example": "The book reviewer wrote a detailed analysis of the novel.（书评人写了对这本小说的详细分析。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "专业程度",
+      "critic": "高，专业评价者",
+      "commenter": "低，普通网友",
+      "reviewer": "中，专业或半专业"
+    },
+    {
+      "aspect": "常见场合",
+      "critic": "艺术、文化、电影评论",
+      "commenter": "网络评论、社交媒体",
+      "reviewer": "产品、书籍、电影评价"
+    },
+    {
+      "aspect": "表达形式",
+      "critic": "分析、批评、判断",
+      "commenter": "简短意见或感想",
+      "reviewer": "详细评价和评分"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "看电影后",
+      "critic": "The critic praised the director’s work.（评论家称赞了导演的作品。）",
+      "commenter": "Many commenters said they loved the movie.（许多评论者说他们喜欢这部电影。）",
+      "reviewer": "The reviewer gave the movie 4 out of 5 stars.（评审给这部电影打了4星。）"
+    },
+    {
+      "scene": "购买商品后",
+      "critic": "A critic might write about the product’s design.",
+      "commenter": "Customers often comment about their experience online.",
+      "reviewer": "Reviewers test and rate the product for websites."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He is just a critic who posts short comments online.",
+      "correction": "✅ He is a commenter if he only posts short opinions online.（critic 通常指专业评论家）"
+    },
+    {
+      "error": "❌ All reviewers are professional critics.",
+      "correction": "✅ Some reviewers are professionals, others are casual users.（reviewer 可能是专业或普通人）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She writes professional articles analyzing movies. She is a ___.",
+      "options": ["A. commenter", "B. critic", "C. reviewer"],
+      "answer": "B",
+      "explanation": "critic 强调专业系统的分析和评价。"
+    },
+    {
+      "question": "选择正确答案：Many people left short opinions on the blog post. They are ___.",
+      "options": ["A. reviewers", "B. commenters", "C. critics"],
+      "answer": "B",
+      "explanation": "commenter 指普通网友或读者发表评论。"
+    },
+    {
+      "question": "选择正确答案：He tested the new phone and wrote a detailed report. He is a ___.",
+      "options": ["A. critic", "B. reviewer", "C. commenter"],
+      "answer": "B",
+      "explanation": "reviewer 侧重评价和测评。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "evaluator（评估者）",
+      "observer（观察者）",
+      "analyst（分析师）"
+    ],
+    "tip": "口诀记忆：critic专业评审，commenter网评无形，reviewer测评有章"
+  }
+}

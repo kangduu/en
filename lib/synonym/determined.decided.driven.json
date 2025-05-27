@@ -1,0 +1,100 @@
+{
+  "words": ["determined", "decided", "driven"],
+  "explanation": {
+    "overview": "这些形容词都描述'坚定的'或'决意的'状态，但在动机来源和表现方式上有所不同。",
+    "details": [
+      {
+        "word": "determined",
+        "meaning": "指有坚定决心去完成某事，强调意志力",
+        "example": "She was determined to finish the marathon despite the pain.（尽管疼痛，她决心要完成马拉松。）"
+      },
+      {
+        "word": "decided",
+        "meaning": "指已经做出明确决定，不容置疑的",
+        "example": "There was a decided improvement in his performance.（他的表现有明显改善。）"
+      },
+      {
+        "word": "driven",
+        "meaning": "指被强烈动机或野心所驱使，通常来自内在压力",
+        "example": "He's a driven entrepreneur who works 80 hours a week.（他是个拼命工作的企业家，每周工作80小时。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "动机来源",
+      "determined": "个人意志",
+      "decided": "理性决定",
+      "driven": "内在驱动力"
+    },
+    {
+      "aspect": "情感强度",
+      "determined": "中等偏强",
+      "decided": "中性",
+      "driven": "非常强烈"
+    },
+    {
+      "aspect": "常见搭配",
+      "determined": "be determined to do",
+      "decided": "decided advantage",
+      "driven": "driven individual"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学业追求",
+      "determined": "The student was determined to get into Harvard.（这个学生决心要进入哈佛大学。）",
+      "decided": "There was a decided difference between the two essays.（这两篇论文有明显区别。）",
+      "driven": "She's a driven student who studies every weekend.（她是个勤奋的学生，每个周末都学习。）"
+    },
+    {
+      "scene": "职业发展",
+      "determined": "He's determined to get promoted this year.（他决心今年要获得晋升。）",
+      "decided": "The company made a decided shift in strategy.（公司做出了明确的战略转变。）",
+      "driven": "The driven executive rarely takes vacations.（这位拼命的高管很少休假。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ She's very decided to succeed.",
+      "correction": "✅ She's very determined to succeed.（决心成功用determined）"
+    },
+    {
+      "error": "❌ He has a determined personality.",
+      "correction": "✅ He has a driven personality.（性格驱动力用driven）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：After the failure, she was ___ to try again.",
+      "options": ["A. determined", "B. decided", "C. driven"],
+      "answer": "A",
+      "explanation": "决心再次尝试用determined"
+    },
+    {
+      "question": "哪个词最适合描述'有明显优势的情况'？",
+      "options": ["A. determined", "B. decided", "C. driven"],
+      "answer": "B",
+      "explanation": "明确优势用decided"
+    },
+    {
+      "question": "填空：The ___ businessman rarely sleeps more than 5 hours.",
+      "options": ["A. determined", "B. decided", "C. driven"],
+      "answer": "C",
+      "explanation": "工作狂特质用driven"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "resolute（坚决的）",
+      "committed（投入的）",
+      "ambitious（有野心的）",
+      "single-minded（一心一意的）"
+    ],
+    "special_cases": {
+      "determined_effort": "坚定努力",
+      "decidedly_better": "明显更好",
+      "drive_to_succeed": "成功驱动力"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "words": ["sail", "cruise", "navigate", "travel", "voyage"],
+  "explanation": {
+    "overview": "这些动词都与'航行'或'旅行'相关，但在具体含义和使用场景上有所不同。",
+    "details": [
+      {
+        "word": "sail",
+        "meaning": "指借助风帆航行，或泛指乘船旅行",
+        "example": "We sailed across the Mediterranean last summer.（去年夏天我们航行穿越了地中海。）"
+      },
+      {
+        "word": "cruise",
+        "meaning": "指以休闲为目的的乘船游览，通常是在大型游轮上",
+        "example": "They're cruising the Caribbean for two weeks.（他们将在加勒比海巡航两周。）"
+      },
+      {
+        "word": "navigate",
+        "meaning": "指驾驶或引导船只航行，强调导航技术",
+        "example": "The captain navigated the ship through the storm.（船长驾驶船只穿越风暴。）"
+      },
+      {
+        "word": "travel",
+        "meaning": "最通用的词，指各种形式的旅行",
+        "example": "I love to travel by train.（我喜欢乘火车旅行。）"
+      },
+      {
+        "word": "voyage",
+        "meaning": "指长途的海上或太空航行，较为正式",
+        "example": "The ship voyaged to Antarctica.（这艘船航行到了南极洲。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "主要含义",
+      "sail": "帆船航行/乘船",
+      "cruise": "游轮游览",
+      "navigate": "导航驾驶",
+      "travel": "通用旅行",
+      "voyage": "长途航行"
+    },
+    {
+      "aspect": "交通工具",
+      "sail": "帆船/船只",
+      "cruise": "游轮",
+      "navigate": "各种船只",
+      "travel": "各种交通工具",
+      "voyage": "船只/航天器"
+    },
+    {
+      "aspect": "正式程度",
+      "sail": "中等",
+      "cruise": "中等",
+      "navigate": "较正式",
+      "travel": "通用",
+      "voyage": "较正式"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "海上活动",
+      "sail": "He sails his small boat every weekend.（他每个周末都驾驶他的小船航行。）",
+      "cruise": "We're cruising to Alaska next month.（我们下个月将乘游轮去阿拉斯加。）",
+      "navigate": "Sailors use stars to navigate at night.（水手们在夜间利用星星导航。）",
+      "travel": "They're traveling by ferry to the island.（他们将乘渡船去岛上。）",
+      "voyage": "The explorers voyaged to unknown lands.（探险家们航行到了未知的土地。）"
+    },
+    {
+      "scene": "其他旅行",
+      "sail": "(不适用)",
+      "cruise": "(不适用)",
+      "navigate": "Pilots navigate using instruments.（飞行员使用仪器导航。）",
+      "travel": "She travels for work frequently.（她经常出差旅行。）",
+      "voyage": "Astronauts voyaged to the Moon.（宇航员航行到了月球。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ We're sailing on a luxury liner next week.",
+      "correction": "✅ We're cruising on a luxury liner next week.（游轮旅行用cruise）"
+    },
+    {
+      "error": "❌ He traveled the ship through rough waters.",
+      "correction": "✅ He navigated the ship through rough waters.（驾驶船只用navigate）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The captain will ___ the ship into port.",
+      "options": ["A. sail", "B. cruise", "C. navigate", "D. voyage"],
+      "answer": "C",
+      "explanation": "驾驶入港用navigate"
+    },
+    {
+      "question": "哪个词最适合描述'为期三个月的海上航行'？",
+      "options": ["A. sail", "B. cruise", "C. travel", "D. voyage"],
+      "answer": "D",
+      "explanation": "长途航行用voyage"
+    },
+    {
+      "question": "填空：They ___ around the world in a small yacht.",
+      "options": ["A. sailed", "B. cruised", "C. voyaged", "D. traveled"],
+      "answer": "A",
+      "explanation": "小船航行用sail"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "steer（掌舵）",
+      "journey（旅程）",
+      "expedition（远征）",
+      "ferry（摆渡）"
+    ],
+    "special_cases": {
+      "sail_through": "顺利通过（比喻）",
+      "cruise_control": "定速巡航（汽车）",
+      "space_voyage": "太空航行"
+    }
+  }
+}

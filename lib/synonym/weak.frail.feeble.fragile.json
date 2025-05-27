@@ -1,0 +1,110 @@
+{
+  "words": ["weak", "feeble", "fragile", "frail"],
+  "explanation": {
+    "overview": "这些形容词都表示'弱的'或'脆弱的'，但在具体含义和使用场景上有所不同。",
+    "details": [
+      {
+        "word": "weak",
+        "meaning": "最通用的词，指缺乏力量、能力或强度",
+        "example": "After the illness, he felt very weak.（病后他感到非常虚弱。）"
+      },
+      {
+        "word": "feeble",
+        "meaning": "指极度虚弱，常带有怜悯或轻蔑的意味",
+        "example": "The old man's feeble attempt to stand failed.（老人试图站起来的虚弱尝试失败了。）"
+      },
+      {
+        "word": "fragile",
+        "meaning": "指易碎的、易损坏的，需要小心处理",
+        "example": "The package contains fragile items.（包裹里是易碎物品。）"
+      },
+      {
+        "word": "frail",
+        "meaning": "指体质虚弱，尤指因年老或生病",
+        "example": "Her grandmother is becoming increasingly frail.（她的祖母变得越来越虚弱。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "强度程度",
+      "weak": "一般性弱",
+      "feeble": "极度弱",
+      "fragile": "易受损",
+      "frail": "体质弱"
+    },
+    {
+      "aspect": "适用对象",
+      "weak": "人、物、抽象概念",
+      "feeble": "人、尝试、借口",
+      "fragile": "物品、关系",
+      "frail": "人（尤指老人）"
+    },
+    {
+      "aspect": "情感色彩",
+      "weak": "中性",
+      "feeble": "常含负面",
+      "fragile": "中性/警示",
+      "frail": "同情"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "健康状况",
+      "weak": "She felt weak after donating blood.（献血后她感到虚弱。）",
+      "feeble": "His feeble pulse worried the doctors.（他微弱的脉搏让医生担忧。）",
+      "fragile": "(不常用)",
+      "frail": "The frail patient needed constant care.（这位虚弱的病人需要持续照顾。）"
+    },
+    {
+      "scene": "物品描述",
+      "weak": "The weak bridge couldn't support heavy trucks.（这座不牢固的桥承受不了重型卡车。）",
+      "feeble": "(不常用)",
+      "fragile": "Handle the fragile china with care.（小心轻放易碎的瓷器。）",
+      "frail": "(不常用)"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The feeble glass broke easily.",
+      "correction": "✅ The fragile glass broke easily.（易碎物品用fragile）"
+    },
+    {
+      "error": "❌ He gave a fragile excuse for being late.",
+      "correction": "✅ He gave a feeble excuse for being late.（无力借口用feeble）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The ___ old woman walked with a cane.",
+      "options": ["A. weak", "B. feeble", "C. frail", "D. fragile"],
+      "answer": "C",
+      "explanation": "年老体弱用frail"
+    },
+    {
+      "question": "哪个词最适合描述'需要小心轻放的贵重物品'？",
+      "options": ["A. weak", "B. feeble", "C. fragile", "D. frail"],
+      "answer": "C",
+      "explanation": "易碎物品用fragile"
+    },
+    {
+      "question": "填空：After the surgery, his ___ handshake showed his condition.",
+      "options": ["A. weak", "B. feeble", "C. fragile", "D. frail"],
+      "answer": "B",
+      "explanation": "极度无力用feeble"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "delicate（精致的/脆弱的）",
+      "flimsy（不结实的）",
+      "vulnerable（脆弱的）",
+      "infirm（体弱的）"
+    ],
+    "special_cases": {
+      "weak_link": "薄弱环节",
+      "feeble-minded": "意志薄弱的",
+      "frailty_of_human_nature": "人性的脆弱"
+    }
+  }
+}

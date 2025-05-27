@@ -1,0 +1,113 @@
+{
+  "words": ["shake", "tremble", "quake", "shiver", "sway"],
+  "explanation": {
+    "overview": "这些词都表示‘摇动’或‘颤抖’，但动作的原因、强度和场景有所不同。",
+    "details": [
+      {
+        "word": "shake",
+        "meaning": "泛指快速或剧烈地来回移动，可是物体或人的动作。",
+        "example": "She shook the bottle before drinking.（她喝之前摇了摇瓶子。）"
+      },
+      {
+        "word": "tremble",
+        "meaning": "因紧张、恐惧、寒冷等轻微而持续地颤抖，多用于人。",
+        "example": "He trembled with fear.（他吓得发抖。）"
+      },
+      {
+        "word": "quake",
+        "meaning": "强烈震动，多用于地震，也可指极度害怕或愤怒时的发抖。",
+        "example": "The ground quaked during the earthquake.（地震时地面在震动。）"
+      },
+      {
+        "word": "shiver",
+        "meaning": "因寒冷或恐惧引起的轻微颤抖，强调生理反应。",
+        "example": "She shivered in the cold wind.（她在寒风中发抖。）"
+      },
+      {
+        "word": "sway",
+        "meaning": "指慢慢地左右摇摆，常用于物体或人的动作。",
+        "example": "The trees swayed in the wind.（树在风中摇摆。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "动作类型",
+      "shake": "快速或剧烈晃动",
+      "tremble": "轻微、连续颤抖",
+      "quake": "强烈震动",
+      "shiver": "因冷或怕而抖",
+      "sway": "缓慢、左右摇晃"
+    },
+    {
+      "aspect": "常见原因",
+      "shake": "人为动作或外力",
+      "tremble": "情绪或寒冷",
+      "quake": "地震或强烈情绪",
+      "shiver": "寒冷/恐惧",
+      "sway": "风、重力或情绪"
+    },
+    {
+      "aspect": "使用对象",
+      "shake": "人/物都可",
+      "tremble": "多用于人",
+      "quake": "多用于地面或建筑",
+      "shiver": "常用于人",
+      "sway": "树、人、建筑等"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "课堂报告",
+      "tremble": "He trembled as he spoke in front of the class.（他在全班面前发言时发抖了。）",
+      "shake": "She shook her notes nervously.（她紧张地摇晃着讲稿。）"
+    },
+    {
+      "scene": "寒冷天气",
+      "shiver": "I was shivering while waiting for the bus.（我等车时一直发抖。）",
+      "sway": "The sign swayed in the wind.（招牌在风中摇摆。）"
+    },
+    {
+      "scene": "自然灾害",
+      "quake": "The house quaked during the aftershock.（余震时房子在震动。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The tree was shaking slowly in the breeze.",
+      "correction": "✅ The tree was swaying slowly in the breeze.（缓慢摇晃用 sway）"
+    },
+    {
+      "error": "❌ He was shivering with anger.",
+      "correction": "✅ He was trembling with anger.（愤怒时用 tremble 更自然）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The leaves ___ gently in the wind.",
+      "options": ["A. quake", "B. shake", "C. sway", "D. shiver"],
+      "answer": "C",
+      "explanation": "树叶轻柔摇动常用 sway。"
+    },
+    {
+      "question": "选择正确答案：He was so scared that his hands started to ___.",
+      "options": ["A. quake", "B. sway", "C. tremble", "D. shake"],
+      "answer": "C",
+      "explanation": "人因害怕轻微颤抖用 tremble。"
+    },
+    {
+      "question": "选择正确答案：During the earthquake, the whole ground started to ___.",
+      "options": ["A. shiver", "B. quake", "C. sway", "D. tremble"],
+      "answer": "B",
+      "explanation": "地震时地面震动用 quake。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "vibrate（震动）",
+      "wobble（摇摇晃晃）",
+      "flutter（颤动，如蝴蝶翅膀）"
+    ],
+    "tip": "口诀：shake猛，sway缓，tremble因怕，shiver因冷，quake大地动。"
+  }
+}

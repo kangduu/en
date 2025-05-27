@@ -99,6 +99,26 @@
     {
       "error": "❌ His discouragement lasted only five minutes.",
       "correction": "✅ His disappointment/dismay lasted only five minutes.（discouragement通常持续时间较长）"
+    },
+    {
+      "error": "❌ She was dismayed by the traffic jam and felt depression.",
+      "correction": "✅ She was dismayed by the traffic jam and felt frustration.（交通堵塞引起的挫败感）"
+    },
+    {
+      "error": "❌ The movie left me in deep depression.",
+      "correction": "✅ The movie left me disappointed/upset.（电影引起的情绪通常是失望或不快）"
+    },
+    {
+      "error": "❌ He was upset about his clinical depression diagnosis.",
+      "correction": "✅ He was dismayed/upset about his clinical depression diagnosis.（诊断结果通常用dismay或upset）"
+    },
+    {
+      "error": "❌ After the breakup, she felt dismay for weeks.",
+      "correction": "✅ After the breakup, she felt depression for weeks.（分手后的情绪通常是depression）"
+    },
+    {
+      "error": "❌ The exam result caused me discouragement.",
+      "correction": "✅ The exam result caused me disappointment/upset.（考试结果通常是失望或不快）"
     }
   ],
   "mini_test": [
@@ -134,6 +154,26 @@
       ],
       "answer": "B",
       "explanation": "反复失败导致的情绪是discouragement"
+    },
+    {
+      "question": "选择正确的句子：",
+      "options": [
+        "A. She was upset by the news of her friend's accident.",
+        "B. She was depression by the news of her friend's accident."
+      ],
+      "answer": "A",
+      "explanation": "日常不快用upset，depression通常指长期抑郁"
+    },
+    {
+      "question": "哪个词可以描述对考试结果的失望？",
+      "options": [
+        "A. Dismay",
+        "B. Upset",
+        "C. Disappointment",
+        "D. Frustration"
+      ],
+      "answer": "C",
+      "explanation": "期望落空时用disappointment"
     }
   ],
   "additional_notes": {
