@@ -1,6 +1,4 @@
 "use client";
-import { MarkdownViewer } from "@/components";
-import { Spin, Collapse } from "@/src/components/ui";
 import React, {
   useCallback,
   useEffect,
@@ -9,6 +7,7 @@ import React, {
 } from "react";
 import Comments from "./comments";
 import { GetReposIssues } from "@/requests";
+import MarkdownViewer from "@/components/MarkdownViewer";
 
 interface IssueType {
   id: number;
@@ -47,7 +46,7 @@ export default function IssuesPage({ label }: { label: string }) {
     }
   }, [active]);
 
-  if (loading) return <Spin />;
+  if (loading) return <div>loading...</div>;
   return (
     <>
       {active && (
@@ -60,7 +59,7 @@ export default function IssuesPage({ label }: { label: string }) {
         </>
       )}
       {issues.length > 0 && !loading && (
-        <Collapse title="Catalogue" style={{ marginTop: 20 }}>
+        <div style={{ marginTop: 20 }}>
           {issues.map((item, index) => {
             const isActive = active?.id === item.id;
             return (
@@ -78,7 +77,7 @@ export default function IssuesPage({ label }: { label: string }) {
               </div>
             );
           })}
-        </Collapse>
+        </div>
       )}
     </>
   );
