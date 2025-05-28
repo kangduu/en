@@ -1,0 +1,103 @@
+{
+  "words": ["worth", "value", "merit"],
+  "explanation": {
+    "overview": "这三个词都涉及‘价值’或‘优点’，但它们的侧重点和使用方式不同。",
+    "details": [
+      {
+        "word": "worth",
+        "meaning": "表示某事物的‘值’（通常指金钱、时间、努力等的回报）或‘值得’做的事。",
+        "example": "This book is worth reading.（这本书值得一读。）"
+      },
+      {
+        "word": "value",
+        "meaning": "强调事物本身的价值（可以是金钱的，也可以是精神的、道德的）。",
+        "example": "The value of education is beyond money.（教育的价值无法用金钱衡量。）"
+      },
+      {
+        "word": "merit",
+        "meaning": "表示‘优点’或‘值得称赞的地方’，常用于评价人的行为、作品、主张等。",
+        "example": "Her proposal has great merit.（她的提议很有优点。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "中文含义",
+      "worth": "值得、有……的价值",
+      "value": "价值、重要性",
+      "merit": "优点、功绩"
+    },
+    {
+      "aspect": "常见搭配",
+      "worth": "worth doing / worth + 金额",
+      "value": "high/low value / value of sth.",
+      "merit": "on its own merit / the merits of an idea"
+    },
+    {
+      "aspect": "使用范围",
+      "worth": "口语、实际应用场景",
+      "value": "广泛（经济、文化、个人）",
+      "merit": "多用于书面、评价类语境"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "购买东西",
+      "worth": "This phone is worth $500.（这部手机值500美元。）",
+      "value": "I don't think this phone gives good value for money.（我觉得这手机不太值这个价。）",
+      "merit": "One merit of this phone is its long battery life.（这手机的一个优点是电池续航长。）"
+    },
+    {
+      "scene": "课堂讨论",
+      "worth": "It’s worth discussing this topic further.（这个话题值得进一步探讨。）",
+      "value": "The value of teamwork was emphasized in class.（课堂强调了团队合作的重要性。）",
+      "merit": "Let’s consider the merits and demerits of this solution.（让我们看看这个方案的优点和缺点。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ This movie worth watching.",
+      "correction": "✅ This movie is worth watching.（worth 前需用 be）"
+    },
+    {
+      "error": "❌ She has a great value.",
+      "correction": "✅ She is very valuable. / She has great worth.（value 一般不用于描述人本身）"
+    },
+    {
+      "error": "❌ The merit of gold is high.",
+      "correction": "✅ The value of gold is high.（用 value 来表示贵重程度）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确句子：",
+      "options": [
+        "A. This idea is worth to try.",
+        "B. This idea is worth trying.",
+        "C. This idea worths trying."
+      ],
+      "answer": "B",
+      "explanation": "‘worth doing’ 是正确结构；没有 ‘worths’ 这种动词形式。"
+    },
+    {
+      "question": "Which word is most related to ‘优点’?",
+      "options": ["A. value", "B. worth", "C. merit"],
+      "answer": "C",
+      "explanation": "merit 更强调具体的‘优点’或‘可取之处’。"
+    },
+    {
+      "question": "Which is best for expressing price in money?",
+      "options": ["A. merit", "B. worth", "C. value"],
+      "answer": "B",
+      "explanation": "worth 常用于表示价格或是否‘值得’花钱。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "口诀：worth看值得，value讲重要，merit说优点。",
+    "extended_words": [
+      "benefit（益处）",
+      "advantage（优势）",
+      "significance（意义）"
+    ]
+  }
+}

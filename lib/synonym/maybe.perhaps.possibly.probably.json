@@ -1,0 +1,113 @@
+{
+  "words": ["perhaps", "maybe", "possibly", "probably"],
+  "explanation": {
+    "overview": "这些副词都表示‘可能’，但语气和使用场合不同，有的更正式，有的表示可能性更高或更低。",
+    "details": [
+      {
+        "word": "perhaps",
+        "meaning": "表示不确定的可能，较正式，常用于书面语。",
+        "example": "Perhaps she forgot our meeting.（也许她忘了我们的会议。）"
+      },
+      {
+        "word": "maybe",
+        "meaning": "口语中最常用的表示可能性的词，语气轻松、模糊。",
+        "example": "Maybe we can go out later.（或许我们等下可以出去。）"
+      },
+      {
+        "word": "possibly",
+        "meaning": "表示‘有可能’，强调一种存在的可能性，通常可能性较低。",
+        "example": "He could possibly be at home.（他可能在家。）"
+      },
+      {
+        "word": "probably",
+        "meaning": "表示‘很可能’，概率更高，常用于预测。",
+        "example": "She’s probably at work now.（她现在很可能在上班。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "正式程度",
+      "perhaps": "正式",
+      "maybe": "非正式",
+      "possibly": "较正式",
+      "probably": "通用"
+    },
+    {
+      "aspect": "可能性高低（主观）",
+      "perhaps": "中等",
+      "maybe": "中等",
+      "possibly": "偏低",
+      "probably": "偏高"
+    },
+    {
+      "aspect": "常见使用场合",
+      "perhaps": "书面语、正式语境",
+      "maybe": "口语对话",
+      "possibly": "说明一种潜在可能",
+      "probably": "做出合理推测"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "约朋友出门",
+      "perhaps": "Perhaps we can meet on Saturday.（我们或许周六见？）",
+      "maybe": "Maybe we’ll go to the movies.（也许我们去看电影吧。）",
+      "possibly": "We could possibly take a train instead.（我们也可能坐火车。）",
+      "probably": "It’s probably going to rain.（很可能要下雨。）"
+    },
+    {
+      "scene": "上课迟到",
+      "perhaps": "Perhaps he’s stuck in traffic.（也许他堵车了。）",
+      "maybe": "Maybe he overslept.（可能他睡过头了。）",
+      "possibly": "He possibly missed the bus.（他可能错过了公交。）",
+      "probably": "He probably forgot the class time.（他很可能忘了上课时间。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He maybe is late.",
+      "correction": "✅ He may be late. / Maybe he is late.（maybe 不直接跟动词原形）"
+    },
+    {
+      "error": "❌ Possibly she will come tomorrow, it's sure.",
+      "correction": "✅ Possibly she will come tomorrow, but it's not certain.（possibly 表示不确定，不应和“sure”连用）"
+    },
+    {
+      "error": "❌ He probably not come today.",
+      "correction": "✅ He probably won't come today.（助动词+not 放在一起）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：___ it will snow tonight, so wear a coat.",
+      "options": ["A. Maybe", "B. Probably", "C. Possibly"],
+      "answer": "B",
+      "explanation": "“很可能下雪”，用 probably 最合适。"
+    },
+    {
+      "question": "选择正确句子：",
+      "options": [
+        "A. He maybe is free later.",
+        "B. Maybe he is free later.",
+        "C. He is maybe free later."
+      ],
+      "answer": "B",
+      "explanation": "maybe 通常放句首，不直接修饰动词。"
+    },
+    {
+      "question": "填空：___ we can try calling her again.",
+      "options": ["A. Perhaps", "B. Probably", "C. Sure"],
+      "answer": "A",
+      "explanation": "表达建议或推测的可能性，且较正式时可用 perhaps。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "口诀：maybe口语随便说，perhaps正式见书多，possibly可能性较小，probably八九不离十。",
+    "extended_words": [
+      "likely（很可能）",
+      "unlikely（不太可能）",
+      "doubtful（令人怀疑的）"
+    ]
+  }
+}

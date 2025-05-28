@@ -1,0 +1,95 @@
+{
+  "words": ["grab", "clasp", "grip"],
+  "explanation": {
+    "overview": "这三个词都表示‘抓住’的动作，但语气、方式和使用场景略有不同。",
+    "details": [
+      {
+        "word": "grab",
+        "meaning": "指快速或突然地抓住，通常是本能或情绪驱动的动作。",
+        "example": "He grabbed my arm when he saw the car coming.（他看到车来了就抓住了我的胳膊。）"
+      },
+      {
+        "word": "clasp",
+        "meaning": "通常表示紧紧抱住或双手合拢抓住，多含有温柔、情感成分。",
+        "example": "The child clasped her mother's hand tightly.（孩子紧紧握着妈妈的手。）"
+      },
+      {
+        "word": "grip",
+        "meaning": "强调牢牢抓住、不松手，也常用于抽象意义（如‘掌控’）。",
+        "example": "He gripped the steering wheel with both hands.（他双手紧握方向盘。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气/力度",
+      "grab": "突然、用力",
+      "clasp": "温柔、情感",
+      "grip": "紧紧地、有力地"
+    },
+    {
+      "aspect": "常见对象",
+      "grab": "物体、人、机会",
+      "clasp": "手、胸前双手、亲密动作",
+      "grip": "工具、扶手、情绪等"
+    },
+    {
+      "aspect": "使用频率",
+      "grab": "日常常见，口语中多用",
+      "clasp": "书面或文艺色彩",
+      "grip": "常见，具体与抽象都能用"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "公交车上",
+      "grab": "He quickly grabbed a seat before anyone else.（他迅速抢了个座位。）",
+      "clasp": "She clasped her bag close to her chest.（她把包紧紧抱在胸前。）",
+      "grip": "He gripped the pole tightly when the bus turned.（公交车转弯时他紧握扶杆。）"
+    },
+    {
+      "scene": "家庭场景",
+      "grab": "I’ll grab a snack from the fridge.（我去冰箱拿点吃的。）",
+      "clasp": "The kids clasped hands while singing.（孩子们手拉手唱歌。）",
+      "grip": "She gripped the mop and started cleaning.（她握着拖把开始打扫。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He clasped the opportunity to speak.",
+      "correction": "✅ He grabbed the opportunity to speak.（机会要用 grab，不用 clasp。）"
+    },
+    {
+      "error": "❌ She gripped her necklace gently.",
+      "correction": "✅ She clasped her necklace gently.（clasp 更适合轻柔抓握）"
+    },
+    {
+      "error": "❌ The boy clasped the ladder tightly during the climb.",
+      "correction": "✅ The boy gripped the ladder tightly during the climb.（登梯子强调牢牢抓紧，用 grip）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word fits best? — The baby ___ her mother’s finger softly.",
+      "options": ["A. grabbed", "B. clasped", "C. gripped"],
+      "answer": "B",
+      "explanation": "强调轻柔地握住，用 clasp 更合适。"
+    },
+    {
+      "question": "Choose the correct option: He ___ the rope so he wouldn’t fall.",
+      "options": ["A. clasped", "B. grabbed", "C. gripped"],
+      "answer": "C",
+      "explanation": "此处强调牢牢抓住以防跌落，用 grip。"
+    },
+    {
+      "question": "Which word is most appropriate for describing a sudden action?",
+      "options": ["A. grab", "B. grip", "C. clasp"],
+      "answer": "A",
+      "explanation": "grab 强调突然迅速地抓。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "口诀：grab 抢一下，clasp 情意抓，grip 紧不放。",
+    "extended_words": ["clutch（紧抓）", "hold（握住）", "snatch（猛地抢）"]
+  }
+}

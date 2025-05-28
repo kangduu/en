@@ -1,0 +1,101 @@
+{
+  "words": ["many", "numerous", "multitude"],
+  "explanation": {
+    "overview": "这三个词都表示‘数量多’，但用法和语气不同。",
+    "details": [
+      {
+        "word": "many",
+        "meaning": "表示‘许多’，是最常用且口语化的表达，后面通常接可数名词复数。",
+        "example": "There are many books on the shelf.（书架上有许多书。）"
+      },
+      {
+        "word": "numerous",
+        "meaning": "较正式的词，表示‘大量的’，强调数量很多，通常用于书面语。",
+        "example": "Numerous people attended the meeting.（许多人参加了会议。）"
+      },
+      {
+        "word": "multitude",
+        "meaning": "名词，表示‘大量，众多的人或物’，侧重强调数量极大。",
+        "example": "A multitude of stars lit up the sky.（无数星星照亮了天空。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "词性",
+      "many": "形容词/限定词",
+      "numerous": "形容词",
+      "multitude": "名词"
+    },
+    {
+      "aspect": "正式程度",
+      "many": "口语常用，较随意",
+      "numerous": "较正式，书面语常见",
+      "multitude": "正式，文学或强调大量时用"
+    },
+    {
+      "aspect": "搭配",
+      "many": "直接修饰可数名词复数",
+      "numerous": "直接修饰可数名词复数",
+      "multitude": "作为名词使用，后面可跟“of + 复数名词”"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校课堂",
+      "many": "There are many students in the classroom.（教室里有很多学生。）",
+      "numerous": "Numerous questions were asked after the lecture.（讲座后提出了许多问题。）",
+      "multitude": "A multitude of students gathered in the hall.（许多学生聚集在大厅。）"
+    },
+    {
+      "scene": "自然景象",
+      "many": "Many birds fly south in winter.（许多鸟儿冬天往南飞。）",
+      "numerous": "Numerous flowers bloom in spring.（春天开了许多花。）",
+      "multitude": "A multitude of stars shone in the night sky.（夜空中繁星点点。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ A multitude students came to the event.",
+      "correction": "✅ A multitude of students came to the event.",
+      "explanation": "multitude 是名词，后面需要用 of 连接复数名词。"
+    },
+    {
+      "error": "❌ Numerous of people showed up.",
+      "correction": "✅ Numerous people showed up.",
+      "explanation": "numerous 直接修饰复数名词，不用加 of。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "A. Many cats are playing outside.",
+        "B. Numerous of cats are playing outside.",
+        "C. Multitude cats are playing outside."
+      ],
+      "answer": "A",
+      "explanation": "many 直接修饰复数名词，numerous 不加 of，multitude 是名词需加 of。"
+    },
+    {
+      "question": "Which word is a noun?",
+      "options": ["A. many", "B. numerous", "C. multitude"],
+      "answer": "C",
+      "explanation": "multitude 是名词，表示大量。"
+    },
+    {
+      "question": "Fill in the blank: There were ___ questions after the speech.",
+      "options": ["A. many", "B. numerous", "C. multitude of"],
+      "answer": "B",
+      "explanation": "numerous 形容词，修饰questions。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "口诀：many 和 numerous 都是形容词修饰复数名词，multitude 是名词要用 of。",
+    "extended_words": [
+      "countless（无数的）",
+      "several（几个，少量）",
+      "a lot of（大量的）"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "words": ["waste", "rubbish", "litter", "trash", "garbage"],
+  "explanation": {
+    "overview": "这几个词都表示‘废弃物’，但用法和侧重点有所不同。",
+    "details": [
+      {
+        "word": "waste",
+        "meaning": "泛指浪费的资源或不需要的东西，可以是废物，也可以指浪费行为。",
+        "example": "Don't waste food.（不要浪费食物。）"
+      },
+      {
+        "word": "rubbish",
+        "meaning": "主要在英式英语中指废弃物、垃圾，也可以指无价值的东西或废话。",
+        "example": "Put the rubbish in the bin.（把垃圾扔进垃圾桶。）"
+      },
+      {
+        "word": "litter",
+        "meaning": "指随手乱扔的小垃圾，尤其是在公共场所的垃圾。",
+        "example": "Please don't litter in the park.（请不要在公园乱扔垃圾。）"
+      },
+      {
+        "word": "trash",
+        "meaning": "美式英语中常用的垃圾、废物，通常指家居垃圾。",
+        "example": "Take out the trash, please.（请把垃圾拿出去。）"
+      },
+      {
+        "word": "garbage",
+        "meaning": "美式英语中指厨房垃圾或湿垃圾。",
+        "example": "The garbage smells bad.（垃圾闻起来很臭。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "用法地区",
+      "waste": "普遍，侧重浪费和废弃物",
+      "rubbish": "英式英语常用",
+      "litter": "公共场所乱扔的小垃圾",
+      "trash": "美式英语常用，一般家居垃圾",
+      "garbage": "美式英语中厨房湿垃圾"
+    },
+    {
+      "aspect": "词义侧重",
+      "waste": "浪费和废弃的物品",
+      "rubbish": "废弃物、无用物",
+      "litter": "随地扔的小垃圾",
+      "trash": "废弃物，较通用",
+      "garbage": "厨房湿垃圾"
+    },
+    {
+      "aspect": "动词用法",
+      "waste": "是动词，表示浪费",
+      "rubbish/litter/trash/garbage": "主要名词"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "家庭",
+      "waste": "Don't waste water when brushing your teeth.（刷牙时不要浪费水。）",
+      "rubbish": "Put your rubbish in the bin.（把垃圾扔进垃圾桶。）",
+      "litter": "Some people litter on the street.（有人在街上乱扔垃圾。）",
+      "trash": "Take out the trash before dinner.（晚饭前把垃圾拿出去。）",
+      "garbage": "The garbage needs to be collected today.（今天要收垃圾。）"
+    },
+    {
+      "scene": "公共场所",
+      "waste": "It's wasteful to leave the lights on.（开灯不关很浪费。）",
+      "rubbish": "Don't throw rubbish on the ground.（不要往地上扔垃圾。）",
+      "litter": "Littering is forbidden here.（这里禁止乱扔垃圾。）",
+      "trash": "Trash bins are available in the park.（公园里有垃圾桶。）",
+      "garbage": "Garbage trucks come every morning.（垃圾车每天早上来。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ Please put the litter in the bin.",
+      "correction": "✅ Please put the rubbish/trash in the bin.",
+      "explanation": "litter 指乱扔的垃圾，不用来指代已集中收集的垃圾。"
+    },
+    {
+      "error": "❌ Garbage means any trash.",
+      "correction": "✅ Garbage mainly means kitchen or wet waste in US English.",
+      "explanation": "garbage 多指厨房垃圾，而 trash 更泛指垃圾。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Choose the best word: Don't ___ on the street.",
+      "options": ["A. waste", "B. litter", "C. trash"],
+      "answer": "B",
+      "explanation": "litter 指乱扔垃圾。"
+    },
+    {
+      "question": "Which word is mainly used in British English?",
+      "options": ["A. rubbish", "B. trash", "C. garbage"],
+      "answer": "A",
+      "explanation": "rubbish 是英式英语中‘垃圾’的常用词。"
+    },
+    {
+      "question": "Which word can be a verb meaning ‘to use carelessly’?",
+      "options": ["A. waste", "B. trash", "C. litter"],
+      "answer": "A",
+      "explanation": "waste 可作动词，表示浪费。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "口诀：waste 是浪费和废弃，rubbish 英式垃圾，litter 随地扔垃圾，trash 美式垃圾，garbage 美式厨房湿垃圾。",
+    "extended_words": ["refuse（废弃物）", "debris（碎片）", "junk（废旧物品）"]
+  }
+}

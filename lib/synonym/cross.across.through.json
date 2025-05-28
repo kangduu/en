@@ -1,0 +1,99 @@
+{
+  "words": ["cross", "across", "through"],
+  "explanation": {
+    "overview": "这三个词都表示‘穿过’或‘横越’，但用法和语法功能不同，有的是动词，有的是介词或副词，语境也有所区别。",
+    "details": [
+      {
+        "word": "cross",
+        "meaning": "作为动词，表示从一边到另一边穿越某物；也可作名词。",
+        "example": "We need to cross the street.（我们需要过马路。）"
+      },
+      {
+        "word": "across",
+        "meaning": "通常是介词或副词，表示从一边到另一边，强调横向越过。",
+        "example": "He ran across the field.（他跑过了田野。）"
+      },
+      {
+        "word": "through",
+        "meaning": "表示从内部穿过某物，从一端到另一端，强调‘内部的过程’。",
+        "example": "They walked through the tunnel.（他们走过了隧道。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "词性",
+      "cross": "动词/名词",
+      "across": "介词/副词",
+      "through": "介词/副词"
+    },
+    {
+      "aspect": "动作路径",
+      "cross": "横越（表面）",
+      "across": "横过（从一边到另一边）",
+      "through": "穿过（内部）"
+    },
+    {
+      "aspect": "强调",
+      "cross": "动作本身（动词）",
+      "across": "方向和终点（表面越过）",
+      "through": "过程和路径（内部穿过）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "过马路",
+      "cross": "We crossed the busy street carefully.（我们小心地过了繁忙的马路。）",
+      "across": "She saw her friend across the street.（她看到朋友在街对面。）",
+      "through": "The car drove through the city center.（汽车穿过市中心。）"
+    },
+    {
+      "scene": "在公园里",
+      "cross": "The child crossed the park alone.（孩子独自穿过公园。）",
+      "across": "They threw a ball across the field.（他们把球扔过了球场。）",
+      "through": "We walked through the forest.（我们穿过了森林。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I across the street quickly.",
+      "correction": "✅ I crossed the street quickly.（需要动词 cross）"
+    },
+    {
+      "error": "❌ He walked across the tunnel.",
+      "correction": "✅ He walked through the tunnel.（穿过内部应使用 through）"
+    },
+    {
+      "error": "❌ She ran cross the bridge.",
+      "correction": "✅ She ran across the bridge.（‘cross’动词时不能用在此处）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：We walked ___ the forest and found a cabin.",
+      "options": ["A. across", "B. cross", "C. through"],
+      "answer": "C",
+      "explanation": "穿过‘森林’强调内部，应使用 through。"
+    },
+    {
+      "question": "选择正确答案：He ___ the river using a small boat.",
+      "options": ["A. through", "B. cross", "C. crossed"],
+      "answer": "C",
+      "explanation": "需要动词形式，动作完成，选 crossed。"
+    },
+    {
+      "question": "选择正确答案：The ball rolled ___ the floor and hit the wall.",
+      "options": ["A. across", "B. through", "C. cross"],
+      "answer": "A",
+      "explanation": "强调表面越过，使用 across。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记忆口诀：cross 是动词（去做的动作），across 是表面（横着过），through 是内部（从中穿）。",
+    "extended_words": [
+      "pass through（通过）",
+      "walk across（横穿）",
+      "get through（熬过，穿过）"
+    ]
+  }
+}

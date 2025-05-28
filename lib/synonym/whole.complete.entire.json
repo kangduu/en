@@ -1,0 +1,93 @@
+{
+  "words": ["whole", "complete", "entire"],
+  "explanation": {
+    "overview": "这三个词都表示‘全部的、完整的’意思，但用法和侧重点略有不同。",
+    "details": [
+      {
+        "word": "whole",
+        "meaning": "强调整体，没有缺少部分，常用于具体事物。",
+        "example": "I ate the whole cake.（我吃了整个蛋糕。）"
+      },
+      {
+        "word": "complete",
+        "meaning": "强调某事物已达到所有必要部分或步骤，强调‘完成’的状态。",
+        "example": "The project is complete.（项目已完成。）"
+      },
+      {
+        "word": "entire",
+        "meaning": "类似 whole，强调‘全部’，通常比 whole 更正式，适用于具体和抽象事物。",
+        "example": "He read the entire book in one day.（他一天读完了整本书。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "含义",
+      "whole": "整体，无缺少部分",
+      "complete": "全部组成部分齐全，完成状态",
+      "entire": "全部，强调整体的范围"
+    },
+    {
+      "aspect": "使用对象",
+      "whole": "具体物体或时间段（whole day）",
+      "complete": "事情、任务、动作（complete the task）",
+      "entire": "具体或抽象事物（entire life）"
+    },
+    {
+      "aspect": "语气",
+      "whole": "口语中非常常用",
+      "complete": "强调完成，偏正式",
+      "entire": "正式，书面语多"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "吃饭",
+      "whole": "She ate the whole pizza.（她吃了整个披萨。）",
+      "complete": "The meal is complete with dessert.（这顿饭包括甜点，算完整了。）",
+      "entire": "He finished the entire meal by himself.（他独自吃完了整顿饭。）"
+    },
+    {
+      "scene": "学习",
+      "whole": "I spent the whole day studying.（我学习了一整天。）",
+      "complete": "I have completed my homework.（我完成了作业。）",
+      "entire": "She read the entire book over the weekend.（她周末读完了整本书。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I completed the whole book.",
+      "correction": "✅ I completed the entire book. 或 I read the whole book.",
+      "explanation": "complete 常用来表示‘完成任务’，不直接用来表示‘读完整本书’。"
+    },
+    {
+      "error": "❌ I ate the complete cake.",
+      "correction": "✅ I ate the whole cake.",
+      "explanation": "complete 不用于具体物体的‘整体’。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Choose the best word: I spent the ___ day at the park.",
+      "options": ["A. whole", "B. complete", "C. entire"],
+      "answer": "A",
+      "explanation": "day 是具体时间段，用 whole 更自然。"
+    },
+    {
+      "question": "Select the correct sentence.",
+      "options": ["A. The project is whole.", "B. The project is complete."],
+      "answer": "B",
+      "explanation": "项目完成用 complete。"
+    },
+    {
+      "question": "Which word fits? — He read the ___ novel in one sitting.",
+      "options": ["A. complete", "B. whole", "C. entire"],
+      "answer": "C",
+      "explanation": "强调整本书，用 entire 更正式。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "口诀：whole 用于整体（物体、时间），complete 用于完成状态，entire 用于正式表达整体。",
+    "extended_words": ["full（完全的）", "total（总共的）", "all（全部的）"]
+  }
+}
