@@ -1,14 +1,16 @@
 "use client";
+
 import { useRouter } from "next/navigation";
 import React, { type FC } from "react";
 import { HeaderLinkPathMapping } from "@/lib/navigation";
-import NewConcept from "@/components/NewConcept";
+import NewConcept from "@/app/nce/NewConcept";
+import Subhead from "@/components/Subhead";
 
 const Books: FC = () => {
   const router = useRouter();
   return (
     <>
-      <h2 className="uppercase text-primary-500">new concept english</h2>
+      <Subhead>new concept english</Subhead>
       <NewConcept
         showList
         clickable={false}

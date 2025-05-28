@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   reactStrictMode: false, // log 两次
   //
   // output: "export",
+
+  //* Disabled Dev Tools  */
+  devIndicators: false,
 };
 
 export default nextConfig;

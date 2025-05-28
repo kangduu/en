@@ -4,7 +4,7 @@ import { NewConceptBooks, type BookLink } from "@/lib/navigation";
 import type { NewConceptBookKey } from "@/utils/constant";
 import React, { useEffect, useState } from "react";
 import { getCourses, type Course } from "@/lib/books";
-import { Card } from "./ui/card";
+import { Card } from "../../components/ui/card";
 
 interface BookListProps {
   book: NewConceptBookKey;
