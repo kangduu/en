@@ -17,6 +17,7 @@ import SearchButton from "./button";
 interface SearchDialogProps {
   title?: React.ReactNode;
   onSubmit?: (value: string) => React.ReactNode | void;
+  buttonProps?: Omit<Parameters<typeof SearchButton>[number], "onClick">;
 }
 
 export default function SearchDialog({
@@ -45,7 +46,7 @@ export default function SearchDialog({
   const [open, setOpen] = useState(false);
   return (
     <>
-      <SearchButton onClick={() => setOpen(true)} />
+      <SearchButton onClick={() => setOpen(true)} {...props.buttonProps} />
       <Dialog
         open={open}
         onOpenChange={(open) => {
