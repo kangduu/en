@@ -1,36 +1,105 @@
 "use client";
 
-import { Search } from "@icon-park/react";
-import React from "react";
-import { Button } from "./ui/button";
+import React, { useRef, useState } from "react";
+import { Button, SearchButton } from "./ui/button";
 import {
   Dialog,
-  DialogTrigger,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogDescription,
+  DialogFooter,
+  DialogClose,
 } from "./ui/dialog";
 import { Input } from "./ui/input";
 
-export default function SearchDialog() {
+interface SearchDialogProps {
+  title?: React.ReactNode;
+  onSubmit?: (value: string) => React.ReactNode | void;
+}
+
+export default function SearchDialog({
+  onSubmit,
+  ...props
+}: SearchDialogProps) {
+  const InputRef = useRef<HTMLInputElement>(null);
+  const [value, setValue] = useState("");
+  const [error, setError] = useState("");
+  const [result, setResult] = useState<React.ReactNode>(null);
+
+  const handleSearch = () => {
+    const content = value?.trim();
+    if (!content) {
+      InputRef.current?.focus?.();
+      return setError("content cannot be empty!");
+    }
+
+    if (error) setError("");
+
+    const res = onSubmit?.(content);
+    if (typeof res !== "boolean" && typeof res !== "undefined" && res !== null)
+      setResult(res);
+  };
+
+  const [open, setOpen] = useState(false);
   return (
-    <Dialog>
-      <DialogTrigger asChild>
-        <Button variant="ghost">
-          <Search />
-        </Button>
-      </DialogTrigger>
-      <DialogContent className="sm:max-w-[425px]">
-        <DialogHeader>
-          <DialogTitle>Search Content</DialogTitle>
-          <DialogDescription>
-            {`Enter your content here. Click search when you're done.`}
-          </DialogDescription>
-        </DialogHeader>
-        <Input />
-      </DialogContent>
-    </Dialog>
+    <>
+      <SearchButton onClick={() => setOpen(true)} />
+      <Dialog
+        open={open}
+        onOpenChange={(open) => {
+          console.log(open);
+          if (open) {
+            setValue("");
+            setError("");
+            setResult(null);
+          } else setOpen(false);
+        }}
+      >
+        <DialogContent className="sm:max-w-[425px] max-w-[90%]">
+          <DialogHeader>
+            <DialogTitle>
+              {"title" in props ? props.title : "Search"}
+            </DialogTitle>
+            <DialogDescription>
+              {`Enter your content here. Click search when you're done.`}
+            </DialogDescription>
+          </DialogHeader>
+
+          {/* input field */}
+          <div>
+            <Input
+              autoFocus
+              ref={InputRef}
+              value={value}
+              onChange={(e) => {
+                setValue(e.target.value);
+              }}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  e.preventDefault();
+                  handleSearch();
+                }
+              }}
+            />
+            {error && (
+              <div className="text-sm text-red-400 leading-6 pl-2">{error}</div>
+            )}
+          </div>
+
+          {/* search list */}
+          {result}
+
+          <DialogFooter>
+            <DialogClose asChild>
+              <Button variant="outline">Cancel</Button>
+            </DialogClose>
+            <Button type="submit" onClick={handleSearch}>
+              Submit
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+    </>
   );
 }
- 
