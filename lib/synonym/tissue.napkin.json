@@ -1,0 +1,86 @@
+{
+  "words": ["tissue", "napkin"],
+  "explanation": {
+    "overview": "这两个词都与擦拭有关，但用法和场合不同。",
+    "details": [
+      {
+        "word": "tissue",
+        "meaning": "通常指一次性纸巾，用来擦鼻涕、脸部等，也称‘面巾纸’。",
+        "example": "I always carry tissues in my bag for a runny nose.（我包里总带着纸巾以防流鼻涕。）"
+      },
+      {
+        "word": "napkin",
+        "meaning": "通常指餐巾，用于吃饭时擦嘴或手，可以是纸质或布制的。",
+        "example": "Please use a napkin to wipe your mouth.（请用餐巾擦擦嘴。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "主要用途",
+      "tissue": "擦鼻涕、擦脸、日常清洁",
+      "napkin": "吃饭时擦嘴、擦手"
+    },
+    {
+      "aspect": "材质",
+      "tissue": "多为纸质，薄且柔软",
+      "napkin": "纸质或布质，通常比tissue更厚"
+    },
+    {
+      "aspect": "使用场合",
+      "tissue": "日常生活、卫生间等",
+      "napkin": "餐桌、餐厅"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "吃饭时",
+      "tissue": "I don’t need a tissue now, I need a napkin for dinner.",
+      "napkin": "She folded the napkin nicely on her lap."
+    },
+    {
+      "scene": "感冒时",
+      "tissue": "He blew his nose with a tissue.",
+      "napkin": "—（通常不会用napkin来擦鼻涕）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ Can you give me a napkin to blow my nose?",
+      "correction": "✅ Can you give me a tissue to blow my nose?",
+      "explanation": "擦鼻涕用 tissue，更适合。"
+    },
+    {
+      "error": "❌ Use a tissue to wipe your mouth during dinner.",
+      "correction": "✅ Use a napkin to wipe your mouth during dinner.",
+      "explanation": "吃饭时擦嘴用 napkin。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which do you use to wipe your nose?",
+      "options": ["A. tissue", "B. napkin"],
+      "answer": "A",
+      "explanation": "擦鼻涕通常用 tissue。"
+    },
+    {
+      "question": "Which do you place on your lap during a meal?",
+      "options": ["A. tissue", "B. napkin"],
+      "answer": "B",
+      "explanation": "吃饭时用 napkin，通常放在膝上。"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "A. I need a napkin to blow my nose.",
+        "B. I need a tissue to blow my nose."
+      ],
+      "answer": "B",
+      "explanation": "吹鼻涕用 tissue。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住：tissue 多用于卫生清洁，napkin 多用于餐桌礼仪。",
+    "extended_words": ["handkerchief（手帕，布制，可重复使用）"]
+  }
+}

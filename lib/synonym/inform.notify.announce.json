@@ -1,0 +1,100 @@
+{
+  "words": ["inform", "announce", "notify"],
+  "explanation": {
+    "overview": "这三个词都涉及“告知”或“通知”，但它们的使用对象、方式和语境有细微差别。",
+    "details": [
+      {
+        "word": "inform",
+        "meaning": "强调向某人提供信息，语气中性且正式，可用于书面或口语。",
+        "example": "The teacher informed the students about the test.（老师通知学生考试的事。）"
+      },
+      {
+        "word": "announce",
+        "meaning": "强调公开地宣告某件重要事情，常用于正式或公众场合。",
+        "example": "The company announced the new product launch.（公司宣布新产品发布。）"
+      },
+      {
+        "word": "notify",
+        "meaning": "语气比 inform 更正式，通常用于官方或书面通知，多与法律或商业场景有关。",
+        "example": "You will be notified of any changes by email.（你会收到邮件通知任何更改。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气正式度",
+      "inform": "中性、正式",
+      "announce": "正式且公开",
+      "notify": "非常正式、常书面"
+    },
+    {
+      "aspect": "告知方式",
+      "inform": "口头或书面皆可",
+      "announce": "通常为公开发表",
+      "notify": "多用于书面，常涉及责任/程序"
+    },
+    {
+      "aspect": "对象范围",
+      "inform": "个体或群体",
+      "announce": "公众/媒体",
+      "notify": "个人或特定对象"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校通知",
+      "inform": "The principal informed the parents about the new policy.",
+      "announce": "The school announced the holiday on its website.",
+      "notify": "Parents were notified by email about the schedule change."
+    },
+    {
+      "scene": "公司环境",
+      "inform": "She informed her boss that she would be late.",
+      "announce": "The CEO announced the merger in a press conference.",
+      "notify": "The HR department notified all employees of the new policy."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The company informed a new project to the public.",
+      "correction": "✅ The company announced a new project to the public.",
+      "explanation": "面向公众用 announce，更自然准确。"
+    },
+    {
+      "error": "❌ I will notify you that I’m coming.",
+      "correction": "✅ I will inform you that I’m coming.",
+      "explanation": "notify 多用于正式通知或变更情况，此处 inform 更合适。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which verb is best for a public speech?",
+      "options": ["A. inform", "B. notify", "C. announce"],
+      "answer": "C",
+      "explanation": "公开宣告信息时用 announce。"
+    },
+    {
+      "question": "Which is more commonly used in official letters?",
+      "options": ["A. inform", "B. notify", "C. announce"],
+      "answer": "B",
+      "explanation": "notify 更常见于正式书面通知。"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "A. She announced me about the change.",
+        "B. She informed me about the change."
+      ],
+      "answer": "B",
+      "explanation": "inform 可用于个人之间的告知；announce 后不能直接接人。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记忆提示：announce 面向大众，inform 面向个人，notify 多用于正式书面。",
+    "extended_words": [
+      "proclaim（郑重宣布）",
+      "declare（正式声明）",
+      "report（报告）"
+    ]
+  }
+}

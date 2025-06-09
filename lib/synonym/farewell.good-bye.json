@@ -1,0 +1,90 @@
+{
+  "words": ["farewell", "good-bye"],
+  "explanation": {
+    "overview": "这两个词都表示‘再见’，但语气和使用场合不同。",
+    "details": [
+      {
+        "word": "farewell",
+        "meaning": "较正式且带有仪式感的告别，常用于长期离别、正式场合或文学中。",
+        "example": "They held a farewell party for their teacher.（他们为老师举办了欢送会。）"
+      },
+      {
+        "word": "good-bye",
+        "meaning": "最常见、口语化的‘再见’（亦可写作 goodbye/Good-bye），适用于日常任何告别场合。",
+        "example": "Good-bye! See you tomorrow.（再见！明天见。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "正式程度",
+      "farewell": "正式、庄重",
+      "good-bye": "口语最常用"
+    },
+    {
+      "aspect": "情感色彩",
+      "farewell": "带离别感、可能较伤感",
+      "good-bye": "中性，日常"
+    },
+    {
+      "aspect": "典型场景",
+      "farewell": "毕业典礼、送别宴、文学作品",
+      "good-bye": "朋友日常道别、打电话结束"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "同学毕业",
+      "farewell": "The principal gave a touching farewell speech.（校长发表了感人的告别演讲。）",
+      "good-bye": "We hugged and said good-bye after the ceremony.（典礼后我们拥抱并道别。）"
+    },
+    {
+      "scene": "电话结束",
+      "farewell": "—",
+      "good-bye": "Okay, talk to you later. Good-bye!（好，回头聊，再见！）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He said me farewell quickly.",
+      "correction": "✅ He bade me farewell quickly. / He said farewell to me quickly.",
+      "explanation": "farewell 需与 say farewell to 或 bid farewell 搭配。"
+    },
+    {
+      "error": "❌ They held a good-bye ceremony for the CEO.",
+      "correction": "✅ They held a farewell ceremony for the CEO.",
+      "explanation": "正式仪式用 farewell 更自然。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Choose the more formal word for a leaving-party invitation:",
+      "options": ["A. good-bye", "B. farewell"],
+      "answer": "B",
+      "explanation": "正式场合应使用 farewell。"
+    },
+    {
+      "question": "Fill in the blank: She waved and said ___ before getting on the bus.",
+      "options": ["A. farewell", "B. good-bye"],
+      "answer": "B",
+      "explanation": "日常场景用 good-bye 更自然。"
+    },
+    {
+      "question": "Which sentence is correct?",
+      "options": [
+        "A. We farewell our colleague at the airport.",
+        "B. We said farewell to our colleague at the airport."
+      ],
+      "answer": "B",
+      "explanation": "farewell 需与 say/bid 等动词搭配。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记忆：farewell＝正式长别；good-bye＝日常再见。",
+    "extended_words": [
+      "so long（较随意的‘再会’）",
+      "see you（口语再见）",
+      "adieu（法式文学用语，永别）"
+    ]
+  }
+}

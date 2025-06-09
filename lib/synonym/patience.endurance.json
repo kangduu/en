@@ -1,0 +1,90 @@
+{
+  "words": ["patience", "endurance"],
+  "explanation": {
+    "overview": "这两个词都与‘忍耐’有关，但表达的侧重点不同。",
+    "details": [
+      {
+        "word": "patience",
+        "meaning": "指在等待、面对困难或令人烦躁的事情时保持冷静和不急躁。",
+        "example": "She waited with great patience for her turn.（她非常有耐心地等候自己的顺序。）"
+      },
+      {
+        "word": "endurance",
+        "meaning": "强调在长期的痛苦或压力中坚持下去的能力，更强调身体或心理的承受力。",
+        "example": "Running a marathon requires a lot of endurance.（跑马拉松需要极大的耐力。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "含义侧重",
+      "patience": "情绪管理，指冷静、沉稳",
+      "endurance": "忍受力，强调承受痛苦或压力"
+    },
+    {
+      "aspect": "典型场景",
+      "patience": "排队、教学、带小孩",
+      "endurance": "运动、疾病、长时间困难"
+    },
+    {
+      "aspect": "词性搭配",
+      "patience": "have patience, show patience",
+      "endurance": "build endurance, test one’s endurance"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "照顾孩子",
+      "patience": "You need a lot of patience to care for a toddler.（照顾学步儿童需要很多耐心。）",
+      "endurance": "—"
+    },
+    {
+      "scene": "运动训练",
+      "patience": "—",
+      "endurance": "Cycling for hours builds endurance.（骑行数小时有助于增强耐力。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He has strong patience to run long distances.",
+      "correction": "✅ He has strong endurance to run long distances.",
+      "explanation": "跑步等体力活动强调 endurance 而非 patience。"
+    },
+    {
+      "error": "❌ She has great endurance with noisy kids.",
+      "correction": "✅ She has great patience with noisy kids.",
+      "explanation": "面对孩子的吵闹是情绪上的忍耐，应使用 patience。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word fits best: ‘Learning a language takes a lot of ___.’",
+      "options": ["A. endurance", "B. patience"],
+      "answer": "B",
+      "explanation": "学语言需要冷静和坚持，patience 更合适。"
+    },
+    {
+      "question": "Which is more related to physical strength?",
+      "options": ["A. patience", "B. endurance"],
+      "answer": "B",
+      "explanation": "endurance 强调身体或心理承受力。"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "A. He showed great endurance while waiting in line.",
+        "B. He showed great patience while waiting in line."
+      ],
+      "answer": "B",
+      "explanation": "排队属于情绪上的等待，应使用 patience。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "口诀记忆：patience → 情绪的冷静；endurance → 身体的坚持。",
+    "extended_words": [
+      "tolerance（容忍）",
+      "resilience（复原力）",
+      "perseverance（毅力）"
+    ]
+  }
+}

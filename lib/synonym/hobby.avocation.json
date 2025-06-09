@@ -1,0 +1,86 @@
+{
+  "words": ["hobby", "avocation"],
+  "explanation": {
+    "overview": "这两个词都表示‘兴趣’或‘业余爱好’，但使用频率和语气不同。",
+    "details": [
+      {
+        "word": "hobby",
+        "meaning": "最常见的词，指人们在空闲时间里喜欢做的事情，纯粹出于兴趣。",
+        "example": "Reading is my favorite hobby.（阅读是我最喜欢的爱好。）"
+      },
+      {
+        "word": "avocation",
+        "meaning": "较正式、较少见的词，指除了本职工作外的兴趣活动，有时可能带有收入或专业性的倾向。",
+        "example": "Photography started as an avocation but became his second career.（摄影起初是他的业余爱好，后来变成了第二职业。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "使用频率",
+      "hobby": "非常常见",
+      "avocation": "较少使用，偏书面语"
+    },
+    {
+      "aspect": "正式程度",
+      "hobby": "口语/书面都适合",
+      "avocation": "更正式，常用于书面或文学语境"
+    },
+    {
+      "aspect": "是否可能带来收入",
+      "hobby": "通常纯粹为兴趣",
+      "avocation": "有时可能是副业，带有专业性"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "介绍自己",
+      "hobby": "My hobbies are painting and playing guitar.（我的爱好是画画和弹吉他。）",
+      "avocation": "As a lawyer, his avocation is writing historical novels.（作为律师，他的业余爱好是写历史小说。）"
+    },
+    {
+      "scene": "工作之余",
+      "hobby": "She spends weekends on her hobby — gardening.（她周末都在园艺这项爱好上。）",
+      "avocation": "His avocation as a sculptor is well-known in the local art community.（他作为雕塑家的业余身份在当地艺术圈很有名。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ Avocation means the same as vocation.",
+      "correction": "✅ Vocation 指职业，avocation 指业余爱好，两者相反。"
+    },
+    {
+      "error": "❌ I don’t have any avocations. (日常口语)",
+      "correction": "✅ I don’t have any hobbies.",
+      "explanation": "avocation 太正式，不适合日常口语使用。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word is more commonly used in everyday conversation?",
+      "options": ["A. Hobby", "B. Avocation"],
+      "answer": "A",
+      "explanation": "hobby 是日常英语中更常用的词。"
+    },
+    {
+      "question": "Fill in the blank: Writing poems is just an ____, not my job.",
+      "options": ["A. occupation", "B. vocation", "C. avocation"],
+      "answer": "C",
+      "explanation": "avocation 指业余爱好，和职业（occupation）区分。"
+    },
+    {
+      "question": "Which word might imply some professional or income-generating activity?",
+      "options": ["A. Hobby", "B. Avocation"],
+      "answer": "B",
+      "explanation": "avocation 有时可能是副业，有收入。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住：hobby 是兴趣，avocation 是‘认真对待的兴趣’。",
+    "extended_words": [
+      "pastime（消遣）",
+      "vocation（职业）",
+      "side hustle（副业，口语）"
+    ]
+  }
+}
