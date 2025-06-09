@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef, useState } from "react";
-import { Button, SearchButton } from "./ui/button";
+import { Button } from "../ui/button";
 import {
   Dialog,
   DialogContent,
@@ -10,8 +10,9 @@ import {
   DialogDescription,
   DialogFooter,
   DialogClose,
-} from "./ui/dialog";
-import { Input } from "./ui/input";
+} from "../ui/dialog";
+import { Input } from "../ui/input";
+import SearchButton from "./button";
 
 interface SearchDialogProps {
   title?: React.ReactNode;
