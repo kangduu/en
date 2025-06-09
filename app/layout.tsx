@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="en" className="light">
       <body
         role="contentinfo"
-        className={`antialiased bg-white dark:bg-[var(--background)] dark:text-white text-base`}
+        className={`antialiased bg-[var(--background)] dark:text-white text-base`}
       >
         <Main>{children}</Main>
       </body>
