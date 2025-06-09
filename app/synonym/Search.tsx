@@ -1,24 +1,50 @@
 "use client";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Search } from "@icon-park/react";
-import React, { useRef } from "react";
 
-export default function SearchSynonym() {
-  const inputRef = useRef<HTMLInputElement>(null);
-  const handleSearch = () => {
-    if (!inputRef.current) return;
-    // Perform search action with the input value
-    inputRef.current.focus();
+import SearchDialog from "@/components/search/dialog";
+import Subhead from "@/components/Subhead";
+import Empty from "@/components/svg/Empty";
+import RenderTarget from "./RenderTarget";
+
+const NoData = (
+  <div className="w-[70%]  mx-auto">
+    <Empty.search />
+  </div>
+);
+
+interface SearchSynonymProps {
+  list: string[];
+}
+
+export default function SearchSynonym({ list }: SearchSynonymProps) {
+  const handleSearch = (searchValue: string) => {
+    if (Array.isArray(list)) {
+      const targets = list.filter((item) => {
+        const word = item.split(".");
+        return word.includes(searchValue);
+      });
+
+      if (targets.length > 0) {
+        return targets.map((words) => (
+          <RenderTarget path={words} key={words} />
+        ));
+      }
+
+      return NoData;
+    }
+
+    return NoData;
   };
 
-  return <Search />;
   return (
-    <div className="flex items-center justify-center cursor-pointer">
-      <Input ref={inputRef} placeholder="enter a word" className="mr-2" />
-      <Button variant="secondary" onClick={handleSearch}>
-        <Search />
-      </Button>
-    </div>
+    <Subhead
+      extra={
+        <SearchDialog
+          onSubmit={handleSearch}
+          // buttonProps={{ variant: "link" }}
+        />
+      }
+    >
+      Synonymous
+    </Subhead>
   );
 }
