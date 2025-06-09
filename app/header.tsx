@@ -20,8 +20,8 @@ import { Github, HamburgerButton } from "@icon-park/react";
 
 export default function Navigation() {
   return (
-    <header className="w-full h-fit md:py-2 border-b-1 sticky top-0 bg-[var(--background)] z-50">
-      <div className="max-w-[1024px] p-4 mx-auto flex items-center justify-between">
+    <header className="w-full h-fit py-4 md:py-2 border-b-1 sticky top-0 bg-[var(--background)] z-50">
+      <div className="max-w-[1024px] px-4 mx-auto flex items-center justify-between">
         {/* 移动导航 (隐藏于桌面端) */}
         <div className="md:hidden flex items-center mr-2">
           <NativeNavMenu />
