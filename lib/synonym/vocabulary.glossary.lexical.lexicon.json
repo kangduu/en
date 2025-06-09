@@ -1,0 +1,98 @@
+{
+  "words": ["vocabulary", "glossary", "lexical", "lexicon"],
+  "explanation": {
+    "overview": "这几个词都与‘词汇’有关，但用法和侧重点不同。",
+    "details": [
+      {
+        "word": "vocabulary",
+        "meaning": "词汇，指一个人知道或使用的单词集合，也可以指一门语言的全部单词。",
+        "example": "Children learn new vocabulary every day.（孩子们每天都在学习新词汇。）"
+      },
+      {
+        "word": "glossary",
+        "meaning": "术语表，指书末或某个主题专门词汇的解释列表。",
+        "example": "Check the glossary for unfamiliar words.（查阅术语表了解不熟悉的词。）"
+      },
+      {
+        "word": "lexical",
+        "meaning": "词汇的；与词汇有关的，是一个形容词，常用于语言学。",
+        "example": "Lexical knowledge helps with reading comprehension.（词汇知识有助于阅读理解。）"
+      },
+      {
+        "word": "lexicon",
+        "meaning": "词典；词汇表；某人或某领域的词汇总集。",
+        "example": "The medical lexicon includes many Latin words.（医学词汇中包括许多拉丁词。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "词性",
+      "vocabulary": "名词",
+      "glossary": "名词",
+      "lexical": "形容词",
+      "lexicon": "名词"
+    },
+    {
+      "aspect": "使用范围",
+      "vocabulary": "个人/语言/教材中的词汇",
+      "glossary": "书籍/主题相关词汇表",
+      "lexical": "与词汇相关的（形容词）",
+      "lexicon": "正式或专业领域词汇集合"
+    },
+    {
+      "aspect": "常见搭配",
+      "vocabulary": "expand/improve/build vocabulary",
+      "glossary": "a glossary of terms",
+      "lexical": "lexical resource/analysis",
+      "lexicon": "the English lexicon"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "英语学习",
+      "vocabulary": "My vocabulary is getting better with daily reading.（我每天读书，词汇量在增加。）",
+      "glossary": "This textbook includes a glossary at the end.（这本教材最后附有术语表。）",
+      "lexical": "Lexical skills are tested in language exams.（语言考试会考察词汇能力。）",
+      "lexicon": "You can look that word up in the online lexicon.（你可以在在线词汇库中查这个词。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He has a good lexical.",
+      "correction": "✅ He has a good vocabulary.（‘lexical’是形容词，不可用作名词。）"
+    },
+    {
+      "error": "❌ I made a glossary to learn new words in daily speech.",
+      "correction": "✅ I built my vocabulary to improve daily speech.（‘glossary’是术语表，不适合日常用词学习。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She improved her ___ by reading novels.",
+      "options": ["A. glossary", "B. vocabulary", "C. lexicon", "D. lexical"],
+      "answer": "B",
+      "explanation": "用于描述个人掌握的词汇，应选 vocabulary。"
+    },
+    {
+      "question": "选择正确答案：The book includes a ___ of technical terms.",
+      "options": ["A. vocabulary", "B. lexical", "C. glossary", "D. lexicon"],
+      "answer": "C",
+      "explanation": "术语表应使用 glossary。"
+    },
+    {
+      "question": "选择正确答案：The ___ structure of this language is complex.",
+      "options": ["A. glossary", "B. lexical", "C. vocabulary", "D. lexicon"],
+      "answer": "B",
+      "explanation": "形容词修饰结构，应选 lexical。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记忆方法：vocabulary 是自己掌握的词汇；glossary 是书后的小词表；lexicon 更学术正式；lexical 是形容词用法。",
+    "extended_words": [
+      "terminology（术语）",
+      "dictionary（字典）",
+      "thesaurus（同义词词典）"
+    ]
+  }
+}

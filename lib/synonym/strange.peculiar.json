@@ -1,0 +1,87 @@
+{
+  "words": ["strange", "peculiar"],
+  "explanation": {
+    "overview": "这两个词都表示‘奇怪的’，但语气和语境有所不同。",
+    "details": [
+      {
+        "word": "strange",
+        "meaning": "泛指不寻常或难以理解的事物，常用于日常口语，语气较广泛。",
+        "example": "That food tastes strange.（那食物尝起来怪怪的。）"
+      },
+      {
+        "word": "peculiar",
+        "meaning": "强调某物奇特、不同于常规，带有独特甚至不太舒服的意味，语气比 strange 更具体和正式一些。",
+        "example": "She has a peculiar way of laughing.（她笑的方式很特别。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气强度",
+      "strange": "一般",
+      "peculiar": "更具体，有强调"
+    },
+    {
+      "aspect": "使用频率",
+      "strange": "高，常用",
+      "peculiar": "中等，较正式"
+    },
+    {
+      "aspect": "感情色彩",
+      "strange": "可能中性或负面",
+      "peculiar": "略带负面或讽刺"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "朋友聚餐",
+      "strange": "This soup tastes strange.（这汤尝起来怪怪的。）",
+      "peculiar": "There’s a peculiar smell in the kitchen.（厨房里有种怪味。）"
+    },
+    {
+      "scene": "课堂观察",
+      "strange": "That student gave a strange answer.",
+      "peculiar": "He has a peculiar accent when he speaks English."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ His clothes are very strange to our culture.",
+      "correction": "✅ His clothes are peculiar to our culture.",
+      "explanation": "描述‘某地特有的’习惯或特征时用 peculiar to，更贴切。"
+    },
+    {
+      "error": "❌ She has a strange behavior in class.",
+      "correction": "✅ She has peculiar behavior in class.",
+      "explanation": "行为方式的怪异或不寻常用 peculiar 更自然。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word is more often used in casual conversation?",
+      "options": ["A. strange", "B. peculiar"],
+      "answer": "A",
+      "explanation": "strange 更口语化，使用频率更高。"
+    },
+    {
+      "question": "Choose the more accurate word: He has a ___ habit of counting his steps.",
+      "options": ["A. strange", "B. peculiar"],
+      "answer": "B",
+      "explanation": "peculiar 更强调个人特殊、独特的行为。"
+    },
+    {
+      "question": "Which word could suggest a slightly unpleasant feeling?",
+      "options": ["A. strange", "B. peculiar"],
+      "answer": "B",
+      "explanation": "peculiar 有时带有令人不舒服的意味。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "strange 更广泛，peculiar 更强调‘奇特/怪异’的性质。",
+    "extended_words": [
+      "odd（奇怪但常带幽默）",
+      "weird（怪得令人困惑或不舒服）",
+      "bizarre（极端古怪）"
+    ]
+  }
+}

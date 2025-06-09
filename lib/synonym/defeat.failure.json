@@ -1,0 +1,89 @@
+{
+  "words": ["defeat", "failure"],
+  "explanation": {
+    "overview": "这两个词都与“不成功”有关，但语境和侧重点不同。",
+    "details": [
+      {
+        "word": "defeat",
+        "meaning": "指在竞争或对抗中被打败，多用于比赛、战争等双方对抗的情境。",
+        "example": "Our team suffered a heavy defeat in the final.（我们队在决赛中惨败。）"
+      },
+      {
+        "word": "failure",
+        "meaning": "泛指未达到目标或未成功，可以用于生活、考试、工作等多种情境。",
+        "example": "The project ended in failure.（这个项目以失败告终。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "词性",
+      "defeat": "名词/动词（常用作名词）",
+      "failure": "名词"
+    },
+    {
+      "aspect": "是否涉及对抗",
+      "defeat": "是，强调被对手打败",
+      "failure": "否，泛指没成功"
+    },
+    {
+      "aspect": "语气强度",
+      "defeat": "较强，通常涉及明显失败",
+      "failure": "可强可弱，范围广"
+    },
+    {
+      "aspect": "常见场景",
+      "defeat": "比赛、战争、辩论",
+      "failure": "考试、目标、系统、计划"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校考试",
+      "defeat": "The chess team suffered defeat in the tournament.（象棋队在比赛中输了。）",
+      "failure": "His failure in math worried his parents.（他数学不及格让父母很担心。）"
+    },
+    {
+      "scene": "工作项目",
+      "defeat": "Our marketing strategy was defeated by the competitor’s plan.（我们的市场策略被对手击败了。）",
+      "failure": "The product launch was a complete failure.（产品发布完全失败了。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The company faced a defeat in sales this year.",
+      "correction": "✅ The company faced a failure in sales this year.（销售失败不用 defeat，因为没有明显对手。）"
+    },
+    {
+      "error": "❌ We had a failure in the football match.",
+      "correction": "✅ We had a defeat in the football match.（比赛中输掉用 defeat 更贴切。）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word best fits? — The system crash was a total ___.",
+      "options": ["A. defeat", "B. failure"],
+      "answer": "B",
+      "explanation": "系统崩溃属于非对抗类失败，用 failure。"
+    },
+    {
+      "question": "Choose the best word: Our team suffered a ___ in the finals.",
+      "options": ["A. failure", "B. defeat"],
+      "answer": "B",
+      "explanation": "体育比赛中输掉常用 defeat。"
+    },
+    {
+      "question": "Select the correct sentence.",
+      "options": [
+        "A. His defeat to achieve his goals made him sad.",
+        "B. His failure to achieve his goals made him sad."
+      ],
+      "answer": "B",
+      "explanation": "没有对抗语境，应使用 failure。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "口诀：defeat 是‘被打败’，failure 是‘未成功’；比赛输是 defeat，目标没达是 failure。",
+    "extended_words": ["loss（失利）", "setback（挫折）", "collapse（崩溃）"]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "words": ["petrol", "gasoline"],
+  "explanation": {
+    "overview": "两个词都表示‘汽油’，但用在不同的英语地区。",
+    "details": [
+      {
+        "word": "petrol",
+        "meaning": "英式英语用词，指汽车使用的汽油。",
+        "example": "Petrol prices have gone up again in the UK.（英国汽油价格又涨了。）"
+      },
+      {
+        "word": "gasoline",
+        "meaning": "美式英语用词，含义与‘petrol’相同。",
+        "example": "Gasoline is cheaper in the US than in many other countries.（美国的汽油比很多国家都便宜。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "地区用法",
+      "petrol": "英式英语（British English）",
+      "gasoline": "美式英语（American English）"
+    },
+    {
+      "aspect": "正式程度",
+      "petrol": "日常用语",
+      "gasoline": "稍正式，但广泛使用"
+    },
+    {
+      "aspect": "缩略/别称",
+      "petrol": "无常用缩略词",
+      "gasoline": "常缩写为“gas”（注意：在美国“gas”通常指 gasoline，而不是气体）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "加油站",
+      "petrol": "I need to fill the car with petrol.（我得给车加油。）",
+      "gasoline": "Where's the nearest gasoline station?（最近的加油站在哪里？）"
+    },
+    {
+      "scene": "聊天对话",
+      "petrol": "Petrol is quite expensive these days.（最近汽油真贵。）",
+      "gasoline": "I use a lot of gasoline because I drive every day.（我每天开车，用很多汽油。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I need some petrol for my car. (in the US)",
+      "correction": "✅ I need some gasoline for my car.（在美国应使用 gasoline）"
+    },
+    {
+      "error": "❌ Gasoline is the British term.",
+      "correction": "✅ Petrol is the British term.",
+      "explanation": "gasoline 是美式英语，petrol 是英式英语。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word is commonly used in American English?",
+      "options": ["A. Petrol", "B. Gasoline", "C. Diesel"],
+      "answer": "B",
+      "explanation": "美国英语中使用 gasoline 表示汽油。"
+    },
+    {
+      "question": "Fill in the blank: I stopped to get some ___ for my car. (in London)",
+      "options": ["A. Gasoline", "B. Petrol", "C. Oil"],
+      "answer": "B",
+      "explanation": "在英国应使用 petrol。"
+    },
+    {
+      "question": "What's the shortened form of 'gasoline' in the US?",
+      "options": ["A. Gas", "B. Oil", "C. Fuel"],
+      "answer": "A",
+      "explanation": "在美式英语中，“gas”是 gasoline 的缩写。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记忆技巧：Petrol（P 开头）= British，Gasoline（G 开头）= US Gas",
+    "extended_words": [
+      "fuel（燃料，统称）",
+      "diesel（柴油）",
+      "gas（在美式英语中指汽油，在其他语境中也可指气体）"
+    ]
+  }
+}

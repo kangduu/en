@@ -1,0 +1,91 @@
+{
+  "words": ["convict", "prisoner"],
+  "explanation": {
+    "overview": "这两个词都表示‘囚犯’，但在法律意义和使用范围上有所不同。",
+    "details": [
+      {
+        "word": "convict",
+        "meaning": "指已被法院判定有罪、正在服刑的人（强调法律定罪后的状态）。",
+        "example": "The convict was sentenced to ten years in prison.（这名罪犯被判了十年监禁。）"
+      },
+      {
+        "word": "prisoner",
+        "meaning": "泛指被关押在监狱或被拘禁的人，不一定是被定罪的人，也可以包括战俘等。",
+        "example": "The prisoner tried to escape from jail.（这名囚犯试图越狱。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "是否已被定罪",
+      "convict": "✔ 已被法院判有罪",
+      "prisoner": "✘ 不一定被定罪（可能是嫌疑人、战俘等）"
+    },
+    {
+      "aspect": "法律语境",
+      "convict": "强调‘被定罪’的法律身份",
+      "prisoner": "泛指被囚禁状态"
+    },
+    {
+      "aspect": "词语感情色彩",
+      "convict": "较正式，略贬义",
+      "prisoner": "中性"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "监狱",
+      "convict": "The prison holds over 500 convicts.（这座监狱关押着500多名被定罪的犯人。）",
+      "prisoner": "Some prisoners are still awaiting trial.（一些囚犯还在等候审判。）"
+    },
+    {
+      "scene": "新闻报道",
+      "convict": "The convict was found guilty of robbery.（这名罪犯被判抢劫罪。）",
+      "prisoner": "The prisoner was transferred to another facility.（这名囚犯被转移到了另一所监狱。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He is a convict of war.",
+      "correction": "✅ He is a prisoner of war.",
+      "explanation": "战俘是‘prisoner of war’，不能用 convict。"
+    },
+    {
+      "error": "❌ The police caught the prisoner before the trial.",
+      "correction": "✅ The police caught the suspect or convict before the trial.",
+      "explanation": "trial（审判）之前通常不称某人为 prisoner，若未定罪应称为 suspect。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word refers specifically to someone officially found guilty?",
+      "options": ["A. prisoner", "B. convict"],
+      "answer": "B",
+      "explanation": "convict 特指已被法院定罪的人。"
+    },
+    {
+      "question": "Which is a broader term for anyone in jail?",
+      "options": ["A. convict", "B. prisoner"],
+      "answer": "B",
+      "explanation": "prisoner 包括嫌疑人、战俘、定罪人等，范围更广。"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "A. He was a prisoner of the court.",
+        "B. He was a convict of war.",
+        "C. He was a prisoner of war."
+      ],
+      "answer": "C",
+      "explanation": "只有 C 正确，战俘应该用 prisoner of war。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记忆方法：convict = 已被‘convicted’（定罪）；prisoner = 被关在‘prison’（监狱）里，身份更广。",
+    "extended_words": [
+      "inmate（监狱里的狱友）",
+      "suspect（嫌疑人）",
+      "criminal（犯罪者，含未被定罪）"
+    ]
+  }
+}

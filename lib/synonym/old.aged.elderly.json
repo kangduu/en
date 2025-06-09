@@ -1,0 +1,96 @@
+{
+  "words": ["old", "aged", "elderly"],
+  "explanation": {
+    "overview": "这三个词都表示‘年老的’，但语气、用法和适用对象略有不同。",
+    "details": [
+      {
+        "word": "old",
+        "meaning": "泛指年纪大的人或物，是最常用、最基本的表达。",
+        "example": "My grandfather is very old.（我爷爷很老了。）"
+      },
+      {
+        "word": "aged",
+        "meaning": "正式用词，通常搭配具体的年龄数值使用。",
+        "example": "He is an aged man of 90.（他是位90岁的老人。）"
+      },
+      {
+        "word": "elderly",
+        "meaning": "较礼貌、委婉地说‘年老的’，常用于描述年纪大的成年人，语气尊重。",
+        "example": "An elderly couple walked into the store.（一对年长的夫妇走进了商店。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "使用场合",
+      "old": "通用，日常",
+      "aged": "书面、正式",
+      "elderly": "委婉、礼貌"
+    },
+    {
+      "aspect": "感情色彩",
+      "old": "中性或略负面",
+      "aged": "中性，偏正式",
+      "elderly": "中性或正面，带尊敬"
+    },
+    {
+      "aspect": "是否常用作名词前定语",
+      "old": "✔",
+      "aged": "✔（常与年龄搭配）",
+      "elderly": "✔（常修饰人）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "家庭对话",
+      "old": "My shoes are old.（我的鞋子很旧了。）",
+      "aged": "He is an aged scholar.（他是位年长的学者。）",
+      "elderly": "Please give your seat to the elderly.（请给老人让座。）"
+    },
+    {
+      "scene": "医院",
+      "old": "That man is too old to walk fast.",
+      "aged": "The aged patient needs rest.",
+      "elderly": "The hospital has a special unit for elderly people."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He is a very elderly car.",
+      "correction": "✅ He is driving a very old car.",
+      "explanation": "elderly 通常只用于人，不用于物品。"
+    },
+    {
+      "error": "❌ This is an elderly tree.",
+      "correction": "✅ This is an old tree.",
+      "explanation": "elderly 不用于描述无生命物体，如树。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word is most polite when referring to senior people?",
+      "options": ["A. old", "B. aged", "C. elderly"],
+      "answer": "C",
+      "explanation": "elderly 更委婉，带有尊敬之意。"
+    },
+    {
+      "question": "Choose the most natural word: My grandfather is very ___.",
+      "options": ["A. old", "B. elderly", "C. aged"],
+      "answer": "A",
+      "explanation": "在日常对话中，old 是最常用、最自然的表达。"
+    },
+    {
+      "question": "Choose the most formal usage: He is an ___ scientist of 82.",
+      "options": ["A. old", "B. aged", "C. elderly"],
+      "answer": "B",
+      "explanation": "aged 通常用于正式表达，特别是带有年龄数字时。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "描述老年人时，elderly 更有礼貌；提到具体年龄，用 aged；old 最常用也最灵活。",
+    "extended_words": [
+      "senior（较正式，常用于‘senior citizen’）",
+      "venerable（值得尊敬的老年人）"
+    ]
+  }
+}

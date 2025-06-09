@@ -1,0 +1,100 @@
+{
+  "words": ["opponent", "enemy", "adversary"],
+  "explanation": {
+    "overview": "这三个词都表示“对立的一方”，但含义强度和语境不同。",
+    "details": [
+      {
+        "word": "opponent",
+        "meaning": "在比赛或辩论等正式场合中的‘对手’，语气较中性，没有强烈敌意。",
+        "example": "She defeated her opponent in the chess tournament.（她在国际象棋比赛中击败了对手。）"
+      },
+      {
+        "word": "enemy",
+        "meaning": "指真正的‘敌人’，通常带有强烈敌意，常用于战争、冲突或长期对立关系中。",
+        "example": "They fought bravely against the enemy.（他们英勇地对抗敌人。）"
+      },
+      {
+        "word": "adversary",
+        "meaning": "比 opponent 正式，常用于书面语，也表示对手或敌人，但语气介于 opponent 和 enemy 之间。",
+        "example": "He proved a worthy adversary in court.（他在法庭上是一位值得尊敬的对手。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气强度",
+      "opponent": "中性",
+      "enemy": "强烈敌意",
+      "adversary": "略正式，有敌意但克制"
+    },
+    {
+      "aspect": "使用场合",
+      "opponent": "体育、辩论、竞赛",
+      "enemy": "战争、仇恨、敌对关系",
+      "adversary": "书面语、法律、策略竞争"
+    },
+    {
+      "aspect": "是否含有敌意",
+      "opponent": "通常无",
+      "enemy": "有",
+      "adversary": "有，但更理性"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "运动比赛",
+      "opponent": "Our team is facing a strong opponent today.",
+      "enemy": "❌ 不适合用 enemy，显得语气过重",
+      "adversary": "He studied the adversary’s strategies before the match."
+    },
+    {
+      "scene": "电影剧情",
+      "opponent": "The superhero had to defeat his opponent in the arena.",
+      "enemy": "The villain was the hero’s greatest enemy.",
+      "adversary": "She faced her longtime adversary in the final battle."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He is my enemy in the tennis game.",
+      "correction": "✅ He is my opponent in the tennis game.",
+      "explanation": "比赛中用 opponent，enemy 语气太严重。"
+    },
+    {
+      "error": "❌ They became opponents after the war.",
+      "correction": "✅ They became enemies after the war.",
+      "explanation": "战争或严重冲突后产生的是敌人（enemy）。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word best fits a formal legal battle?",
+      "options": ["A. opponent", "B. enemy", "C. adversary"],
+      "answer": "C",
+      "explanation": "adversary 更适合正式场合，如法庭或策略竞争。"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "A. He defeated his enemy in the chess match.",
+        "B. He defeated his opponent in the chess match."
+      ],
+      "answer": "B",
+      "explanation": "棋赛中是 opponent，不是 enemy。"
+    },
+    {
+      "question": "Which word carries the strongest negative feeling?",
+      "options": ["A. opponent", "B. enemy", "C. adversary"],
+      "answer": "B",
+      "explanation": "enemy 带有最强烈的敌意。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "口诀：比赛中 opponent，文学中 adversary，战争中 enemy。",
+    "extended_words": [
+      "foe（书面语，敌人）",
+      "rival（竞争者，常用于商业或情感）",
+      "nemesis（宿敌）"
+    ]
+  }
+}

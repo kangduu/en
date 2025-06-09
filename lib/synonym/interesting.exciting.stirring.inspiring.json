@@ -1,0 +1,115 @@
+{
+  "words": ["exciting", "interesting", "stirring", "inspiring"],
+  "explanation": {
+    "overview": "这几个词都能表达“令人激动/吸引/感动”的感觉，但它们的侧重点不同：有的强调情绪的激动，有的强调思想的触动，有的则强调引人注意或充满乐趣。",
+    "details": [
+      {
+        "word": "exciting",
+        "meaning": "让人感到兴奋、激动，常用于描述活动或经历。",
+        "example": "The roller coaster ride was really exciting.（坐过山车真让人兴奋。）"
+      },
+      {
+        "word": "interesting",
+        "meaning": "令人感兴趣，引人注意，不一定激动但有吸引力。",
+        "example": "This book is very interesting.（这本书很有趣。）"
+      },
+      {
+        "word": "stirring",
+        "meaning": "激动人心，常带有鼓舞或英雄主义色彩，书面语较多。",
+        "example": "It was a stirring speech.（那是一场激动人心的演讲。）"
+      },
+      {
+        "word": "inspiring",
+        "meaning": "鼓舞人心，激发理想或正能量，常用于演讲、榜样等场景。",
+        "example": "Her success story is very inspiring.（她的成功故事令人振奋。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "强调点",
+      "exciting": "情绪上的兴奋",
+      "interesting": "内容上的吸引",
+      "stirring": "激动+感动（文学化）",
+      "inspiring": "精神上的鼓舞"
+    },
+    {
+      "aspect": "使用频率",
+      "exciting": "口语常用",
+      "interesting": "非常常见",
+      "stirring": "较正式，文学中常见",
+      "inspiring": "正式和非正式都适用"
+    },
+    {
+      "aspect": "例子对象",
+      "exciting": "活动、场面、新闻",
+      "interesting": "书、话题、人",
+      "stirring": "演讲、历史事件、诗歌",
+      "inspiring": "人物、故事、言语"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校课堂",
+      "exciting": "The science experiment was exciting!（科学实验真令人兴奋！）",
+      "interesting": "This history lesson is interesting.（这节历史课很有趣。）",
+      "stirring": "The teacher told a stirring story about bravery.（老师讲了一个英勇感人的故事。）",
+      "inspiring": "Her words were inspiring to all of us.（她的话鼓舞了我们所有人。）"
+    },
+    {
+      "scene": "看电影",
+      "exciting": "That action movie was so exciting!（那部动作片太刺激了！）",
+      "interesting": "It was an interesting documentary.（那是一部很有意思的纪录片。）",
+      "stirring": "The soundtrack was stirring.（配乐令人激动。）",
+      "inspiring": "The film had an inspiring message.（这部电影传达了鼓舞人心的信息。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ This movie is very inspiring to watch because it's funny.",
+      "correction": "✅ This movie is very interesting to watch because it's funny.",
+      "explanation": "有趣用 interesting，inspiring 强调精神上的鼓舞。"
+    },
+    {
+      "error": "❌ I'm exciting to see the game.",
+      "correction": "✅ I'm excited to see the game.",
+      "explanation": "描述人的感觉要用 excited，不是 exciting。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word fits best? — His speech was very ___ and made me want to work harder.",
+      "options": ["A. exciting", "B. interesting", "C. inspiring"],
+      "answer": "C",
+      "explanation": "inspiring 表达‘鼓舞人心’。"
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "options": [
+        "A. The teacher gave a very stirring example.",
+        "B. The teacher gave a very interesting example.",
+        "C. Both A and B"
+      ],
+      "answer": "C",
+      "explanation": "根据语境，两句都对，只是语气不同。"
+    },
+    {
+      "question": "Which of these is MOST likely to be described as ‘exciting’?",
+      "options": [
+        "A. A calm discussion",
+        "B. A roller coaster ride",
+        "C. A thoughtful book"
+      ],
+      "answer": "B",
+      "explanation": "exciting 适用于令人肾上腺素飙升的活动。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "口诀：exciting（刺激）→ interesting（好玩）→ stirring（激动）→ inspiring（感动）",
+    "extended_words": [
+      "thrilling（惊险的）",
+      "touching（感人的）",
+      "fascinating（迷人的）"
+    ]
+  }
+}

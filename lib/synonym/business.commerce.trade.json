@@ -1,0 +1,100 @@
+{
+  "words": ["business", "commerce", "trade"],
+  "explanation": {
+    "overview": "这三个词都与买卖和经济活动有关，但侧重点和用法不同。",
+    "details": [
+      {
+        "word": "business",
+        "meaning": "指公司或个人从事的买卖、服务活动，也指整体的商业活动。",
+        "example": "She runs a successful business.（她经营着一家成功的公司。）"
+      },
+      {
+        "word": "commerce",
+        "meaning": "指商品和服务的大规模买卖和流通，常用于正式或法律场合。",
+        "example": "International commerce is growing fast.（国际贸易正在快速发展。）"
+      },
+      {
+        "word": "trade",
+        "meaning": "指商品和服务的交换买卖，尤其强调买卖行为本身，也可指行业。",
+        "example": "They trade goods between countries.（他们在国家之间进行商品贸易。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "含义侧重",
+      "business": "商业活动、公司经营",
+      "commerce": "大规模买卖、商业体系",
+      "trade": "买卖交换行为"
+    },
+    {
+      "aspect": "使用场合",
+      "business": "日常口语、公司介绍",
+      "commerce": "正式、经济学、法律",
+      "trade": "具体买卖、行业交流"
+    },
+    {
+      "aspect": "词性",
+      "business": "可数/不可数名词",
+      "commerce": "不可数名词",
+      "trade": "不可数名词，也可作动词"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "公司",
+      "business": "Our business sells clothes online.（我们的公司在线销售服装。）",
+      "commerce": "E-commerce is a big part of modern commerce.（电子商务是现代商业的重要部分。）",
+      "trade": "We trade electronics with other countries.（我们与其他国家进行电子产品贸易。）"
+    },
+    {
+      "scene": "经济讨论",
+      "business": "Many businesses were affected by the crisis.（许多公司受到了危机影响。）",
+      "commerce": "Commerce laws protect buyers and sellers.（商业法律保护买卖双方。）",
+      "trade": "Trade agreements help countries exchange goods.（贸易协议帮助国家交换商品。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ Commerce is a small shop.",
+      "correction": "✅ Business is a small shop.",
+      "explanation": "business 可以指具体公司或店铺，commerce 不能。"
+    },
+    {
+      "error": "❌ I trade my business with others.",
+      "correction": "✅ I trade goods with others.",
+      "explanation": "trade 指买卖商品，不用来指代公司。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word fits? — She started a new ___ selling handmade jewelry.",
+      "options": ["A. business", "B. commerce", "C. trade"],
+      "answer": "A",
+      "explanation": "business 指具体的商业公司或活动。"
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "options": [
+        "A. Commerce helps people exchange goods.",
+        "B. Business helps people exchange goods."
+      ],
+      "answer": "A",
+      "explanation": "commerce 指大规模商业交易。"
+    },
+    {
+      "question": "Which is a verb meaning ‘to buy and sell’?",
+      "options": ["A. business", "B. commerce", "C. trade"],
+      "answer": "C",
+      "explanation": "trade 既是名词也是动词，表示买卖行为。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "口诀：business 是‘公司和商业活动’，commerce 是‘大规模商业体系’，trade 是‘买卖交换行为’",
+    "extended_words": [
+      "e-commerce（电子商务）",
+      "transaction（交易）",
+      "deal（交易）"
+    ]
+  }
+}

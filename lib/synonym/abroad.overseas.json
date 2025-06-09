@@ -1,0 +1,93 @@
+{
+  "words": ["abroad", "overseas"],
+  "explanation": {
+    "overview": "这两个词都表示‘在国外’，经常互换使用，但在用法上略有不同，尤其是在语法结构和语气上。",
+    "details": [
+      {
+        "word": "abroad",
+        "meaning": "泛指在外国或去外国，常用作副词，不加介词。",
+        "example": "She studied abroad for two years.（她在国外学习了两年。）"
+      },
+      {
+        "word": "overseas",
+        "meaning": "字面意思是“海外的”，可作副词或形容词，语气稍更正式，常用于描述与“海洋相隔”的国家，尤其是相对于本土而言。",
+        "example": "He was sent to work overseas.（他被派去海外工作。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "词性",
+      "abroad": "主要是副词",
+      "overseas": "可作副词，也常作形容词"
+    },
+    {
+      "aspect": "是否前加介词",
+      "abroad": "❌不能用 in abroad / to abroad",
+      "overseas": "✅可以用 go overseas 或形容 overseas company"
+    },
+    {
+      "aspect": "语气",
+      "abroad": "日常更常用，偏口语",
+      "overseas": "较正式，书面语较多"
+    },
+    {
+      "aspect": "适用范围",
+      "abroad": "泛指外国",
+      "overseas": "强调“跨海”，更符合地理概念"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "出国留学",
+      "abroad": "Many students dream of studying abroad.（很多学生梦想出国留学。）",
+      "overseas": "He applied for an overseas scholarship.（他申请了一个海外奖学金。）"
+    },
+    {
+      "scene": "工作派遣",
+      "abroad": "My father is working abroad now.（我爸爸现在在国外工作。）",
+      "overseas": "She works for an overseas branch of the company.（她在公司的海外分部工作。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He went to abroad last year.",
+      "correction": "✅ He went abroad last year.（abroad 前不加介词）"
+    },
+    {
+      "error": "❌ He studied in overseas.",
+      "correction": "✅ He studied overseas.（overseas 是副词时不用加 in）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which is correct? — She plans to study ___.",
+      "options": ["A. to abroad", "B. abroad", "C. in abroad"],
+      "answer": "B",
+      "explanation": "abroad 是副词，前不加介词。"
+    },
+    {
+      "question": "Choose the correct sentence.",
+      "options": [
+        "A. He is working at overseas.",
+        "B. He is working overseas."
+      ],
+      "answer": "B",
+      "explanation": "overseas 作副词时，不用加介词。"
+    },
+    {
+      "question": "Select the correct usage as adjective.",
+      "options": ["A. an abroad student", "B. an overseas student"],
+      "answer": "B",
+      "explanation": "只有 overseas 可作形容词。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "口诀：abroad 不加介词，overseas 能做形容词；abroad 更口语，overseas 更正式。",
+    "extended_words": [
+      "international（国际的）",
+      "foreign（外国的）",
+      "global（全球的）"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "words": ["gift", "present"],
+  "explanation": {
+    "overview": "这两个词都可以表示‘礼物’，通常可以互换使用，但在语气和使用场景上有细微差别。",
+    "details": [
+      {
+        "word": "gift",
+        "meaning": "通常表示一种能力、天赋，也可指礼物，稍正式。",
+        "example": "She gave me a beautiful gift for my birthday.（她送了我一个漂亮的生日礼物。）"
+      },
+      {
+        "word": "present",
+        "meaning": "更口语化，多用于节日或特殊场合送出的物品。",
+        "example": "I got a lot of presents for Christmas.（我在圣诞节收到了很多礼物。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "正式程度",
+      "gift": "较正式",
+      "present": "较口语化"
+    },
+    {
+      "aspect": "词义拓展",
+      "gift": "可表示‘天赋’（如 a gift for music）",
+      "present": "还可作‘现在’、‘出席’等词义"
+    },
+    {
+      "aspect": "典型搭配",
+      "gift": "birthday gift, wedding gift, a gift from God",
+      "present": "Christmas present, birthday present"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "生日",
+      "gift": "I bought a special gift for my dad’s birthday.",
+      "present": "She opened her birthday presents with a big smile."
+    },
+    {
+      "scene": "节日",
+      "gift": "He gave me a gift card for the holiday.",
+      "present": "There were many presents under the Christmas tree."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He has a present for music.",
+      "correction": "✅ He has a gift for music.",
+      "explanation": "表示天赋用 gift，不用 present。"
+    },
+    {
+      "error": "❌ She gave me a gift on Christmas Eve, and I called it a gift.",
+      "correction": "✅ She gave me a present on Christmas Eve.",
+      "explanation": "节日中常用 present 表示‘礼物’。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which is more commonly used for a talent?",
+      "options": ["A. gift", "B. present"],
+      "answer": "A",
+      "explanation": "gift 可表示‘天赋’。"
+    },
+    {
+      "question": "Which is more informal?",
+      "options": ["A. gift", "B. present"],
+      "answer": "B",
+      "explanation": "present 更口语化，常用于日常表达。"
+    },
+    {
+      "question": "Which sentence is correct?",
+      "options": [
+        "A. She has a present for painting.",
+        "B. She has a gift for painting."
+      ],
+      "answer": "B",
+      "explanation": "表示绘画天赋应使用 gift。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记忆小口诀：日常用 present，正式或表示能力用 gift。",
+    "extended_words": [
+      "donation（捐赠）",
+      "offering（供品、祭品）",
+      "token（象征性礼物）"
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "@/utils";
 import React, { type PropsWithChildren } from "react";
 
 export interface ListProps {
