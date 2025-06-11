@@ -1,0 +1,81 @@
+{
+  "words": ["matador", "bullfighter", "toreador"],
+  "explanation": {
+    "overview": "这三个词都与斗牛士有关，但含义和使用场合有细微区别。",
+    "details": [
+      {
+        "word": "matador",
+        "meaning": "专业斗牛士，负责最终刺杀公牛的人，最核心的斗牛士角色。",
+        "example": "The matador performed bravely in the arena.（斗牛士在斗牛场上表现勇敢。）"
+      },
+      {
+        "word": "bullfighter",
+        "meaning": "泛指所有斗牛士，包括matador和其他辅助角色。",
+        "example": "Bullfighters train hard to face dangerous bulls.（斗牛士们努力训练以面对危险的公牛。）"
+      },
+      {
+        "word": "toreador",
+        "meaning": "旧时或诗意称呼斗牛士，较少在正式语境中使用，常见于文学和艺术作品。",
+        "example": "The toreador danced gracefully with the bull.（斗牛士优雅地与公牛共舞。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "含义范围",
+      "matador": "具体指主斗牛士",
+      "bullfighter": "泛指所有斗牛参与者",
+      "toreador": "文学或艺术中的斗牛士称呼"
+    },
+    {
+      "aspect": "使用场合",
+      "matador": "正式、专业斗牛",
+      "bullfighter": "一般描述",
+      "toreador": "文学、诗歌或戏剧"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "斗牛比赛",
+      "matador": "The matador waved his red cape skillfully.（斗牛士熟练地挥动红斗篷。）",
+      "bullfighter": "Bullfighters prepare carefully before the fight.（斗牛士们在比赛前认真准备。）",
+      "toreador": "The toreador is a symbol of Spanish tradition.（斗牛士是西班牙传统的象征。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The toreador is the one who kills the bull.",
+      "correction": "✅ The matador is the one who kills the bull.",
+      "explanation": "matador才是最终刺杀公牛的斗牛士，toreador多用于文学称呼。"
+    },
+    {
+      "error": "❌ All bullfighters are matadors.",
+      "correction": "✅ Not all bullfighters are matadors; some assist the matador.",
+      "explanation": "bullfighter是总称，matador是其中一种角色。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The ___ is the main fighter who kills the bull.",
+      "options": ["A. matador", "B. bullfighter", "C. toreador"],
+      "answer": "A",
+      "explanation": "matador负责最终刺杀。"
+    },
+    {
+      "question": "选择正确答案：Which word is often used in poetry and old stories?",
+      "options": ["A. bullfighter", "B. matador", "C. toreador"],
+      "answer": "C",
+      "explanation": "toreador多用于文学和艺术。"
+    },
+    {
+      "question": "选择正确答案：The ___ includes all people fighting bulls.",
+      "options": ["A. toreador", "B. matador", "C. bullfighter"],
+      "answer": "C",
+      "explanation": "bullfighter是泛指所有斗牛士。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "matador是专业术语，bullfighter泛称，toreador文学化。",
+    "related_words": ["picador（骑马刺牛者）", "banderillero（插彩条者）"]
+  }
+}

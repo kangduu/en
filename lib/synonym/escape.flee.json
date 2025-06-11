@@ -1,0 +1,78 @@
+{
+  "words": ["escape", "flee"],
+  "explanation": {
+    "overview": "这两个词都表示‘逃离’的意思，但用法和侧重点有所不同。",
+    "details": [
+      {
+        "word": "escape",
+        "meaning": "指成功脱离危险、困境或限制，强调‘逃脱’的结果。",
+        "example": "The prisoner managed to escape from jail.（那个囚犯成功越狱了。）"
+      },
+      {
+        "word": "flee",
+        "meaning": "指迅速离开某地以避免危险，强调‘逃跑’的动作。",
+        "example": "They had to flee the city because of the flood.（他们不得不因为洪水逃离城市。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "侧重点",
+      "escape": "强调成功脱离",
+      "flee": "强调快速逃跑动作"
+    },
+    {
+      "aspect": "用法",
+      "escape": "多用于脱离监禁、危险或困境",
+      "flee": "多用于紧急逃跑或躲避危险"
+    },
+    {
+      "aspect": "语气",
+      "escape": "中性",
+      "flee": "紧张、急迫"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "动物逃脱",
+      "escape": "The bird escaped from its cage.（那只鸟逃出了笼子。）",
+      "flee": "The deer fled when it saw the hunter.（那只鹿看到猎人就逃跑了。）"
+    },
+    {
+      "scene": "灾难现场",
+      "escape": "People escaped the burning building safely.（人们安全逃离了燃烧的建筑。）",
+      "flee": "Residents fled their homes due to the earthquake.（居民因地震逃离家园。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He escaped quickly from the danger.",
+      "correction": "✅ He fled quickly from the danger.",
+      "explanation": "'flee'强调快速逃跑动作，escape更强调结果。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The thief ___ from the police after the robbery.",
+      "options": ["A. escaped", "B. fled"],
+      "answer": "B",
+      "explanation": "'fled'强调逃跑动作，更符合语境。"
+    },
+    {
+      "question": "选择正确答案：She ___ the trap before it was too late.",
+      "options": ["A. fled", "B. escaped"],
+      "answer": "B",
+      "explanation": "'escaped'强调脱离困境的结果。"
+    },
+    {
+      "question": "选择正确答案：The animals ___ into the forest when they heard the noise.",
+      "options": ["A. escaped", "B. fled"],
+      "answer": "B",
+      "explanation": "'fled'强调快速逃跑。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住：escape重结果，flee重动作和紧急逃跑。",
+    "related_words": ["run away（逃跑）", "break free（挣脱）"]
+  }
+}

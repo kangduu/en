@@ -33,9 +33,11 @@ export default function ExplanationList({ explanation }: ExplanationProps) {
                 <PopoverTrigger className="text-left">
                   <span>{english}</span>
                 </PopoverTrigger>
-                <PopoverContent>
-                  <span>{translate}</span>
-                </PopoverContent>
+                {translate && (
+                  <PopoverContent>
+                    <span>{translate}</span>
+                  </PopoverContent>
+                )}
               </Popover>
             </List>
           );

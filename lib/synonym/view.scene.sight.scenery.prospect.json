@@ -1,0 +1,121 @@
+{
+  "words": ["scene", "prospect", "scenery", "sight", "view"],
+  "explanation": {
+    "overview": "这些词都与‘看见的景象’相关，但强调点和使用场景不同。",
+    "details": [
+      {
+        "word": "scene",
+        "meaning": "指‘场景’或‘一幕’，既可指自然景象，也可指戏剧、电影中的一幕。",
+        "example": "The opening scene of the movie was very dramatic."
+      },
+      {
+        "word": "prospect",
+        "meaning": "指从高处望出去的‘远景’或‘展望’，也可表示未来可能的情形（抽象含义）。",
+        "example": "From the hilltop, the prospect of the valley is breathtaking."
+      },
+      {
+        "word": "scenery",
+        "meaning": "特指‘自然风景’，常指乡村、山水等美丽的自然景色，不可数名词。",
+        "example": "The mountain scenery was stunning."
+      },
+      {
+        "word": "sight",
+        "meaning": "泛指看到的‘景象’、‘奇观’，也可表示‘视力’或旅游景点（可数）。",
+        "example": "The Eiffel Tower is a famous sight in Paris."
+      },
+      {
+        "word": "view",
+        "meaning": "指从某个角度看到的景色，强调‘观察角度’，也可抽象地指‘观点’。",
+        "example": "There’s a great view of the city from this window."
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "可数/不可数",
+      "scene": "可数",
+      "prospect": "可数（抽象时不可数）",
+      "scenery": "不可数",
+      "sight": "可数",
+      "view": "可数"
+    },
+    {
+      "aspect": "是否强调自然美景",
+      "scene": "否，可是自然/戏剧场景",
+      "prospect": "远景，较抽象",
+      "scenery": "是",
+      "sight": "部分强调",
+      "view": "部分强调"
+    },
+    {
+      "aspect": "是否强调角度",
+      "scene": "否",
+      "prospect": "是",
+      "scenery": "否",
+      "sight": "否",
+      "view": "是"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "旅游拍照",
+      "scene": "We captured a beautiful scene of the lake.",
+      "prospect": "The hill offers a wide prospect of the countryside.",
+      "scenery": "The island is famous for its natural scenery.",
+      "sight": "The waterfall was an incredible sight.",
+      "view": "The view from the top of the tower was amazing."
+    },
+    {
+      "scene": "在窗边看外面",
+      "scene": "It was a peaceful scene outside.",
+      "prospect": "The house has a prospect of the distant hills.",
+      "scenery": "There's not much natural scenery in the city.",
+      "sight": "What a lovely sight in the morning light!",
+      "view": "You can get a good view of the park from here."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The scenerys here are beautiful.",
+      "correction": "✅ The scenery here is beautiful.",
+      "explanation": "scenery 是不可数名词，不能加 -s。"
+    },
+    {
+      "error": "❌ I like this sight of mountains.",
+      "correction": "✅ I like this view of the mountains.",
+      "explanation": "描述角度看景色时更常用 view。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word is best for describing nature's beauty? 'I love the mountain __.'",
+      "options": ["A. scene", "B. sight", "C. scenery", "D. view"],
+      "answer": "C",
+      "explanation": "scenery 专指自然风景，且不可数。"
+    },
+    {
+      "question": "Choose the best fit: 'The movie’s final ___ was very emotional.'",
+      "options": ["A. view", "B. sight", "C. scene", "D. scenery"],
+      "answer": "C",
+      "explanation": "scene 用于电影、戏剧中的“场景”。"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "A. The sceneries are beautiful.",
+        "B. The scenery is beautiful.",
+        "C. I saw beautiful scenerys."
+      ],
+      "answer": "B",
+      "explanation": "scenery 是不可数名词，没有复数形式。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "panorama（全景）",
+      "vista（远景）",
+      "landscape（风景画或景色）"
+    ],
+    "tip": "记住：scenery 表自然，view 重角度，sight 多惊奇，scene 有剧情，prospect 看远景。"
+  }
+}

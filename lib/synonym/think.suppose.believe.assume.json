@@ -1,0 +1,96 @@
+{
+  "words": ["suppose", "believe", "think", "assume"],
+  "explanation": {
+    "overview": "这四个词都表示‘认为’或‘猜测’，但语气和使用场景不同。",
+    "details": [
+      {
+        "word": "suppose",
+        "meaning": "假设、认为某事可能是真的，带有推测或假设的意思。",
+        "example": "I suppose he will come to the party.（我猜他会来参加聚会。）"
+      },
+      {
+        "word": "believe",
+        "meaning": "坚信某事是真的，通常基于事实或个人信念。",
+        "example": "I believe she is telling the truth.（我相信她说的是真的。）"
+      },
+      {
+        "word": "think",
+        "meaning": "表示个人想法或观点，比较中性，常用来表达判断。",
+        "example": "I think it’s going to rain today.（我认为今天会下雨。）"
+      },
+      {
+        "word": "assume",
+        "meaning": "假定某事是真的，通常没有确凿证据，有时带有预设立场。",
+        "example": "We assume he has already left.（我们假设他已经离开了。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "确定程度",
+      "suppose": "较弱，带假设性质",
+      "believe": "较强，基于信念或事实",
+      "think": "中等，表达观点或判断",
+      "assume": "中等偏弱，预设但无证据"
+    },
+    {
+      "aspect": "语气",
+      "suppose": "委婉，推测",
+      "believe": "坚信，较肯定",
+      "think": "中性，常用",
+      "assume": "正式，偏理性"
+    },
+    {
+      "aspect": "常用场景",
+      "suppose": "日常猜测、假设情况",
+      "believe": "表达信念或意见",
+      "think": "表达想法或意见",
+      "assume": "假设事实，法律、科学用语多"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "日常对话",
+      "suppose": "I suppose you are busy today.（我猜你今天很忙。）",
+      "believe": "I believe he will help us.（我相信他会帮我们。）",
+      "think": "I think this movie is interesting.（我觉得这部电影很有趣。）",
+      "assume": "Let’s assume the train is late.（我们假设火车晚点了。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I believe he maybe coming.",
+      "correction": "✅ I think he may be coming.",
+      "explanation": "'believe'强调信念，不用于不确定的猜测。"
+    },
+    {
+      "error": "❌ I assume he is true.",
+      "correction": "✅ I believe he is telling the truth.",
+      "explanation": "'assume'不用于表示相信某人说的是真话。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：I ___ it will rain tomorrow.",
+      "options": ["A. suppose", "B. believe", "C. think", "D. assume"],
+      "answer": "C",
+      "explanation": "表达个人观点，常用think。"
+    },
+    {
+      "question": "选择正确答案：We ___ he has left already.",
+      "options": ["A. suppose", "B. believe", "C. think", "D. assume"],
+      "answer": "D",
+      "explanation": "无证据的假设，用assume。"
+    },
+    {
+      "question": "选择正确答案：She ___ that honesty is important.",
+      "options": ["A. suppose", "B. believe", "C. think", "D. assume"],
+      "answer": "B",
+      "explanation": "表达坚定信念，用believe。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住：assume多用于无证据的假设，believe是信念，think是想法，suppose是猜测。",
+    "related_words": ["guess（猜测）", "consider（考虑）"]
+  }
+}

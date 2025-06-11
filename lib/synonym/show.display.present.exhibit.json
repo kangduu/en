@@ -1,0 +1,114 @@
+{
+  "words": ["display", "show", "present", "exhibit"],
+  "explanation": {
+    "overview": "这四个词都有“展示、展现”的意思，但使用场景和语气略有不同。",
+    "details": [
+      {
+        "word": "display",
+        "meaning": "强调将某物公开展示，让人看到，既可指物品，也可指情绪、技能等。",
+        "example": "The store displays the new phones in the front window."
+      },
+      {
+        "word": "show",
+        "meaning": "最通用的“展示”，可以指告诉、给人看、表演等，使用最广泛。",
+        "example": "Can you show me your homework?"
+      },
+      {
+        "word": "present",
+        "meaning": "正式地展示或呈现，常用于报告、颁奖或介绍，带有一定仪式感。",
+        "example": "He will present his idea at the meeting."
+      },
+      {
+        "word": "exhibit",
+        "meaning": "多用于艺术、博物馆或科学展览，语气较正式，也可用作名词“展品”。",
+        "example": "The artist is exhibiting her work in the gallery."
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "中文含义",
+      "display": "展示、陈列",
+      "show": "给...看、表现",
+      "present": "呈现、提交",
+      "exhibit": "展出、展示（正式）"
+    },
+    {
+      "aspect": "正式程度",
+      "display": "中等",
+      "show": "最口语化",
+      "present": "较正式",
+      "exhibit": "正式、专业"
+    },
+    {
+      "aspect": "常见搭配",
+      "display": "display emotions/products",
+      "show": "show pictures/skills",
+      "present": "present a report/award",
+      "exhibit": "exhibit paintings/artifacts"
+    },
+    {
+      "aspect": "语法结构",
+      "display": "多用主动语态",
+      "show": "既可主动也可被动",
+      "present": "常与 to 搭配",
+      "exhibit": "可作动词或名词"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "课堂上",
+      "display": "The teacher displayed a chart on the screen.",
+      "show": "Please show your answer to the class.",
+      "present": "She presented her project to the teacher.",
+      "exhibit": "The science fair exhibits will be in the hall."
+    },
+    {
+      "scene": "商店购物",
+      "display": "Watches are displayed behind the glass.",
+      "show": "The seller showed me a cheaper phone.",
+      "present": "The salesperson presented the new model politely.",
+      "exhibit": "This mall often exhibits designer products."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He exhibited his homework to the teacher.",
+      "correction": "✅ He showed his homework to the teacher.",
+      "explanation": "‘Exhibit’ 太正式，通常用于艺术品等，作业应该用 ‘show’。"
+    },
+    {
+      "error": "❌ I will show my idea in the meeting.",
+      "correction": "✅ I will present my idea in the meeting.",
+      "explanation": "在会议中正式表达，用 ‘present’ 更合适。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word is best for use in a formal meeting?",
+      "options": ["A. Show", "B. Present", "C. Exhibit"],
+      "answer": "B",
+      "explanation": "‘Present’ 更正式，适合会议、演讲。"
+    },
+    {
+      "question": "The artist will ___ her paintings in the gallery.",
+      "options": ["A. Show", "B. Present", "C. Exhibit"],
+      "answer": "C",
+      "explanation": "艺术展览中通常用 ‘exhibit’。"
+    },
+    {
+      "question": "In a shop, items are usually ___ in the window.",
+      "options": ["A. Presented", "B. Displayed", "C. Exhibited"],
+      "answer": "B",
+      "explanation": "橱窗陈列常用 ‘display’。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "demonstrate（演示）",
+      "reveal（揭示）",
+      "unveil（揭幕）"
+    ],
+    "tip": "口诀：show 最常用，display 展商品，present 报告用，exhibit 展艺术。"
+  }
+}

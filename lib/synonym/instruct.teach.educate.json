@@ -1,0 +1,87 @@
+{
+  "words": ["instruct", "teach", "educate"],
+  "explanation": {
+    "overview": "这三个词都与‘教’有关，但用法和侧重点不同。",
+    "details": [
+      {
+        "word": "instruct",
+        "meaning": "正式地传授知识或技能，常用于课堂或工作中，强调具体的指导和命令。",
+        "example": "The teacher instructed the students on how to use the equipment.（老师指导学生如何使用设备。）"
+      },
+      {
+        "word": "teach",
+        "meaning": "广义的‘教’，传授知识或技能，适用于各种教育场景。",
+        "example": "She teaches English at the school.（她在学校教英语。）"
+      },
+      {
+        "word": "educate",
+        "meaning": "更广泛且正式，强调全面培养人的知识、能力和品德，通常指系统的教育过程。",
+        "example": "The school aims to educate children to become responsible citizens.（学校旨在教育孩子成为有责任感的公民。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "侧重点",
+      "instruct": "传授具体技能或任务，带有指导或命令性质",
+      "teach": "传授知识或技能，广义且常用",
+      "educate": "系统培养，强调全面发展"
+    },
+    {
+      "aspect": "使用场景",
+      "instruct": "课堂、培训、工作指导",
+      "teach": "学校、家庭、日常教学",
+      "educate": "学校、社会教育、道德教育"
+    },
+    {
+      "aspect": "语气",
+      "instruct": "正式，偏向命令和指导",
+      "teach": "中性，广泛使用",
+      "educate": "正式，强调培养"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校",
+      "instruct": "The coach instructed the players to practice harder.（教练指导球员更努力练习。）",
+      "teach": "My teacher teaches us math every day.（我的老师每天教我们数学。）",
+      "educate": "The school educates students about environmental protection.（学校教育学生保护环境。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He educated me how to fix the computer.",
+      "correction": "✅ He instructed me how to fix the computer.",
+      "explanation": "'educate'不常用于传授具体操作，应用'instruct'或'teach'。"
+    },
+    {
+      "error": "❌ The school teaches students to be responsible citizens.",
+      "correction": "✅ The school educates students to be responsible citizens.",
+      "explanation": "'educate'强调全面培养，比'teach'更合适此句。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The manager ___ the staff on safety procedures.",
+      "options": ["A. teaches", "B. instructs", "C. educates"],
+      "answer": "B",
+      "explanation": "'instruct'用于指导具体操作。"
+    },
+    {
+      "question": "选择正确答案：She ___ children at the local school.",
+      "options": ["A. instructs", "B. educates", "C. teaches"],
+      "answer": "C",
+      "explanation": "'teach'是最常用的‘教’的表达。"
+    },
+    {
+      "question": "选择正确答案：The university aims to ___ students to be creative thinkers.",
+      "options": ["A. teach", "B. instruct", "C. educate"],
+      "answer": "C",
+      "explanation": "'educate'强调系统培养和全面发展。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住：instruct强调指导具体任务，teach用于日常传授知识，educate强调系统教育和品德培养。",
+    "related_words": ["train（训练）", "coach（指导）"]
+  }
+}

@@ -32,6 +32,7 @@ export function matchSentence(sentence: string): MatchSentenceReturn {
   try {
     const regex = /^([^（]+)（([^）]+)）/;
     const match = sentence.match(regex);
+    if (!match) return { english: sentence, translate: "" };
     return { english: match?.[1] || "", translate: match?.[2] || "" };
   } catch (error) {
     console.log(error);

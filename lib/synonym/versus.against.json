@@ -1,0 +1,83 @@
+{
+  "words": ["versus", "against"],
+  "explanation": {
+    "overview": "这两个词都表示‘对抗’或‘对比’，但用法和语境不同。",
+    "details": [
+      {
+        "word": "versus",
+        "meaning": "多用于法律、体育比赛、正式对抗场合，表示‘对阵’、‘与……对抗’。",
+        "example": "The final game is Team A versus Team B.（决赛是A队对B队。）"
+      },
+      {
+        "word": "against",
+        "meaning": "用法更广泛，表示‘反对’、‘对抗’、‘靠着’等多种含义。",
+        "example": "She is against the new rule.（她反对新规则。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "使用场景",
+      "versus": "正式比赛、法律用语",
+      "against": "日常口语、各种对抗或反对情形"
+    },
+    {
+      "aspect": "词性",
+      "versus": "介词，常用缩写v.或vs.",
+      "against": "介词，含义丰富"
+    },
+    {
+      "aspect": "含义",
+      "versus": "强调双方对立、比赛或对抗",
+      "against": "除对抗外，还可表示‘反对’、‘靠着’等"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "体育比赛",
+      "versus": "The basketball match is Lakers versus Celtics.（篮球比赛是湖人队对凯尔特人队。）",
+      "against": "The player scored against his former team.（这位球员攻破了他的前队。)"
+    },
+    {
+      "scene": "观点表达",
+      "versus": "N/A (较少用versus表达观点对立)",
+      "against": "I am against smoking in public places.（我反对在公共场所吸烟。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The court case is against the defendant.",
+      "correction": "✅ The court case is versus the defendant.",
+      "explanation": "'versus'用于法律案件双方对立，而against多指反对立场，不适合用在此。"
+    },
+    {
+      "error": "❌ She is playing the match versus her friend.",
+      "correction": "✅ She is playing the match against her friend.",
+      "explanation": "'against'更口语且适合描述比赛对手，versus更正式书面。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The game today is Team Red ___ Team Blue.",
+      "options": ["A. versus", "B. against"],
+      "answer": "A",
+      "explanation": "'versus'用在正式比赛的双方。"
+    },
+    {
+      "question": "选择正确答案：I am ___ eating too much junk food.",
+      "options": ["A. versus", "B. against"],
+      "answer": "B",
+      "explanation": "'against'用来表达反对意见。"
+    },
+    {
+      "question": "选择正确答案：The player scored a goal ___ his own team.",
+      "options": ["A. versus", "B. against"],
+      "answer": "B",
+      "explanation": "'against'表示对抗或进攻。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "'versus'多用于比赛和正式对抗，'against'用法更灵活且口语化。",
+    "related_words": ["vs.（versus的缩写）", "oppose（反对）"]
+  }
+}

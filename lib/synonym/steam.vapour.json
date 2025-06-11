@@ -1,0 +1,88 @@
+{
+  "words": ["steam", "vapour"],
+  "explanation": {
+    "overview": "这两个词都指气体状态的水，但使用场景和侧重点不同。",
+    "details": [
+      {
+        "word": "steam",
+        "meaning": "水加热到沸点后形成的‘蒸汽’，通常是可见的白色水蒸气，常用于日常生活和技术领域。",
+        "example": "The kettle is releasing steam.（水壶正在冒蒸汽。）"
+      },
+      {
+        "word": "vapour",
+        "meaning": "更广义的‘气体’状态，指任何液体或固体在常温下转变为气体的形式，常用于科学术语或正式表达。",
+        "example": "Water vapour forms clouds in the sky.（水蒸气在空中形成云。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "中文意思",
+      "steam": "蒸汽（可见、热）",
+      "vapour": "气态（水蒸气或其他蒸气）"
+    },
+    {
+      "aspect": "常见使用场景",
+      "steam": "厨房、浴室、工业（如蒸汽机）",
+      "vapour": "科学、天气、化学"
+    },
+    {
+      "aspect": "可见性",
+      "steam": "通常是可见的",
+      "vapour": "通常是不可见的（水蒸气除外）"
+    },
+    {
+      "aspect": "语域",
+      "steam": "日常口语",
+      "vapour": "正式、科技用语（英式拼写）"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "厨房做饭",
+      "steam": "Be careful! The steam from the pot is hot.（小心！锅里的蒸汽很烫。）",
+      "vapour": "Steam is a type of water vapour.（蒸汽是一种水蒸气。）"
+    },
+    {
+      "scene": "天气与环境",
+      "steam": "After the rain, steam rose from the road.",
+      "vapour": "Water vapour in the air condenses into dew.（空气中的水蒸气凝结成露水。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I saw vapour coming out of the kettle.",
+      "correction": "✅ I saw steam coming out of the kettle.",
+      "explanation": "‘Kettle’ 中冒出的通常是蒸汽，常用 steam 表达。"
+    },
+    {
+      "error": "❌ Steam forms clouds in the sky.",
+      "correction": "✅ Water vapour forms clouds in the sky.",
+      "explanation": "形成云的是水蒸气（vapour），而不是热蒸汽（steam）。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word is more commonly used when boiling water?",
+      "options": ["A. Steam", "B. Vapour"],
+      "answer": "A",
+      "explanation": "‘Steam’ 常用于描述水烧开后冒出的热气。"
+    },
+    {
+      "question": "Which word is more formal and used in science?",
+      "options": ["A. Steam", "B. Vapour"],
+      "answer": "B",
+      "explanation": "‘Vapour’ 更正式，常用于科学语境。"
+    },
+    {
+      "question": "Clouds are formed from ____ in the air.",
+      "options": ["A. Steam", "B. Vapour"],
+      "answer": "B",
+      "explanation": "形成云的是空气中的水蒸气（vapour）。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["mist（薄雾）", "fog（雾）", "condensation（冷凝）"],
+    "tip": "记忆小口诀：锅里冒的是 steam，空中飘的是 vapour。"
+  }
+}

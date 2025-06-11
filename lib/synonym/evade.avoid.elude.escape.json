@@ -1,0 +1,107 @@
+{
+  "words": ["evade", "avoid", "elude", "escape"],
+  "explanation": {
+    "overview": "这四个词都有“躲避”或“逃离”的意思，但在用法、语气和场景上有所不同。",
+    "details": [
+      {
+        "word": "evade",
+        "meaning": "强调用聪明或狡猾的方式‘躲避’某事，常用于逃税、责任、问题等抽象事物。",
+        "example": "He tried to evade answering the question."
+      },
+      {
+        "word": "avoid",
+        "meaning": "最常见的表达，泛指“避免”或“躲开”某人、某物或某种情况。",
+        "example": "She avoided eye contact with her teacher."
+      },
+      {
+        "word": "elude",
+        "meaning": "书面语色彩较浓，强调巧妙地‘躲开’追捕或理解，常用于逃脱、难以抓住。",
+        "example": "The thief eluded the police for weeks."
+      },
+      {
+        "word": "escape",
+        "meaning": "强调成功‘逃离’困境、危险、监狱等物理或心理上的束缚。",
+        "example": "The prisoner escaped from jail last night."
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "是否强调智慧/技巧",
+      "evade": "是",
+      "avoid": "否",
+      "elude": "是",
+      "escape": "不强调"
+    },
+    {
+      "aspect": "对象是否可见",
+      "evade": "多抽象",
+      "avoid": "具体或抽象皆可",
+      "elude": "多用于追捕/理解",
+      "escape": "常用于具体束缚"
+    },
+    {
+      "aspect": "正式程度",
+      "evade": "中等偏正式",
+      "avoid": "普通口语",
+      "elude": "书面语偏多",
+      "escape": "常见普通"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "课堂提问",
+      "evade": "He evaded the teacher’s question by changing the topic.",
+      "avoid": "I tried to avoid answering because I didn’t know the answer.",
+      "elude": "The meaning of the poem eluded most students.",
+      "escape": "There was no way to escape the teacher's attention."
+    },
+    {
+      "scene": "交通场景",
+      "evade": "The driver evaded the toll by taking a side road.",
+      "avoid": "She avoided the traffic jam by leaving early.",
+      "elude": "The fast car eluded the chasing police.",
+      "escape": "The bus narrowly escaped a collision."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He avoided the police by jumping the wall. (用词不准确)",
+      "correction": "✅ He eluded the police by jumping the wall.",
+      "explanation": "elude 更强调成功地摆脱追捕。"
+    },
+    {
+      "error": "❌ He escaped the responsibility.",
+      "correction": "✅ He evaded the responsibility.",
+      "explanation": "evade 更适合搭配“责任”等抽象词。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：He managed to ___ paying taxes for years.",
+      "options": ["A. avoid", "B. escape", "C. evade", "D. elude"],
+      "answer": "C",
+      "explanation": "evade 特指“逃税”等责任相关的回避。"
+    },
+    {
+      "question": "选择正确用法：The answer to the riddle completely ___ me.",
+      "options": ["A. avoided", "B. escaped", "C. evaded", "D. eluded"],
+      "answer": "D",
+      "explanation": "elude 可用于表达“无法理解、抓住”。"
+    },
+    {
+      "question": "选择正确表达：She tried to ___ the topic by changing the subject.",
+      "options": ["A. elude", "B. evade", "C. escape", "D. avoid"],
+      "answer": "B",
+      "explanation": "evade 用于回避问题或话题。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "dodge（闪避，快速移动躲开）",
+      "sidestep（故意回避话题）",
+      "flee（快速逃离）"
+    ],
+    "tip": "口诀：avoid 常见规避，evade 狡猾应对，elude 巧妙躲闪，escape 真正逃脱。"
+  }
+}

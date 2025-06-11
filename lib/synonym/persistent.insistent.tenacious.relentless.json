@@ -1,0 +1,111 @@
+{
+  "words": ["persistent", "tenacious", "relentless", "insistent"],
+  "explanation": {
+    "overview": "这些词都表示‘坚持’或‘不放弃’，但语气和用法有所不同。",
+    "details": [
+      {
+        "word": "persistent",
+        "meaning": "持续不断地坚持，通常指在困难面前不放弃。",
+        "example": "She is persistent in learning English despite challenges.（她尽管遇到困难，仍坚持学英语。）"
+      },
+      {
+        "word": "tenacious",
+        "meaning": "形容人非常顽强，紧紧抓住目标不放，强调意志力强。",
+        "example": "He is tenacious and never gives up on his dreams.（他很顽强，从不放弃梦想。）"
+      },
+      {
+        "word": "relentless",
+        "meaning": "不留情面、毫不放松地坚持，带有强烈的压力感或负面感。",
+        "example": "The relentless rain lasted all night.（持续不停的雨下了一整夜。）"
+      },
+      {
+        "word": "insistent",
+        "meaning": "坚持要求或坚持说某事，常用于表达强烈的请求或主张。",
+        "example": "She was insistent that we stay for dinner.（她坚持让我们留下吃晚饭。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "侧重点",
+      "persistent": "持续不断，努力不放弃",
+      "tenacious": "顽强抓住目标，不轻易放弃",
+      "relentless": "毫不松懈，常带有压力或负面感",
+      "insistent": "坚持请求或主张"
+    },
+    {
+      "aspect": "语气",
+      "persistent": "中性，积极",
+      "tenacious": "积极，强调意志力",
+      "relentless": "较强硬，可能负面",
+      "insistent": "强烈，有时让人觉得烦"
+    },
+    {
+      "aspect": "使用场景",
+      "persistent": "学习、工作、态度等",
+      "tenacious": "人或态度，意志坚强",
+      "relentless": "自然现象、压力、追击等",
+      "insistent": "请求、要求、坚持说话"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学习英语",
+      "persistent": "He is persistent in practicing every day.（他坚持每天练习。）",
+      "tenacious": "She is tenacious in solving difficult problems.（她解决难题时非常顽强。）",
+      "relentless": "The relentless teacher kept giving us homework.（那位严格的老师不停布置作业。）",
+      "insistent": "The student was insistent on asking questions.（学生坚持不停提问。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He is relentless to finish the work.",
+      "correction": "✅ He is persistent to finish the work.",
+      "explanation": "'relentless'一般不直接形容人完成任务，'persistent'更合适。"
+    },
+    {
+      "error": "❌ She was tenacious that we help her.",
+      "correction": "✅ She was insistent that we help her.",
+      "explanation": "'insistent'用来表示坚持要求，‘tenacious’形容人意志顽强。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The dog was ___ in chasing the ball, never giving up.",
+      "options": [
+        "A. persistent",
+        "B. insistent",
+        "C. relentless",
+        "D. tenacious"
+      ],
+      "answer": "D",
+      "explanation": "'tenacious'强调顽强不放弃。"
+    },
+    {
+      "question": "选择正确答案：She was ___ on finishing her homework before dinner.",
+      "options": [
+        "A. relentless",
+        "B. persistent",
+        "C. insistent",
+        "D. tenacious"
+      ],
+      "answer": "C",
+      "explanation": "'insistent'用于坚持要求或主张。"
+    },
+    {
+      "question": "选择正确答案：The rain was ___ and didn’t stop all night.",
+      "options": [
+        "A. persistent",
+        "B. relentless",
+        "C. tenacious",
+        "D. insistent"
+      ],
+      "answer": "B",
+      "explanation": "'relentless'形容无情或不停的情况。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住：persistent强调持续努力，tenacious强调坚强意志，relentless强调毫不放松，insistent强调坚持请求。",
+    "related_words": ["determined（坚定的）", "stubborn（固执的）"]
+  }
+}

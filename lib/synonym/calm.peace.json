@@ -1,0 +1,92 @@
+{
+  "words": ["calm", "peace"],
+  "explanation": {
+    "overview": "这两个词都和“平静”有关，但用法和语境不同。",
+    "details": [
+      {
+        "word": "calm",
+        "meaning": "指内心、环境或天气等没有骚动，强调‘不慌、不动’的状态。",
+        "example": "She remained calm during the emergency."
+      },
+      {
+        "word": "peace",
+        "meaning": "指没有冲突或战争的状态，也可指内心的安宁，语义比 calm 更广。",
+        "example": "After the war ended, the country finally enjoyed peace."
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "中文含义",
+      "calm": "平静的、安静的",
+      "peace": "和平、安宁"
+    },
+    {
+      "aspect": "可描述对象",
+      "calm": "人、心情、海洋、天气",
+      "peace": "国家、世界、心灵、生活"
+    },
+    {
+      "aspect": "词性",
+      "calm": "名词 / 动词 / 形容词",
+      "peace": "名词"
+    },
+    {
+      "aspect": "常用搭配",
+      "calm": "stay calm, calm down, calm sea",
+      "peace": "world peace, inner peace, live in peace"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "考试前",
+      "calm": "Take a deep breath and stay calm before the exam.",
+      "peace": "I need peace and quiet to concentrate on my study."
+    },
+    {
+      "scene": "吵架之后",
+      "calm": "He calmed down after yelling for a while.",
+      "peace": "They made up and lived in peace again."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I want a calm in the world.",
+      "correction": "✅ I want peace in the world.",
+      "explanation": "世界和平应使用名词 peace，而不是 calm。"
+    },
+    {
+      "error": "❌ She felt peace when the baby stopped crying.",
+      "correction": "✅ She felt calm when the baby stopped crying.",
+      "explanation": "描述一个人的状态更适合用 calm。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word best completes the sentence: ‘Please try to stay ___.’",
+      "options": ["A. Peace", "B. Calm"],
+      "answer": "B",
+      "explanation": "句子要求的是‘保持冷静’，用 calm。"
+    },
+    {
+      "question": "After many years of war, the country is finally at ___.",
+      "options": ["A. Calm", "B. Peace"],
+      "answer": "B",
+      "explanation": "国家的和平应使用 peace。"
+    },
+    {
+      "question": "The sea was ___ and quiet this morning.",
+      "options": ["A. Peace", "B. Calm"],
+      "answer": "B",
+      "explanation": "描述海洋‘风平浪静’用 calm。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "tranquility（宁静）",
+      "serenity（平静安详）",
+      "stillness（寂静）"
+    ],
+    "tip": "口诀：calm 强调‘稳’，peace 强调‘和’。"
+  }
+}
