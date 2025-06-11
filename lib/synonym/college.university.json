@@ -1,0 +1,92 @@
+{
+  "words": ["college", "university"],
+  "explanation": {
+    "overview": "这两个词都表示高等教育机构，但在规模、课程和用法上有一些区别，尤其在英式英语和美式英语中用法不同。",
+    "details": [
+      {
+        "word": "college",
+        "meaning": "通常指提供学士学位或副学士学位的学校。在美式英语中，有时是大学的同义词；在英式英语中，常指大学的组成部分或中等教育后但不颁发学位的学校。",
+        "example": "I’m going to college in New York.（我要去纽约上大学。）"
+      },
+      {
+        "word": "university",
+        "meaning": "更大型、全面的高等教育机构，通常包括多个学院，提供本科、研究生和博士课程。",
+        "example": "She was accepted into Oxford University.（她被牛津大学录取了。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "中文意思",
+      "college": "学院/大学（美）/专科学院（英）",
+      "university": "大学（通常更大、全面）"
+    },
+    {
+      "aspect": "学位类型",
+      "college": "本科或副学士",
+      "university": "本科、硕士、博士"
+    },
+    {
+      "aspect": "规模",
+      "college": "较小，专注某些专业",
+      "university": "较大，包含多个学院"
+    },
+    {
+      "aspect": "常见地区用法",
+      "college": "美式英语中等同 university；英式英语中是 university 的一部分",
+      "university": "全球通用，尤其在正式场合"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "美国学生申请学校",
+      "college": "He applied to five colleges in California.",
+      "university": "He plans to get a PhD from a top university."
+    },
+    {
+      "scene": "英国学生",
+      "college": "She studied at a technical college before university.",
+      "university": "She attended Cambridge University to study law."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I want to study in a big college with graduate programs.",
+      "correction": "✅ I want to study in a big university with graduate programs.",
+      "explanation": "‘College’ 通常不指研究生教育，‘university’ 才包括研究生课程。"
+    },
+    {
+      "error": "❌ He’s going to university college in the US.",
+      "correction": "✅ He’s going to college in the US.",
+      "explanation": "在美式英语中，‘college’ 和 ‘university’ 用法相近，但不需要同时说。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word usually refers to a larger institution offering graduate degrees?",
+      "options": ["A. College", "B. University"],
+      "answer": "B",
+      "explanation": "University 通常规模更大，提供硕士和博士等研究生教育。"
+    },
+    {
+      "question": "Which word might be used in the US to mean a general higher education school?",
+      "options": ["A. College", "B. University"],
+      "answer": "A",
+      "explanation": "在美国，‘college’ 可泛指大学。"
+    },
+    {
+      "question": "Which word is more formal and used internationally?",
+      "options": ["A. College", "B. University"],
+      "answer": "B",
+      "explanation": "‘University’ 是全球通用、较正式的用语。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "在美国‘college ≈ university’，在英国‘college < university’",
+    "extended_words": [
+      "community college（社区学院）",
+      "liberal arts college（文理学院）",
+      "polytechnic（理工学院）"
+    ]
+  }
+}

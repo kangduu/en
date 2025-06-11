@@ -1,0 +1,97 @@
+{
+  "words": ["accurate", "exact", "precise"],
+  "explanation": {
+    "overview": "这三个词都与‘准确’有关，但它们在表达程度、使用语境和强调点上略有不同。",
+    "details": [
+      {
+        "word": "accurate",
+        "meaning": "强调‘没有错误’、‘正确无误’，通常用于描述信息、数据或陈述。",
+        "example": "The report is accurate and based on facts."
+      },
+      {
+        "word": "exact",
+        "meaning": "表示‘完全正确’、‘一丝不差’，更强调与事实完全一致，常用于数字、时间或位置等。",
+        "example": "We arrived at the exact time he mentioned."
+      },
+      {
+        "word": "precise",
+        "meaning": "强调‘精确’、‘细节明确’，常用于技术、测量或说明的语境中，讲究细节的准确性。",
+        "example": "The machine is capable of making precise cuts."
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "中文含义",
+      "accurate": "准确的，无误的",
+      "exact": "精确的，完全一致的",
+      "precise": "精密的，明确的"
+    },
+    {
+      "aspect": "强调点",
+      "accurate": "无错误",
+      "exact": "完全一致",
+      "precise": "细节精细、明确"
+    },
+    {
+      "aspect": "使用场景",
+      "accurate": "报告、陈述、答案",
+      "exact": "数字、时间、复制",
+      "precise": "技术说明、操作、要求"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "做饭",
+      "accurate": "You need an accurate measurement of ingredients.",
+      "exact": "Add exactly one teaspoon of salt.",
+      "precise": "Cut the vegetables into precise 2cm cubes."
+    },
+    {
+      "scene": "考试",
+      "accurate": "His answer was accurate, so he got full marks.",
+      "exact": "He repeated the exact sentence from the textbook.",
+      "precise": "Be precise when explaining the grammar rule."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ This copy is very precise to the original.",
+      "correction": "✅ This copy is exactly the same as the original.",
+      "explanation": "比较整体一致性用 exact，而不是 precise。"
+    },
+    {
+      "error": "❌ Please be accurate when cutting the wood.",
+      "correction": "✅ Please be precise when cutting the wood.",
+      "explanation": "做工精细、讲究尺寸应使用 precise。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She gave an ___ answer based on scientific data.",
+      "options": ["A. exact", "B. accurate", "C. precise"],
+      "answer": "B",
+      "explanation": "scientific data 更注重正确性，用 accurate。"
+    },
+    {
+      "question": "选择正确答案：Can you tell me the ___ time of the meeting?",
+      "options": ["A. accurate", "B. exact", "C. precise"],
+      "answer": "B",
+      "explanation": "时间需要完全一致，用 exact。"
+    },
+    {
+      "question": "选择正确答案：This tool allows for very ___ adjustments.",
+      "options": ["A. accurate", "B. exact", "C. precise"],
+      "answer": "C",
+      "explanation": "technical setting 中应使用 precise。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "correct（正确的）",
+      "faithful（忠实的，常用于翻译）",
+      "strict（严格的，有时也表达准确）"
+    ],
+    "tip": "口诀：accurate重正确，exact重一致，precise重细节。"
+  }
+}

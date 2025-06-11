@@ -1,0 +1,92 @@
+{
+  "words": ["parliament", "congress"],
+  "explanation": {
+    "overview": "这两个词都指‘立法机关’，但它们所处的国家、制度和具体职能略有不同。",
+    "details": [
+      {
+        "word": "parliament",
+        "meaning": "多用于英国及英联邦国家，通常由两个议院组成（上议院和下议院），负责制定法律、监督政府等。",
+        "example": "The British Parliament passed a new education bill."
+      },
+      {
+        "word": "congress",
+        "meaning": "主要用于美国，分为众议院和参议院，负责立法、批准预算、监督政府行为。",
+        "example": "The U.S. Congress approved the budget plan."
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "适用国家",
+      "parliament": "英国、加拿大、印度等英联邦国家",
+      "congress": "美国、拉美一些国家"
+    },
+    {
+      "aspect": "议会结构",
+      "parliament": "上下两院（如英国：上议院 + 下议院）",
+      "congress": "参议院 + 众议院（美国）"
+    },
+    {
+      "aspect": "主要职责",
+      "parliament": "立法、监督首相及内阁",
+      "congress": "立法、财政审批、监督总统"
+    },
+    {
+      "aspect": "词性",
+      "parliament": "名词",
+      "congress": "名词"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "新闻报道",
+      "parliament": "The Canadian Parliament debated the new healthcare policy.",
+      "congress": "The U.S. Congress discussed gun control laws."
+    },
+    {
+      "scene": "课堂学习",
+      "parliament": "Students learned how laws are passed in the UK Parliament.",
+      "congress": "They studied how the U.S. Congress operates."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The laws in the U.S. are made by Parliament.",
+      "correction": "✅ The laws in the U.S. are made by Congress.",
+      "explanation": "美国使用的是 Congress，不是 Parliament。"
+    },
+    {
+      "error": "❌ The Parliament of the United States has two houses.",
+      "correction": "✅ The Congress of the United States has two houses.",
+      "explanation": "美国的立法机关应称为 Congress。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The Prime Minister answers questions in the ____.",
+      "options": ["A. Congress", "B. Parliament", "C. Court"],
+      "answer": "B",
+      "explanation": "首相（Prime Minister）属于议会制国家，应在 Parliament 回答问题。"
+    },
+    {
+      "question": "选择正确答案：The U.S. ____ is composed of the Senate and the House of Representatives.",
+      "options": ["A. Parliament", "B. Congress", "C. Government"],
+      "answer": "B",
+      "explanation": "美国的立法机关是 Congress，由参议院和众议院组成。"
+    },
+    {
+      "question": "选择正确答案：The UK ____ passed a new immigration law.",
+      "options": ["A. Congress", "B. Parliament", "C. Assembly"],
+      "answer": "B",
+      "explanation": "英国的立法机构是 Parliament。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "legislature（立法机关）",
+      "senate（参议院）",
+      "house（众议院或下议院）"
+    ],
+    "tip": "口诀：英联邦用 Parliament，美国立法是 Congress。"
+  }
+}

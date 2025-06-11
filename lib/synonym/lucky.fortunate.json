@@ -1,0 +1,78 @@
+{
+  "words": ["fortunate", "lucky"],
+  "explanation": {
+    "overview": "这两个词都表示‘幸运’，但语气和用法有细微区别。",
+    "details": [
+      {
+        "word": "fortunate",
+        "meaning": "正式用词，强调因为某些好条件或环境而得到的好运，带有感激或命运的意味。",
+        "example": "I was fortunate to find a good job quickly.（我很幸运，很快找到了一份好工作。）"
+      },
+      {
+        "word": "lucky",
+        "meaning": "口语常用，强调偶然的好运或机会，语气更随意。",
+        "example": "You are lucky to win the lottery!（你真幸运，中奖了！）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气",
+      "fortunate": "正式，文雅",
+      "lucky": "口语，随意"
+    },
+    {
+      "aspect": "强调",
+      "fortunate": "因条件、环境等获得好运",
+      "lucky": "偶然或机会带来的好运"
+    },
+    {
+      "aspect": "使用场景",
+      "fortunate": "书面语、正式表达",
+      "lucky": "日常口语、聊天"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "考试成绩",
+      "fortunate": "I was fortunate to pass the exam on my first try.（我很幸运，第一次就通过了考试。）",
+      "lucky": "I was lucky to guess the right answer.（我幸运地猜对了答案。）"
+    },
+    {
+      "scene": "遇见朋友",
+      "fortunate": "We were fortunate to meet old friends at the party.（我们很幸运在聚会上遇见了老朋友。）",
+      "lucky": "You’re lucky to have such good friends.（你真幸运，有这么好的朋友。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I feel lucky because of my hard work.",
+      "correction": "✅ I feel fortunate because of my hard work.",
+      "explanation": "'fortunate'更适合表达因努力或条件而获得的好运。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She was very ___ to survive the accident.",
+      "options": ["A. lucky", "B. fortunate"],
+      "answer": "B",
+      "explanation": "'fortunate'用于强调命运或环境带来的好运。"
+    },
+    {
+      "question": "选择正确答案：You’re ___ to find such a nice house so quickly!",
+      "options": ["A. fortunate", "B. lucky"],
+      "answer": "B",
+      "explanation": "'lucky'更口语，强调偶然性。"
+    },
+    {
+      "question": "选择正确答案：I feel ___ to have supportive parents.",
+      "options": ["A. lucky", "B. fortunate"],
+      "answer": "B",
+      "explanation": "因为强调条件和感激，'fortunate'更合适。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住：'fortunate'更正式，强调命运和条件；'lucky'更随意，强调偶然好运。",
+    "related_words": ["blessed（有福的）", "chance（机会）"]
+  }
+}

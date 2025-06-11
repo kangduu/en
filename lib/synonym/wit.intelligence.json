@@ -1,0 +1,82 @@
+{
+  "words": ["wit", "intelligence"],
+  "explanation": {
+    "overview": "这两个词都与‘聪明’相关，但语义焦点不同：‘wit’更偏向于机智、语言敏捷，而‘intelligence’更全面，指整体的理解和思考能力。",
+    "details": [
+      {
+        "word": "wit",
+        "meaning": "机智，常用于指言语幽默、反应快，有时含有俏皮或讽刺意味。",
+        "example": "She is known for her sharp wit.（她以敏捷的机智闻名。）"
+      },
+      {
+        "word": "intelligence",
+        "meaning": "智慧，指学习、理解、推理、解决问题的综合能力。",
+        "example": "His intelligence impressed all the professors.（他的智慧让所有教授印象深刻。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "中文意思",
+      "wit": "机智、风趣",
+      "intelligence": "智力、智慧"
+    },
+    {
+      "aspect": "核心含义",
+      "wit": "快速、机敏的语言表达",
+      "intelligence": "综合认知与理解能力"
+    },
+    {
+      "aspect": "常见搭配",
+      "wit": "quick/sharp wit, dry wit",
+      "intelligence": "artificial intelligence, emotional intelligence"
+    },
+    {
+      "aspect": "适用场景",
+      "wit": "对话中、喜剧中、演讲中",
+      "intelligence": "学习、考试、工作、科技领域"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "日常对话",
+      "wit": "He made everyone laugh with his quick wit.",
+      "intelligence": "She showed great intelligence in solving the puzzle."
+    },
+    {
+      "scene": "学校或工作",
+      "wit": "Her wit during the debate impressed the audience.",
+      "intelligence": "His intelligence helped him win the math competition."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He has great wit in science.",
+      "correction": "✅ He has great intelligence in science.",
+      "explanation": "‘Wit’ 不用于形容学术能力，应使用 ‘intelligence’。"
+    },
+    {
+      "error": "❌ That joke showed his intelligence.",
+      "correction": "✅ That joke showed his wit.",
+      "explanation": "讲笑话体现的是‘机智’而非‘智力’。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word describes being funny and clever in speech?",
+      "options": ["A. Intelligence", "B. Wit"],
+      "answer": "B",
+      "explanation": "‘Wit’ 强调机智幽默的语言能力。"
+    },
+    {
+      "question": "Which word is broader and includes problem-solving and reasoning?",
+      "options": ["A. Wit", "B. Intelligence"],
+      "answer": "B",
+      "explanation": "‘Intelligence’ 是更全面的智力概念。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "如果有人让你发笑但也佩服他们的聪明，通常是 wit；如果你敬佩一个人学习或理解能力强，那是 intelligence。",
+    "related_terms": ["brainpower", "cleverness", "wisdom", "humor", "genius"]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "words": ["frightened", "afraid", "scared", "fearful", "terrified"],
+  "explanation": {
+    "overview": "这些词都表示“害怕”，但语气强弱和使用场景略有不同。",
+    "details": [
+      {
+        "word": "afraid",
+        "meaning": "最常用的‘害怕’，可指担心某事发生，既可描述心理状态也可用于婉转表达拒绝等。",
+        "example": "I'm afraid of spiders."
+      },
+      {
+        "word": "scared",
+        "meaning": "口语中常用，意思和 afraid 很接近，多用于具体事物引起的害怕。",
+        "example": "He’s scared of the dark."
+      },
+      {
+        "word": "frightened",
+        "meaning": "强调受到惊吓，有突发的感觉，多用于被突然吓到。",
+        "example": "She was frightened by the loud noise."
+      },
+      {
+        "word": "fearful",
+        "meaning": "较正式，强调一种‘充满恐惧’或‘可怕’的状态，常用于书面语或描述场景。",
+        "example": "They had a fearful experience during the storm."
+      },
+      {
+        "word": "terrified",
+        "meaning": "最强烈的表达，表示‘极度害怕’、‘惊恐万分’。",
+        "example": "I was terrified when I saw the snake."
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气强度",
+      "afraid": "中等",
+      "scared": "中等（更口语）",
+      "frightened": "偏强",
+      "fearful": "偏强（书面）",
+      "terrified": "非常强"
+    },
+    {
+      "aspect": "使用语境",
+      "afraid": "普遍、正式或婉转",
+      "scared": "日常口语",
+      "frightened": "受到惊吓",
+      "fearful": "书面、文学",
+      "terrified": "极度恐惧"
+    },
+    {
+      "aspect": "搭配对象",
+      "afraid": "of + 名词/动词ing",
+      "scared": "of + 名词/动词ing",
+      "frightened": "by / of",
+      "fearful": "of / 形容事件",
+      "terrified": "of / by"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "夜晚在家听到怪声",
+      "afraid": "I'm afraid to check the basement.",
+      "scared": "I’m scared of that noise.",
+      "frightened": "She was frightened when the lights went out.",
+      "fearful": "They were fearful something bad would happen.",
+      "terrified": "He was terrified to be alone in the dark."
+    },
+    {
+      "scene": "学校演讲",
+      "afraid": "She's afraid of public speaking.",
+      "scared": "I’m scared I’ll forget my lines.",
+      "frightened": "He looked frightened before stepping on stage.",
+      "fearful": "He had a fearful look on his face.",
+      "terrified": "I was terrified the whole time on stage."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I'm fearful of dogs. (日常口语)",
+      "correction": "✅ I'm afraid/scared of dogs.",
+      "explanation": "fearful 在这里太正式，不适合口语表达。"
+    },
+    {
+      "error": "❌ I’m terrified by to speak English.",
+      "correction": "✅ I’m terrified to speak English.",
+      "explanation": "介词 by 错误，应使用 to 表示动作。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Choose the most intense word: I was ___ when the tiger roared.",
+      "options": ["A. Afraid", "B. Frightened", "C. Terrified"],
+      "answer": "C",
+      "explanation": "terrified 表示最强烈的恐惧。"
+    },
+    {
+      "question": "Choose the best fit: I'm ___ of speaking in public.",
+      "options": ["A. Fearful", "B. Scared", "C. Terrified"],
+      "answer": "B",
+      "explanation": "口语场景更常用 scared。"
+    },
+    {
+      "question": "Correct the error: She is fearful to dogs.",
+      "options": ["A. No change", "B. fearful of dogs", "C. afraid of dogs"],
+      "answer": "C",
+      "explanation": "‘afraid of’ 更符合日常表达。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "panic（惊慌）",
+      "anxious（焦虑）",
+      "apprehensive（不安）"
+    ],
+    "tip": "口诀：afraid 一般怕，scared 口语怕，frightened 被吓怕，terrified 吓破胆。"
+  }
+}

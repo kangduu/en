@@ -1,0 +1,170 @@
+{
+  "words": [
+    "delighted",
+    "happy",
+    "pleased",
+    "cheerful",
+    "elated",
+    "overjoyed",
+    "jubilant",
+    "charmed",
+    "glad"
+  ],
+  "explanation": {
+    "overview": "这些形容词都描述'高兴'的情绪，但在强度、持续时间和表现方式上有所不同。",
+    "details": [
+      {
+        "word": "happy",
+        "meaning": "最通用的词，表示一般的快乐或满足",
+        "example": "I'm happy with my new job.（我对新工作感到满意。）"
+      },
+      {
+        "word": "glad",
+        "meaning": "因特定事情而感到高兴，通常较短暂",
+        "example": "I'm glad you could come to the party.（很高兴你能来参加聚会。）"
+      },
+      {
+        "word": "pleased",
+        "meaning": "满意的，比happy更正式",
+        "example": "The teacher was pleased with our progress.（老师对我们的进步感到满意。）"
+      },
+      {
+        "word": "delighted",
+        "meaning": "非常高兴，比happy程度更强",
+        "example": "We were delighted by the surprise party.（我们对惊喜派对感到非常高兴。）"
+      },
+      {
+        "word": "cheerful",
+        "meaning": "开朗的，表现出快乐的情绪",
+        "example": "She's always so cheerful in the morning.（她早上总是很开朗。）"
+      },
+      {
+        "word": "elated",
+        "meaning": "兴高采烈的，因成功或好消息而极度高兴",
+        "example": "He was elated when he won the competition.（他赢得比赛后欣喜若狂。）"
+      },
+      {
+        "word": "overjoyed",
+        "meaning": "极其高兴，比delighted程度更强",
+        "example": "They were overjoyed at the birth of their baby.（他们对孩子的出生感到无比喜悦。）"
+      },
+      {
+        "word": "jubilant",
+        "meaning": "欢欣鼓舞的，常伴有公开庆祝",
+        "example": "The fans were jubilant when their team won.（球队获胜时球迷们欢欣鼓舞。）"
+      },
+      {
+        "word": "charmed",
+        "meaning": "感到愉悦的，通常因优雅或精致的事物",
+        "example": "I was charmed by the little French café.（我被这家法国小咖啡馆迷住了。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "强度",
+      "happy": "中等",
+      "glad": "中等",
+      "pleased": "中等偏正式",
+      "delighted": "强",
+      "cheerful": "持续温和",
+      "elated": "很强",
+      "overjoyed": "极强",
+      "jubilant": "极强+公开表现",
+      "charmed": "温和愉悦"
+    },
+    {
+      "aspect": "持续时间",
+      "happy": "可长可短",
+      "glad": "短暂",
+      "pleased": "中等",
+      "delighted": "中等",
+      "cheerful": "长期性格",
+      "elated": "短暂强烈",
+      "overjoyed": "短暂极强",
+      "jubilant": "短暂",
+      "charmed": "短暂"
+    },
+    {
+      "aspect": "典型触发",
+      "happy": "普遍满足",
+      "glad": "具体好事",
+      "pleased": "达到预期",
+      "delighted": "惊喜",
+      "cheerful": "性格使然",
+      "elated": "个人成就",
+      "overjoyed": "重大喜讯",
+      "jubilant": "公共胜利",
+      "charmed": "精致体验"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "日常交流",
+      "happy": "I'm happy to see you.（很高兴见到你。）",
+      "glad": "I'm glad the weather is nice.（很高兴天气不错。）",
+      "pleased": "We're pleased to announce the new product.（我们很高兴宣布新产品。）",
+      "delighted": "She was delighted with the gift.（她对礼物感到非常高兴。）",
+      "cheerful": "He gave a cheerful greeting.（他愉快地打招呼。）",
+      "elated": "(不常用)",
+      "overjoyed": "(不常用)",
+      "jubilant": "(不常用)",
+      "charmed": "I'm charmed by your manners.（我被你的举止迷住了。）"
+    },
+    {
+      "scene": "特殊场合",
+      "happy": "(程度不足)",
+      "glad": "(程度不足)",
+      "pleased": "(程度不足)",
+      "delighted": "The bride was delighted with the wedding.（新娘对婚礼非常满意。）",
+      "cheerful": "(不适用)",
+      "elated": "The athletes were elated with their medals.（运动员们因奖牌而兴高采烈。）",
+      "overjoyed": "Parents were overjoyed at graduation.（毕业典礼上父母们欣喜若狂。）",
+      "jubilant": "The crowd was jubilant after the victory.（胜利后人群欢欣鼓舞。）",
+      "charmed": "Guests were charmed by the venue.（客人们被场地迷住了。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I'm overjoyed with this cup of coffee.",
+      "correction": "✅ I'm pleased/delighted with this cup of coffee.（咖啡带来的愉悦用pleased/delighted）"
+    },
+    {
+      "error": "❌ She's always so overjoyed in the morning.",
+      "correction": "✅ She's always so cheerful in the morning.（早晨开朗用cheerful）"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择最合适的词：The whole nation was ___ when their team won the World Cup.",
+      "options": ["A. happy", "B. jubilant", "C. charmed", "D. glad"],
+      "answer": "B",
+      "explanation": "全国性胜利用jubilant"
+    },
+    {
+      "question": "哪个词最适合描述'对精美礼物的反应'？",
+      "options": ["A. delighted", "B. cheerful", "C. glad", "D. pleased"],
+      "answer": "A",
+      "explanation": "精美礼物带来的高兴用delighted"
+    },
+    {
+      "question": "填空：She has a naturally ___ personality that brightens the office.",
+      "options": ["A. elated", "B. cheerful", "C. overjoyed", "D. jubilant"],
+      "answer": "B",
+      "explanation": "开朗性格用cheerful"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "ecstatic（狂喜的）",
+      "content（满足的）",
+      "thrilled（非常激动的）",
+      "merry（欢乐的）"
+    ],
+    "special_cases": {
+      "happy_go_lucky": "乐天派的",
+      "pleased_to_meet_you": "正式问候语",
+      "jubilant_celebration": "欢庆活动"
+    }
+  }
+}

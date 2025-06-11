@@ -1,0 +1,93 @@
+{
+  "words": ["connect", "join", "link"],
+  "explanation": {
+    "overview": "这三个词都表示‘连接’的意思，但用法和侧重点不同。",
+    "details": [
+      {
+        "word": "connect",
+        "meaning": "强调把两个或多个物体或想法联系起来，使它们相互作用或相连。",
+        "example": "The bridge connects the two islands.（桥连接了两个岛。）"
+      },
+      {
+        "word": "join",
+        "meaning": "强调把两个物体物理或抽象地合并或接合在一起，常带有‘加入’的意思。",
+        "example": "Please join the two pieces of wood with glue.（请用胶水把这两块木头粘在一起。）"
+      },
+      {
+        "word": "link",
+        "meaning": "强调在两个事物之间建立一种联系，常用于信息、想法、网页等抽象连接。",
+        "example": "This article links climate change to health problems.（这篇文章把气候变化和健康问题联系起来。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "侧重点",
+      "connect": "建立实际或抽象的联系",
+      "join": "把两个部分合并或接合",
+      "link": "强调相关联或链条关系"
+    },
+    {
+      "aspect": "使用场景",
+      "connect": "桥梁、线路、思想等连接",
+      "join": "物理接合、加入团体",
+      "link": "网页链接、逻辑关联"
+    },
+    {
+      "aspect": "动词性质",
+      "connect": "多用于正式或技术场景",
+      "join": "强调合并动作",
+      "link": "更偏向建立联系、关联"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "生活中",
+      "connect": "I connect my phone to the Wi-Fi.（我把手机连接到无线网。）",
+      "join": "They joined the two parts of the tent together.（他们把帐篷的两部分接在一起。）",
+      "link": "The teacher linked the story to real life.（老师把故事和现实生活联系起来。）"
+    },
+    {
+      "scene": "学习",
+      "connect": "Connect the dots to form a picture.（连接这些点形成一幅图画。）",
+      "join": "Join the words to make a sentence.（把单词连起来组成句子。）",
+      "link": "Link the cause and effect in the experiment.（把实验中的因果关系联系起来。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ Please link these two wood pieces with glue.",
+      "correction": "✅ Please join these two wood pieces with glue.",
+      "explanation": "物理接合时用join更合适，link偏重信息或关系。"
+    },
+    {
+      "error": "❌ I joined my phone to the Wi-Fi.",
+      "correction": "✅ I connected my phone to the Wi-Fi.",
+      "explanation": "连接设备用connect更自然。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She ____ the charger to the computer.",
+      "options": ["A. connects", "B. joins", "C. links"],
+      "answer": "A",
+      "explanation": "连接电子设备用connect。"
+    },
+    {
+      "question": "选择正确答案：Can you ____ these two sentences with ‘and’?",
+      "options": ["A. connect", "B. join", "C. link"],
+      "answer": "B",
+      "explanation": "合并句子用join。"
+    },
+    {
+      "question": "选择正确答案：The article ____ poverty and crime.",
+      "options": ["A. connects", "B. joins", "C. links"],
+      "answer": "C",
+      "explanation": "文章中强调关系用link。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住：connect多指建立联系，join指合并接合，link强调相关性或链条关系。",
+    "related_words": ["attach（附上）", "combine（结合）"]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "words": ["double", "twice", "twin"],
+  "explanation": {
+    "overview": "这三个词都与‘两倍’或‘两个’有关，但用法和含义不同。",
+    "details": [
+      {
+        "word": "double",
+        "meaning": "形容词、动词或名词，表示‘两倍的’、‘加倍’、‘成双’的意思。也可用作动词，表示‘加倍’或‘翻倍’。",
+        "example": "The price has doubled in a year.（价格在一年内翻了一番。）"
+      },
+      {
+        "word": "twice",
+        "meaning": "副词，表示‘两次’或‘两倍’的意思，强调次数或数量，是double的副词形式。",
+        "example": "She called me twice yesterday.（她昨天给我打了两次电话。）"
+      },
+      {
+        "word": "twin",
+        "meaning": "名词或形容词，表示‘双胞胎’或者‘成对的、成双的’事物。",
+        "example": "They are twin brothers.（他们是双胞胎兄弟。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "词性",
+      "double": "形容词/动词/名词",
+      "twice": "副词",
+      "twin": "名词/形容词"
+    },
+    {
+      "aspect": "意思",
+      "double": "两倍，加倍，双重",
+      "twice": "两次，数量或次数的两倍",
+      "twin": "双胞胎，成对的"
+    },
+    {
+      "aspect": "用法",
+      "double": "表示数量或程度增加，或形容成双的物品",
+      "twice": "强调动作发生两次或数量的两倍",
+      "twin": "用于形容两个人或物是成对、成双的"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "购物",
+      "double": "This shirt costs double the price of that one.（这件衬衫的价格是那件的两倍。）",
+      "twice": "I visited the store twice last week.（我上周去了那家店两次。）",
+      "twin": "She has twin sisters.（她有一对双胞胎姐妹。）"
+    },
+    {
+      "scene": "家庭",
+      "double": "They live in a double house.（他们住在一幢双拼房子里。）",
+      "twice": "I brush my teeth twice a day.（我一天刷两次牙。）",
+      "twin": "The twins look very similar.（这对双胞胎长得很像。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I called him double times.",
+      "correction": "✅ I called him twice.",
+      "explanation": "twice表示‘两次’，不能用double times。"
+    },
+    {
+      "error": "❌ They are double brothers.",
+      "correction": "✅ They are twin brothers.",
+      "explanation": "描述双胞胎用twin，不用double。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She visits her grandma ___ a week.",
+      "options": ["A. double", "B. twice", "C. twin"],
+      "answer": "B",
+      "explanation": "twice表示‘两次’，用于频率。"
+    },
+    {
+      "question": "选择正确答案：The new phone is ___ the price of the old one.",
+      "options": ["A. twin", "B. twice", "C. double"],
+      "answer": "C",
+      "explanation": "double表示‘两倍’的数量或程度。"
+    },
+    {
+      "question": "选择正确答案：They are ___ sisters.",
+      "options": ["A. double", "B. twice", "C. twin"],
+      "answer": "C",
+      "explanation": "twin用于表示双胞胎。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住：double强调数量加倍；twice强调次数或数量两倍；twin强调成对或双胞胎。",
+    "related_words": ["duplicate（复制品）", "duo（两人组合）"]
+  }
+}

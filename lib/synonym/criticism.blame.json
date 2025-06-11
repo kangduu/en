@@ -1,0 +1,83 @@
+{
+  "words": ["criticism", "blame"],
+  "explanation": {
+    "overview": "这两个词都表示对错误或不足的指出，但侧重点和语气不同。",
+    "details": [
+      {
+        "word": "criticism",
+        "meaning": "批评，通常指对行为、作品或想法的评价，可以是建设性的或负面的。",
+        "example": "The teacher gave helpful criticism on my essay.（老师对我的作文给了有用的批评。）"
+      },
+      {
+        "word": "blame",
+        "meaning": "责备，强调把责任归咎于某人或某事，通常含负面情绪。",
+        "example": "Don't blame me for the mistake.（别把错误怪我。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "侧重点",
+      "criticism": "评价优缺点，可正面或负面",
+      "blame": "归责，强调责任和错误"
+    },
+    {
+      "aspect": "语气",
+      "criticism": "较正式，可以客观",
+      "blame": "情绪化，带指责意味"
+    },
+    {
+      "aspect": "使用场景",
+      "criticism": "工作、艺术、行为的评价",
+      "blame": "错误、事故、问题的归责"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "工作场合",
+      "criticism": "The manager gave criticism to improve the project.（经理提出批评以改进项目。）",
+      "blame": "She blamed her team for the failure.（她责怪团队导致失败。）"
+    },
+    {
+      "scene": "家庭生活",
+      "criticism": "Parents gave criticism on his bad habits.（父母批评了他的坏习惯。）",
+      "blame": "He blamed his brother for breaking the vase.（他责怪弟弟打破了花瓶。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He gave me blame for the report.",
+      "correction": "✅ He blamed me for the report.",
+      "explanation": "blame作为动词用来责怪；名词时用 criticism 来表示批评。"
+    },
+    {
+      "error": "❌ She criticized him for the accident.",
+      "correction": "✅ She blamed him for the accident.",
+      "explanation": "事故发生时，更常用 blame 表示归责。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The coach gave some ____ to help the players improve.",
+      "options": ["A. criticism", "B. blame"],
+      "answer": "A",
+      "explanation": "此处是建设性的批评，选 criticism。"
+    },
+    {
+      "question": "选择正确答案：They ____ the driver for the crash.",
+      "options": ["A. criticized", "B. blamed"],
+      "answer": "B",
+      "explanation": "这里是责怪司机，选 blame。"
+    },
+    {
+      "question": "选择正确答案：Don’t ____ others without proof.",
+      "options": ["A. criticize", "B. blame"],
+      "answer": "B",
+      "explanation": "责怪别人要有证据，选 blame。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["condemn（谴责）", "fault（过错）"],
+    "tip": "criticism重评价，blame重归责。"
+  }
+}

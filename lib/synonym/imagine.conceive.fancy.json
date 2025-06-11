@@ -1,0 +1,88 @@
+{
+  "words": ["imagine", "conceive", "fancy"],
+  "explanation": {
+    "overview": "这三个词都与‘想象’有关，但用法和语气有所不同。",
+    "details": [
+      {
+        "word": "imagine",
+        "meaning": "在脑海中形成某个画面或想法，通常是较普遍和口语化的用法。",
+        "example": "I can imagine how beautiful the beach is.（我能想象那个海滩有多美。）"
+      },
+      {
+        "word": "conceive",
+        "meaning": "在思想上构思或形成某个想法，较正式，强调理性思考或创造性的构想。",
+        "example": "She conceived a plan to improve the company.（她构思了一个改进公司的计划。）"
+      },
+      {
+        "word": "fancy",
+        "meaning": "想象、设想（常带有不太真实或奇特的意味），也用于表示喜爱或想要。",
+        "example": "I fancy going to the party tonight.（我想去参加今晚的派对。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气",
+      "imagine": "普通、口语化",
+      "conceive": "正式、理性",
+      "fancy": "轻松、带有幻想色彩"
+    },
+    {
+      "aspect": "用法",
+      "imagine": "广泛用于任何想象情况",
+      "conceive": "用于构思计划、理念等",
+      "fancy": "用于幻想或表达喜好"
+    },
+    {
+      "aspect": "例句类型",
+      "imagine": "描绘画面",
+      "conceive": "创意构思",
+      "fancy": "愿望或幻想"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "旅行计划",
+      "imagine": "Can you imagine traveling around the world?（你能想象环游世界吗？）",
+      "conceive": "He conceived a detailed itinerary for the trip.（他构思了详细的旅行计划。）",
+      "fancy": "I fancy visiting Paris someday.（我想去巴黎旅游。）"
+    },
+    {
+      "scene": "课堂讨论",
+      "imagine": "Try to imagine how the story ends.（试着想象故事的结局。）",
+      "conceive": "She conceived an idea for her project.（她构思了项目的一个想法。）",
+      "fancy": "Do you fancy joining the debate club?（你想加入辩论社吗？）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He fancied a detailed plan for the event.",
+      "correction": "✅ He conceived a detailed plan for the event.",
+      "explanation": "'conceive'适合用来表达构思计划，'fancy'不适合此处。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：Can you ___ how life will be in 2050?",
+      "options": ["A. imagine", "B. conceive", "C. fancy"],
+      "answer": "A",
+      "explanation": "'imagine'用来描述脑海中的画面或情景。"
+    },
+    {
+      "question": "选择正确答案：She ___ a brilliant idea for the new product.",
+      "options": ["A. fancied", "B. conceived", "C. imagined"],
+      "answer": "B",
+      "explanation": "'conceived'强调理性构思。"
+    },
+    {
+      "question": "选择正确答案：I ___ going to the concert tonight.",
+      "options": ["A. conceived", "B. imagined", "C. fancy"],
+      "answer": "C",
+      "explanation": "'fancy'表示想要或喜欢做某事。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住：imagine重画面，conceive重构思，fancy重愿望和幻想。",
+    "related_words": ["visualize（形象化）", "dream（梦想）"]
+  }
+}

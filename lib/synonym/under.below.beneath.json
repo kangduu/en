@@ -1,0 +1,99 @@
+{
+  "words": ["beneath", "below", "under"],
+  "explanation": {
+    "overview": "这三个词都表示‘在……之下’，但语气、使用场景和语义范围略有不同。",
+    "details": [
+      {
+        "word": "under",
+        "meaning": "表示正下方，最常用，适用于物理空间、规则、控制等语境。",
+        "example": "The cat is under the table.（猫在桌子下面。）"
+      },
+      {
+        "word": "below",
+        "meaning": "强调在较低的位置，不一定是正下方；也可用于抽象概念如‘温度低于……’",
+        "example": "The temperature is below zero.（温度在零度以下。）"
+      },
+      {
+        "word": "beneath",
+        "meaning": "文雅或文学用语，常用于比喻或强调不值得/低人一等，也可作物理位置用。",
+        "example": "She felt it was beneath her to beg.（她觉得乞讨有失身份。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "中文意思",
+      "under": "在……正下方",
+      "below": "在较低的位置",
+      "beneath": "在……之下（偏文学或抽象）"
+    },
+    {
+      "aspect": "使用频率",
+      "under": "日常最常用",
+      "below": "较常用",
+      "beneath": "较正式或文学用语"
+    },
+    {
+      "aspect": "是否可用于比喻",
+      "under": "✔（如 under control）",
+      "below": "✔（如 below average）",
+      "beneath": "✔（如 beneath dignity）"
+    },
+    {
+      "aspect": "是否强调垂直",
+      "under": "通常是",
+      "below": "不一定",
+      "beneath": "通常是，但也用于比喻"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "家庭场景",
+      "under": "The toy is under the sofa.",
+      "below": "The basement is below the living room.",
+      "beneath": "The treasure is buried beneath the floorboards."
+    },
+    {
+      "scene": "学习或比喻",
+      "under": "He is under pressure to finish his homework.",
+      "below": "Your score is below the class average.",
+      "beneath": "He believes cleaning is beneath him."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The book is beneath the table.（用于日常描述）",
+      "correction": "✅ The book is under the table.",
+      "explanation": "日常物理位置应使用‘under’，‘beneath’在此太正式或文学。"
+    },
+    {
+      "error": "❌ He is below stress.",
+      "correction": "✅ He is under stress.",
+      "explanation": "表达‘承受压力’应使用‘under stress’。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "Which word fits best: The fish are swimming ___ the surface?",
+      "options": ["A. under", "B. beneath", "C. below"],
+      "answer": "C",
+      "explanation": "‘Below the surface’ 是常见搭配，表示相对较低的位置，不一定正下方。"
+    },
+    {
+      "question": "Which word means 'not worthy of someone'?",
+      "options": ["A. under", "B. beneath", "C. below"],
+      "answer": "B",
+      "explanation": "‘Beneath’ 常用于表达比喻意义，如‘beneath one's dignity’。"
+    },
+    {
+      "question": "Which word is the most common in daily conversation to mean 'directly lower'?",
+      "options": ["A. beneath", "B. below", "C. under"],
+      "answer": "C",
+      "explanation": "‘Under’ 是最常用的表达‘正下方’的词。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "口诀：under（日常用）、below（较低处）、beneath（正式或抽象）",
+    "related_phrases": ["under control", "below average", "beneath notice"]
+  }
+}

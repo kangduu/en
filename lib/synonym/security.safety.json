@@ -1,0 +1,92 @@
+{
+  "words": ["safety", "security"],
+  "explanation": {
+    "overview": "这两个词都和‘安全’有关，但侧重点不同：safety强调避免事故和伤害，security强调防范犯罪或威胁。",
+    "details": [
+      {
+        "word": "safety",
+        "meaning": "指避免危险、意外或伤害的状态，常用于物理、健康相关的场景。",
+        "example": "Always wear a helmet for your own safety.（为了你的安全请务必戴头盔。）"
+      },
+      {
+        "word": "security",
+        "meaning": "强调防止犯罪、攻击、盗窃等威胁，更多用于人身、国家或网络等防护方面。",
+        "example": "There is tight security at the airport.（机场的安保措施非常严密。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "关注重点",
+      "safety": "防止事故或伤害",
+      "security": "防止犯罪或威胁"
+    },
+    {
+      "aspect": "使用场景",
+      "safety": "交通、生产、学校等日常生活",
+      "security": "机场、国家、数据系统等防护环境"
+    },
+    {
+      "aspect": "常见搭配",
+      "safety": "safety rules, safety belt, fire safety",
+      "security": "security guard, national security, cybersecurity"
+    },
+    {
+      "aspect": "词性",
+      "safety": "名词",
+      "security": "名词"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校",
+      "safety": "The school teaches children about road safety.",
+      "security": "The school has installed cameras for better security."
+    },
+    {
+      "scene": "机场",
+      "safety": "Flight attendants explain safety instructions before takeoff.",
+      "security": "Passengers go through security checks before boarding."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ The company hired a safety to protect the building.",
+      "correction": "✅ The company hired a security guard to protect the building.",
+      "explanation": "security guard 是‘保安’，不能用 safety。"
+    },
+    {
+      "error": "❌ I feel safety when I lock the door.",
+      "correction": "✅ I feel secure when I lock the door.",
+      "explanation": "表达心理上的安全感时，通常用 secure/security。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：Wearing a seatbelt is important for your ___.",
+      "options": ["A. security", "B. safety"],
+      "answer": "B",
+      "explanation": "seatbelt（安全带）是防止伤害，属于 safety。"
+    },
+    {
+      "question": "选择正确答案：There was a lot of ___ at the concert to control the crowd.",
+      "options": ["A. safety", "B. security"],
+      "answer": "B",
+      "explanation": "人群控制涉及防护和秩序，属于 security。"
+    },
+    {
+      "question": "选择正确答案：The factory follows strict ___ rules to protect workers.",
+      "options": ["A. safety", "B. security"],
+      "answer": "A",
+      "explanation": "工厂注重防止意外伤害，应使用 safety。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "protection（保护）",
+      "guard（守卫）",
+      "defense（防御）"
+    ],
+    "tip": "口诀：safety 防事故，security 防威胁。"
+  }
+}

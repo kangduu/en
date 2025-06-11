@@ -1,0 +1,93 @@
+{
+  "words": ["fear", "dread", "afraid"],
+  "explanation": {
+    "overview": "这三个词都和‘害怕’有关，但表达的感觉和用法有所不同。",
+    "details": [
+      {
+        "word": "fear",
+        "meaning": "名词或动词，表示对危险或不好的事情的害怕，比较正式，也可以指一般的恐惧感。",
+        "example": "She has a fear of spiders.（她害怕蜘蛛。）"
+      },
+      {
+        "word": "dread",
+        "meaning": "强烈的害怕，常指对将来可能发生的非常糟糕的事情的恐惧，带有焦虑感。",
+        "example": "He dreaded going to the dentist.（他害怕去看牙医。）"
+      },
+      {
+        "word": "afraid",
+        "meaning": "形容词，表示害怕、担心某事，常用在口语中，强调当下或具体情绪。",
+        "example": "I am afraid of the dark.（我害怕黑暗。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "词性",
+      "fear": "名词或动词",
+      "dread": "名词或动词",
+      "afraid": "形容词"
+    },
+    {
+      "aspect": "强度",
+      "fear": "一般害怕",
+      "dread": "强烈且带焦虑的害怕",
+      "afraid": "日常口语的害怕"
+    },
+    {
+      "aspect": "使用场景",
+      "fear": "正式、书面语和口语",
+      "dread": "强调预感和担忧",
+      "afraid": "口语和情感表达"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校",
+      "fear": "She has a fear of failing the exam.（她害怕考试不及格。）",
+      "dread": "He dreaded the math test all week.（他整周都害怕数学考试。）",
+      "afraid": "I'm afraid I can't come to the party.（我恐怕不能去参加聚会。）"
+    },
+    {
+      "scene": "日常",
+      "fear": "Fear of heights stops him from climbing.（害怕高处让他不敢爬山。）",
+      "dread": "She dreaded the storm coming.（她害怕暴风雨来临。）",
+      "afraid": "I'm afraid of dogs.（我怕狗。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I have afraid of spiders.",
+      "correction": "✅ I am afraid of spiders.",
+      "explanation": "afraid是形容词，不能和have连用。"
+    },
+    {
+      "error": "❌ He is fear of flying.",
+      "correction": "✅ He has a fear of flying.",
+      "explanation": "fear作名词时用have，作动词时用fear doing sth。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She ____ going to the dentist every year.",
+      "options": ["A. fears", "B. dreads", "C. is afraid"],
+      "answer": "B",
+      "explanation": "强调强烈害怕和焦虑，用dread更合适。"
+    },
+    {
+      "question": "选择正确答案：I'm ____ of spiders.",
+      "options": ["A. afraid", "B. fear", "C. dread"],
+      "answer": "A",
+      "explanation": "表达个人害怕用afraid。"
+    },
+    {
+      "question": "选择正确答案：Many people ____ public speaking.",
+      "options": ["A. afraid", "B. fear", "C. dread"],
+      "answer": "B",
+      "explanation": "fear作为动词表示‘害怕’。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "fear可以作名词和动词，dread多用于强调强烈且带焦虑的害怕，afraid是形容词，更口语化。",
+    "related_words": ["scared（害怕的）", "terrified（非常害怕的）"]
+  }
+}

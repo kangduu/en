@@ -1,0 +1,118 @@
+{
+  "words": ["clumsily", "ineptly", "awkwardly", "inelegantly"],
+  "explanation": {
+    "overview": "这四个副词都表示‘笨拙’或‘不灵巧’，但侧重点和用法不同。",
+    "details": [
+      {
+        "word": "clumsily",
+        "meaning": "动作笨拙，容易导致失误或碰撞，强调身体上的不协调。",
+        "example": "He clumsily dropped the glass.（他笨手笨脚地把玻璃杯掉了。）"
+      },
+      {
+        "word": "ineptly",
+        "meaning": "技能或行为不称职、不熟练，常指做事无能或不合适。",
+        "example": "She ineptly handled the customer complaint.（她处理客户投诉很不称职。）"
+      },
+      {
+        "word": "awkwardly",
+        "meaning": "动作或行为不自然、不舒服，也可以指社交上尴尬。",
+        "example": "He awkwardly tried to start a conversation.（他笨拙地试图开始聊天。）"
+      },
+      {
+        "word": "inelegantly",
+        "meaning": "缺乏优雅，动作或言语显得笨重或粗俗。",
+        "example": "She inelegantly spilled the coffee on the table.（她笨拙地把咖啡洒在桌子上。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "强调重点",
+      "clumsily": "身体动作笨拙，容易出错",
+      "ineptly": "技能或行为不称职",
+      "awkwardly": "不自然或社交尴尬",
+      "inelegantly": "缺乏优雅或美感"
+    },
+    {
+      "aspect": "使用场景",
+      "clumsily": "摔东西、笨手笨脚的动作",
+      "ineptly": "工作、任务执行不当",
+      "awkwardly": "身体动作或社交行为",
+      "inelegantly": "动作、言语缺乏优雅"
+    },
+    {
+      "aspect": "语气强弱",
+      "clumsily": "中性偏轻",
+      "ineptly": "较负面，批评能力不足",
+      "awkwardly": "中性偏轻，含尴尬意味",
+      "inelegantly": "中性，指美感不足"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "厨房做饭",
+      "clumsily": "He clumsily dropped the knife while chopping vegetables.",
+      "ineptly": "She ineptly tried to fix the broken blender.",
+      "awkwardly": "He awkwardly held the hot pan with a towel.",
+      "inelegantly": "She inelegantly spilled sauce on her dress."
+    },
+    {
+      "scene": "社交场合",
+      "clumsily": "He clumsily bumped into someone at the party.",
+      "ineptly": "She ineptly answered the question during the meeting.",
+      "awkwardly": "He awkwardly laughed at the wrong moment.",
+      "inelegantly": "He inelegantly interrupted the conversation."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ She clumsily spoke during the presentation.",
+      "correction": "✅ She ineptly spoke during the presentation.",
+      "explanation": "描述说话不熟练或不合适用 ineptly，比 clumsily 更合适。"
+    },
+    {
+      "error": "❌ He inelegantly tripped over the ball.",
+      "correction": "✅ He clumsily tripped over the ball.",
+      "explanation": "绊倒时用 clumsily 更准确，inelegantly 指缺乏优雅，不是强调笨拙。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：She ____ handled the situation and made things worse.",
+      "options": [
+        "A. clumsily",
+        "B. ineptly",
+        "C. awkwardly",
+        "D. inelegantly"
+      ],
+      "answer": "B",
+      "explanation": "这里强调处理不称职，用 ineptly。"
+    },
+    {
+      "question": "选择正确答案：He ____ bumped into the door and hurt his shoulder.",
+      "options": [
+        "A. clumsily",
+        "B. ineptly",
+        "C. awkwardly",
+        "D. inelegantly"
+      ],
+      "answer": "A",
+      "explanation": "身体动作笨拙，用 clumsily。"
+    },
+    {
+      "question": "选择正确答案：She ____ smiled at the stranger and felt embarrassed.",
+      "options": [
+        "A. clumsily",
+        "B. ineptly",
+        "C. awkwardly",
+        "D. inelegantly"
+      ],
+      "answer": "C",
+      "explanation": "社交不自然或尴尬，用 awkwardly。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": ["blunderingly（笨拙地）", "clutched（笨拙抓握）"],
+    "tip": "口诀：clumsily 动作笨，ineptly 能力差，awkwardly 尴尬感，inelegantly 缺优雅。"
+  }
+}

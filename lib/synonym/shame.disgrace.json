@@ -1,0 +1,90 @@
+{
+  "words": ["shame", "disgrace"],
+  "explanation": {
+    "overview": "这两个词都表示‘耻辱’，但在情感强度、使用场景以及是否持续等方面有所不同。",
+    "details": [
+      {
+        "word": "shame",
+        "meaning": "指一种内心的羞耻感，可能是因为做错了事或别人觉得你不体面。可以是短暂的情绪。",
+        "example": "She felt deep shame for lying to her friend."
+      },
+      {
+        "word": "disgrace",
+        "meaning": "更强烈，表示名誉或声望严重受损，是外界公认的耻辱，常伴随社会舆论压力。",
+        "example": "He was fired in disgrace after the scandal."
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "语气强度",
+      "shame": "中等，偏内心感受",
+      "disgrace": "更强烈，偏外在评价"
+    },
+    {
+      "aspect": "是否为社会性影响",
+      "shame": "可能是内心或小范围",
+      "disgrace": "多为公众层面的羞辱"
+    },
+    {
+      "aspect": "持续性",
+      "shame": "可能是短暂的",
+      "disgrace": "常常是长期的影响"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学校场景",
+      "shame": "I forgot my homework and felt ashamed.",
+      "disgrace": "Cheating in the exam brought disgrace to the student and the school."
+    },
+    {
+      "scene": "家庭生活",
+      "shame": "He looked down in shame after breaking the vase.",
+      "disgrace": "His behavior at the family dinner was a disgrace."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ He lost his job in shame.",
+      "correction": "✅ He lost his job in disgrace.",
+      "explanation": "用 disgrace 更准确，强调因失职而蒙受耻辱。"
+    },
+    {
+      "error": "❌ I felt disgrace when I made a mistake.",
+      "correction": "✅ I felt shame when I made a mistake.",
+      "explanation": "shame 更适合表达内心的羞愧感。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确词语：He was caught stealing, and his name became a ___ to the company.",
+      "options": ["A. shame", "B. disgrace"],
+      "answer": "B",
+      "explanation": "公司层面的名誉受损，应使用 disgrace。"
+    },
+    {
+      "question": "选择正确表达：She couldn't hide her ___ after forgetting the lines on stage.",
+      "options": ["A. disgrace", "B. shame"],
+      "answer": "B",
+      "explanation": "个人短暂的羞愧用 shame 更自然。"
+    },
+    {
+      "question": "选择正确句子：",
+      "options": [
+        "A. He was in shame for months.",
+        "B. He lived in disgrace after the scandal."
+      ],
+      "answer": "B",
+      "explanation": "disgrace 更常用于长期的社会耻辱。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "humiliation（屈辱）",
+      "dishonor（不名誉）",
+      "embarrassment（尴尬，较轻）"
+    ],
+    "tip": "口诀：shame 是内疚的感觉，disgrace 是社会的标签。"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "words": ["acquire", "obtain", "attain", "gain", "achieve"],
+  "explanation": {
+    "overview": "这五个词都表示‘获得’或‘取得’，但侧重点和用法有所不同。",
+    "details": [
+      {
+        "word": "acquire",
+        "meaning": "通过努力、学习或购买等方式获得，强调过程。",
+        "example": "She acquired good English skills after studying abroad.（她留学后掌握了很好的英语技能。）"
+      },
+      {
+        "word": "obtain",
+        "meaning": "通过努力或请求得到，比较正式，多用于获得物品或信息。",
+        "example": "He obtained a copy of the report from the office.（他从办公室获得了一份报告。）"
+      },
+      {
+        "word": "attain",
+        "meaning": "通过努力达到某个目标或水平，常用于抽象的目标。",
+        "example": "She attained a high level of proficiency in math.（她达到了很高的数学水平。）"
+      },
+      {
+        "word": "gain",
+        "meaning": "获得、增加，既可以是物质也可以是抽象的东西，如经验、体重等。",
+        "example": "He gained a lot of experience from the internship.（他从实习中获得了很多经验。）"
+      },
+      {
+        "word": "achieve",
+        "meaning": "通过努力完成某事或达到某个目标，强调完成和成功。",
+        "example": "They achieved their goal of winning the championship.（他们实现了赢得冠军的目标。）"
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "侧重点",
+      "acquire": "获得（技能、财产等），过程强调",
+      "obtain": "得到，正式，多指物品或信息",
+      "attain": "达到，强调目标或水平",
+      "gain": "获得、增加，广泛用法",
+      "achieve": "完成，强调成功和目标实现"
+    },
+    {
+      "aspect": "常用对象",
+      "acquire": "技能、知识、财产",
+      "obtain": "物品、许可、信息",
+      "attain": "目标、水平、资格",
+      "gain": "经验、体重、好处",
+      "achieve": "目标、成功、成就"
+    },
+    {
+      "aspect": "语气",
+      "acquire": "正式，书面语多",
+      "obtain": "正式，法律或官方用语多",
+      "attain": "正式，常用于学术或职业",
+      "gain": "中性，口语和书面均可",
+      "achieve": "正式，积极向上"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "学习",
+      "acquire": "She acquired new vocabulary by reading books.（她通过读书学到了新词汇。）",
+      "obtain": "You need to obtain permission before entering.（进入前你需要获得许可。）",
+      "attain": "He attained a diploma after three years.（他三年后获得了文凭。）",
+      "gain": "I gained confidence after giving the speech.（演讲后我增加了自信。）",
+      "achieve": "They achieved high scores in the exam.（他们考了高分。）"
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ I achieved a new book yesterday.",
+      "correction": "✅ I obtained a new book yesterday.",
+      "explanation": "'achieve'用于目标或成就，不用于获得物品。"
+    },
+    {
+      "error": "❌ She gained a diploma last year.",
+      "correction": "✅ She attained a diploma last year.",
+      "explanation": "'gain'通常不用来表示获得学历，应该用'attain'。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：He ___ a lot of knowledge from the course.",
+      "options": ["A. obtained", "B. attained", "C. gained", "D. achieved"],
+      "answer": "C",
+      "explanation": "'gain'用于获得经验或知识。"
+    },
+    {
+      "question": "选择正确答案：She finally ___ her dream of becoming a doctor.",
+      "options": ["A. acquired", "B. attained", "C. achieved", "D. obtained"],
+      "answer": "C",
+      "explanation": "'achieve'强调完成目标。"
+    },
+    {
+      "question": "选择正确答案：You must ___ a permit before fishing here.",
+      "options": ["A. acquire", "B. obtain", "C. gain", "D. achieve"],
+      "answer": "B",
+      "explanation": "'obtain'用于获得许可。"
+    }
+  ],
+  "additional_notes": {
+    "tip": "记住：acquire强调过程，obtain偏正式得到，attain强调达到目标，gain更广泛，achieve强调完成和成功。",
+    "related_words": ["earn（挣得）", "receive（收到）"]
+  }
+}

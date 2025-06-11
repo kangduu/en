@@ -1,0 +1,107 @@
+{
+  "words": ["erect", "build", "construct", "create"],
+  "explanation": {
+    "overview": "这四个词都涉及“建立、创建”的概念，但它们的用途和强调点不同。",
+    "details": [
+      {
+        "word": "erect",
+        "meaning": "正式用语，常用于‘竖立’建筑或结构，强调从地面向上建立。",
+        "example": "They erected a statue in the park."
+      },
+      {
+        "word": "build",
+        "meaning": "常用词，指用材料建造房屋、桥梁等，适用范围广。",
+        "example": "They are building a new school nearby."
+      },
+      {
+        "word": "construct",
+        "meaning": "书面语，通常指有计划、有设计地建造大型工程或结构。",
+        "example": "The company constructed a highway across the desert."
+      },
+      {
+        "word": "create",
+        "meaning": "更强调‘创造’出新的东西，不限于建筑物，也可以是抽象的东西如艺术、想法等。",
+        "example": "She created a beautiful painting."
+      }
+    ]
+  },
+  "comparison_table": [
+    {
+      "aspect": "中文含义",
+      "erect": "竖立，建立（正式）",
+      "build": "建造，修建（常用）",
+      "construct": "建设，构建（计划性强）",
+      "create": "创造，创作（不限于建筑）"
+    },
+    {
+      "aspect": "强调点",
+      "erect": "从无到有地竖立",
+      "build": "通用建造",
+      "construct": "结构性强、复杂",
+      "create": "创造性和原创性"
+    },
+    {
+      "aspect": "适用对象",
+      "erect": "雕像、塔、帐篷等",
+      "build": "房子、学校、桥等",
+      "construct": "公路、机场、系统等",
+      "create": "艺术品、想法、程序等"
+    }
+  ],
+  "life_examples": [
+    {
+      "scene": "建筑工地",
+      "erect": "Workers are erecting a steel frame.",
+      "build": "They're building new apartments.",
+      "construct": "Engineers are constructing a tunnel.",
+      "create": "The architect created a new building design."
+    },
+    {
+      "scene": "学校活动",
+      "erect": "We erected a tent for the event.",
+      "build": "The students built a model house.",
+      "construct": "They constructed a paper bridge.",
+      "create": "She created a poster about climate change."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "❌ They created a new house in the village.",
+      "correction": "✅ They built a new house in the village.",
+      "explanation": "建造房屋应使用 build，而非 create。"
+    },
+    {
+      "error": "❌ We are erecting a road between two cities.",
+      "correction": "✅ We are constructing a road between two cities.",
+      "explanation": "“建设公路”应使用 construct 更合适。"
+    }
+  ],
+  "mini_test": [
+    {
+      "question": "选择正确答案：The company plans to ___ a new bridge over the river.",
+      "options": ["A. create", "B. erect", "C. construct"],
+      "answer": "C",
+      "explanation": "建桥是一项大型工程，使用 construct 更合适。"
+    },
+    {
+      "question": "选择正确答案：They ___ a tent in the field before nightfall.",
+      "options": ["A. built", "B. erected", "C. created"],
+      "answer": "B",
+      "explanation": "tent（帐篷）用 erect 更合适，表示竖立。"
+    },
+    {
+      "question": "选择正确答案：She ___ a new style of painting using coffee.",
+      "options": ["A. constructed", "B. created", "C. erected"],
+      "answer": "B",
+      "explanation": "创造艺术作品用 create。"
+    }
+  ],
+  "additional_notes": {
+    "extended_words": [
+      "design（设计）",
+      "found（创办，建立组织）",
+      "assemble（组装）"
+    ],
+    "tip": "口诀：erect竖起来，build常用建，construct讲结构，create重创造。"
+  }
+}
