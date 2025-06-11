@@ -46,9 +46,11 @@ export default function LifeExamples({ examples }: LifeExamplesProps) {
                             <span className="text-blue-400">（{key}）</span>
                           )}
                         </PopoverTrigger>
-                        <PopoverContent>
-                          <span>{translate}</span>
-                        </PopoverContent>
+                        {translate && (
+                          <PopoverContent>
+                            <span>{translate}</span>
+                          </PopoverContent>
+                        )}
                       </Popover>
                     }
                     className="mb-4"
