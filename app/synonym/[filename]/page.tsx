@@ -30,7 +30,7 @@ export default async function Word({ params }: WordProps) {
 
   return (
     <>
-      <GoBack>{words.join("、")}的区别</GoBack>
+      <GoBack>{words.join(" / ")}</GoBack>
 
       {/* explanation end life-examples */}
       <div className="gap-4 flex flex-col md:flex-row">

@@ -13,6 +13,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import { Badge } from "@/components/ui/badge";
 
 interface ExplanationProps {
   explanation: Synonym["explanation"];
@@ -25,10 +26,20 @@ export default function ExplanationList({ explanation }: ExplanationProps) {
         <CardDescription>{overview}</CardDescription>
       </CardHeader>
       <CardContent>
-        {details?.map(({ word, meaning, example }) => {
+        {details?.map(({ word, meaning, example, pronunciation }) => {
           const { english, translate } = matchSentence(example);
+          const Word = <span className="capitalize">{word}</span>;
+          const title = pronunciation ? (
+            <span className="inline-flex items-center gap-4">
+              {Word}
+              <Badge variant="outline">[uk] {pronunciation.uk}</Badge>
+              <Badge variant="outline">[us] {pronunciation.us}</Badge>
+            </span>
+          ) : (
+            Word
+          );
           return (
-            <List key={word} title={word} description={meaning}>
+            <List key={word} title={title} description={meaning}>
               <Popover>
                 <PopoverTrigger className="text-left">
                   <span>{english}</span>
