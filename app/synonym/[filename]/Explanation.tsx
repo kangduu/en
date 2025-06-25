@@ -30,7 +30,7 @@ export default function ExplanationList({ explanation }: ExplanationProps) {
           const { english, translate } = matchSentence(example);
           const Word = <span className="capitalize">{word}</span>;
           const title = pronunciation ? (
-            <span className="inline-flex items-center gap-4">
+            <span className="inline-flex items-center gap-2">
               {Word}
               <Badge variant="outline">[uk] {pronunciation.uk}</Badge>
               <Badge variant="outline">[us] {pronunciation.us}</Badge>

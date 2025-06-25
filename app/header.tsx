@@ -14,7 +14,7 @@ import {
 import DarkModel from "./dark";
 import { HeaderLinks } from "@/lib/navigation";
 import { useRouter } from "next/navigation";
-import { cn } from "@/utils";
+import { cn } from "@/lib/utils";
 import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
 import { Github, HamburgerButton } from "@icon-park/react";
 

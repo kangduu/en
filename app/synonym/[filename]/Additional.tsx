@@ -1,4 +1,3 @@
-import Empty from "@/components/svg/Empty";
 import { Separator } from "@/components/ui/separator";
 import type { Synonym } from "@/lib/actions";
 import React from "react";
