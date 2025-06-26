@@ -15,7 +15,13 @@ import DarkModel from "./dark";
 import { HeaderLinks } from "@/lib/navigation";
 import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
+import {
+  Drawer,
+  DrawerContent,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
 import { Github, HamburgerButton } from "@icon-park/react";
 
 export default function Navigation() {
@@ -60,17 +66,21 @@ function NativeNavMenu() {
         <HamburgerButton onClick={() => setOpen(true)} />
       </DrawerTrigger>
       <DrawerContent className="p-4 pt-0 min-h-[74vh]">
+        <DrawerHeader>
+          <DrawerTitle className="text-center">ENGLISH</DrawerTitle>
+        </DrawerHeader>
         {HeaderLinks.map(({ id, title, url, children }) => {
           return (
-            <Link
-              className="mt-2 font-bold"
-              key={id}
-              href={url}
-              onClick={() => setOpen(false)}
-            >
-              {title}
+            <div key={id}>
+              <Link
+                className="mt-2 font-bold"
+                href={url}
+                onClick={() => setOpen(false)}
+              >
+                {title}
+              </Link>
               {children && (
-                <div>
+                <>
                   {children?.map(({ id, title, url }) => {
                     return (
                       <Link
@@ -82,9 +92,9 @@ function NativeNavMenu() {
                       </Link>
                     );
                   })}
-                </div>
+                </>
               )}
-            </Link>
+            </div>
           );
         })}
       </DrawerContent>

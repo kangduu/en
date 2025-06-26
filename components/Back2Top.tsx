@@ -32,6 +32,7 @@ export default function Back2Top() {
       }
     }, 100);
 
+    bindScroll();
     window.addEventListener("scroll", bindScroll, false);
     window.addEventListener("scroll", bindProgress, false);
     return () => {

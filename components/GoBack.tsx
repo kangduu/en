@@ -5,16 +5,20 @@ import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 
 interface GoBackProps {
-  [key: string]: unknown;
+  extra?: React.ReactNode;
 }
 
-export default function GoBack({ children }: PropsWithChildren<GoBackProps>) {
+export default function GoBack({
+  children,
+  extra,
+}: PropsWithChildren<GoBackProps>) {
   const router = useRouter();
   return (
     <div className="flex items-center mb-4">
       <div className="flex-1 overflow-hidden mr-2 font-semibold">
         {children}
       </div>
+      {extra}
       <Button
         className="ml-auto"
         variant="secondary"
