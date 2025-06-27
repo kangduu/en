@@ -10,8 +10,12 @@ function Separator({
   orientation = "horizontal",
   decorative = true,
   title,
+  direction = "center",
   ...props
-}: React.ComponentProps<typeof SeparatorPrimitive.Root> & { title?: string }) {
+}: React.ComponentProps<typeof SeparatorPrimitive.Root> & {
+  title?: string;
+  direction?: "start" | "center" | "end";
+}) {
   const hasTitle = title !== undefined && title !== null && title !== "";
   return (
     <SeparatorPrimitive.Root
@@ -19,8 +23,8 @@ function Separator({
       decorative={decorative}
       orientation={orientation}
       className={cn(
-        "bg-border shrink-0 data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px",
-        hasTitle ? "flex items-center justify-center my-4" : "",
+        "px-4 bg-border shrink-0 data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px",
+        hasTitle ? `flex items-center justify-${direction} my-4` : "",
         className
       )}
       {...props}

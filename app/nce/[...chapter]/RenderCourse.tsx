@@ -1,33 +1,9 @@
 "use client";
 
 import type { Course } from "@/lib/books";
-import React, { useCallback, useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { useAudioContext } from "@/context/AudioCtx";
-import InputDetect from "@/components/InputDetect";
-
-// custom hook to manage the state of correct answers
-// It takes a source array as input and returns an array of boolean values indicating whether each item is correct or not.
-// The hook also provides a function to update the state of correct answers.
-function useCorrect(source: string[]) {
-  const [correct, setCorrect] = useState<boolean[]>([]);
-
-  const updateCorrect = useCallback(
-    (index: number, success: boolean) => {
-      setCorrect((prev) => {
-        const newCorrect = [...prev];
-        newCorrect[index] = success;
-        return newCorrect;
-      });
-    },
-    [setCorrect]
-  );
-
-  useEffect(() => {
-    setCorrect(Array(source.length).fill(false));
-  }, [source.length]);
-
-  return [correct, updateCorrect] as const;
-}
+import { RenderWord, useCorrect } from "@/components/InputDetect";
 
 function checkCompleted(source: boolean[]) {
   return source?.length > 0 && source?.every?.(Boolean);
@@ -44,22 +20,6 @@ function useCompleted(source: boolean[]) {
     }
   }, [source, completed]);
   return completed;
-}
-
-interface RenderWordProps {
-  word: string;
-  id: number;
-  onChange: (index: number, success: boolean) => void;
-}
-function RenderWord({ word, id, onChange }: RenderWordProps) {
-  // keep onChange callback unique.
-  const handleChange = useCallback(
-    (correct: boolean) => {
-      onChange?.(id, correct);
-    },
-    [id, onChange]
-  );
-  return <InputDetect target={word} key={word + id} onChange={handleChange} />;
 }
 
 interface RenderSentenceProps {
