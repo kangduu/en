@@ -1,17 +1,17 @@
 "use client";
 
 import { NewConceptBooks, type BookLink } from "@/lib/navigation";
-import type { NewConceptBookKey } from "@/utils/constant";
 import React, { useEffect, useState } from "react";
+import { Card } from "@/components/ui/card";
+import { BookList, type BookListProps } from "./BookList";
 import { getCourses, type Course } from "@/lib/books";
-import { Card } from "../../components/ui/card";
+import type { NewConceptBookKey } from "@/utils/constant";
 
-interface BookListProps {
+interface RenderBookProps extends Pick<BookListProps, "onClick"> {
   book: NewConceptBookKey;
-  onClick?: (id: Course["id"], book: NewConceptBookKey) => void;
 }
-function BookList({ book, onClick }: BookListProps) {
-  const [courses, setCourses] = useState<Course[] | null>(null);
+function RenderBook({ book, onClick }: RenderBookProps) {
+  const [courses, setCourses] = useState<Course[]>([]);
 
   useEffect(() => {
     async function fetchCourses() {
@@ -22,32 +22,19 @@ function BookList({ book, onClick }: BookListProps) {
         setCourses(course);
       } catch (error) {
         console.error("Error fetching courses:", error);
-        setCourses(null);
+        setCourses([]);
       }
     }
     fetchCourses();
   }, [book]);
 
-  if (courses === null) return <div>Loading...</div>;
-  return (
-    <ul>
-      {courses.map(({ id, name }, index) => (
-        <li
-          key={id}
-          className="hover:text-blue-500 text-gray-700 dark:text-white cursor-pointer"
-          onClick={() => onClick?.(id, book)}
-        >
-          {index + 1}. {name}
-        </li>
-      ))}
-    </ul>
-  );
+  return <BookList courses={courses} onClick={onClick} />;
 }
 
 interface NewConceptProps {
   clickable?: boolean;
   showList?: boolean;
-  onClickCourse?: BookListProps["onClick"];
+  onClickCourse?: (id: Course["id"], book: NewConceptBookKey) => void;
   onClick?: (url: BookLink["url"]) => void;
 }
 
@@ -57,17 +44,22 @@ export default function NewConcept({
   showList,
 }: NewConceptProps) {
   return (
-    <div>
+    <>
       {NewConceptBooks.map((book: BookLink) => (
         <Card
           key={book.id}
-          // clickable={clickable}
           onClick={() => onClick?.(book.url)}
+          className="pl-4 pr-4 mb-4"
         >
           <div className="font-bold">{book.title}</div>
-          {showList && <BookList book={book.id} onClick={onClickCourse} />}
+          {showList && (
+            <RenderBook
+              book={book.id}
+              onClick={(id) => onClickCourse?.(id, book.id)}
+            />
+          )}
         </Card>
       ))}
-    </div>
+    </>
   );
 }
