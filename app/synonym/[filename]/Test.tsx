@@ -61,17 +61,23 @@ function RenderSentence({ data }: { data: string[] }) {
           </div>
         ))}
       </div>
-      <p>{translate}</p>
-      <div className="flex gap-1 flex-wrap">
-        {words.map((word, index) => (
-          <RenderWord
-            word={word}
-            key={word + index}
-            id={index}
-            onChange={setCorrect}
-          />
-        ))}
-      </div>
+      {translate ? (
+        <>
+          <p>{translate}</p>
+          <div className="flex gap-1 flex-wrap">
+            {words.map((word, index) => (
+              <RenderWord
+                word={word}
+                key={word + index}
+                id={index}
+                onChange={setCorrect}
+              />
+            ))}
+          </div>
+        </>
+      ) : (
+        <p>{words}</p>
+      )}
     </>
   );
 }
@@ -86,8 +92,8 @@ export default function Test({ data }: TestProps) {
   const { mini_test, explanation, life_examples } = data || {};
   const sentences = useMemo(() => {
     const examples = explanation.details.map(({ example }) => example);
+    // eslint-disable-next-line
     const life = life_examples.map(({ scene, ...rest }) => {
-      console.log(scene);
       return Object.values(rest).map((item) => item);
     });
     return flattenDeep([examples, life]);
