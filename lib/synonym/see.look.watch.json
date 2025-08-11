@@ -1,37 +1,71 @@
 {
-  "words": ["see", "look", "watch", "gaze", "stare", "glance"],
+  "words": [
+    "see",
+    "look",
+    "watch",
+    "glance",
+    "glare",
+    "gaze",
+    "stare",
+    "peer",
+    "ogle"
+  ],
   "explanation": {
-    "overview": "这三个词都与‘看’有关，但用法和侧重点不同。",
+    "overview": "这几个词都与‘看’有关，但用法和侧重点不同。注意，以下内容默认都是动词（verb）",
     "details": [
       {
         "word": "see",
+        "pronunciation": { "uk": "/siː/", "us": "/siː/" },
         "meaning": "指‘看见’，强调视觉的自然结果，可能是无意识的。",
         "example": "I can see a bird outside the window.（我能看见窗外有只鸟。）"
       },
       {
         "word": "look",
+        "pronunciation": { "uk": "/lʊk/", "us": "/lʊk/" },
         "meaning": "指‘看’的动作，强调有意识地看向某处，通常与‘at’连用。",
         "example": "Look at the blackboard, please.（请看黑板。）"
       },
       {
         "word": "watch",
+        "pronunciation": { "uk": "/wɒtʃ/", "us": "/wɑːtʃ/" },
         "meaning": "指‘观看’，强调专注地看，通常用于动态的事物（如电视、比赛等）。",
         "example": "We watched a movie last night.（昨晚我们看了一部电影。）"
       },
       {
+        "word": "glance",
+        "pronunciation": { "uk": "/ɡleə(r)/", "us": "/ɡler/" },
+        "meaning": "快速地瞥一眼，动作短暂且轻快。",
+        "example": "He glanced at his watch and hurried away.（他看了一眼手表，然后赶快走了。）"
+      },
+      {
+        "word": "glare",
+        "pronunciation": { "uk": "/ɡleə(r)/", "us": "/ɡler/" },
+        "meaning": "怒目而视，带有愤怒、敌意或强烈不满地盯着看。",
+        "example": "He glared at me when I interrupted him.（我打断他时，他怒视着我。）"
+      },
+      {
         "word": "gaze",
-        "meaning": "长时间而专注地看，通常带有感情或思考的意味。",
+        "pronunciation": { "uk": "/ɡeɪz/", "us": "/ɡeɪz/" },
+        "meaning": "出于羡慕、感兴趣、关心或惊异而长时间而专注地看，通常带有感情或思考的意味。",
         "example": "She gazed at the stars for hours.（她凝视星空好几个小时。）"
       },
       {
         "word": "stare",
-        "meaning": "目不转睛地盯着看，常带有惊讶、不礼貌或质疑的感觉。",
+        "pronunciation": { "uk": "/steə(r)/", "us": "/ster/" },
+        "meaning": "目不转睛地盯着看，常带有惊讶、傲慢、茫然、不礼貌或质疑的感觉。",
         "example": "Don't stare at people like that.（别那样盯着别人看。）"
       },
       {
-        "word": "glance",
-        "meaning": "快速地瞥一眼，动作短暂且轻快。",
-        "example": "He glanced at his watch and hurried away.（他看了一眼手表，然后赶快走了。）"
+        "word": "peer",
+        "pronunciation": { "uk": "/pɪə(r)/", "us": "/pɪr/" },
+        "meaning": "费力地看，通常因为视线受阻或想看得更清楚，常带有好奇、专注或努力的意味。",
+        "example": "She peered through the keyhole to see what was happening inside.（她费力地透过钥匙孔看里面发生了什么。）"
+      },
+      {
+        "word": "ogle",
+        "pronunciation": { "uk": "/ˈəʊɡl/", "us": "/ˈoʊɡl/" },
+        "meaning": "色迷迷地盯着看，带有不礼貌或不适当的意味，常指对异性带有欲望地看。",
+        "example": "He was accused of ogling women at the beach.（他被指控在海滩上色迷迷地盯着女性看。）"
       }
     ]
   },
@@ -43,7 +77,10 @@
       "watch": "主动、持续",
       "gaze": "安静凝视",
       "stare": "盯着看",
-      "glance": "快速一瞥"
+      "glance": "快速一瞥",
+      "peer": "费力地看",
+      "glare": "怒目而视",
+      "ogle": "色迷迷地盯着看"
     },
     {
       "aspect": "常用场景",
@@ -52,7 +89,10 @@
       "watch": "观察动态过程",
       "gaze": "凝视星空/风景",
       "stare": "盯着人/物",
-      "glance": "快速查看时间/信息"
+      "glance": "快速查看时间/信息",
+      "peer": "透过缝隙/障碍物看",
+      "glare": "愤怒地盯着人",
+      "ogle": "色迷迷地看异性/不礼貌地看人"
     },
     {
       "aspect": "典型搭配",
@@ -61,7 +101,10 @@
       "watch": "watch + 名词",
       "gaze": "gaze at + 名词",
       "stare": "stare at + 名词",
-      "glance": "glance at + 名词"
+      "glance": "glance at + 名词",
+      "peer": "peer at/through + 名词",
+      "glare": "glare at + 名词",
+      "ogle": "ogle at + 名词"
     },
     {
       "aspect": "观看时间",
@@ -70,7 +113,10 @@
       "watch": "持续",
       "gaze": "长时间",
       "stare": "长时间（但更强烈或不礼貌）",
-      "glance": "短暂"
+      "glance": "短暂",
+      "peer": "短暂或持续（带努力）",
+      "glare": "短暂或持续（带情绪）",
+      "ogle": "短暂或持续（带不适当意味）"
     },
     {
       "aspect": "语气和感情",
@@ -79,7 +125,10 @@
       "watch": "专注、投入",
       "gaze": "专注、温柔或思考",
       "stare": "生硬、惊讶或无礼",
-      "glance": "轻快、随意"
+      "glance": "轻快、随意",
+      "peer": "好奇、专注或努力",
+      "glare": "愤怒、敌意",
+      "ogle": "不礼貌、带欲望"
     }
   ],
   "life_examples": [
@@ -100,6 +149,18 @@
       "gaze": "The student gazed thoughtfully at the blackboard.（学生若有所思地凝视黑板。）",
       "stare": "The teacher caught him staring out the window.（老师发现他盯着窗外看。）",
       "glance": "She glanced at her notes during the test.（考试时她看了一眼笔记。）"
+    },
+    {
+      "scene": "公园散步",
+      "see": "I see children playing on the grass.（我看到孩子们在草地上玩耍。）",
+      "look": "She looked at the flowers by the path.（她看着小路旁的花。）",
+      "watch": "We watched the ducks swimming in the pond.（我们看着鸭子在池塘里游泳。）",
+      "gaze": "He gazed at the sunset in silence.（他默默地凝视着夕阳。）",
+      "stare": "The dog stared at the squirrel on the tree.（狗盯着树上的松鼠看。）",
+      "glance": "I glanced at my phone for the time.（我瞥了一眼手机看时间。）",
+      "peer": "She peered into the bushes to find her lost keys.（她费力地看灌木丛找丢失的钥匙。）",
+      "glare": "The boy glared at his friend after being teased.（被朋友取笑后，男孩愤怒地盯着他看。）",
+      "ogle": "He was ogling at the joggers passing by.（他色迷迷地盯着路过的慢跑者看。）"
     }
   ],
   "common_errors": [
@@ -122,6 +183,10 @@
     {
       "error": "❌ Don't gaze at people like that.",
       "correction": "✅ Don't stare at people like that.（不礼貌或惊讶时用stare。）"
+    },
+    {
+      "error": "❌ He ogled the painting for its beauty.",
+      "correction": "✅ He gazed at the painting for its beauty.（欣赏美景用gaze，ogle带有不礼貌意味。）"
     }
   ],
   "mini_test": [
@@ -160,10 +225,15 @@
       "options": ["A. stare", "B. glance", "C. gaze"],
       "answer": "B",
       "explanation": "快速看一眼用glance。"
+    },
+    {
+      "question": "选择正确答案：He was ___ at the models in a rude way.",
+      "options": ["A. gazing", "B. ogling", "C. peering"],
+      "answer": "B",
+      "explanation": "带有不礼貌、色迷迷地看用ogle。"
     }
   ],
   "additional_notes": {
-    "extended_words": ["ogle（色迷迷地盯着看）", "peer（费力地看）"],
-    "tip": "记住口诀：see重结果，look重动作，watch重过程，gaze重情感，stare重强度，glance重速度"
+    "tip": "记住口诀：see重结果，look重动作，watch重过程，gaze重情感，stare重强度，glance重速度，peer重努力，glare重情绪，ogle重不礼貌。"
   }
 }

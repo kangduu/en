@@ -5,9 +5,8 @@ import ExplanationList from "./Explanation";
 import { getSynonyms } from "@/lib/actions";
 import LifeExamples from "./LifeExamples";
 import CommonErrors from "./CommonErrors";
-import MiniTest from "./MiniTest";
 import Additional from "./Additional";
-
+import Test from "./Test";
 interface WordProps {
   params: Promise<{ filename: string }>;
 }
@@ -24,13 +23,12 @@ export default async function Word({ params }: WordProps) {
     comparison_table,
     life_examples,
     common_errors,
-    mini_test,
     additional_notes,
   } = synonymous;
 
   return (
     <>
-      <GoBack>{words.join("、")}的区别</GoBack>
+      <GoBack>{words.join(" / ")}</GoBack>
 
       {/* explanation end life-examples */}
       <div className="gap-4 flex flex-col md:flex-row">
@@ -44,11 +42,10 @@ export default async function Word({ params }: WordProps) {
       {/* common errors */}
       <CommonErrors errors={common_errors} />
 
-      {/* tests */}
-      <MiniTest tests={mini_test} />
-
       {/* additional notes */}
       <Additional notes={additional_notes} />
+
+      <Test data={synonymous} />
     </>
   );
 }

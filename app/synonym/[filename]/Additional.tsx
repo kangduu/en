@@ -1,4 +1,3 @@
-import Empty from "@/components/svg/Empty";
 import { Separator } from "@/components/ui/separator";
 import type { Synonym } from "@/lib/actions";
 import React from "react";
@@ -46,22 +45,21 @@ interface AdditionalProps {
 
 export default function Additional({ notes }: AdditionalProps) {
   const { extended_words, ...rest } = notes || {};
+  const hasExtended = !!extended_words?.length;
   return (
     <>
       <Separator title="Additional Notes" className="mt-8" />
-      <div className="font-medium">Extended Words</div>
-      {extended_words?.length ? (
-        <ul className="list-disc pl-5">
-          {extended_words.map((word, index) => (
-            <li key={index} className="text-sm">
-              {word}
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <div className="w-[50%] m-auto">
-          <Empty.page />
-        </div>
+      {hasExtended && (
+        <>
+          <div className="font-medium">Extended Words</div>
+          <ul className="list-disc pl-5">
+            {extended_words.map((word, index) => (
+              <li key={index} className="text-sm">
+                {word}
+              </li>
+            ))}
+          </ul>
+        </>
       )}
 
       {Object.keys(rest).length > 0 && (

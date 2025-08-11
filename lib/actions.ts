@@ -43,7 +43,12 @@ export interface Synonym {
   words: string[];
   explanation: {
     overview: string;
-    details: { word: string; meaning: string; example: string }[];
+    details: {
+      word: string;
+      meaning: string;
+      example: string;
+      pronunciation?: { uk?: string; us?: string };
+    }[];
   };
   comparison_table: {
     aspect: string;
