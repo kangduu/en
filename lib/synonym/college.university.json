@@ -40,13 +40,13 @@
   "life_examples": [
     {
       "scene": "美国学生申请学校",
-      "college": "He applied to five colleges in California.",
-      "university": "He plans to get a PhD from a top university."
+      "college": "He applied to five colleges in California.（他申请了加州的五所大学。）",
+      "university": "He plans to get a PhD from a top university.（他计划从一所顶尖大学获得博士学位。）"
     },
     {
       "scene": "英国学生",
-      "college": "She studied at a technical college before university.",
-      "university": "She attended Cambridge University to study law."
+      "college": "She studied at a technical college before university.（她在上大学之前就读于一所技术学院。）",
+      "university": "She attended Cambridge University to study law.（她就读于剑桥大学学习法律。）"
     }
   ],
   "common_errors": [

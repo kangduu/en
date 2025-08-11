@@ -43,15 +43,15 @@
   "life_examples": [
     {
       "scene": "学校通知",
-      "inform": "The principal informed the parents about the new policy.",
-      "announce": "The school announced the holiday on its website.",
-      "notify": "Parents were notified by email about the schedule change."
+      "inform": "The principal informed the parents about the new policy.（校长通知家长有关新政策的事。）",
+      "announce": "The school announced the holiday on its website.（学校在其网站上宣布了假期。）",
+      "notify": "Parents were notified by email about the schedule change.（家长通过电子邮件被通知了时间表的变更。）"
     },
     {
       "scene": "公司环境",
-      "inform": "She informed her boss that she would be late.",
-      "announce": "The CEO announced the merger in a press conference.",
-      "notify": "The HR department notified all employees of the new policy."
+      "inform": "She informed her boss that she would be late.（她通知老板她会迟到。）",
+      "announce": "The CEO announced the merger in a press conference.（首席执行官在新闻发布会上宣布了合并。）",
+      "notify": "The HR department notified all employees of the new policy.（人力资源部通知所有员工新政策。）"
     }
   ],
   "common_errors": [

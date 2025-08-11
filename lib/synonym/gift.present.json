@@ -35,13 +35,13 @@
   "life_examples": [
     {
       "scene": "生日",
-      "gift": "I bought a special gift for my dad’s birthday.",
-      "present": "She opened her birthday presents with a big smile."
+      "gift": "I bought a special gift for my dad’s birthday.（我为我爸爸的生日买了一个特别的礼物。）",
+      "present": "She opened her birthday presents with a big smile.（她开心地打开了生日礼物。）"
     },
     {
       "scene": "节日",
-      "gift": "He gave me a gift card for the holiday.",
-      "present": "There were many presents under the Christmas tree."
+      "gift": "He gave me a gift card for the holiday.（他给了我一张节日礼品卡。）",
+      "present": "There were many presents under the Christmas tree.（圣诞树下有很多礼物。）"
     }
   ],
   "common_errors": [

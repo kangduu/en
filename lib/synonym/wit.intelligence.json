@@ -40,13 +40,13 @@
   "life_examples": [
     {
       "scene": "日常对话",
-      "wit": "He made everyone laugh with his quick wit.",
-      "intelligence": "She showed great intelligence in solving the puzzle."
+      "wit": "He made everyone laugh with his quick wit.（他用机智的言语让大家都笑了。）",
+      "intelligence": "She showed great intelligence in solving the puzzle.（她在解决难题时表现出极大的智慧。）"
     },
     {
       "scene": "学校或工作",
-      "wit": "Her wit during the debate impressed the audience.",
-      "intelligence": "His intelligence helped him win the math competition."
+      "wit": "Her wit during the debate impressed the audience.（她在辩论中的机智给观众留下了深刻印象。）",
+      "intelligence": "His intelligence helped him win the math competition.（他的智慧帮助他赢得了数学竞赛。）"
     }
   ],
   "common_errors": [

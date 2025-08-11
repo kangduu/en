@@ -35,13 +35,13 @@
   "life_examples": [
     {
       "scene": "吃饭时",
-      "tissue": "I don’t need a tissue now, I need a napkin for dinner.",
-      "napkin": "She folded the napkin nicely on her lap."
+      "tissue": "I don’t need a tissue now, I need a napkin for dinner.（我现在不需要纸巾，我需要餐巾来吃晚饭。）",
+      "napkin": "She folded the napkin nicely on her lap.（她把餐巾整齐地放在腿上。）"
     },
     {
       "scene": "感冒时",
-      "tissue": "He blew his nose with a tissue.",
-      "napkin": "—（通常不会用napkin来擦鼻涕）"
+      "tissue": "He blew his nose with a tissue.（他用纸巾擦鼻子。）",
+      "napkin": "（通常不会用napkin来擦鼻涕）"
     }
   ],
   "common_errors": [

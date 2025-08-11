@@ -6,27 +6,27 @@
       {
         "word": "afraid",
         "meaning": "最常用的‘害怕’，可指担心某事发生，既可描述心理状态也可用于婉转表达拒绝等。",
-        "example": "I'm afraid of spiders."
+        "example": "I'm afraid of spiders.（我害怕蜘蛛。）"
       },
       {
         "word": "scared",
         "meaning": "口语中常用，意思和 afraid 很接近，多用于具体事物引起的害怕。",
-        "example": "He’s scared of the dark."
+        "example": "He’s scared of the dark.（他害怕黑暗。）"
       },
       {
         "word": "frightened",
         "meaning": "强调受到惊吓，有突发的感觉，多用于被突然吓到。",
-        "example": "She was frightened by the loud noise."
+        "example": "She was frightened by the loud noise.（她被大声的噪音吓到了。）"
       },
       {
         "word": "fearful",
         "meaning": "较正式，强调一种‘充满恐惧’或‘可怕’的状态，常用于书面语或描述场景。",
-        "example": "They had a fearful experience during the storm."
+        "example": "They had a fearful experience during the storm.（他们在暴风雨中经历了一次可怕的经历。）"
       },
       {
         "word": "terrified",
         "meaning": "最强烈的表达，表示‘极度害怕’、‘惊恐万分’。",
-        "example": "I was terrified when I saw the snake."
+        "example": "I was terrified when I saw the snake.（我看到蛇时感到极度恐惧。）"
       }
     ]
   },
@@ -59,19 +59,19 @@
   "life_examples": [
     {
       "scene": "夜晚在家听到怪声",
-      "afraid": "I'm afraid to check the basement.",
-      "scared": "I’m scared of that noise.",
-      "frightened": "She was frightened when the lights went out.",
-      "fearful": "They were fearful something bad would happen.",
-      "terrified": "He was terrified to be alone in the dark."
+      "afraid": "I'm afraid to check the basement.（我害怕去检查地下室。）",
+      "scared": "I’m scared of that noise.（我害怕那个声音。）",
+      "frightened": "She was frightened when the lights went out.（当灯熄灭时，她感到害怕。）",
+      "fearful": "They were fearful something bad would happen.（他们担心会发生不好的事情。）",
+      "terrified": "He was terrified to be alone in the dark.（他在黑暗中独自一人时感到极度恐惧。）"
     },
     {
       "scene": "学校演讲",
-      "afraid": "She's afraid of public speaking.",
-      "scared": "I’m scared I’ll forget my lines.",
-      "frightened": "He looked frightened before stepping on stage.",
-      "fearful": "He had a fearful look on his face.",
-      "terrified": "I was terrified the whole time on stage."
+      "afraid": "She's afraid of public speaking.（她害怕公开演讲。）",
+      "scared": "I’m scared I’ll forget my lines.（我害怕我会忘记台词。）",
+      "frightened": "He looked frightened before stepping on stage.（他在上台前看起来很害怕。）",
+      "fearful": "He had a fearful look on his face.（他脸上露出了担忧的神情。）",
+      "terrified": "I was terrified the whole time on stage.（我在台上时一直感到极度恐惧。）"
     }
   ],
   "common_errors": [

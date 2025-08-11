@@ -6,17 +6,17 @@
       {
         "word": "accurate",
         "meaning": "强调‘没有错误’、‘正确无误’，通常用于描述信息、数据或陈述。",
-        "example": "The report is accurate and based on facts."
+        "example": "The report is accurate and based on facts.（准确且基于事实）"
       },
       {
         "word": "exact",
         "meaning": "表示‘完全正确’、‘一丝不差’，更强调与事实完全一致，常用于数字、时间或位置等。",
-        "example": "We arrived at the exact time he mentioned."
+        "example": "We arrived at the exact time he mentioned.（我们在他提到的确切时间到达。）"
       },
       {
         "word": "precise",
         "meaning": "强调‘精确’、‘细节明确’，常用于技术、测量或说明的语境中，讲究细节的准确性。",
-        "example": "The machine is capable of making precise cuts."
+        "example": "The machine is capable of making precise cuts.（这台机器能够进行精确的切割。）"
       }
     ]
   },
@@ -43,15 +43,15 @@
   "life_examples": [
     {
       "scene": "做饭",
-      "accurate": "You need an accurate measurement of ingredients.",
-      "exact": "Add exactly one teaspoon of salt.",
-      "precise": "Cut the vegetables into precise 2cm cubes."
+      "accurate": "You need an accurate measurement of ingredients.（你需要对配料进行准确的测量。）",
+      "exact": "Add exactly one teaspoon of salt.（加入一茶匙盐。）",
+      "precise": "Cut the vegetables into precise 2cm cubes.（将蔬菜切成精确的2厘米见方。）"
     },
     {
       "scene": "考试",
-      "accurate": "His answer was accurate, so he got full marks.",
-      "exact": "He repeated the exact sentence from the textbook.",
-      "precise": "Be precise when explaining the grammar rule."
+      "accurate": "His answer was accurate, so he got full marks.（他的答案是准确的，所以他得了满分。）",
+      "exact": "He repeated the exact sentence from the textbook.（他重复了课本中的确切句子。）",
+      "precise": "Be precise when explaining the grammar rule.（解释语法规则时要准确。）"
     }
   ],
   "common_errors": [

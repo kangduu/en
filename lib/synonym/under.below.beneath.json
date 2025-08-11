@@ -49,15 +49,15 @@
   "life_examples": [
     {
       "scene": "家庭场景",
-      "under": "The toy is under the sofa.",
-      "below": "The basement is below the living room.",
-      "beneath": "The treasure is buried beneath the floorboards."
+      "under": "The toy is under the sofa.（玩具在沙发下。）",
+      "below": "The basement is below the living room.（地下室在客厅下方。）",
+      "beneath": "The treasure is buried beneath the floorboards.（宝藏埋在地板下。）"
     },
     {
       "scene": "学习或比喻",
-      "under": "He is under pressure to finish his homework.",
-      "below": "Your score is below the class average.",
-      "beneath": "He believes cleaning is beneath him."
+      "under": "He is under pressure to finish his homework.（他面临完成作业的压力。）",
+      "below": "Your score is below the class average.（你的分数低于班级平均水平。）",
+      "beneath": "He believes cleaning is beneath him.（他认为打扫卫生是有失身份的。）"
     }
   ],
   "common_errors": [

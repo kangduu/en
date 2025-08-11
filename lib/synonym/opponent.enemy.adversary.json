@@ -43,15 +43,15 @@
   "life_examples": [
     {
       "scene": "运动比赛",
-      "opponent": "Our team is facing a strong opponent today.",
-      "enemy": "❌ 不适合用 enemy，显得语气过重",
-      "adversary": "He studied the adversary’s strategies before the match."
+      "opponent": "Our team is facing a strong opponent today.（我们队今天面对一个强大的对手。）",
+      "enemy": "（不适合用 enemy，显得语气过重）",
+      "adversary": "He studied the adversary’s strategies before the match.（他在比赛前研究了对手的策略。）"
     },
     {
       "scene": "电影剧情",
-      "opponent": "The superhero had to defeat his opponent in the arena.",
-      "enemy": "The villain was the hero’s greatest enemy.",
-      "adversary": "She faced her longtime adversary in the final battle."
+      "opponent": "The superhero had to defeat his opponent in the arena.（超级英雄必须在竞技场击败他的对手。）",
+      "enemy": "The villain was the hero’s greatest enemy.（反派是英雄最大的敌人。）",
+      "adversary": "She faced her longtime adversary in the final battle.（她在最后的战斗中面对了她的老对手。）"
     }
   ],
   "common_errors": [

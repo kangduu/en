@@ -52,16 +52,16 @@
     {
       "scene": "厨房做饭",
       "clumsily": "He clumsily dropped the knife while chopping vegetables.",
-      "ineptly": "She ineptly tried to fix the broken blender.",
-      "awkwardly": "He awkwardly held the hot pan with a towel.",
-      "inelegantly": "She inelegantly spilled sauce on her dress."
+      "ineptly": "She ineptly tried to fix the broken blender.（她处理破损的搅拌机很不称职。）",
+      "awkwardly": "He awkwardly held the hot pan with a towel.（他笨拙地用毛巾拿着热锅。）",
+      "inelegantly": "She inelegantly spilled sauce on her dress.（她笨拙地把酱汁洒在了裙子上。）"
     },
     {
       "scene": "社交场合",
-      "clumsily": "He clumsily bumped into someone at the party.",
-      "ineptly": "She ineptly answered the question during the meeting.",
-      "awkwardly": "He awkwardly laughed at the wrong moment.",
-      "inelegantly": "He inelegantly interrupted the conversation."
+      "clumsily": "He clumsily bumped into someone at the party.（他在派对上笨拙地撞上了别人。）",
+      "ineptly": "She ineptly answered the question during the meeting.（她在会议上回答问题很不称职。）",
+      "awkwardly": "He awkwardly laughed at the wrong moment.（他在错误的时刻尴尬地笑了。）",
+      "inelegantly": "He inelegantly interrupted the conversation.（他笨拙地打断了谈话。）"
     }
   ],
   "common_errors": [
