@@ -47,7 +47,7 @@ export default function Back2Top() {
         variant="outline"
         className={`${styles.back_to_top} ${
           show ? styles.show : ""
-        } rounded-full p-1 text-xl fixed bottom-16 right-4 z-10 `}
+        } rounded-full p-1 text-xl fixed bottom-4 right-4 z-10 `}
         onClick={() => {
           // 平滑滚动到顶部
           window.scrollTo({ top: 0, behavior: "smooth" });

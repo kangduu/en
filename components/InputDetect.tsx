@@ -3,6 +3,23 @@
 import _ from "lodash";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 
+export function checkCompleted(source: boolean[]) {
+  return source?.length > 0 && source?.every?.(Boolean);
+}
+
+// custom hook to check if all items in the source array are completed
+// It takes a boolean array as input and returns a boolean value indicating whether all items are completed.
+export function useCompleted(source: boolean[]) {
+  const [completed, setCompleted] = useState(false);
+  useEffect(() => {
+    const isCompleted = checkCompleted(source);
+    if (isCompleted !== completed) {
+      setCompleted(isCompleted);
+    }
+  }, [source, completed]);
+  return completed;
+}
+
 // custom hook to manage the state of correct answers
 // It takes a source array as input and returns an array of boolean values indicating whether each item is correct or not.
 // The hook also provides a function to update the state of correct answers.
@@ -69,7 +86,7 @@ function InputDetect({ target, onChange }: InputDetectProps) {
 export interface RenderWordProps {
   word: string;
   id: number;
-  onChange: (index: number, success: boolean) => void;
+  onChange?: (index: number, success: boolean) => void;
 }
 export function RenderWord({ word, id, onChange }: RenderWordProps) {
   // keep onChange callback unique.

@@ -1,26 +1,14 @@
 "use client";
 
 import type { Course } from "@/lib/books";
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo } from "react";
 import { useAudioContext } from "@/context/AudioCtx";
-import { RenderWord, useCorrect } from "@/components/InputDetect";
-
-function checkCompleted(source: boolean[]) {
-  return source?.length > 0 && source?.every?.(Boolean);
-}
-
-// custom hook to check if all items in the source array are completed
-// It takes a boolean array as input and returns a boolean value indicating whether all items are completed.
-function useCompleted(source: boolean[]) {
-  const [completed, setCompleted] = useState(false);
-  useEffect(() => {
-    const isCompleted = checkCompleted(source);
-    if (isCompleted !== completed) {
-      setCompleted(isCompleted);
-    }
-  }, [source, completed]);
-  return completed;
-}
+import {
+  checkCompleted,
+  RenderWord,
+  useCompleted,
+  useCorrect,
+} from "@/components/InputDetect";
 
 interface RenderSentenceProps {
   id: number; // sentence index

@@ -1,5 +1,5 @@
 "use client";
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import {
   Drawer,
   DrawerContent,
@@ -10,25 +10,57 @@ import {
 import { Button } from "@/components/ui/button";
 import type { Synonym } from "@/lib/actions";
 import MiniTest from "./MiniTest";
-import { Inspection } from "@icon-park/react";
 import { flattenDeep } from "lodash";
 import { Separator } from "@/components/ui/separator";
-import { RenderWord, useCorrect } from "@/components/InputDetect";
+import { RenderWord, useCompleted, useCorrect } from "@/components/InputDetect";
 import { matchSentence } from "@/utils";
+import { cn } from "@/lib/utils";
 
 function RenderSentence({ data }: { data: string[] }) {
-  const [index, setIndex] = useState<number>(0);
-  const { english, translate } = useMemo(() => {
-    const sentence = data[index];
-    return matchSentence(sentence);
-  }, [data, index]);
+  const [current, setCurrent] = useState<number>(0);
+  const [words, setWords] = useState<string[]>([]);
+  const [translate, setTranslate] = useState("");
 
-  const words = english.split(" ");
+  useEffect(() => {
+    const { english, translate } = (() => {
+      const Total = data.length;
+      const index = current % Total;
+      const sentence = data[index];
+      return matchSentence(sentence);
+    })();
+    setTranslate(translate);
+    const words = english.split(" ");
+    setWords(words);
+  }, [data, current]);
+
   // statistics completed of word.
   const [correct, setCorrect] = useCorrect(words);
 
+  // check if all words are completed
+  const completed = useCompleted(correct);
+  useEffect(() => {
+    if (completed) {
+      setWords([]);
+      setCurrent((prev) => prev + 1);
+    }
+  }, [completed]);
+
   return (
     <>
+      <div className="flex gap-2 mb-4">
+        {data.map((_, index) => (
+          <div
+            key={index}
+            className={cn(
+              "cursor-pointer rounded-[50%] p-2 bg-blue-100 leading-[50%]",
+              current % data.length === index && "bg-blue-500 text-white"
+            )}
+            onClick={() => setCurrent(index)}
+          >
+            {index}
+          </div>
+        ))}
+      </div>
       <p>{translate}</p>
       <div className="flex gap-1 flex-wrap">
         {words.map((word, index) => (
@@ -66,15 +98,15 @@ export default function Test({ data }: TestProps) {
       <DrawerTrigger asChild>
         <Button
           variant="outline"
-          className="fixed right-4 bottom-4 z-10 rounded-full"
+          className="fixed right-4 bottom-16 z-10 rounded-full p-1 text-xl"
         >
-          <Inspection className="text-blue-400" />
+          ⚙
         </Button>
       </DrawerTrigger>
       <DrawerContent>
         <div className="max-w-full md:w-[1024px] mx-auto overflow-y-auto p-4">
           <DrawerHeader className="p-0 ">
-            <DrawerTitle className="text-center m-0">Practice</DrawerTitle>
+            <DrawerTitle className="m-0">Practice</DrawerTitle>
           </DrawerHeader>
           {/* sentences */}
           <Separator title="Sentences" className="mt-8" />
