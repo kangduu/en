@@ -49,9 +49,9 @@
     },
     {
       "scene": "购买商品后",
-      "critic": "A critic might write about the product’s design.",
-      "commenter": "Customers often comment about their experience online.",
-      "reviewer": "Reviewers test and rate the product for websites."
+      "critic": "A critic might write about the product’s design.（评论家可能会写关于产品设计的文章。）",
+      "commenter": "Customers often comment about their experience online.（顾客经常在网上评论他们的体验。）",
+      "reviewer": "Reviewers test and rate the product for websites.（评审在网站上测试和评分产品。）"
     }
   ],
   "common_errors": [

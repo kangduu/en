@@ -6,12 +6,12 @@
       {
         "word": "calm",
         "meaning": "指内心、环境或天气等没有骚动，强调‘不慌、不动’的状态。",
-        "example": "She remained calm during the emergency."
+        "example": "She remained calm during the emergency.（她在紧急情况下保持冷静。）"
       },
       {
         "word": "peace",
         "meaning": "指没有冲突或战争的状态，也可指内心的安宁，语义比 calm 更广。",
-        "example": "After the war ended, the country finally enjoyed peace."
+        "example": "After the war ended, the country finally enjoyed peace.（战争结束后，国家终于享受到了和平。）"
       }
     ]
   },
@@ -40,13 +40,13 @@
   "life_examples": [
     {
       "scene": "考试前",
-      "calm": "Take a deep breath and stay calm before the exam.",
-      "peace": "I need peace and quiet to concentrate on my study."
+      "calm": "Take a deep breath and stay calm before the exam.（考试前深呼吸，保持冷静。）",
+      "peace": "I need peace and quiet to concentrate on my study.（我需要安静的环境来专心学习。）"
     },
     {
       "scene": "吵架之后",
-      "calm": "He calmed down after yelling for a while.",
-      "peace": "They made up and lived in peace again."
+      "calm": "He calmed down after yelling for a while.（他在大喊一阵后冷静下来。）",
+      "peace": "They made up and lived in peace again.（他们和好如初，再次过上了和平的生活。）"
     }
   ],
   "common_errors": [

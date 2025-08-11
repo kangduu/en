@@ -83,23 +83,23 @@
   "life_examples": [
     {
       "scene": "超市购物",
-      "sort": "Please sort the groceries into cold and dry items.",
-      "assort": "The fruits were assorted by color and size.",
-      "classify": "The products were classified by nutritional value.",
-      "kind": "I want to try a new kind of cereal.",
-      "type": "This type of apple is sweeter.",
-      "category": "Snacks fall under the 'food' category.",
-      "variety": "The store offers a variety of snacks."
+      "sort": "Please sort the groceries into cold and dry items.（请把杂货分成冷藏和干货。）",
+      "assort": "The fruits were assorted by color and size.（水果按颜色和大小分类。）",
+      "classify": "The products were classified by nutritional value.（产品按营养价值分类。）",
+      "kind": "I want to try a new kind of cereal.（我想尝试一种新的谷物。）",
+      "type": "This type of apple is sweeter.（这种苹果更甜。）",
+      "category": "Snacks fall under the 'food' category.（零食属于‘食品’类别。）",
+      "variety": "The store offers a variety of snacks.（这家商店提供多种零食。）"
     },
     {
       "scene": "学校课堂",
-      "sort": "Sort the books by subject.",
-      "assort": "The students were assorted into small groups.",
-      "classify": "Classify the animals as mammals or reptiles.",
-      "kind": "This kind of math is hard.",
-      "type": "What type of exam is it—oral or written?",
-      "category": "Math is a category in the school subjects.",
-      "variety": "The teacher used a variety of teaching tools."
+      "sort": "Sort the books by subject.（按学科对书籍进行分类。）",
+      "assort": "The students were assorted into small groups.（学生被分成小组。）",
+      "classify": "Classify the animals as mammals or reptiles.（将动物分类为哺乳动物或爬行动物。）",
+      "kind": "This kind of math is hard.（这种数学很难。）",
+      "type": "What type of exam is it—oral or written?（这是什么类型的考试——口头还是书面？）",
+      "category": "Math is a category in the school subjects.（数学是学校科目中的一个类别。）",
+      "variety": "The teacher used a variety of teaching tools.（老师使用了多种教学工具。）"
     }
   ],
   "common_errors": [

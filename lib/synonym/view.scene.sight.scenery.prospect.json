@@ -6,27 +6,27 @@
       {
         "word": "scene",
         "meaning": "指‘场景’或‘一幕’，既可指自然景象，也可指戏剧、电影中的一幕。",
-        "example": "The opening scene of the movie was very dramatic."
+        "example": "The opening scene of the movie was very dramatic.（电影的开场场景非常戏剧化。）"
       },
       {
         "word": "prospect",
         "meaning": "指从高处望出去的‘远景’或‘展望’，也可表示未来可能的情形（抽象含义）。",
-        "example": "From the hilltop, the prospect of the valley is breathtaking."
+        "example": "From the hilltop, the prospect of the valley is breathtaking.（从山顶望去，山谷的远景令人叹为观止。）"
       },
       {
         "word": "scenery",
         "meaning": "特指‘自然风景’，常指乡村、山水等美丽的自然景色，不可数名词。",
-        "example": "The mountain scenery was stunning."
+        "example": "The mountain scenery was stunning.（山间的风景令人惊叹。）"
       },
       {
         "word": "sight",
         "meaning": "泛指看到的‘景象’、‘奇观’，也可表示‘视力’或旅游景点（可数）。",
-        "example": "The Eiffel Tower is a famous sight in Paris."
+        "example": "The Eiffel Tower is a famous sight in Paris.（埃菲尔铁塔是巴黎著名的景点。）"
       },
       {
         "word": "view",
         "meaning": "指从某个角度看到的景色，强调‘观察角度’，也可抽象地指‘观点’。",
-        "example": "There’s a great view of the city from this window."
+        "example": "There’s a great view of the city from this window.（从这个窗户可以看到城市的美景。）"
       }
     ]
   },
@@ -59,19 +59,19 @@
   "life_examples": [
     {
       "scene": "旅游拍照",
-      "scene": "We captured a beautiful scene of the lake.",
-      "prospect": "The hill offers a wide prospect of the countryside.",
-      "scenery": "The island is famous for its natural scenery.",
-      "sight": "The waterfall was an incredible sight.",
-      "view": "The view from the top of the tower was amazing."
+      "_scene": "We captured a beautiful scene of the lake.（我们拍摄了湖泊的美丽场景。）",
+      "prospect": "The hill offers a wide prospect of the countryside.（这座山提供了乡村的广阔远景。）",
+      "scenery": "The island is famous for its natural scenery.（这个岛以其自然风景而闻名。）",
+      "sight": "The waterfall was an incredible sight.（瀑布是一个令人难以置信的景象。）",
+      "view": "The view from the top of the tower was amazing.（从塔顶看到的景色令人惊叹。）"
     },
     {
       "scene": "在窗边看外面",
-      "scene": "It was a peaceful scene outside.",
-      "prospect": "The house has a prospect of the distant hills.",
-      "scenery": "There's not much natural scenery in the city.",
-      "sight": "What a lovely sight in the morning light!",
-      "view": "You can get a good view of the park from here."
+      "_scene": "It was a peaceful scene outside.（外面是一个宁静的场景。）",
+      "prospect": "The house has a prospect of the distant hills.（这座房子可以看到远处的山丘。）",
+      "scenery": "There's not much natural scenery in the city.（这个城市没有太多自然风景。）",
+      "sight": "What a lovely sight in the morning light!（早晨的光线下多么美丽的景象！）",
+      "view": "You can get a good view of the park from here.（从这里可以看到公园的美景。）"
     }
   ],
   "common_errors": [

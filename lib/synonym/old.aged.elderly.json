@@ -49,9 +49,9 @@
     },
     {
       "scene": "医院",
-      "old": "That man is too old to walk fast.",
-      "aged": "The aged patient needs rest.",
-      "elderly": "The hospital has a special unit for elderly people."
+      "old": "That man is too old to walk fast.（那个人太老了，走不快。）",
+      "aged": "The aged patient needs rest.（这位年长的病人需要休息。）",
+      "elderly": "The hospital has a special unit for elderly people.（医院有一个专门为老年人设立的病房。）"
     }
   ],
   "common_errors": [

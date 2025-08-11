@@ -35,12 +35,10 @@
   "life_examples": [
     {
       "scene": "照顾孩子",
-      "patience": "You need a lot of patience to care for a toddler.（照顾学步儿童需要很多耐心。）",
-      "endurance": "—"
+      "patience": "You need a lot of patience to care for a toddler.（照顾学步儿童需要很多耐心。）"
     },
     {
       "scene": "运动训练",
-      "patience": "—",
       "endurance": "Cycling for hours builds endurance.（骑行数小时有助于增强耐力。）"
     }
   ],

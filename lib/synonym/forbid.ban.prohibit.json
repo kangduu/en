@@ -43,9 +43,9 @@
   "life_examples": [
     {
       "scene": "学校规定",
-      "forbid": "Teachers forbid students to use phones during tests.",
-      "ban": "The school banned smoking on campus.",
-      "prohibit": "The school prohibits bringing pets to class."
+      "forbid": "Teachers forbid students to use phones during tests.（老师禁止学生在考试期间使用手机。）",
+      "ban": "The school banned smoking on campus.（学校禁止在校园内吸烟。）",
+      "prohibit": "The school prohibits bringing pets to class.（学校禁止将宠物带入课堂。）"
     }
   ],
   "common_errors": [

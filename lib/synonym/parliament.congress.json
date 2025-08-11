@@ -6,12 +6,12 @@
       {
         "word": "parliament",
         "meaning": "多用于英国及英联邦国家，通常由两个议院组成（上议院和下议院），负责制定法律、监督政府等。",
-        "example": "The British Parliament passed a new education bill."
+        "example": "The British Parliament passed a new education bill.（英国议会通过了一项新的教育法案。）"
       },
       {
         "word": "congress",
         "meaning": "主要用于美国，分为众议院和参议院，负责立法、批准预算、监督政府行为。",
-        "example": "The U.S. Congress approved the budget plan."
+        "example": "The U.S. Congress approved the budget plan.（美国国会批准了预算计划。）"
       }
     ]
   },
@@ -40,13 +40,13 @@
   "life_examples": [
     {
       "scene": "新闻报道",
-      "parliament": "The Canadian Parliament debated the new healthcare policy.",
-      "congress": "The U.S. Congress discussed gun control laws."
+      "parliament": "The Canadian Parliament debated the new healthcare policy.（加拿大议会辩论了新的医疗保健政策。）",
+      "congress": "The U.S. Congress discussed gun control laws.（美国国会讨论了枪支管制法案。）"
     },
     {
       "scene": "课堂学习",
-      "parliament": "Students learned how laws are passed in the UK Parliament.",
-      "congress": "They studied how the U.S. Congress operates."
+      "parliament": "Students learned how laws are passed in the UK Parliament.（学生们学习了法律是如何在英国议会通过的。）",
+      "congress": "They studied how the U.S. Congress operates.（他们研究了美国国会的运作方式。）"
     }
   ],
   "common_errors": [

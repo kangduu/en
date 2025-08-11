@@ -6,12 +6,12 @@
       {
         "word": "shame",
         "meaning": "指一种内心的羞耻感，可能是因为做错了事或别人觉得你不体面。可以是短暂的情绪。",
-        "example": "She felt deep shame for lying to her friend."
+        "example": "She felt deep shame for lying to her friend.（她因对朋友撒谎而感到深深的羞愧。）"
       },
       {
         "word": "disgrace",
         "meaning": "更强烈，表示名誉或声望严重受损，是外界公认的耻辱，常伴随社会舆论压力。",
-        "example": "He was fired in disgrace after the scandal."
+        "example": "He was fired in disgrace after the scandal.（他在丑闻后被解雇，名声扫地。）"
       }
     ]
   },
@@ -35,13 +35,13 @@
   "life_examples": [
     {
       "scene": "学校场景",
-      "shame": "I forgot my homework and felt ashamed.",
-      "disgrace": "Cheating in the exam brought disgrace to the student and the school."
+      "shame": "I forgot my homework and felt ashamed.（我忘记带作业，感到很羞愧。）",
+      "disgrace": "Cheating in the exam brought disgrace to the student and the school.（考试作弊给学生和学校带来了耻辱。）"
     },
     {
       "scene": "家庭生活",
-      "shame": "He looked down in shame after breaking the vase.",
-      "disgrace": "His behavior at the family dinner was a disgrace."
+      "shame": "He looked down in shame after breaking the vase.（他打破花瓶后低下头，感到羞愧。）",
+      "disgrace": "His behavior at the family dinner was a disgrace.（他在家庭晚宴上的行为令人感到羞耻。）"
     }
   ],
   "common_errors": [

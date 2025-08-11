@@ -6,22 +6,22 @@
       {
         "word": "erect",
         "meaning": "正式用语，常用于‘竖立’建筑或结构，强调从地面向上建立。",
-        "example": "They erected a statue in the park."
+        "example": "They erected a statue in the park.（他们在公园里竖立了一座雕像。）"
       },
       {
         "word": "build",
         "meaning": "常用词，指用材料建造房屋、桥梁等，适用范围广。",
-        "example": "They are building a new school nearby."
+        "example": "They are building a new school nearby.（他们在附近建造一所新学校。）"
       },
       {
         "word": "construct",
         "meaning": "书面语，通常指有计划、有设计地建造大型工程或结构。",
-        "example": "The company constructed a highway across the desert."
+        "example": "The company constructed a highway across the desert.（该公司在沙漠中修建了一条高速公路。）"
       },
       {
         "word": "create",
         "meaning": "更强调‘创造’出新的东西，不限于建筑物，也可以是抽象的东西如艺术、想法等。",
-        "example": "She created a beautiful painting."
+        "example": "She created a beautiful painting.（她创作了一幅美丽的画作。）"
       }
     ]
   },
@@ -51,17 +51,17 @@
   "life_examples": [
     {
       "scene": "建筑工地",
-      "erect": "Workers are erecting a steel frame.",
-      "build": "They're building new apartments.",
-      "construct": "Engineers are constructing a tunnel.",
-      "create": "The architect created a new building design."
+      "erect": "Workers are erecting a steel frame.（工人们正在竖立钢框架。）",
+      "build": "They're building new apartments.（他们正在建造新的公寓。）",
+      "construct": "Engineers are constructing a tunnel.（工程师们正在修建一条隧道。）",
+      "create": "The architect created a new building design.（建筑师创作了一个新的建筑设计。）"
     },
     {
       "scene": "学校活动",
-      "erect": "We erected a tent for the event.",
-      "build": "The students built a model house.",
-      "construct": "They constructed a paper bridge.",
-      "create": "She created a poster about climate change."
+      "erect": "We erected a tent for the event.（我们为活动竖立了一个帐篷。）",
+      "build": "The students built a model house.（学生们建造了一个模型房子。）",
+      "construct": "They constructed a paper bridge.（他们建造了一座纸桥。）",
+      "create": "She created a poster about climate change.（她创作了一张关于气候变化的海报。）"
     }
   ],
   "common_errors": [

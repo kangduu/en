@@ -6,22 +6,22 @@
       {
         "word": "display",
         "meaning": "强调将某物公开展示，让人看到，既可指物品，也可指情绪、技能等。",
-        "example": "The store displays the new phones in the front window."
+        "example": "The store displays the new phones in the front window.（商店在前窗展示新手机。）"
       },
       {
         "word": "show",
         "meaning": "最通用的“展示”，可以指告诉、给人看、表演等，使用最广泛。",
-        "example": "Can you show me your homework?"
+        "example": "Can you show me your homework?（你能给我看看你的作业吗？）"
       },
       {
         "word": "present",
         "meaning": "正式地展示或呈现，常用于报告、颁奖或介绍，带有一定仪式感。",
-        "example": "He will present his idea at the meeting."
+        "example": "He will present his idea at the meeting.（他将在会议上提出他的想法。）"
       },
       {
         "word": "exhibit",
         "meaning": "多用于艺术、博物馆或科学展览，语气较正式，也可用作名词“展品”。",
-        "example": "The artist is exhibiting her work in the gallery."
+        "example": "The artist is exhibiting her work in the gallery.（这位艺术家在画廊展出她的作品。）"
       }
     ]
   },
@@ -58,17 +58,17 @@
   "life_examples": [
     {
       "scene": "课堂上",
-      "display": "The teacher displayed a chart on the screen.",
-      "show": "Please show your answer to the class.",
-      "present": "She presented her project to the teacher.",
-      "exhibit": "The science fair exhibits will be in the hall."
+      "display": "The teacher displayed a chart on the screen.（老师在屏幕上展示了一张图表。）",
+      "show": "Please show your answer to the class.（请向全班展示你的答案。）",
+      "present": "She presented her project to the teacher.（她向老师展示了她的项目。）",
+      "exhibit": "The science fair exhibits will be in the hall.（科学展览的展品将在大厅中展出。）"
     },
     {
       "scene": "商店购物",
-      "display": "Watches are displayed behind the glass.",
-      "show": "The seller showed me a cheaper phone.",
-      "present": "The salesperson presented the new model politely.",
-      "exhibit": "This mall often exhibits designer products."
+      "display": "Watches are displayed behind the glass.（手表陈列在玻璃后面。）",
+      "show": "The seller showed me a cheaper phone.（卖家给我看了一部更便宜的手机。）",
+      "present": "The salesperson presented the new model politely.（销售人员礼貌地介绍了新型号。）",
+      "exhibit": "This mall often exhibits designer products.（这个商场经常展出设计师产品。）"
     }
   ],
   "common_errors": [
