@@ -4,6 +4,8 @@ import {
   Drawer,
   DrawerContent,
   DrawerHeader,
+  DrawerOverlay,
+  DrawerPortal,
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
@@ -109,18 +111,21 @@ export default function Test({ data }: TestProps) {
           ⚙
         </Button>
       </DrawerTrigger>
-      <DrawerContent>
-        <div className="max-w-full md:w-[1024px] mx-auto overflow-y-auto p-4">
-          <DrawerHeader className="p-0 ">
-            <DrawerTitle className="m-0">Practice</DrawerTitle>
-          </DrawerHeader>
-          {/* sentences */}
-          <Separator title="Sentences" className="mt-8" />
-          <RenderSentence data={sentences} />
-          {/* tests */}
-          <MiniTest tests={mini_test} />
-        </div>
-      </DrawerContent>
+      <DrawerPortal>
+        <DrawerOverlay className="bg-black/90" />
+        <DrawerContent>
+          <div className="max-w-full md:w-[1024px] mx-auto overflow-y-auto p-4">
+            <DrawerHeader className="p-0 ">
+              <DrawerTitle className="m-0">Practice</DrawerTitle>
+            </DrawerHeader>
+            {/* sentences */}
+            <Separator title="Sentences" className="mt-8" />
+            <RenderSentence data={sentences} />
+            {/* tests */}
+            <MiniTest tests={mini_test} />
+          </div>
+        </DrawerContent>
+      </DrawerPortal>
     </Drawer>
   );
 }
