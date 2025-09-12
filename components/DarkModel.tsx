@@ -1,9 +1,10 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { SunOne, Moon } from "@icon-park/react";
+import { Button } from "./ui/button";
 
 type ThemeType = "dark" | "light";
 
-export default function DarkModel() {
+export default function DarkModel(props: Parameters<typeof Button>[number]) {
   const [theme, setTheme] = useState<ThemeType>();
 
   // toggle dark model
@@ -36,9 +37,18 @@ export default function DarkModel() {
   }, [setLightModel, setDarkModel]);
 
   return (
-    <>
-      {theme === "light" && <SunOne onClick={setDarkModel} />}
-      {theme === "dark" && <Moon onClick={setLightModel} />}
-    </>
+    <Button
+      variant="outline"
+      {...props}
+      onClick={(e) => {
+        e.stopPropagation();
+        if (theme === "light") setDarkModel();
+        if (theme === "dark") setLightModel();
+        props.onClick?.(e);
+      }}
+    >
+      {theme === "light" && <SunOne />}
+      {theme === "dark" && <Moon />}
+    </Button>
   );
 }

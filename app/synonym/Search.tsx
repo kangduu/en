@@ -1,6 +1,6 @@
 "use client";
 
-import SearchDialog from "@/components/search/dialog";
+import { SearchKit } from "@/components/search";
 import Subhead from "@/components/Subhead";
 import Empty from "@/components/svg/Empty";
 import RenderTarget from "./RenderTarget";
@@ -38,7 +38,7 @@ export default function SearchSynonym({ list }: SearchSynonymProps) {
   return (
     <Subhead
       extra={
-        <SearchDialog
+        <SearchKit
           onSubmit={handleSearch}
           // buttonProps={{ variant: "link" }}
         />

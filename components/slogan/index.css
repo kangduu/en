@@ -1,0 +1,8 @@
+/* 对角线渐变 */
+.gradient-slogan {
+  background: linear-gradient(45deg, var(--primary), #f97316);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}

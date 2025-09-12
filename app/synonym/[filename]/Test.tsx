@@ -114,7 +114,7 @@ export default function Test({ data }: TestProps) {
       <DrawerPortal>
         <DrawerOverlay className="bg-black/90" />
         <DrawerContent>
-          <div className="max-w-full md:w-[1024px] mx-auto overflow-y-auto p-4">
+          <div className="max-w-full md:w-[var(--size)] mx-auto overflow-y-auto p-4">
             <DrawerHeader className="p-0 ">
               <DrawerTitle className="m-0">Practice</DrawerTitle>
             </DrawerHeader>
