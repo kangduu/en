@@ -1,43 +1,59 @@
 "use client";
 
-import Container from "@/components/Container";
-// import LexicalComp from "@/components/Lexical";
-import Phonetic from "@/components/Phonetic";
-import Subhead from "@/components/Subhead";
+import { NCE, Progress, Study, Notes } from "@/components/home";
+import Container from "@/components/kit/Container";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "@icon-park/react";
+import { ArrowRight, Help } from "@icon-park/react";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <div className="w-full bg-primary">
-        <Container className="py-8 md:py-20 px-2 md:px-0 text-white">
-          <h1 className="text-4xl md:text-5xl m-0">提升你的英语能力</h1>
-          <h2 className="text-4xl md:text-5xl m-0">从这里开始</h2>
+      {/* slogan */}
+      <section className="w-full bg-primary">
+        <Container className="py-8 md:py-20 px-4 md:px-0 text-white block md:flex justify-between items-center">
+          <div>
+            <h1 className="text-4xl md:text-6xl m-0">提升你的英语能力</h1>
+            <h2 className="text-3xl md:text-5xl m-0 mt-2">从这里开始</h2>
 
-          <desc className="block mt-4">
-            全面的英语学习平台，包含单词、短语、语法、文章和NEC课本内容，助你高效学习英语
-          </desc>
+            <div className="block mt-2 md:mt-4">
+              全面的英语学习平台，包含单词、短语、语法、文章和NEC课本内容，助你高效学习英语
+            </div>
 
-          <div className=" mt-8 md:mt-12">
-            <Button className="bg-white text-primary" size="lg">
-              开始学习
-              <ArrowRight theme="outline" size="24" fill="var(--primary)" />
-            </Button>
-            <Button className="text-primary ml-4" size="lg" variant="secondary">
-              了解更多
-              <ArrowRight theme="outline" size="24" fill="var(--primary)" />
-            </Button>
+            <div className="mt-4 md:mt-12">
+              <Button
+                className="text-primary relative bg-white hover:bg-white top-0 hover:top-[-1rem] duration-500"
+                size="lg"
+              >
+                开始学习
+                <ArrowRight theme="outline" size="24" fill="var(--primary)" />
+              </Button>
+              <Button
+                className="text-white ml-6 bg-blue-700 hover:bg-blue-400 duration-700 ease-in-out "
+                size="lg"
+                variant="secondary"
+              >
+                了解更多
+                <Help theme="outline" size="24" fill="#fff" />
+              </Button>
+            </div>
+          </div>
+          <div className="mt-8 md:mt-0 md:mr-8 rounded-xl md:rounded-2xl overflow-hidden rotate-0 md:rotate-2 hover:rotate-0 duration-700 ease-in-out">
+            <Image
+              className="max-w-fill"
+              width={480}
+              height={270}
+              src="/home.jpg"
+              alt=""
+            />
           </div>
         </Container>
-      </div>
+      </section>
 
-      {/* <Subhead>Lexical</Subhead>
-      <LexicalComp /> */}
-      {/* <Subhead>phonetic</Subhead> */}
-      {/* <Phonetic /> */}
-      {/* <h1 className="my-4">Part 3 Practices</h1> */}
-      {/* <h1 className="my-4">Part 4 Exam</h1> */}
+      <Progress />
+      <Study />
+      <NCE />
+      <Notes />
     </>
   );
 }
