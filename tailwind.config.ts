@@ -15,7 +15,7 @@ export default {
         accent: "#10B981", // 强调色：绿色，代表成长和进步
         dark: "#1E293B", // 深色文本
         light: "#F8FAFC", // 浅色背景
-        muted: "#94A3B8", // 次要文本
+        muted: "var(--muted)", // 次要文本
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],
