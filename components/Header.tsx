@@ -29,7 +29,7 @@ import {
 } from "@icon-park/react";
 import Slogan from "@/components/slogan";
 import { SearchKit } from "./search";
-import Container from "./Container";
+import Container from "./kit/Container";
 import { Button } from "./ui/button";
 
 export default function Navigation() {

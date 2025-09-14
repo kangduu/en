@@ -7,7 +7,10 @@ export default function Container({
   style,
 }: PropsWithChildren<ComponentCssProps>) {
   return (
-    <div style={style} className={cn("w-full md:max-w-[var(--size)] m-auto", className)}>
+    <div
+      style={style}
+      className={cn("w-full md:max-w-[var(--size)] m-auto ", className)}
+    >
       {children}
     </div>
   );
