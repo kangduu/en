@@ -1,7 +1,6 @@
 "use client";
 
 import { NCE, Progress, Study, Notes } from "@/components/home";
-import Container from "@/components/kit/Container";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Help } from "@icon-park/react";
 import Image from "next/image";
@@ -11,7 +10,7 @@ export default function Home() {
     <>
       {/* slogan */}
       <section className="w-full bg-primary">
-        <Container className="py-8 md:py-20 px-4 md:px-0 text-white block md:flex justify-between items-center">
+        <div className="container mx-auto py-8 md:py-20 px-4 md:px-0 text-white block md:flex justify-between items-center">
           <div>
             <h1 className="text-4xl md:text-6xl m-0">提升你的英语能力</h1>
             <h2 className="text-3xl md:text-5xl m-0 mt-2">从这里开始</h2>
@@ -47,13 +46,15 @@ export default function Home() {
               alt=""
             />
           </div>
-        </Container>
+        </div>
       </section>
 
-      <Progress />
-      <Study />
-      <NCE />
-      <Notes />
+      <div className="container mx-auto">
+        <Progress />
+        <Study />
+        <NCE />
+        <Notes />
+      </div>
     </>
   );
 }

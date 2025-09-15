@@ -25,13 +25,12 @@ import {
 import { Bookshelf, HamburgerButton } from "@icon-park/react";
 import Slogan from "@/components/slogan";
 import { SearchKit } from "./search";
-import Container from "./kit/Container";
 import { Button } from "./ui/button";
 
 export default function Navigation() {
   return (
     <header className="w-full h-fit py-4 md:py-4 border-b-1 sticky top-0 bg-[var(--background)] z-50">
-      <Container className="flex items-center justify-between">
+      <div className="container mx-auto flex items-center justify-between">
         {/* 移动导航 (隐藏于桌面端) */}
         <div className="md:hidden flex items-center mr-2">
           <NativeNavMenu />
@@ -52,7 +51,7 @@ export default function Navigation() {
 
         {/* dark mode */}
         <DarkModel className="mx-2 cursor-pointer" variant="outline" />
-      </Container>
+      </div>
     </header>
   );
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import Container from "@/components/kit/Container";
 import Slogan from "@/components/slogan";
 import {
   Bookshelf,
@@ -16,7 +15,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer className="w-full bg-gray-800 text-white px-6 md:px-0">
-      <Container className="md:flex gap-12 justify-between py-12">
+      <div className="container mx-auto md:flex gap-12 justify-between py-12">
         <div>
           <div className="flex items-center">
             <span className="bg-white rounded-[4px] leading-none p-2 mr-2">
@@ -95,7 +94,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-      </Container>
+      </div>
 
       <div className="flex items-center gap-1 py-4 mx-auto w-fit text-white">
         <Copyright />
