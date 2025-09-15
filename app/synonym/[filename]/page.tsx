@@ -1,5 +1,5 @@
 import React from "react";
-import GoBack from "@/components/GoBack";
+import { GoBack } from "@/components/kit";
 import ComparisonTable from "./Comparison";
 import ExplanationList from "./Explanation";
 import { getSynonyms } from "@/lib/actions";

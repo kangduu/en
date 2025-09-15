@@ -11,7 +11,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import DarkModel from "./DarkModel";
+import { DarkModel } from "./kit";
 import { HeaderLinks } from "@/lib/navigation";
 import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
