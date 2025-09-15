@@ -21,7 +21,6 @@
 
 body {
   min-height: 100vh;
-  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 h1 {
@@ -53,7 +52,7 @@ u {
 }
 
 /* Set the style of ul or ol under the name of the wrapper class.  */
-.wrapper ol,
+/* .wrapper ol,
 .wrapper ul {
   margin-top: 1em;
 }
@@ -67,7 +66,7 @@ u {
 .wrapper ul li {
   margin-left: 1em;
   margin-bottom: 0.75em;
-}
+} */
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
@@ -187,5 +186,11 @@ u {
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .res-box {
+    @apply container px-4 md:px-6 lg:px-8 xl:px-0 mx-auto;
   }
 }

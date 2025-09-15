@@ -3,7 +3,7 @@
 import "./globals.css";
 import React from "react";
 import { Toaster } from "@/components/ui/sonner";
-import Back2Top from "@/components/Back2Top";
+import Back2Top from "@/components/kit/Back2Top";
 
 import "@icon-park/react/styles/index.css";
 import { IconProvider, DEFAULT_ICON_CONFIGS } from "@icon-park/react";
@@ -19,12 +19,10 @@ export default function Main({
   return (
     <IconProvider value={IconConfig}>
       <Navigation />
-      <main className="w-full">
-        {children}
-        <Back2Top />
-      </main>
+      <main className="w-full">{children}</main>
       <Footer />
       <Toaster />
+      <Back2Top />
     </IconProvider>
   );
 }

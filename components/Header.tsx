@@ -30,7 +30,7 @@ import { Button } from "./ui/button";
 export default function Navigation() {
   return (
     <header className="w-full h-fit py-4 md:py-4 border-b-1 sticky top-0 bg-[var(--background)] z-50">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="res-box flex items-center justify-between">
         {/* 移动导航 (隐藏于桌面端) */}
         <div className="md:hidden flex items-center mr-2">
           <NativeNavMenu />

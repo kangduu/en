@@ -14,8 +14,8 @@ import {
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="w-full bg-gray-800 text-white px-6 md:px-0">
-      <div className="container mx-auto md:flex gap-12 justify-between py-12">
+    <footer className="w-full bg-gray-800 text-white">
+      <div className="res-box md:flex gap-12 justify-between py-12">
         <div>
           <div className="flex items-center">
             <span className="bg-white rounded-[4px] leading-none p-2 mr-2">
@@ -96,7 +96,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex items-center gap-1 py-4 mx-auto w-fit text-white">
+      <div className="flex items-center gap-1 py-4 mx-auto w-fit text-white whitespace-nowrap text-[0.9rem]">
         <Copyright />
         {year} EnglishHub.
         <a
