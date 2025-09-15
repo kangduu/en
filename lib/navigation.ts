@@ -2,7 +2,7 @@ import {
   NewConceptBookKeys,
   NewConceptBookNames,
   type NewConceptBookKey,
-} from "@/utils/constant";
+} from "./utils";
 
 export const HeaderLinkPathMapping = {
   NCE: "/nce",

@@ -64,7 +64,7 @@ export default function Back2Top() {
       {/* progress */}
       <div
         ref={ProgressRef}
-        className="fixed left-0 top-0 z-[100] h-1 transition-width duration-100 bg-blue-300"
+        className="fixed left-0 top-0 z-[100] h-1 transition-width duration-100 bg-primary/30 dark:bg-gray-800"
       />
     </>
   );

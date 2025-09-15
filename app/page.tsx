@@ -12,11 +12,15 @@ export default function Home() {
       <section className="w-full bg-primary">
         <div className="res-box py-8 md:py-20 text-white block md:flex justify-between items-center">
           <div>
-            <h1 className="text-4xl md:text-6xl m-0">提升你的英语能力</h1>
-            <h2 className="text-3xl md:text-5xl m-0 mt-2">从这里开始</h2>
+            <h1 className="text-4xl lg:text-5xl xl:text-6xl m-0">
+              提升你的英语能力
+            </h1>
+            <h2 className="text-3xl lg:text-4xl xl:text-5xl m-0 mt-2">
+              从这里开始
+            </h2>
 
             <div className="block mt-2 md:mt-4">
-              全面的英语学习平台，包含单词、短语、语法、文章和NEC课本内容，助你高效学习英语
+              全面的英语学习平台，包含单词、短语、语法、文章和NCE课本内容，助你高效学习英语
             </div>
 
             <div className="mt-4 md:mt-12">
@@ -37,12 +41,12 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <div className="mt-8 md:mt-0 md:mr-8 rounded-xl md:rounded-2xl overflow-hidden rotate-0 md:rotate-2 hover:rotate-0 duration-700 ease-in-out">
+          <div className="mt-8 md:mt-0 md:mr-8 ml-0 md:ml-8 rounded-xl md:rounded-2xl overflow-hidden rotate-0 md:rotate-2 hover:rotate-0 duration-700 ease-in-out">
             <Image
               className="max-w-fill"
               width={480}
               height={270}
-              src="/home.jpg"
+              src="/static/home.jpg"
               alt=""
             />
           </div>
@@ -51,9 +55,9 @@ export default function Home() {
 
       <div className="res-box">
         <Progress />
-        <Study />
-        <NCE />
-        <Notes />
+        <Study className="mt-12" />
+        <NCE className="mt-12" />
+        <Notes className="my-12" />
       </div>
     </>
   );

@@ -15,8 +15,7 @@ import MiniTest from "./MiniTest";
 import { flattenDeep } from "lodash";
 import { Separator } from "@/components/ui/separator";
 import { RenderWord, useCompleted, useCorrect } from "@/components/InputDetect";
-import { matchSentence } from "@/utils";
-import { cn } from "@/lib/utils";
+import { cn, matchSentence } from "@/lib/utils";
 
 function RenderSentence({ data }: { data: string[] }) {
   const [current, setCurrent] = useState<number>(0);

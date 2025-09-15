@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useCallback, useEffect, useState } from "react";
 import { SunOne, Moon } from "@icon-park/react";
 import { Button } from "../ui/button";

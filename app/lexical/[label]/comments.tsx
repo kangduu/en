@@ -1,6 +1,6 @@
 "use client";
 
-import MarkdownViewer from "@/components/MarkdownViewer";
+import MarkdownViewer from "@/components/md/MarkdownViewer";
 import { Request_Github_REST_API } from "@/requests";
 import React, { useEffect, useState } from "react";
 

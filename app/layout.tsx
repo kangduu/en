@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Main from "./main";
-import { SiteTitle } from "@/utils/vender";
+import { SiteTitle } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: SiteTitle,

@@ -7,7 +7,7 @@ import React, {
 } from "react";
 import Comments from "./comments";
 import { GetReposIssues } from "@/requests";
-import MarkdownViewer from "@/components/MarkdownViewer";
+import MarkdownViewer from "@/components/md/MarkdownViewer";
 
 interface IssueType {
   id: number;

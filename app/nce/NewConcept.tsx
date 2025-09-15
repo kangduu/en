@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import { Card } from "@/components/ui/card";
 import { BookList, type BookListProps } from "./BookList";
 import { getCourses, type Course } from "@/lib/books";
-import type { NewConceptBookKey } from "@/utils/constant";
+import type { NewConceptBookKey } from "@/lib/utils";
 
 interface RenderBookProps extends Pick<BookListProps, "onClick"> {
   book: NewConceptBookKey;

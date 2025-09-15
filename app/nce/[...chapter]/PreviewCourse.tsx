@@ -4,8 +4,8 @@ import { useRouter } from "next/navigation";
 import type { Course } from "@/lib/books";
 import React from "react";
 import { BookList } from "../BookList";
-import type { NewConceptBookKey } from "@/utils/constant";
 import { HeaderLinkPathMapping } from "@/lib/navigation";
+import type { NewConceptBookKey } from "@/lib/utils";
 export interface PreviewCourseProps extends ComponentCssProps {
   courses: Course[];
   book: NewConceptBookKey;

@@ -1,12 +1,12 @@
 import React from "react";
 import { books } from "@/lib/books";
-import type { NewConceptBookKey } from "@/utils/constant";
 import RenderPagination from "./RenderPagination";
 import RenderCourse from "./RenderCourse";
 import AudioCtx from "@/context/AudioCtx";
 import RenderCourseName from "./RenderCourseName";
 import ServerErrorRender from "@/components/ServerErrorRender";
 import PreviewCourse from "./PreviewCourse";
+import type { NewConceptBookKey } from "@/lib/utils";
 
 interface BookProps {
   params: Promise<{ chapter: string[] }>;
