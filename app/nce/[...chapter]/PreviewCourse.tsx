@@ -23,7 +23,10 @@ export default function PreviewCourse({ book, courses }: PreviewCourseProps) {
   const router = useRouter();
   if (!courses?.length)
     return (
-      <div className="res-box max-w-6xl">
+      <div className="res-box max-w-4xl">
+        <div className="text-center mt-4 text-muted">
+          The resources are on the way ~ ~ ~
+        </div>
         <Empty.page />
       </div>
     );
