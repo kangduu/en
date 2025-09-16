@@ -58,7 +58,7 @@ function RenderSentence({
             {talker}
           </div>
         )}
-        <div>
+        <div className="flex-1">
           <div className="flex gap-1 flex-wrap">
             {(isEssay ? wordArr : words).map((word, index) => (
               <RenderWord
@@ -70,8 +70,8 @@ function RenderSentence({
             ))}
           </div>
           <p
-            className={`text-xs text-gray-300 m-0 pt-1 ${
-              completed ? "opacity-100" : "opacity-0 hover:opacity-100"
+            className={`w-full text-xs text-gray-300 m-0 pt-1 ${
+              completed ? "opacity-100" : "opacity-0 hover:opacity-100 active:opacity-100 focus:opacity-100"
             }`}
           >
             {props.translation}

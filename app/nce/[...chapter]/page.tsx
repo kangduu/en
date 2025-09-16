@@ -36,7 +36,7 @@ export default async function Book({ params }: BookProps) {
     if (courseIndex === -1) throw new Error("Course not found");
     const course = courses[courseIndex];
     return (
-      <div className="res-box my-8">
+      <div className="res-box max-w-5xl my-8">
         {/* text */}
         <AudioCtx path={course.audio}>
           <RenderCourseName name={course.name} />
