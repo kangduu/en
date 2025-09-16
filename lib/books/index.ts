@@ -1,4 +1,4 @@
-import type { NewConceptBookKey } from "@/utils/constant";
+import type { NewConceptBookKey } from "../utils";
 
 export interface Course {
   id: number; // course unique id

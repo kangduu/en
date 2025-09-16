@@ -85,7 +85,7 @@ export default function Phonetic() {
         <TabsTrigger value="consonants">Consonants</TabsTrigger>
       </TabsList>
       <TabsContent value="vowels">
-        <Card>
+        <Card hovered={false}>
           <CardHeader>
             <CardTitle className="capitalize">vowels</CardTitle>
             <CardDescription>
@@ -104,7 +104,7 @@ export default function Phonetic() {
         </Card>
       </TabsContent>
       <TabsContent value="consonants">
-        <Card>
+        <Card hovered={false}>
           <CardHeader>
             <CardTitle className="capitalize">consonants</CardTitle>
             <CardDescription>

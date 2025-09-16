@@ -1,5 +1,5 @@
 import React from "react";
-import GoBack from "@/components/GoBack";
+import { GoBack } from "@/components/kit";
 import ComparisonTable from "./Comparison";
 import ExplanationList from "./Explanation";
 import { getSynonyms } from "@/lib/actions";
@@ -27,7 +27,7 @@ export default async function Word({ params }: WordProps) {
   } = synonymous;
 
   return (
-    <>
+    <div className="res-box my-8">
       <GoBack>{words.join(" / ")}</GoBack>
 
       {/* explanation end life-examples */}
@@ -46,6 +46,6 @@ export default async function Word({ params }: WordProps) {
       <Additional notes={additional_notes} />
 
       <Test data={synonymous} />
-    </>
+    </div>
   );
 }

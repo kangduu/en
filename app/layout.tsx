@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Main from "./main";
+import { SiteTitle } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "English",
-  description: "english-study",
+  title: SiteTitle,
+  description: "english,kangduu,dukang,personal blog,nce,",
 };
 
 export default function RootLayout({

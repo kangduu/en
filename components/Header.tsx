@@ -11,7 +11,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import DarkModel from "./dark";
+import { DarkModel } from "./kit";
 import { HeaderLinks } from "@/lib/navigation";
 import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -22,48 +22,41 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
-import { Github, HamburgerButton } from "@icon-park/react";
+import { HamburgerButton } from "@icon-park/react";
+import Logo from "@/components/slogan";
+import { Button } from "./ui/button";
 
 export default function Navigation() {
   return (
-    <header className="w-full h-fit py-4 md:py-2 border-b-1 sticky top-0 bg-[var(--background)] z-50">
-      <div className="max-w-[1024px] px-4 mx-auto flex items-center justify-between">
-        {/* 移动导航 (隐藏于桌面端) */}
-        <div className="md:hidden flex items-center mr-2">
-          <NativeNavMenu />
-        </div>
-
+    <header className="w-full h-fit py-4 md:py-4 border-b-1 sticky top-0 bg-[var(--background)] z-50">
+      <div className="res-box flex items-center justify-between">
         {/* Home */}
-        <Link className="mr-auto font-bold leading-none" href="/">
-          ENGLISH
-        </Link>
-
+        <Logo className="mr-auto" fill="white" iconClassName="bg-primary" />
         {/* 桌面导航 (隐藏于移动端) */}
-        <div className="hidden md:block">
+        <div className="hidden md:block mr-auto">
           <NavMenu />
         </div>
-
+        {/* 移动导航 (隐藏于桌面端) */}
+        <div className="md:hidden flex items-center ml-auto mr-2">
+          <NativeNavMenu />
+        </div>
         {/* dark mode */}
-        <span className="ml-auto mr-3 cursor-pointer">
-          <DarkModel />
-        </span>
-
-        {/* github library */}
-        <Link href="https://github.com/kangduu/en" target="_blank">
-          <Github />
-        </Link>
+        <DarkModel className="cursor-pointer p-0" variant="ghost" />
       </div>
     </header>
   );
 }
 
 // mobile menu
+// todo refactor
 function NativeNavMenu() {
   const [open, setOpen] = useState(false);
   return (
     <Drawer open={open} onOpenChange={setOpen}>
       <DrawerTrigger>
-        <HamburgerButton onClick={() => setOpen(true)} />
+        <Button variant="ghost" className="ml-2 p-1">
+          <HamburgerButton onClick={() => setOpen(true)} />
+        </Button>
       </DrawerTrigger>
       <DrawerContent className="p-4 pt-0 min-h-[74vh]">
         <DrawerHeader>

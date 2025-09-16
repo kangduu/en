@@ -46,11 +46,16 @@ export default function SearchDialog({
   const [open, setOpen] = useState(false);
   return (
     <>
-      <SearchButton onClick={() => setOpen(true)} {...props.buttonProps} />
+      <SearchButton
+        onClick={() => {
+          if (open) return;
+          if (!open) setOpen(true);
+        }}
+        {...props.buttonProps}
+      />
       <Dialog
         open={open}
         onOpenChange={(open) => {
-          console.log(open);
           if (open) {
             setValue("");
             setError("");

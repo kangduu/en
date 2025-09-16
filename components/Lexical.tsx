@@ -3,8 +3,8 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { GetReposLabels } from "../requests";
-import { hexToRgb } from "@/utils";
 import { Card } from "./ui/card";
+import { hexToRgb } from "@/lib/utils";
 
 interface LabelType {
   id: number;

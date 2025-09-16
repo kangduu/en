@@ -4,6 +4,8 @@ import {
   Drawer,
   DrawerContent,
   DrawerHeader,
+  DrawerOverlay,
+  DrawerPortal,
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
@@ -13,8 +15,7 @@ import MiniTest from "./MiniTest";
 import { flattenDeep } from "lodash";
 import { Separator } from "@/components/ui/separator";
 import { RenderWord, useCompleted, useCorrect } from "@/components/InputDetect";
-import { matchSentence } from "@/utils";
-import { cn } from "@/lib/utils";
+import { cn, matchSentence } from "@/lib/utils";
 
 function RenderSentence({ data }: { data: string[] }) {
   const [current, setCurrent] = useState<number>(0);
@@ -109,18 +110,21 @@ export default function Test({ data }: TestProps) {
           ⚙
         </Button>
       </DrawerTrigger>
-      <DrawerContent>
-        <div className="max-w-full md:w-[1024px] mx-auto overflow-y-auto p-4">
-          <DrawerHeader className="p-0 ">
-            <DrawerTitle className="m-0">Practice</DrawerTitle>
-          </DrawerHeader>
-          {/* sentences */}
-          <Separator title="Sentences" className="mt-8" />
-          <RenderSentence data={sentences} />
-          {/* tests */}
-          <MiniTest tests={mini_test} />
-        </div>
-      </DrawerContent>
+      <DrawerPortal>
+        <DrawerOverlay className="bg-black/50" />
+        <DrawerContent>
+          <div className="res-box mx-auto overflow-y-auto p-4">
+            <DrawerHeader className="p-0 ">
+              <DrawerTitle className="m-0">Practice</DrawerTitle>
+            </DrawerHeader>
+            {/* sentences */}
+            <Separator title="Sentences" className="mt-8" />
+            <RenderSentence data={sentences} />
+            {/* tests */}
+            <MiniTest tests={mini_test} />
+          </div>
+        </DrawerContent>
+      </DrawerPortal>
     </Drawer>
   );
 }

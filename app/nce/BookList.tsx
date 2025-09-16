@@ -2,6 +2,7 @@
 
 import React, { type PropsWithChildren } from "react";
 import { type Course } from "@/lib/books";
+import { cn } from "@/lib/utils";
 
 export interface BookListProps extends ComponentCssProps {
   courses: Course[];
@@ -16,7 +17,7 @@ export function BookList({
 }: PropsWithChildren<BookListProps>) {
   if (courses === null) return <div>Loading...</div>;
   return (
-    <ul className={props.className}>
+    <ul className={cn(props.className, "res-box")}>
       {courses.map((course, index) => {
         const { id, name } = course;
         return (

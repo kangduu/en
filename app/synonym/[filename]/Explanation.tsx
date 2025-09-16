@@ -7,13 +7,13 @@ import {
 } from "@/components/ui/card";
 import List from "@/components/List";
 import type { Synonym } from "@/lib/actions";
-import { matchSentence } from "@/utils";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { Badge } from "@/components/ui/badge";
+import { matchSentence } from "@/lib/utils";
 
 interface ExplanationProps {
   explanation: Synonym["explanation"];

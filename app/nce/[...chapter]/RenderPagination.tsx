@@ -2,7 +2,7 @@
 
 import type { Course } from "@/lib/books";
 import { HeaderLinkPathMapping } from "@/lib/navigation";
-import type { NewConceptBookKey } from "@/utils/constant";
+import type { NewConceptBookKey } from "@/lib/utils";
 import React from "react";
 
 function RenderButton({

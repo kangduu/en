@@ -1,8 +1,6 @@
 "use client";
 
-import detectAudioSegments, {
-  type AudioSegment,
-} from "@/utils/audio-segments";
+import detectAudioSegments, { type AudioSegment } from "./audio-segments";
 import React, {
   createContext,
   useContext,

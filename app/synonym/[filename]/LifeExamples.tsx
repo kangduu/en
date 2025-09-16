@@ -6,7 +6,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import type { Synonym } from "@/lib/actions";
-import { matchSentence } from "@/utils";
+import { matchSentence } from "@/lib/utils";
 import React from "react";
 interface LifeExamplesProps {
   examples: Synonym["life_examples"];
