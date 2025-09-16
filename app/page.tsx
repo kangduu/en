@@ -2,7 +2,7 @@
 
 import { NCE, Progress, Study, Notes } from "@/components/home";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, BookOne, Help } from "@icon-park/react";
+import { ArrowRight, BookOne } from "@icon-park/react";
 import Image from "next/image";
 
 export default function Home() {
