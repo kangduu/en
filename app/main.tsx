@@ -19,7 +19,7 @@ export default function Main({
   return (
     <IconProvider value={IconConfig}>
       <Navigation />
-      <main className="w-full">{children}</main>
+      <main className="w-full min-h-[100vh]">{children}</main>
       <Footer />
       <Toaster />
       <Back2Top />
