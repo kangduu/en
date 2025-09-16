@@ -11,13 +11,16 @@ import Marking from "./Marking";
 interface ProgressItemProps extends ComponentCssProps {
   name: React.ReactNode;
   desc: React.ReactNode;
-  bgColor: string;
+  bgClassName: string;
   icon: React.ReactNode;
 }
 function ProgressItem(props: PropsWithChildren<ProgressItemProps>) {
   return (
     <Card
-      className={cn("flex-1 border-gray-100 bg-gray-50 p-4", props.className)}
+      className={cn(
+        "flex-1 border-gray-100 bg-gray-50 dark:bg-gray-700 p-4",
+        props.className
+      )}
     >
       <CardTitle className="flex items-center">
         <div className="mr-auto">
@@ -26,7 +29,7 @@ function ProgressItem(props: PropsWithChildren<ProgressItemProps>) {
             {props.desc}
           </div>
         </div>
-        <Marking className={props.bgColor}>{props.icon}</Marking>
+        <Marking className={props.bgClassName}>{props.icon}</Marking>
       </CardTitle>
       <CardContent className="p-0">{props.children}</CardContent>
     </Card>
@@ -59,32 +62,27 @@ export default function StudyingProgress({ className }: ComponentCssProps) {
   // todo 获取具体的进度
   return (
     <div className={cn("mt-[-1rem]", className)}>
-      <Card className="px-6" hovered={false}>
+      <Card className="px-6 " hovered={false}>
         <CardTitle>
           <Chapter title="学习进度" desc="继续你的学习之旅，保持良好势头！" />
         </CardTitle>
-
-        <div className="md:flex gap-4 space-y-4 md:space-y-0">
+        <div className="lg:flex flex-wrap gap-4 space-y-4 lg:space-y-0">
           {StudyList.map(
-            ({ key, title, action, icon, theme, current, total }) => {
-              const bgColor = `bg-${theme || "primary"}/10`;
-              const styles = {
-                className: theme ? `text-[${theme}]` : "text-primary",
-                bgColor,
-              };
+            ({ key, title, action, icon, styles, current, total }) => {
               return (
                 <ProgressItem
                   key={key}
                   name={title}
                   desc={action?.(` ${current}/${total} `)}
                   icon={icon}
-                  {...styles}
+                  className={cn(styles?.text, "lg:flex-1/3 xl:flex-1")}
+                  bgClassName={cn(styles?.bg)}
                 >
                   <ProgressComp
                     value={current}
                     total={total}
-                    className={bgColor}
-                    barClassName={theme ? `bg-[${theme}]` : ""}
+                    className={cn(styles?.bg)}
+                    barClassName={cn(styles?.bar)}
                   />
                 </ProgressItem>
               );

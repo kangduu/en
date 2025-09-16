@@ -2,7 +2,7 @@
 
 import { NCE, Progress, Study, Notes } from "@/components/home";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Help } from "@icon-park/react";
+import { ArrowRight, BookOne, Help } from "@icon-park/react";
 import Image from "next/image";
 
 export default function Home() {
@@ -24,21 +24,25 @@ export default function Home() {
             </div>
 
             <div className="mt-4 md:mt-12">
-              <Button
-                className="text-primary relative bg-white hover:bg-white top-0 hover:top-[-1rem] duration-500"
-                size="lg"
-              >
-                开始学习
-                <ArrowRight theme="outline" size="24" fill="var(--primary)" />
-              </Button>
-              <Button
-                className="text-white ml-6 bg-blue-700 hover:bg-blue-400 duration-700 ease-in-out "
-                size="lg"
-                variant="secondary"
-              >
-                了解更多
-                <Help theme="outline" size="24" fill="#fff" />
-              </Button>
+              <a href="#start">
+                <Button
+                  className="text-primary relative bg-white hover:bg-white top-0 hover:top-[-0.5rem] duration-500"
+                  size="lg"
+                >
+                  开始学习
+                  <ArrowRight theme="outline" size="24" fill="var(--primary)" />
+                </Button>
+              </a>
+              <a href="#nce">
+                <Button
+                  className="text-white ml-6 bg-blue-700 hover:bg-blue-400 duration-700 ease-in-out "
+                  size="lg"
+                  variant="secondary"
+                >
+                  新概念英语
+                  <BookOne theme="outline" size="24" fill="#fff" />
+                </Button>
+              </a>
             </div>
           </div>
           <div className="mt-8 md:mt-0 md:mr-8 ml-0 md:ml-8 rounded-xl md:rounded-2xl overflow-hidden rotate-0 md:rotate-2 hover:rotate-0 duration-700 ease-in-out">

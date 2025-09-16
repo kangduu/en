@@ -23,6 +23,39 @@ export const NewConceptBookNames: Record<NewConceptBookKey, string> = {
   "fluency-in-english": "Fluency in English",
 } as const;
 
+export const NCEBookElaborate: Record<
+  NewConceptBookKey,
+  {
+    lesson: number;
+    alias: string;
+    target: string;
+  }
+> = {
+  "first-things-first": {
+    target: "达到初中毕业英语水平，掌握约1500个单词和基础的英语语法、句型。",
+    lesson: 144,
+    alias: "英语初阶",
+  },
+  "practice-and-progress": {
+    target:
+      "达到高中毕业英语水平，掌握约4000个单词，能够分析句子结构，熟练掌握关键语法点。",
+    lesson: 96,
+    alias: "实践与进步",
+  },
+  "developing-skills": {
+    target:
+      "达到大学英语四级至六级的水平，能够熟练运用高级词汇和复杂句型，写出地道的英文文章。",
+    lesson: 60,
+    alias: "培养技能",
+  },
+  "fluency-in-english": {
+    target:
+      "接近英语专业八级水平，能够欣赏原文佳作，理解西方文化，实现英语的流利运用。",
+    lesson: 48,
+    alias: "流利英语",
+  },
+};
+
 /**
  * Convert a color string in hex format to rgba format
  * @param hex color string in hex
