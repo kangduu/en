@@ -19,7 +19,11 @@ export default function Study({ className }: ComponentCssProps) {
         {StudyList.map(
           ({ key, img, styles, icon, title, description, total }) => {
             return (
-              <Card key={key} className="lg:flex-1/3 xl:flex-1 p-0 overflow-hidden">
+              <Card
+                id={`start-${key.toLocaleLowerCase()}`}
+                key={key}
+                className="lg:flex-1/3 xl:flex-1 p-0 overflow-hidden"
+              >
                 <CardHeader className="p-0 h-50 overflow-hidden flex items-center">
                   {img && (
                     <Image

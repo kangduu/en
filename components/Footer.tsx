@@ -9,6 +9,7 @@ import {
   SendEmail,
   Twitter,
 } from "@icon-park/react";
+import Link from "next/link";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -55,22 +56,22 @@ export default function Footer() {
           <h2 className="mb-6">学习内容</h2>
           <ul className="space-y-3 space-x-9 md:space-x-3 flex flex-wrap">
             <li>
-              <a href="#start">单词学习</a>
+              <Link href="/#start-word">单词学习</Link>
             </li>
             <li>
-              <a href="#start">短语表达</a>
+              <Link href="/#start-phrase">短语表达</Link>
             </li>
             <li>
-              <a href="#start">语法知识</a>
+              <Link href="/#start-grammar">语法知识</Link>
             </li>
             <li>
-              <a href="#start">阅读文章</a>
+              <Link href="/#start-article">阅读文章</Link>
             </li>
-            <li>
+            {/* <li>
               <a href="#">听力练习</a>
-            </li>
+            </li> */}
             <li>
-              <a href="#nce">NCE课本</a>
+              <Link href="/#nce">NCE课本</Link>
             </li>
           </ul>
         </div>
