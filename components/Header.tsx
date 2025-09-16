@@ -22,35 +22,26 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
-import { Bookshelf, HamburgerButton } from "@icon-park/react";
-import Slogan from "@/components/slogan";
-import { SearchKit } from "./search";
+import { HamburgerButton } from "@icon-park/react";
+import Logo from "@/components/slogan";
 import { Button } from "./ui/button";
 
 export default function Navigation() {
   return (
     <header className="w-full h-fit py-4 md:py-4 border-b-1 sticky top-0 bg-[var(--background)] z-50">
       <div className="res-box flex items-center justify-between">
-        {/* 移动导航 (隐藏于桌面端) */}
-        <div className="md:hidden flex items-center mr-2">
-          <NativeNavMenu />
-        </div>
-
         {/* Home */}
-        <span className="hidden md:block bg-primary rounded-[4px] leading-none p-2 mr-2">
-          <Bookshelf theme="outline" size="24" fill="#fff" />
-        </span>
-        <Slogan className="mr-auto" />
-
+        <Logo className="mr-auto" fill="white" iconClassName="bg-primary" />
         {/* 桌面导航 (隐藏于移动端) */}
-        <div className="hidden md:block">
+        <div className="hidden md:block mr-auto">
           <NavMenu />
         </div>
-
-        {/* <SearchKit buttonProps={{ className: "ml-auto" }} /> */}
-
+        {/* 移动导航 (隐藏于桌面端) */}
+        <div className="md:hidden flex items-center ml-auto mr-2">
+          <NativeNavMenu />
+        </div>
         {/* dark mode */}
-        <DarkModel className="mx-2 cursor-pointer ml-auto" variant="outline" />
+        <DarkModel className="cursor-pointer p-0" variant="ghost" />
       </div>
     </header>
   );

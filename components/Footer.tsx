@@ -1,7 +1,6 @@
 import React from "react";
-import Slogan from "@/components/slogan";
+import Logo from "@/components/slogan";
 import {
-  Bookshelf,
   Copyright,
   FacebookOne,
   Github,
@@ -17,12 +16,7 @@ export default function Footer() {
     <footer className="w-full bg-gray-800 text-white">
       <div className="res-box md:flex gap-12 justify-between py-12">
         <div>
-          <div className="flex items-center">
-            <span className="bg-white rounded-[4px] leading-none p-2 mr-2">
-              <Bookshelf theme="outline" size="24" fill="var(--primary)" />
-            </span>
-            <Slogan />
-          </div>
+          <Logo fill="var(--primary)" iconClassName="bg-white" />
 
           <div className="my-4">
             全面的英语学习平台，助你高效学习英语，提升语言能力

@@ -39,16 +39,12 @@ export interface HeaderLink extends LinkStore {
 export const HeaderLinks: HeaderLink[] = [
   {
     id: 1,
-    title: "NCE",
+    title: "新概念英语",
     url: "/nce",
     children: NewConceptBooks,
   },
-  { id: 2, title: "Synonym", url: "/synonym" },
-  // {
-  //   id: 3,
-  //   title: "Derivation",
-  //   url: "/derivation",
-  // },
+  { id: 3, title: "语言基础", url: "/base" },
+  { id: 2, title: "同义词", url: "/synonym" },
   // { id: 5, title: "Blog", url: "/blog" },
   // { id: 5, title: "Lexical", url: "/lexical" },
   // { id: 9, title: "Examination", url: "/exam" },
