@@ -51,5 +51,5 @@ export const HeaderLinks: HeaderLink[] = [
   // },
   // { id: 5, title: "Blog", url: "/blog" },
   // { id: 5, title: "Lexical", url: "/lexical" },
-  { id: 9, title: "Examination", url: "/exam" },
+  // { id: 9, title: "Examination", url: "/exam" },
 ];

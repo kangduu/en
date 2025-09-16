@@ -61,22 +61,41 @@ export default function Footer() {
           <h2 className="mb-6">学习内容</h2>
           <ul className="space-y-3 space-x-9 md:space-x-3 flex flex-wrap">
             <li>
-              <a href="#">单词学习</a>
+              <a href="#start">单词学习</a>
             </li>
             <li>
-              <a href="#">短语表达</a>
+              <a href="#start">短语表达</a>
             </li>
             <li>
-              <a href="#">语法知识</a>
+              <a href="#start">语法知识</a>
             </li>
             <li>
-              <a href="#">阅读文章</a>
+              <a href="#start">阅读文章</a>
             </li>
             <li>
               <a href="#">听力练习</a>
             </li>
             <li>
-              <a href="#">NCE课本</a>
+              <a href="#nce">NCE课本</a>
+            </li>
+          </ul>
+        </div>
+        {/* study content */}
+        <div className="leading-4 mt-8 md:mt-0">
+          <h2 className="mb-6">推荐学习资源</h2>
+          <ul className="space-y-3 space-x-9 md:space-x-3 flex flex-wrap">
+            <li>
+              <a
+                href="https://bec.neea.cn/html1/folder/1507/1856-1.htm"
+                target="_blank"
+              >
+                剑桥商务英语考试
+              </a>
+            </li>
+            <li>
+              <a href="https://pets.neea.edu.cn/" target="_blank">
+                全国英语等级考试
+              </a>
             </li>
           </ul>
         </div>

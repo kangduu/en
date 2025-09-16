@@ -4,13 +4,15 @@ import { useRouter } from "next/navigation";
 import React, { type FC } from "react";
 import { HeaderLinkPathMapping } from "@/lib/navigation";
 import NewConcept from "@/app/nce/NewConcept";
-import Subhead from "@/components/Subhead";
+import { Chapter } from "@/components/kit";
 
 const Books: FC = () => {
   const router = useRouter();
   return (
-    <>
-      <Subhead>new concept english</Subhead>
+    <div className="res-box my-4">
+      <div className="mb-4">
+        <Chapter title="New Concept English" />
+      </div>
       <NewConcept
         showList
         clickable={false}
@@ -19,7 +21,7 @@ const Books: FC = () => {
           router.push(`${HeaderLinkPathMapping["NCE"]}/${book}/${course}`);
         }}
       />
-    </>
+    </div>
   );
 };
 

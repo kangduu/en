@@ -1,9 +1,9 @@
 "use client";
 
 import { SearchKit } from "@/components/search";
-import Subhead from "@/components/Subhead";
 import Empty from "@/components/svg/Empty";
 import RenderTarget from "./RenderTarget";
+import { Chapter } from "@/components/kit";
 
 const NoData = (
   <div className="w-[70%]  mx-auto">
@@ -36,15 +36,9 @@ export default function SearchSynonym({ list }: SearchSynonymProps) {
   };
 
   return (
-    <Subhead
-      extra={
-        <SearchKit
-          onSubmit={handleSearch}
-          // buttonProps={{ variant: "link" }}
-        />
-      }
-    >
-      Synonymous
-    </Subhead>
+    <div className="flex items-center justify-between mb-8">
+      <Chapter title="Synonymous" />
+      <SearchKit onSubmit={handleSearch} />
+    </div>
   );
 }

@@ -26,6 +26,7 @@ export default async function Book({ params }: BookProps) {
       .then((res) => res)
       .catch(() => []);
 
+    // 没有course id，则表示显示课本所有内容
     if (!id)
       return (
         <PreviewCourse courses={courses} book={book as NewConceptBookKey} />
@@ -35,7 +36,7 @@ export default async function Book({ params }: BookProps) {
     if (courseIndex === -1) throw new Error("Course not found");
     const course = courses[courseIndex];
     return (
-      <>
+      <div className="res-box my-8">
         {/* text */}
         <AudioCtx path={course.audio}>
           <RenderCourseName name={course.name} />
@@ -62,7 +63,7 @@ export default async function Book({ params }: BookProps) {
           book={book as NewConceptBookKey}
           courses={courses}
         />
-      </>
+      </div>
     );
   } catch (error) {
     return <ServerErrorRender error={error} />;

@@ -27,7 +27,7 @@ export default async function Word({ params }: WordProps) {
   } = synonymous;
 
   return (
-    <>
+    <div className="res-box my-8">
       <GoBack>{words.join(" / ")}</GoBack>
 
       {/* explanation end life-examples */}
@@ -46,6 +46,6 @@ export default async function Word({ params }: WordProps) {
       <Additional notes={additional_notes} />
 
       <Test data={synonymous} />
-    </>
+    </div>
   );
 }

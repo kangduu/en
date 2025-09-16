@@ -111,9 +111,9 @@ export default function Test({ data }: TestProps) {
         </Button>
       </DrawerTrigger>
       <DrawerPortal>
-        <DrawerOverlay className="bg-black/90" />
+        <DrawerOverlay className="bg-black/50" />
         <DrawerContent>
-          <div className="res-box max-w-full mx-auto overflow-y-auto p-4">
+          <div className="res-box mx-auto overflow-y-auto p-4">
             <DrawerHeader className="p-0 ">
               <DrawerTitle className="m-0">Practice</DrawerTitle>
             </DrawerHeader>

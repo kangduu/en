@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { useRouter } from "next/navigation";
 import Chapter from "../kit/Chapter";
 import {
   cn,
@@ -19,6 +20,7 @@ const Names = NewConceptBookKeys.map((key) => ({
 }));
 
 export default function NCE({ className }: ComponentCssProps) {
+  const router = useRouter();
   return (
     <div id="nce" className={cn("", className)}>
       <Chapter
@@ -27,11 +29,16 @@ export default function NCE({ className }: ComponentCssProps) {
       />
 
       <div className="lg:flex flex-wrap space-y-4 lg:space-y-0 gap-4 mt-8">
-        {new Array(4).fill("").map((_, i) => {
+        {Names.map(({ name, alias, lesson, target, key }, i) => {
           const styles = Styles[i];
-          const { name, alias, lesson, target } = Names[i];
           return (
-            <Card key={i} className="lg:flex-1/3 xl:flex-1 overflow-hidden">
+            <Card
+              key={key}
+              className="lg:flex-1/3 xl:flex-1 overflow-hidden"
+              onClick={() => {
+                router.push(`/nce/${key}`);
+              }}
+            >
               <CardHeader className="flex gap-4 items-center text-nowrap">
                 <div
                   className={cn(

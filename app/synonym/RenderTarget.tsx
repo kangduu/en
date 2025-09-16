@@ -13,8 +13,7 @@ export default function RenderTarget({ name, path }: RenderTargetProps) {
     <Link href={`/synonym/${path}`}>
       <Button
         asChild
-        variant="secondary"
-        className="whitespace-break-spaces h-fit"
+        className="whitespace-break-spaces h-fit bg-blue-400 dark:bg-blue-100 dark:hover:bg-blue-300 hover:-translate-y-1 duration-300"
       >
         <span>{name || path}</span>
       </Button>

@@ -47,10 +47,10 @@ export default function Navigation() {
           <NavMenu />
         </div>
 
-        <SearchKit buttonProps={{ className: "ml-auto" }} />
+        {/* <SearchKit buttonProps={{ className: "ml-auto" }} /> */}
 
         {/* dark mode */}
-        <DarkModel className="mx-2 cursor-pointer" variant="outline" />
+        <DarkModel className="mx-2 cursor-pointer ml-auto" variant="outline" />
       </div>
     </header>
   );
