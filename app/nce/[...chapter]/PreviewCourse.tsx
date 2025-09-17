@@ -4,16 +4,14 @@ import { useRouter } from "next/navigation";
 import type { Course } from "@/lib/books";
 import React from "react";
 import { HeaderLinkPathMapping } from "@/lib/navigation";
-import { type NewConceptBookKey } from "@/lib/utils";
+import { cn, type NewConceptBookKey } from "@/lib/utils";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Button } from "@/components/ui/button";
 import Empty from "@/components/svg/Empty";
-import { Dot } from "@icon-park/react";
 export interface PreviewCourseProps extends ComponentCssProps {
   courses: Course[];
   book: NewConceptBookKey;
@@ -47,26 +45,24 @@ export default function PreviewCourse({ book, courses }: PreviewCourseProps) {
         })();
         return (
           <AccordionItem key={book + id} value={id + book}>
-            <AccordionTrigger className="hover:no-underline">
-              <>
-                <Button
-                  variant="link"
-                  className="p-0"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    router.push(
-                      `${HeaderLinkPathMapping["NCE"]}/${book}/${id}`
-                    );
-                  }}
-                >
-                  开始练习
-                </Button>
-                <span className="hover:underline flex items-end leading-none text-primary">
-                  {index + 1}
-                  <Dot theme="outline" size="10" className="mr-2" />
-                  {name}
-                </span>
-              </>
+            <AccordionTrigger className="hover:no-underline items-center">
+              <span
+                className="text-primary text-[0.8rem] text-nowrap"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  router.push(`${HeaderLinkPathMapping["NCE"]}/${book}/${id}`);
+                }}
+              >
+                开始练习
+              </span>
+              <span
+                className={cn(
+                  "hover:underline text-primary px-2",
+                  "flex items-center justify-center flex-1"
+                )}
+              >
+                {index + 1}. {name}
+              </span>
             </AccordionTrigger>
             {course.map((sentence, index) => {
               const [talker, s] = NoTalker
@@ -76,7 +72,7 @@ export default function PreviewCourse({ book, courses }: PreviewCourseProps) {
                 <AccordionContent key={id + index}>
                   {NoTalker ? null : (
                     <span
-                      style={{ width: `${TalkerWidth}em` }}
+                      style={{ width: `${TalkerWidth * 0.75}em` }}
                       className="uppercase mr-1 text-right inline-block text-muted"
                     >
                       {talker}:
