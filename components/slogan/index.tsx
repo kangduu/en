@@ -13,7 +13,7 @@ export default function Logo({ className, fill, iconClassName }: LogoProps) {
   return (
     <Link href="/" className={cn("flex items-center", className)}>
       <span
-        className={cn("rounded-[4px] leading-none p-2 mr-2", iconClassName)}
+        className={cn("rounded-[4px] leading-none p-1.5 mr-2", iconClassName)}
       >
         <Bookshelf theme="outline" size="24" fill={fill} />
       </span>

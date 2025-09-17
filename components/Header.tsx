@@ -28,7 +28,7 @@ import { Button } from "./ui/button";
 
 export default function Navigation() {
   return (
-    <header className="w-full h-fit py-4 md:py-4 border-b-1 sticky top-0 bg-[var(--background)] z-50">
+    <header className="w-full h-fit py-4 lg:py-3 shadow shadow-gray-300 dark:shadow-gray-900 sticky top-0 bg-[var(--background)] z-50">
       <div className="res-box flex items-center justify-between">
         {/* Home */}
         <Logo className="mr-auto" fill="white" iconClassName="bg-primary" />
