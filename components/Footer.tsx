@@ -81,6 +81,14 @@ export default function Footer() {
           <ul className="space-y-3 space-x-9 md:space-x-3 flex flex-wrap">
             <li>
               <a
+                href="https://www.bbc.co.uk/learningenglish/"
+                target="_blank"
+              >
+                BBC.LEARNING.ENGLISH
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://bec.neea.cn/html1/folder/1507/1856-1.htm"
                 target="_blank"
               >
