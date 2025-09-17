@@ -44,12 +44,12 @@ export default function NewConcept({
   showList,
 }: NewConceptProps) {
   return (
-    <>
+    <div className="xl:flex flex-wrap gap-4 space-y-4 xl:space-y-0">
       {NewConceptBooks.map((book: BookLink) => (
         <Card
           key={book.id}
           onClick={() => onClick?.(book.url)}
-          className="pl-4 pr-4 mb-4"
+          className="pl-4 pr-4 flex-1"
         >
           <div className="font-bold">{book.title}</div>
           {showList && (
@@ -60,6 +60,6 @@ export default function NewConcept({
           )}
         </Card>
       ))}
-    </>
+    </div>
   );
 }
