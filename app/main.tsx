@@ -14,7 +14,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { Toaster } from "@/components/ui/sonner";
-import { Back2Top, DarkModel } from "@/components/kit";
+import { Back2Top } from "@/components/kit";
 import Logo from "@/components/slogan";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -46,13 +46,9 @@ function Navigation() {
           <NavMenu />
         </div>
         {/* 移动导航 (隐藏于桌面端) */}
-        <div className="md:hidden flex items-center ml-auto mr-2">
-          <Button variant="ghost" className="ml-2 p-1">
-            <HamburgerButton onClick={() => setOpen((prev) => !prev)} />
-          </Button>
-        </div>
-        {/* dark mode */}
-        <DarkModel className="cursor-pointer p-0" variant="ghost" />
+        <Button variant="ghost" className="p-1 md:hidden ml-auto">
+          <HamburgerButton onClick={() => setOpen((prev) => !prev)} />
+        </Button>
       </div>
       {/* mobile menu */}
       <div

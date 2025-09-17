@@ -1,3 +1,8 @@
+/**
+ * @desc With system theme support
+ * @link https://tailwindcss.com/docs/dark-mode#with-system-theme-support
+ * */
+
 // On page load or when changing themes, best to add inline in `head` to avoid FOUC
 document.documentElement.classList.toggle(
   "dark",

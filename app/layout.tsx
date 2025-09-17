@@ -14,10 +14,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="light">
+    <html lang="en">
       <body
         role="contentinfo"
-        className={`antialiased bg-[var(--background)] dark:text-white text-base`}
+        className={`antialiased bg-background dark:text-white text-base`}
       >
         <Main>{children}</Main>
       </body>
