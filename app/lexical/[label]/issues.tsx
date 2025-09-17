@@ -8,6 +8,8 @@ import React, {
 import Comments from "./comments";
 import { GetReposIssues } from "@/requests";
 import MarkdownViewer from "@/components/md/MarkdownViewer";
+import Loading from "@/components/svg/Loading";
+import Empty from "@/components/svg/Empty";
 
 interface IssueType {
   id: number;
@@ -46,12 +48,13 @@ export default function IssuesPage({ label }: { label: string }) {
     }
   }, [active]);
 
-  if (loading) return <div>loading...</div>;
+  if (loading) return <Loading />;
+  if (!issues?.length) return <Empty.list />;
   return (
-    <>
+    <div className="md py-6 res-box w-full max-w-3xl">
       {active && (
         <>
-          <h1 id={active.id + ""} className="text-primary-500">
+          <h1 id={active.id + ""} className="text-primary">
             {active.title}
           </h1>
           <MarkdownViewer content={active.body} />
@@ -79,6 +82,6 @@ export default function IssuesPage({ label }: { label: string }) {
           })}
         </div>
       )}
-    </>
+    </div>
   );
 }

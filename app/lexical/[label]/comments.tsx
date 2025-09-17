@@ -1,6 +1,8 @@
 "use client";
 
 import MarkdownViewer from "@/components/md/MarkdownViewer";
+import Empty from "@/components/svg/Empty";
+import Loading from "@/components/svg/Loading";
 import { Request_Github_REST_API } from "@/requests";
 import React, { useEffect, useState } from "react";
 
@@ -30,7 +32,8 @@ export default function Comments({ url }: CommentsProps) {
     if (url) getComments();
   }, [url]);
 
-  if (loading) return <div>loading...</div>;
+  if (loading) return <Loading />;
+  if (!comments?.length) return <Empty.list />;
   return (
     <>
       <hr />

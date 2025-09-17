@@ -13,7 +13,7 @@ function Card({
       className={cn(
         "bg-card text-card-foreground flex flex-col gap-4 rounded-xl py-6 shadow-sm",
         hovered &&
-          "transition-all duration-300 hover:shadow-lg hover:-translate-y-1", // card-hover
+          "transition-all duration-300 hover:shadow-lg hover:-translate-y-1 active:shadow-lg active:-translate-y-1 focus:shadow-lg focus:-translate-y-1", // card-hover
         className
       )}
       {...props}
