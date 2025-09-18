@@ -46,17 +46,21 @@ function Navigation() {
           <NavMenu />
         </div>
         {/* 移动导航 (隐藏于桌面端) */}
-        <Button variant="ghost" className="p-1 md:hidden ml-auto">
-          <HamburgerButton onClick={() => setOpen((prev) => !prev)} />
+        <Button
+          variant="ghost"
+          className="h-full w-8 p-0 md:hidden ml-auto justify-end"
+          onClick={(e) => {
+            e.stopPropagation();
+            setOpen((prev) => !prev);
+          }}
+        >
+          <HamburgerButton />
         </Button>
       </div>
       {/* mobile menu */}
       <div
-        className={cn(
-          "hidden md:hidden",
-          open ? "block" : "",
-          "min-h-screen bg-gray-900/80"
-        )}
+        style={{ display: open ? "block" : "none" }}
+        className="md:hidden min-h-screen bg-gray-900/80"
         onClick={() => {
           setOpen(false);
         }}
