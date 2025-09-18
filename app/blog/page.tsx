@@ -17,7 +17,7 @@ interface LabelType {
   description: string;
 }
 
-export default function Lexical() {
+export default function Blog() {
   const [labels, setLabels] = useState<LabelType[]>([]);
   const [loading, setLoading] = useState(false);
 

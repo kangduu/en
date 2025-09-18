@@ -1,7 +1,6 @@
 "use client";
 
 import type { Course } from "@/lib/books";
-import { HeaderLinkPathMapping } from "@/lib/navigation";
 import type { NewConceptBookKey } from "@/lib/utils";
 import React from "react";
 
@@ -61,7 +60,7 @@ export default function RenderPagination({
       <RenderButton
         disabled={page === 0}
         onClick={() => {
-          window.location.href = `${HeaderLinkPathMapping["NCE"]}/${book}/${PreviousCourse.id}`;
+          window.location.href = `/nce/${book}/${PreviousCourse.id}`;
         }}
       >
         P{renderName(PreviousCourse?.name)}
@@ -69,7 +68,7 @@ export default function RenderPagination({
       <RenderButton
         disabled={page === courses.length - 1}
         onClick={() => {
-          window.location.href = `${HeaderLinkPathMapping["NCE"]}/${book}/${NextCourse.id}`;
+          window.location.href = `/nce/${book}/${NextCourse.id}`;
         }}
       >
         N{renderName(NextCourse?.name)}

@@ -2,7 +2,6 @@
 
 import { useRouter } from "next/navigation";
 import React, { type FC } from "react";
-import { HeaderLinkPathMapping } from "@/lib/navigation";
 import NewConcept from "@/app/nce/NewConcept";
 import { Chapter } from "@/components/kit";
 
@@ -18,7 +17,7 @@ const Books: FC = () => {
         clickable={false}
         onClickCourse={(course, book) => {
           // Handle course click
-          router.push(`${HeaderLinkPathMapping["NCE"]}/${book}/${course}`);
+          router.push(`/nce/${book}/${course}`);
         }}
       />
     </div>

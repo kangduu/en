@@ -7,9 +7,10 @@ import React, {
 } from "react";
 import Comments from "./comments";
 import { GetReposIssues } from "@/requests";
-import MarkdownViewer from "@/components/md/MarkdownViewer";
 import Loading from "@/components/svg/Loading";
 import Empty from "@/components/svg/Empty";
+import { Card } from "@/components/ui/card";
+import { MDViewer } from "@/components/kit";
 
 interface IssueType {
   id: number;
@@ -48,21 +49,23 @@ export default function IssuesPage({ label }: { label: string }) {
     }
   }, [active]);
 
+  console.log(issues);
+
   if (loading) return <Loading />;
   if (!issues?.length) return <Empty.list />;
   return (
-    <div className="md py-6 res-box w-full max-w-3xl">
+    <div className="md py-6 res-box w-full">
       {active && (
         <>
           <h1 id={active.id + ""} className="text-primary">
             {active.title}
           </h1>
-          <MarkdownViewer content={active.body} />
+          <MDViewer content={active.body} />
           {active.comments > 0 && <Comments url={active.comments_url} />}
         </>
       )}
       {issues.length > 0 && !loading && (
-        <div style={{ marginTop: 20 }}>
+        <Card className="px-4">
           {issues.map((item, index) => {
             const isActive = active?.id === item.id;
             return (
@@ -80,7 +83,7 @@ export default function IssuesPage({ label }: { label: string }) {
               </div>
             );
           })}
-        </div>
+        </Card>
       )}
     </div>
   );

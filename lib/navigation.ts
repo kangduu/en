@@ -4,11 +4,6 @@ import {
   type NewConceptBookKey,
 } from "./utils";
 
-export const HeaderLinkPathMapping = {
-  NCE: "/nce",
-  Lexical: "/lexical",
-};
-
 export interface LinkStore {
   title: string;
   url: string;
@@ -25,7 +20,7 @@ export const NewConceptBooks: BookLink[] = NewConceptBookKeys.map((key) => {
   return {
     id: key,
     title: NewConceptBookNames[key],
-    url: `${HeaderLinkPathMapping["NCE"]}/${key}`, // URL for the book
+    url: `/nce/${key}`, // URL for the book
   };
 });
 
@@ -43,9 +38,8 @@ export const HeaderLinks: HeaderLink[] = [
     url: "/nce",
     children: NewConceptBooks,
   },
-  { id: 3, title: "语言基础", url: "/base" },
   { id: 2, title: "同义词", url: "/synonym" },
-  // { id: 5, title: "Blog", url: "/blog" },
-  { id: 5, title: "Blog", url: "/lexical" },
-  // { id: 9, title: "Examination", url: "/exam" },
+  { id: 3, title: "语言基础", url: "/base" },
+  { id: 4, title: "我的笔记", url: "/notes" },
+  { id: 5, title: "Blog", url: "/blog" },
 ];

@@ -24,27 +24,53 @@
   /* markdown styles */
   .md {
     * {
-      max-width: 100%;
-      overflow: hidden;
-      overflow-y: auto;
+      @apply max-w-full;
     }
 
     ol,
     ul {
-      padding-left: 2em;
-      margin: 0;
+      @apply pl-8 m-0;
+    }
+
+    li {
+      @apply mt-2 mb-1;
     }
 
     ol li {
-      list-style-type: decimal;
+      @apply list-decimal;
     }
     ul li {
-      list-style-type: circle;
+      @apply list-disc;
+    }
+
+    hr {
+      @apply my-8 border-none border-t-2 border-gray-200 dark:border-gray-700 outline-dashed;
+    }
+
+    table {
+      @apply max-w-full overflow-auto my-4;
+    }
+    table,
+    table th,
+    table td {
+      @apply border;
+    }
+    table th,
+    table td {
+      @apply p-2;
     }
 
     h1 {
-      font-size: var(--text-3xl);
-      margin-bottom: 1rem;
+      @apply mb-6 text-2xl;
+    }
+    h2 {
+      @apply text-2xl my-4;
+    }
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply text-xl my-2;
     }
   }
 }
