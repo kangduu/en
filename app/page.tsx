@@ -10,7 +10,7 @@ export default function Home() {
     <>
       {/* slogan */}
       <section className="w-full bg-primary">
-        <div className="res-box py-8 md:py-20 text-white block md:flex justify-between items-center">
+        <div className="res-box md:py-20 text-white block md:flex justify-between items-center">
           <div>
             <h1 className="text-4xl lg:text-5xl xl:text-6xl m-0">
               提升你的英语能力
@@ -57,7 +57,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="res-box">
+      <div className="res-box py-0">
         <Progress />
         <Study className="mt-12" />
         <NCE className="mt-12" />

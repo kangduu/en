@@ -8,7 +8,7 @@ import { Chapter } from "@/components/kit";
 const Books: FC = () => {
   const router = useRouter();
   return (
-    <div className="res-box my-4">
+    <div className="res-box">
       <div className="mb-4">
         <Chapter title="New Concept English" />
       </div>

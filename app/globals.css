@@ -18,7 +18,7 @@
 /* custom utilities: https://tailwindcss.com/docs/adding-custom-styles#adding-custom-utilities */
 @layer utilities {
   .res-box {
-    @apply container px-4 md:px-6 lg:px-8 xl:px-0 mx-auto;
+    @apply container py-8 px-4 md:px-6 lg:px-8 xl:px-0 mx-auto;
   }
 
   /* markdown styles */

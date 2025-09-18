@@ -38,7 +38,7 @@ function Navigation() {
         "fixed left-0 top-0 z-100"
       )}
     >
-      <div className="h-full res-box flex items-center justify-between">
+      <div className="h-full res-box py-0 flex items-center justify-between">
         {/* Home */}
         <Logo className="mr-auto" fill="white" iconClassName="bg-primary" />
         {/* 桌面导航 (隐藏于移动端) */}

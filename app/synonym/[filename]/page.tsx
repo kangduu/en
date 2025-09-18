@@ -27,7 +27,7 @@ export default async function Word({ params }: WordProps) {
   } = synonymous;
 
   return (
-    <div className="res-box my-8">
+    <div className="res-box">
       <GoBack>{words.join(" / ")}</GoBack>
 
       {/* explanation end life-examples */}

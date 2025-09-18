@@ -54,7 +54,7 @@ export default function IssuesPage({ label }: { label: string }) {
   if (loading) return <Loading />;
   if (!issues?.length) return <Empty.list />;
   return (
-    <div className="md py-6 res-box w-full">
+    <div className="md res-box w-full">
       {active && (
         <>
           <h1 id={active.id + ""} className="text-primary">
