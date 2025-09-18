@@ -17,7 +17,7 @@ export function BookList({
 }: PropsWithChildren<BookListProps>) {
   if (courses === null) return <div>Loading...</div>;
   return (
-    <ul className={cn(props.className, "res-box")}>
+    <ul className={cn(props.className)}>
       {courses.map((course, index) => {
         const { id, name } = course;
         return (

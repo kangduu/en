@@ -4,7 +4,7 @@ import Phonetic from "./Phonetic";
 
 export default function Base() {
   return (
-    <div className="res-box my-8">
+    <div className="res-box">
       <div className="mb-8">
         <Chapter
           title="International Phonetic Alphabet"

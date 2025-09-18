@@ -18,33 +18,59 @@
 /* custom utilities: https://tailwindcss.com/docs/adding-custom-styles#adding-custom-utilities */
 @layer utilities {
   .res-box {
-    @apply container px-4 md:px-6 lg:px-8 xl:px-0 mx-auto;
-  }
-}
-
-/* todo markdown styles */
-@layer md {
-  * {
-    max-width: 100%;
-    overflow: hidden;
-    overflow-y: auto;
+    @apply container py-8 px-4 md:px-6 lg:px-8 xl:px-0 mx-auto;
   }
 
-  ol,
-  ul {
-    padding-left: 2em;
-    margin: 0;
-  }
+  /* markdown styles */
+  .md {
+    * {
+      @apply max-w-full;
+    }
 
-  ol li {
-    list-style-type: decimal;
-  }
-  ul li {
-    list-style-type: circle;
-  }
+    ol,
+    ul {
+      @apply pl-8 m-0;
+    }
 
-  h1 {
-    font-size: var(--text-3xl);
-    margin-bottom: 1rem;
+    li {
+      @apply mt-2 mb-1;
+    }
+
+    ol li {
+      @apply list-decimal;
+    }
+    ul li {
+      @apply list-disc;
+    }
+
+    hr {
+      @apply my-8 border-none border-t-2 border-gray-200 dark:border-gray-700 outline-dashed;
+    }
+
+    table {
+      @apply max-w-full overflow-auto my-4;
+    }
+    table,
+    table th,
+    table td {
+      @apply border;
+    }
+    table th,
+    table td {
+      @apply p-2;
+    }
+
+    h1 {
+      @apply mb-6 text-2xl;
+    }
+    h2 {
+      @apply text-2xl my-4;
+    }
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply text-xl my-2;
+    }
   }
 }

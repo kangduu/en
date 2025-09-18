@@ -1,6 +1,6 @@
 "use client";
 
-import MarkdownViewer from "@/components/md/MarkdownViewer";
+import { MDViewer } from "@/components/kit";
 import Empty from "@/components/svg/Empty";
 import Loading from "@/components/svg/Loading";
 import { Request_Github_REST_API } from "@/requests";
@@ -43,7 +43,7 @@ export default function Comments({ url }: CommentsProps) {
           key={id}
           className="px-4 py-2 mb-4 bg-yellow-100/50 dark:bg-slate-600 rounded"
         >
-          <MarkdownViewer content={body} />
+          <MDViewer content={body} />
         </div>
       ))}
     </>

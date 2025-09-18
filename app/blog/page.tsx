@@ -17,7 +17,7 @@ interface LabelType {
   description: string;
 }
 
-export default function Lexical() {
+export default function Blog() {
   const [labels, setLabels] = useState<LabelType[]>([]);
   const [loading, setLoading] = useState(false);
 
@@ -35,13 +35,13 @@ export default function Lexical() {
   const router = useRouter();
   if (loading) return <Loading />;
   return (
-    <div className="res-box py-4 md:flex flex-wrap gap-4 space-y-4 md:space-y-0">
+    <div className="res-box md:flex flex-wrap gap-4 space-y-4 md:space-y-0">
       {labels?.map(({ id, name, color, description }) => (
         <Card
           key={id}
           style={{ backgroundColor: `${hexToRgb(color, 0.8)}` }}
           className="flex-1 px-4"
-          onClick={() => router.push(`/lexical/${name}`)}
+          onClick={() => router.push(`/blog/${name}`)}
         >
           <h2 className="capitalize font-bold text-white text-2xl">{name}</h2>
           <div className="text-gray-200">{description}</div>

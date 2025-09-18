@@ -3,7 +3,6 @@
 import { useRouter } from "next/navigation";
 import type { Course } from "@/lib/books";
 import React from "react";
-import { HeaderLinkPathMapping } from "@/lib/navigation";
 import { cn, type NewConceptBookKey } from "@/lib/utils";
 import {
   Accordion,
@@ -50,7 +49,7 @@ export default function PreviewCourse({ book, courses }: PreviewCourseProps) {
                 className="text-primary text-[0.8rem] text-nowrap"
                 onClick={(e) => {
                   e.stopPropagation();
-                  router.push(`${HeaderLinkPathMapping["NCE"]}/${book}/${id}`);
+                  router.push(`/nce/${book}/${id}`);
                 }}
               >
                 开始练习
