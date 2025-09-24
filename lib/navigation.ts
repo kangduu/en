@@ -40,5 +40,5 @@ export const HeaderLinks: HeaderLink[] = [
   },
   { id: 2, title: "同义词", url: "/synonym" },
   { id: 3, title: "语言基础", url: "/base" },
-  { id: 4, title: "我的笔记", url: "/notes" },
+  { id: 4, title: "我的笔记", url: "/posts" },
 ];
