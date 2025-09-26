@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import remarkGfm from "remark-gfm";
 import html from "remark-html";
+import dayjs from "dayjs";
 
 const getSubfoldersByContentDirectory = (folder: string) =>
   path.join(process.cwd(), `lib/posts/${folder}`);
@@ -17,6 +18,14 @@ function slugify(text: string) {
     .replace(/\s+/g, "-"); // 空格转 -
 }
 
+type NodeType = {
+  type: string;
+  depth: number;
+  children: NodeType[];
+  value?: string;
+  data?: { [key: string]: unknown };
+};
+
 // 根据 slug 获取文章内容 + metadata + HTML
 export async function getPostBySlug(slug: string, folder: string) {
   const dir = getSubfoldersByContentDirectory(folder);
@@ -29,7 +38,10 @@ export async function getPostBySlug(slug: string, folder: string) {
   }
 
   const fileContents = fs.readFileSync(fullPath, "utf8");
+
   const { data, content } = matter(fileContents);
+  // format date
+  if (data.date) data.date = dayjs(data.date).format("YYYY-MM-DD HH:mm:ss");
 
   const toc: {
     text: string;
@@ -40,10 +52,10 @@ export async function getPostBySlug(slug: string, folder: string) {
   const processed = await remark()
     .use(remarkGfm) // 支持 GFM 表格、task list、strikethrough 等
     // .use(remarkRehype)
-    .use(() => (tree) => {
-      const visit = (node: { type: string; children: { type: string }[] }) => {
+    .use(() => (tree: NodeType) => {
+      const visit = (node: NodeType) => {
         if (node.type === "heading" && node.children) {
-          const text = node.children.map((c: any) => c.value).join("");
+          const text = node.children.map((c) => c.value).join("");
           const id = slugify(text);
           toc.push({
             text,
@@ -95,16 +107,18 @@ export async function getAllSlugsByFolder(folder: string) {
   const posts: MarkdownMetadata[] = await Promise.all(
     filenames.map(async (slug) => {
       const { metadata } = await getPostBySlug(slug, folder);
+
       return {
         slug,
         ...metadata,
       } satisfies MarkdownMetadata;
     })
   );
-  return posts;
 
-  // todo 按metadata设置的date参数排序
-  // return posts.sort((a, b) => {
-  //   return new Date(b.date).getTime() - new Date(a.date).getTime();
-  // });
+  // 按metadata设置的date参数排序
+  return posts.sort((a, b) => {
+    if (b.date && a.date)
+      return new Date(b.date).getTime() - new Date(a.date).getTime();
+    return 0;
+  });
 }
