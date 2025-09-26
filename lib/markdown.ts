@@ -95,6 +95,9 @@ export interface MarkdownMetadata {
   slug: string;
   date?: string;
   title?: string;
+  description?: string;
+  tags?: string[];
+  categories?: string[];
 }
 
 /**
@@ -107,7 +110,6 @@ export async function getAllSlugsByFolder(folder: string) {
   const posts: MarkdownMetadata[] = await Promise.all(
     filenames.map(async (slug) => {
       const { metadata } = await getPostBySlug(slug, folder);
-
       return {
         slug,
         ...metadata,

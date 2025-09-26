@@ -3,6 +3,12 @@ import { getAllSlugsByFolder } from "@/lib/markdown";
 import { Chapter } from "@/components/kit";
 import type { PropsWithChildren } from "react";
 import Empty from "@/components/svg/Empty";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+} from "@/components/ui/card";
 
 const Folders = ["blog", "nce-course", "bbc"] as const;
 type PostsFolder = (typeof Folders)[number];
@@ -16,16 +22,44 @@ const View = async ({
   return (
     <section className="mb-4">
       {children}
-      <ul>
-        {posts.map((post) => {
+      <div className="my-4 md:flex flex-wrap md:gap-4 space-y-4 md:space-y-0">
+        {posts.map(({ slug, title, tags, description, date }) => {
           return (
-            <li key={post.slug}>
-              <Link href={`/${folder}/${post.slug}`}>{post.title}</Link>
-              {post.date && <span> — {post.date}</span>}
-            </li>
+            <Card
+              key={slug}
+              className="min:width-fit flex-1 md:flex-1/3 xl:flex-1/4"
+            >
+              <CardHeader className="lg:flex items-center">
+                <Link
+                  href={`/${folder}/${slug}`}
+                  className="text-xl font-bold block max-w-full overflow-hidden text-ellipsis whitespace-nowrap mr-auto"
+                  title={title}
+                >
+                  {title}
+                </Link>
+                <div className="whitespace-nowrap ">
+                  {tags?.map((val, i) => (
+                    <span
+                      key={val + i}
+                      className="px-2 py-1 bg-red-100/80 rounded-sm text-gray-700 text-[0.8rem]"
+                    >
+                      {val}
+                    </span>
+                  ))}
+                </div>
+              </CardHeader>
+              <CardContent>{description}</CardContent>
+              <CardFooter>
+                {date && (
+                  <span className="text-muted text-[0.8rem] mr-4">
+                    上次编辑：{date}
+                  </span>
+                )}
+              </CardFooter>
+            </Card>
           );
         })}
-      </ul>
+      </div>
     </section>
   );
 };
