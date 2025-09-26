@@ -3,7 +3,6 @@ import { getAllSlugsByFolder } from "@/lib/markdown";
 import { Chapter } from "@/components/kit";
 import type { PropsWithChildren } from "react";
 import Empty from "@/components/svg/Empty";
-import dayjs from "dayjs";
 
 const Folders = ["blog", "nce-course", "bbc"] as const;
 type PostsFolder = (typeof Folders)[number];
@@ -22,7 +21,7 @@ const View = async ({
           return (
             <li key={post.slug}>
               <Link href={`/${folder}/${post.slug}`}>{post.title}</Link>
-              {post.date && <span> — {dayjs(post.date).format("YYYY-MM-DD HH:mm")}</span>}
+              {post.date && <span> — {post.date}</span>}
             </li>
           );
         })}
@@ -53,7 +52,7 @@ export default async function NoteListPage({ params }: Props) {
       )}
       {posts === "nce-course" && (
         <View folder="nce-course">
-          <Chapter title="新概念课堂笔记" desc="todo" />
+          <Chapter title="新概念课堂笔记" />
         </View>
       )}
       {posts === "bbc" && (
