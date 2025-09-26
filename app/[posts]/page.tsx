@@ -91,7 +91,10 @@ export default async function NoteListPage({ params }: Props) {
       )}
       {posts === "bbc" && (
         <View folder="bbc">
-          <Chapter title="BBC短语学习" desc="todo" />
+          <Chapter
+            title="BBC English in a Minute"
+            desc="How much English can you learn in a minute? "
+          />
         </View>
       )}
     </main>
