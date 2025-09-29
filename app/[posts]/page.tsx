@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getAllSlugsByFolder } from "@/lib/markdown";
 import { Chapter } from "@/components/kit";
-import type { PropsWithChildren } from "react";
+import { type PropsWithChildren } from "react";
 import Empty from "@/components/svg/Empty";
 import {
   Card,
@@ -9,10 +9,12 @@ import {
   CardFooter,
   CardHeader,
 } from "@/components/ui/card";
+import { cn } from "@/lib/utils";
 
 const Folders = ["blog", "nce-course", "bbc"] as const;
 type PostsFolder = (typeof Folders)[number];
 
+const TagColors = ["bg-red-100/80", "bg-green-100/80", "bg-yellow-100/80"];
 const View = async ({
   children,
   folder,
@@ -38,14 +40,19 @@ const View = async ({
                   {title}
                 </Link>
                 <div className="whitespace-nowrap ">
-                  {tags?.map((val, i) => (
-                    <span
-                      key={val + i}
-                      className="px-2 py-1 bg-red-100/80 rounded-sm text-gray-700 text-[0.8rem]"
-                    >
-                      {val}
-                    </span>
-                  ))}
+                  {tags?.map((val, i) => {
+                    return (
+                      <span
+                        key={val + i}
+                        className={cn(
+                          "px-2 py-1 rounded-sm text-gray-700 text-[0.8rem] ml-2",
+                          TagColors[i]
+                        )}
+                      >
+                        {val}
+                      </span>
+                    );
+                  })}
                 </div>
               </CardHeader>
               <CardContent>{description}</CardContent>
