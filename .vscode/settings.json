@@ -1,3 +1,25 @@
 {
-    "typescript.tsdk": "node_modules\\typescript\\lib"
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "[markdown]": {
+        "editor.fontSize": 14,
+        "editor.lineHeight": 26,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 64,
+        "editor.lineNumbers": "off",
+        "editor.quickSuggestions": false,
+        "editor.minimap.enabled": false
+    },
+    "frontMatter.git.enabled": false,
+    "frontMatter.content.pageFolders": [
+        {
+            "path": "[[workspace]]/lib/posts/nce-course",
+            "title": "nce-course"
+        },
+        {
+            "path": "[[workspace]]/lib/posts/nce-course"
+        },
+        {
+            "path": "[[workspace]]/lib/posts/blog"
+        }
+    ]
 }

@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
+export default {
   /* config options here */
   reactStrictMode: false, // log 两次
   //
@@ -8,6 +8,4 @@ const nextConfig: NextConfig = {
 
   //* Disabled Dev Tools  */
   devIndicators: false,
-};
-
-export default nextConfig;
+} satisfies NextConfig;

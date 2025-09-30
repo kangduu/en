@@ -1,138 +1,152 @@
 "use client";
 
-import detectAudioSegments, { type AudioSegment } from "./audio-segments";
+import { PauseOne, Play } from "@icon-park/react";
 import React, {
   createContext,
+  useCallback,
   useContext,
   useEffect,
-  useMemo,
-  useRef,
   useState,
   type PropsWithChildren,
 } from "react";
 
 export interface AudioContextProps {
-  path: string;
+  paths: string[]; // audio path list
+  current: HTMLAudioElement | null; // The currently playing audio file.
   playing: boolean;
-  segments: AudioSegment[];
-  play: () => void;
-  playSegment: (index: number /** segments index */) => void;
+  activePath: string; // The path of the currently playing audio file.
+  currentTime: number; // The pause time of the currently playing audio file.
+  play: (path: string) => void;
   pause: () => void;
 }
 
 const AudioContext = createContext<AudioContextProps>({
-  path: "",
+  paths: [],
+  current: null,
   playing: false,
-  segments: [],
+  activePath: "",
+  currentTime: 0,
   play: () => {},
-  playSegment: () => {},
   pause: () => {},
 });
 
 // Hook Audio
 export const useAudioContext = () => useContext(AudioContext);
 
-export interface AudioCtxProps {
-  path: AudioContextProps["path"]; // load audio with path.
-}
-
-let timerPlaySegment: NodeJS.Timeout;
-
+/**
+ * Audio Context
+ * @param param0
+ * @returns
+ */
 export default function AudioCtx({
   children,
-  path,
-}: PropsWithChildren<AudioCtxProps>) {
-  // filename
-  const filename = useMemo(() => {
-    if (path) return path.split("/").at(-1);
-    return "";
-  }, [path]);
-
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-  const audio = audioRef.current;
-
+  paths,
+}: PropsWithChildren<Pick<AudioContextProps, "paths">>) {
+  const [audio, setAudio] = useState<AudioContextProps["current"]>(null);
   const [playing, setPlaying] = useState<AudioContextProps["playing"]>(false);
-  const [segments, setSegments] = useState<AudioSegment[]>([]);
+  const [active, setActive] = useState<AudioContextProps["activePath"]>("");
+  const [currentTime, setCurrentTime] =
+    useState<AudioContextProps["currentTime"]>(0);
 
-  // set audio segments
-  useEffect(() => {
-    if (path && filename) {
-      fetch(path)
-        .then((response) => response.blob())
-        .then(async (blob) => {
-          const file = new File([blob], filename);
-          const res = await detectAudioSegments(file);
-          setSegments(res.segments);
+  // fetch audio metadata
+  const generateAudioElement = useCallback(function (
+    path: string
+  ): AudioContextProps["current"] {
+    if (path) {
+      const AudioElement = document.createElement("audio");
+      AudioElement.src = path;
+      AudioElement.preload = "metadata";
+      // AudioElement.onerror = function () {}; use catch handler on paly
+      AudioElement.onpause = function () {
+        setCurrentTime(AudioElement.currentTime);
+        setPlaying(false);
+      };
+      AudioElement.onplay = () => {
+        setPlaying(true);
+        setActive(path);
+      };
+      return AudioElement;
+    }
+    return null;
+  },
+  []);
+
+  // on play
+  const play: AudioContextProps["play"] = useCallback(
+    async (path: string) => {
+      if (!path) return alert("path not found.");
+      try {
+        const unchanging = path === active;
+        const AudioElement = unchanging ? audio : generateAudioElement(path);
+        if (!AudioElement) throw Error("Audio loading failed.");
+        if (!unchanging) setAudio(AudioElement);
+        // 同一个音频暂停后复播从暂停处继续播放
+        AudioElement.currentTime = unchanging ? currentTime : 0;
+        AudioElement.play().catch(() => {
+          setAudio(null);
+          setActive("");
+          // in onpause event
+          // setPlaying(false);
+          // setCurrentTime(0);
         });
-    }
-  }, [path, filename]);
+      } catch (error) {
+        alert("play failure." + (error as { message?: string })?.message);
+      }
+    },
+    [active, audio, currentTime, generateAudioElement]
+  );
 
-  // play
-  const play: AudioContextProps["play"] = () => {
-    if (!path) return alert("path not found.");
-    if (!audio) throw Error("audio not found.");
-
+  // on pause
+  const pause: AudioContextProps["pause"] = useCallback(() => {
     try {
-      audio.currentTime = 0;
-      audio.play().catch((error) => {
-        throw Error(error);
-      });
-    } catch (error) {
-      alert("play failure." + (error as { message: string }).message);
-    }
-  };
-
-  // pause
-  const pause: AudioContextProps["pause"] = () => {
-    if (!path) return alert("path not found.");
-    if (!audio) throw Error("audio not found.");
-
-    try {
-      audio.pause();
+      audio?.pause();
     } catch (error) {
       alert("paused failure." + (error as { message: string }).message);
     }
-  };
+  }, [audio]);
 
-  // play segment
-  const playSegment: AudioContextProps["playSegment"] = (index) => {
-    try {
-      if (!audio) throw Error("audio not found.");
-      if (playing) audio.pause();
-
-      const { start, duration } = segments[index];
-
-      audio.currentTime = start;
-      audio.playbackRate = 1.0;
-      audio.play();
-
-      clearTimeout(timerPlaySegment);
-      timerPlaySegment = setTimeout(() => {
-        audio.pause();
-      }, duration * 1000);
-    } catch (error) {
-      alert("play segment failure." + (error as { message: string }).message);
-    }
-  };
+  // on unmount
+  useEffect(() => () => audio?.pause(), [audio]);
 
   const AudioContextValue: AudioContextProps = {
+    currentTime,
+    current: audio,
+    activePath: active,
     playing,
-    path,
-    segments,
-    playSegment,
+    paths,
     play,
     pause,
   };
   return (
     <AudioContext.Provider value={AudioContextValue}>
-      <audio
-        ref={audioRef}
-        src={path}
-        preload="data"
-        onPause={() => setPlaying(false)}
-        onPlay={() => setPlaying(true)}
-      ></audio>
       {children}
     </AudioContext.Provider>
+  );
+}
+
+export interface AudioTriggerProps {
+  path: string;
+  onClick?: (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => void;
+}
+/**
+ * Audio Play or Pause Trigger Component
+ * @param param0
+ * @returns
+ */
+export function AudioTrigger({ onClick, path }: AudioTriggerProps) {
+  const audio = useAudioContext();
+  return (
+    <span className="cursor-pointer" onClick={(e) => onClick?.(e)}>
+      {audio?.activePath === path && audio?.playing ? (
+        <PauseOne onClick={() => audio.pause()} />
+      ) : (
+        <Play
+          onClick={() => {
+            if (audio.playing && audio?.activePath !== path) audio.pause();
+            audio.play(path);
+          }}
+        />
+      )}
+    </span>
   );
 }

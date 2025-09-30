@@ -1,5 +1,6 @@
 @tailwind utilities;
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 @import "tw-animate-css";
 
 /* theme set */
@@ -23,54 +24,7 @@
 
   /* markdown styles */
   .md {
-    * {
-      @apply max-w-full;
-    }
-
-    ol,
-    ul {
-      @apply pl-8 m-0;
-    }
-
-    li {
-      @apply mt-2 mb-1;
-    }
-
-    ol li {
-      @apply list-decimal;
-    }
-    ul li {
-      @apply list-disc;
-    }
-
-    hr {
-      @apply my-8 border-none border-t-2 border-gray-200 dark:border-gray-700 outline-dashed;
-    }
-
-    table {
-      @apply max-w-full overflow-auto my-4;
-    }
-    table,
-    table th,
-    table td {
-      @apply border;
-    }
-    table th,
-    table td {
-      @apply p-2;
-    }
-
-    h1 {
-      @apply mb-6 text-2xl;
-    }
-    h2 {
-      @apply text-2xl my-4;
-    }
-    h3,
-    h4,
-    h5,
-    h6 {
-      @apply text-xl my-2;
-    }
+    @apply prose prose-sm lg:prose-lg dark:prose-invert prose-a:text-primary prose-a:hover:text-blue-500;
+    @apply prose-table:border prose-th:border prose-th:text-center prose-th:leading-6 prose-th:p-2 prose-th:m-0 prose-td:border prose-td:text-center prose-td:leading-6 prose-td:p-2 prose-td:m-0;
   }
 }

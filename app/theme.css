@@ -40,7 +40,7 @@
 /* light */
 :root {
   --background: var(--color-gray-100);
-  --foreground: oklch(0.145 0 0);
+  --foreground: var(--color-gray-900);
   --radius: 0.625rem;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -78,7 +78,7 @@
 /* ----------- With system theme support ----------- */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: oklch(0.145 0 0);
+    --background: var(--color-gray-800);
     --foreground: var(--color-gray-100);
     --card: oklch(0.205 0 0);
     --card-foreground: oklch(0.985 0 0);

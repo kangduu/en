@@ -14,7 +14,7 @@ import Link from "next/link";
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="w-full bg-gray-800 text-white">
+    <footer className="w-full bg-gray-900 text-white">
       <div className="res-box md:flex gap-12 justify-between py-12">
         <div>
           <Logo fill="var(--primary)" iconClassName="bg-white" />
