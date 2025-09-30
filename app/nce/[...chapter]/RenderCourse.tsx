@@ -2,13 +2,13 @@
 
 import type { Course } from "@/lib/books";
 import React, { useEffect, useMemo } from "react";
-import { useAudioContext } from "@/context/AudioCtx";
 import {
   checkCompleted,
   RenderWord,
   useCompleted,
   useCorrect,
 } from "@/components/InputDetect";
+import utterancePlay from "@/lib/utterance";
 
 interface RenderSentenceProps {
   id: number; // sentence index
@@ -32,18 +32,16 @@ function RenderSentence({
 
   const [talker, ...words] = wordArr;
   const isEssay = type === "essay"; // is essay content.
+  const _sentence = isEssay ? wordArr : words;
 
   // statistics completed of word.
-  const [correct, setCorrect] = useCorrect(isEssay ? wordArr : words);
+  const [correct, setCorrect] = useCorrect(_sentence);
   useEffect(() => {
     onChange?.(props.id, checkCompleted(correct));
   }, [correct, props.id, onChange]);
 
   // check if all words are completed
   const completed = useCompleted(correct);
-
-  // audio context
-  const audio = useAudioContext();
 
   return (
     <div className="mb-2">
@@ -52,7 +50,7 @@ function RenderSentence({
           <div
             className="uppercase"
             onClick={() => {
-              audio?.playSegment(props.id);
+              utterancePlay(_sentence.join(" "));
             }}
           >
             {talker}
@@ -71,7 +69,9 @@ function RenderSentence({
           </div>
           <p
             className={`w-full text-xs text-gray-300 m-0 pt-1 ${
-              completed ? "opacity-100" : "opacity-0 hover:opacity-100 active:opacity-100 focus:opacity-100"
+              completed
+                ? "opacity-100"
+                : "opacity-0 hover:opacity-100 active:opacity-100 focus:opacity-100"
             }`}
           >
             {props.translation}
