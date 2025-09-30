@@ -38,8 +38,10 @@ export default async function Book({ params }: BookProps) {
       <div className="res-box max-w-5xl">
         {/* text */}
         <AudioCtx paths={[course.audio]}>
-          <AudioTrigger path={course.audio} />
-          <span>{course.name}</span>
+          <div className="flex items-center text-primary">
+            <AudioTrigger path={course.audio} />
+            <span className="ml-2">{course.name}</span>
+          </div>
           <RenderCourse lesson={course} />
         </AudioCtx>
 
