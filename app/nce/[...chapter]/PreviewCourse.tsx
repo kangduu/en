@@ -11,6 +11,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Empty from "@/components/svg/Empty";
+import { VolumeNotice } from "@icon-park/react";
+import utterancePlay from "@/lib/utterance";
 export interface PreviewCourseProps extends ComponentCssProps {
   courses: Course[];
   book: NewConceptBookKey;
@@ -46,7 +48,18 @@ export default function PreviewCourse({ book, courses }: PreviewCourseProps) {
           <AccordionItem key={book + id} value={id + book}>
             <AccordionTrigger className="hover:no-underline items-center">
               <span
-                className="text-primary text-[0.8rem] text-nowrap"
+                onClick={() => {
+                  const text = course.map((sentence: string) => {
+                    if (!NoTalker) return sentence.split(":")[1];
+                    return sentence;
+                  });
+                  utterancePlay(text.join(" "));
+                }}
+              >
+                <VolumeNotice theme="outline" size="16" fill="var(--primary)" />
+              </span>
+              <span
+                className="text-primary cursor-pointer text-[0.8rem] text-nowrap ml-4"
                 onClick={(e) => {
                   e.stopPropagation();
                   router.push(`/nce/${book}/${id}`);

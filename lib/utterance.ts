@@ -1,25 +1,23 @@
 export type UtteranceOptions = Pick<
   SpeechSynthesisUtterance,
-  "lang" | "voice" | "rate" | "pitch" | "volume"
+  "rate" | "pitch" | "volume"
 >;
 
-export default function utterance(
+export default function utterancePlay(
   text: string,
-  option?: UtteranceOptions
-): SpeechSynthesisUtterance & {
-  start: () => void;
-  stop: () => void;
-} {
+  options?: UtteranceOptions
+) {
   const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = option?.lang || "en-US";
-  utterance.voice = option?.voice || null;
-  utterance.rate = option?.rate || 1;
-  utterance.pitch = option?.pitch || 1;
-  return {
-    ...utterance,
-    start: () => {
-      speechSynthesis.speak(utterance);
-    },
-    stop: speechSynthesis.cancel,
-  };
+  utterance.lang = "en-US";
+  // utterance.voice = options?.voice || null;
+  utterance.rate = options?.rate || 1;
+  utterance.pitch = options?.pitch || 1;
+  utterance.volume = 1;
+  if (speechSynthesis.pending || speechSynthesis.speaking)
+    speechSynthesis.cancel();
+  speechSynthesis.speak(utterance);
+}
+
+export function utteranceStop() {
+  speechSynthesis.cancel();
 }
