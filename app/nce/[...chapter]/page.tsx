@@ -2,8 +2,7 @@ import React from "react";
 import { books } from "@/lib/books";
 import RenderPagination from "./RenderPagination";
 import RenderCourse from "./RenderCourse";
-import AudioCtx from "@/context/AudioCtx";
-import RenderCourseName from "./RenderCourseName";
+import AudioCtx, { AudioTrigger } from "@/context/AudioCtx";
 import ServerErrorRender from "@/components/ServerErrorRender";
 import PreviewCourse from "./PreviewCourse";
 import type { NewConceptBookKey } from "@/lib/utils";
@@ -38,8 +37,9 @@ export default async function Book({ params }: BookProps) {
     return (
       <div className="res-box max-w-5xl">
         {/* text */}
-        <AudioCtx path={course.audio}>
-          <RenderCourseName name={course.name} />
+        <AudioCtx paths={[course.audio]}>
+          <AudioTrigger path={course.audio} />
+          <span>{course.name}</span>
           <RenderCourse lesson={course} />
         </AudioCtx>
 
