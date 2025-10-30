@@ -61,6 +61,9 @@ export default function AudioCtx({
         setCurrentTime(AudioElement.currentTime);
         setPlaying(false);
       };
+      AudioElement.onended = () => {
+        setCurrentTime(0);
+      };
       AudioElement.onplay = () => {
         setPlaying(true);
         setActive(path);
