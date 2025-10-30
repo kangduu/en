@@ -99,7 +99,7 @@ export default function RenderCourse({ lesson }: { lesson: Course }) {
   const finish = useCompleted(correct);
 
   return (
-    <div className="w-fit max-w-full mx-auto overflow-hidden relative p-2 select-none">
+    <div className="w-fit max-w-full mx-auto overflow-hidden relative select-none px-8 pt-8 pb-4">
       {course?.map?.((sentence, index) => (
         <RenderSentence
           translation={translation[index]}
@@ -112,10 +112,8 @@ export default function RenderCourse({ lesson }: { lesson: Course }) {
       ))}
 
       {finish && (
-        <div className="w-full h-full bg-gray-100/20 rounded-xl  font-['geistMono'] text-red-500 text-3xl text-center flex justify-center items-center absolute top-0 left-0 z-10">
-          - 100 -
-          <br />
-          PERFECT!
+        <div className="w-full h-full bg-gray-100/30 rounded text-red-500 text-3xl text-center flex justify-center items-center absolute top-0 left-0 z-10">
+          🙂 Excellent 🙂
         </div>
       )}
     </div>
