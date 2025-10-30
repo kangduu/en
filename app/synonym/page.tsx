@@ -1,4 +1,4 @@
-import { getSynonymDir } from "@/lib/actions";
+import { getSynonymDir } from "@/lib/synonyms";
 import SearchSynonym from "./Search";
 import RenderTarget from "./RenderTarget";
 

@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 // import { Separator } from "@/components/ui/separator";
-import type { Synonym } from "@/lib/actions";
+import type { Synonym } from "@/lib/synonyms";
 import { Separator } from "@/components/ui/separator";
 
 function RenderTest({

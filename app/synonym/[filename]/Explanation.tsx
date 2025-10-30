@@ -6,7 +6,7 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import List from "@/components/List";
-import type { Synonym } from "@/lib/actions";
+import type { Synonym } from "@/lib/synonyms";
 import {
   Popover,
   PopoverContent,

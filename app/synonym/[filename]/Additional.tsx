@@ -1,5 +1,5 @@
 import { Separator } from "@/components/ui/separator";
-import type { Synonym } from "@/lib/actions";
+import type { Synonym } from "@/lib/synonyms";
 import React from "react";
 
 function transform(key: string, uppercase: boolean = true): string {
