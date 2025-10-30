@@ -6,6 +6,7 @@ import ServerErrorRender from "@/components/ServerErrorRender";
 import PreviewCourse from "./PreviewCourse";
 import { NewConceptBookKeys, type NewConceptBookKey } from "@/lib/utils";
 import { getPostBySlug } from "@/lib/markdown";
+import AudioCtx from "@/context/AudioCtx";
 
 interface BookProps {
   params: Promise<{ chapter: string[] }>;
@@ -44,18 +45,17 @@ export default async function Book({ params }: BookProps) {
     return (
       <div className="res-box max-w-5xl ">
         <h2 className="mb-8 text-center font-bold text-2xl">{course.name}</h2>
-        {/* setting // 1.循环播放 2.显示注释 3. */}
-
-        {/* course */}
-        <RenderCourse lesson={course} />
-
-        {/* tools */}
-        <NceCourseTools
-          page={courseIndex}
-          book={book as NewConceptBookKey}
-          courses={courses}
-          notes={notes.contentHtml}
-        />
+        <AudioCtx paths={[course.audio]} replay>
+          {/* course */}
+          <RenderCourse lesson={course} />
+          {/* tools */}
+          <NceCourseTools
+            page={courseIndex}
+            book={book as NewConceptBookKey}
+            courses={courses}
+            notes={notes.contentHtml}
+          />
+        </AudioCtx>
       </div>
     );
   } catch (error) {

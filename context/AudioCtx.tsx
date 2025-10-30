@@ -16,6 +16,8 @@ export interface AudioContextProps {
   playing: boolean;
   activePath: string; // The path of the currently playing audio file.
   currentTime: number; // The pause time of the currently playing audio file.
+  replay?: boolean;
+  setReplay?: (replay: boolean) => void;
   play: (path: string) => void;
   pause: () => void;
 }
@@ -26,6 +28,8 @@ const AudioContext = createContext<AudioContextProps>({
   playing: false,
   activePath: "",
   currentTime: 0,
+  replay: false,
+  setReplay: () => {},
   play: () => {},
   pause: () => {},
 });
@@ -39,40 +43,48 @@ export const useAudioContext = () => useContext(AudioContext);
  * @returns
  */
 export default function AudioCtx({
-  children,
   paths,
-}: PropsWithChildren<Pick<AudioContextProps, "paths">>) {
+  ...props
+}: PropsWithChildren<Pick<AudioContextProps, "paths" | "replay">>) {
   const [audio, setAudio] = useState<AudioContextProps["current"]>(null);
   const [playing, setPlaying] = useState<AudioContextProps["playing"]>(false);
   const [active, setActive] = useState<AudioContextProps["activePath"]>("");
   const [currentTime, setCurrentTime] =
     useState<AudioContextProps["currentTime"]>(0);
 
+  // replay on ended.
+  const [replay, setReplay] = useState<AudioContextProps["replay"]>(false);
+  useEffect(() => {
+    if (props.replay === undefined) setReplay(false);
+    else setReplay(props.replay);
+  }, [props.replay]);
+
   // fetch audio metadata
-  const generateAudioElement = useCallback(function (
-    path: string
-  ): AudioContextProps["current"] {
-    if (path) {
-      const AudioElement = document.createElement("audio");
-      AudioElement.src = path;
-      AudioElement.preload = "metadata";
-      // AudioElement.onerror = function () {}; use catch handler on paly
-      AudioElement.onpause = function () {
-        setCurrentTime(AudioElement.currentTime);
-        setPlaying(false);
-      };
-      AudioElement.onended = () => {
-        setCurrentTime(0);
-      };
-      AudioElement.onplay = () => {
-        setPlaying(true);
-        setActive(path);
-      };
-      return AudioElement;
-    }
-    return null;
-  },
-  []);
+  const generateAudioElement = useCallback(
+    function (path: string): AudioContextProps["current"] {
+      if (path) {
+        const AudioElement = document.createElement("audio");
+        AudioElement.src = path;
+        AudioElement.preload = "metadata";
+        // AudioElement.onerror = function () {}; use catch handler on paly
+        AudioElement.onpause = function () {
+          setCurrentTime(AudioElement.currentTime);
+          setPlaying(false);
+        };
+        AudioElement.onended = () => {
+          setCurrentTime(0);
+          if (replay) AudioElement.play();
+        };
+        AudioElement.onplay = () => {
+          setPlaying(true);
+          setActive(path);
+        };
+        return AudioElement;
+      }
+      return null;
+    },
+    [replay]
+  );
 
   // on play
   const play: AudioContextProps["play"] = useCallback(
@@ -114,12 +126,14 @@ export default function AudioCtx({
     activePath: active,
     playing,
     paths,
+    replay,
+    setReplay,
     play,
     pause,
   };
   return (
     <AudioContext.Provider value={AudioContextValue}>
-      {children}
+      {props.children}
     </AudioContext.Provider>
   );
 }
@@ -141,30 +155,34 @@ export function AudioControl({ played, onClick }: AudioControlProps) {
 export interface AudioTriggerProps extends ComponentCssProps {
   path: string;
   onClick?: OnClickEvent;
-  children?: (playing: boolean) => React.ReactNode;
+  children?: (playing: boolean) => React.ReactNode | React.ReactNode;
 }
 /**
  * Audio Play or Pause Trigger Component
  * @param param0
  * @returns
  */
-export function AudioTrigger({ children, ...props }: AudioTriggerProps) {
+export function AudioTrigger({ path, ...props }: AudioTriggerProps) {
   const audio = useAudioContext();
-  const played = audio?.activePath === props.path && audio?.playing;
+  const played = audio?.activePath === path && audio?.playing;
   const handleClick: OnClickEvent = (e) => {
     if (played) audio.pause();
     else {
       // 关闭正在播放的
-      if (audio.playing && audio?.activePath !== props.path) audio.pause();
+      if (audio.playing && audio?.activePath !== path) audio.pause();
       // 播放当前点击的
-      audio.play(props.path);
+      audio.play(path);
     }
     props.onClick?.(e);
   };
   return (
     <span onClick={handleClick} className={props.className} style={props.style}>
-      {typeof children === "function" ? (
-        children(played)
+      {"children" in props ? (
+        typeof props.children === "function" ? (
+          props.children(played)
+        ) : (
+          props.children
+        )
       ) : (
         <AudioControl played={played} />
       )}

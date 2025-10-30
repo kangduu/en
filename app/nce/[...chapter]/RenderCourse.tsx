@@ -9,12 +9,14 @@ import {
   useCorrect,
 } from "@/components/InputDetect";
 import utterancePlay from "@/lib/utterance";
+import getTalkerWidth from "./getTalkerWidth";
 
 interface RenderSentenceProps {
   id: number; // sentence index
   sentence: string;
   translation: string;
   type: Course["type"];
+  talkerWidth?: number;
   onChange?: (index: number, complete: boolean) => void;
 }
 
@@ -48,7 +50,8 @@ function RenderSentence({
       <div className="flex items-start gap-2">
         {isEssay ? null : (
           <div
-            className="uppercase"
+            style={{ width: `${props.talkerWidth || 1}rem` }}
+            className="uppercase text-right"
             onClick={() => {
               utterancePlay(_sentence.join(" "));
             }}
@@ -98,8 +101,11 @@ export default function RenderCourse({ lesson }: { lesson: Course }) {
   const [correct, setCorrect] = useCorrect(course);
   const finish = useCompleted(correct);
 
+  const TalkerWidth = useMemo(() => getTalkerWidth(lesson), [lesson]);
   return (
-    <div className="w-fit max-w-full mx-auto overflow-hidden relative select-none px-8 pt-8 pb-4">
+    <div className="w-fit max-w-full mx-auto overflow-hidden relative select-none px-1 pt-2 pb-1 md:px-8 md:pt-8 md:pb-4">
+      {/* setting // 1.循环播放 2.显示注释 3. */}
+      
       {course?.map?.((sentence, index) => (
         <RenderSentence
           translation={translation[index]}
@@ -108,6 +114,7 @@ export default function RenderCourse({ lesson }: { lesson: Course }) {
           id={index}
           onChange={setCorrect}
           type={lesson.type}
+          talkerWidth={TalkerWidth}
         />
       ))}
 
