@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
 import {
   Drawer,
   DrawerContent,
@@ -8,7 +9,11 @@ import {
   DrawerPortal,
   DrawerTrigger,
 } from "@/components/ui/drawer";
-import AudioCtx, { AudioControl, AudioTrigger } from "@/context/AudioCtx";
+import AudioCtx, {
+  AudioControl,
+  AudioTrigger,
+  useAudioContext,
+} from "@/context/AudioCtx";
 import type { Course } from "@/lib/books";
 import type { NewConceptBookKey } from "@/lib/utils";
 import { DoubleLeft, DoubleRight, NotebookOne } from "@icon-park/react";
@@ -27,10 +32,12 @@ export default function NceCourseTools({
   courses,
   ...props
 }: NceCourseToolsProps) {
+  const [open, setOpen] = React.useState(false);
+  const audio = useAudioContext();
+
   const PreviousCourse = courses[page - 1],
     NextCourse = courses[page + 1],
     CurrentCourse = courses[page];
-  const [open, setOpen] = React.useState(false);
   return (
     <div className="w-full dark:border-gray-100/40 flex gap-4 justify-center items-center mt-8">
       {PreviousCourse?.name && (
@@ -59,18 +66,29 @@ export default function NceCourseTools({
         </Button>
       )}
 
-      <AudioCtx paths={[CurrentCourse.audio]}>
-        <AudioTrigger path={CurrentCourse.audio}>
-          {(played) => {
-            return (
-              <Button variant="outline">
-                <AudioControl played={played} />
-                <span className="hidden md:block">听原文</span>
-              </Button>
-            );
-          }}
-        </AudioTrigger>
-      </AudioCtx>
+      <AudioTrigger path={CurrentCourse.audio}>
+        {(played) => {
+          return (
+            <Button variant="outline">
+              <AudioControl played={played} />
+              <span className="hidden md:block">听原文</span>
+            </Button>
+          );
+        }}
+      </AudioTrigger>
+
+      <Button
+        variant="outline"
+        onClick={() => audio.setReplay?.(!audio.replay)}
+      >
+        <Checkbox
+          style={{ cursor: "pointer" }}
+          type="button"
+          checked={audio.replay}
+          onCheckedChange={(value) => audio.setReplay?.(value as boolean)}
+        />
+        自动重播
+      </Button>
 
       {props.notes && (
         <Drawer open={open} onOpenChange={setOpen}>
