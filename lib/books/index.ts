@@ -5,7 +5,7 @@ export interface Course {
   name: string;
   course: string[];
   translation: string[];
-  notes: string[];
+  notes?: string[];
   audio: string;
   type?: "essay" | "dialogue"; // course type, default dialogue.
 }
