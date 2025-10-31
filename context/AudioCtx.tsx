@@ -59,32 +59,38 @@ export default function AudioCtx({
     else setReplay(props.replay);
   }, [props.replay]);
 
+  // whether to replay at the ended.
+  useEffect(() => {
+    if (audio) {
+      audio.onended = () => {
+        setCurrentTime(0);
+        if (replay) audio.play();
+      };
+    }
+  }, [audio, replay]);
+
   // fetch audio metadata
-  const generateAudioElement = useCallback(
-    function (path: string): AudioContextProps["current"] {
-      if (path) {
-        const AudioElement = document.createElement("audio");
-        AudioElement.src = path;
-        AudioElement.preload = "metadata";
-        // AudioElement.onerror = function () {}; use catch handler on paly
-        AudioElement.onpause = function () {
-          setCurrentTime(AudioElement.currentTime);
-          setPlaying(false);
-        };
-        AudioElement.onended = () => {
-          setCurrentTime(0);
-          if (replay) AudioElement.play();
-        };
-        AudioElement.onplay = () => {
-          setPlaying(true);
-          setActive(path);
-        };
-        return AudioElement;
-      }
-      return null;
-    },
-    [replay]
-  );
+  const generateAudioElement = useCallback(function (
+    path: string
+  ): AudioContextProps["current"] {
+    if (path) {
+      const AudioElement = document.createElement("audio");
+      AudioElement.src = path;
+      AudioElement.preload = "metadata";
+      // AudioElement.onerror = function () {}; use catch handler on paly
+      AudioElement.onpause = function () {
+        setCurrentTime(AudioElement.currentTime);
+        setPlaying(false);
+      };
+      AudioElement.onplay = () => {
+        setPlaying(true);
+        setActive(path);
+      };
+      return AudioElement;
+    }
+    return null;
+  },
+  []);
 
   // on play
   const play: AudioContextProps["play"] = useCallback(
@@ -155,7 +161,7 @@ export function AudioControl({ played, onClick }: AudioControlProps) {
 export interface AudioTriggerProps extends ComponentCssProps {
   path: string;
   onClick?: OnClickEvent;
-  children?: (playing: boolean) => React.ReactNode | React.ReactNode;
+  children?: ((playing: boolean) => React.ReactNode) | React.ReactNode;
 }
 /**
  * Audio Play or Pause Trigger Component

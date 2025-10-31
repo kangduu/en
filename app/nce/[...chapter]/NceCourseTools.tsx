@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
 import {
   Drawer,
   DrawerContent,
@@ -9,15 +8,26 @@ import {
   DrawerPortal,
   DrawerTrigger,
 } from "@/components/ui/drawer";
-import AudioCtx, {
+import { Label } from "@/components/ui/label";
+import {
   AudioControl,
   AudioTrigger,
   useAudioContext,
 } from "@/context/AudioCtx";
 import type { Course } from "@/lib/books";
 import type { NewConceptBookKey } from "@/lib/utils";
-import { DoubleLeft, DoubleRight, NotebookOne } from "@icon-park/react";
-import React from "react";
+import {
+  DoubleLeft,
+  DoubleRight,
+  NotebookOne,
+  PlayCycle,
+  PlayOnce,
+} from "@icon-park/react";
+import React, { type PropsWithChildren } from "react";
+
+const ControlLabel = ({ children }: PropsWithChildren) => {
+  return <Label className="hidden md:block cursor-pointer">{children}</Label>;
+};
 
 interface NceCourseToolsProps {
   page: number;
@@ -48,8 +58,8 @@ export default function NceCourseTools({
             window.location.href = `/nce/${book}/${PreviousCourse.id}`;
           }}
         >
-          <DoubleLeft theme="outline" size="24" />
-          <span className="hidden md:block">{PreviousCourse?.name}</span>
+          <DoubleLeft theme="outline" />
+          <ControlLabel>{PreviousCourse?.name}</ControlLabel>
         </Button>
       )}
 
@@ -61,41 +71,44 @@ export default function NceCourseTools({
             window.location.href = `/nce/${book}/${NextCourse.id}`;
           }}
         >
-          <span className="hidden md:block">{NextCourse?.name}</span>
-          <DoubleRight theme="outline" size="24" />
+          <ControlLabel>{NextCourse?.name}</ControlLabel>
+          <DoubleRight theme="outline" />
         </Button>
       )}
 
       <AudioTrigger path={CurrentCourse.audio}>
         {(played) => {
           return (
-            <Button variant="outline">
+            <Button variant="outline" onClick={() => audio.setReplay?.(false)}>
               <AudioControl played={played} />
-              <span className="hidden md:block">听原文</span>
+              <ControlLabel>听原文</ControlLabel>
             </Button>
           );
         }}
       </AudioTrigger>
 
-      <Button
-        variant="outline"
-        onClick={() => audio.setReplay?.(!audio.replay)}
-      >
-        <Checkbox
-          style={{ cursor: "pointer" }}
-          type="button"
-          checked={audio.replay}
-          onCheckedChange={(value) => audio.setReplay?.(value as boolean)}
-        />
-        自动重播
-      </Button>
+      <AudioTrigger path={CurrentCourse.audio}>
+        <Button variant="outline" onClick={() => audio.setReplay?.(true)}>
+          {audio.replay ? (
+            <>
+              <PlayCycle theme="outline" />
+              <ControlLabel>循环播放</ControlLabel>
+            </>
+          ) : (
+            <>
+              <PlayOnce theme="outline" />
+              <ControlLabel>播放一次</ControlLabel>
+            </>
+          )}
+        </Button>
+      </AudioTrigger>
 
       {props.notes && (
         <Drawer open={open} onOpenChange={setOpen}>
           <DrawerTrigger asChild>
             <Button variant="outline">
-              <NotebookOne theme="outline" size="24" />
-              <span className="hidden md:block">课堂笔记</span>
+              <NotebookOne theme="outline" />
+              <ControlLabel>课堂笔记</ControlLabel>
             </Button>
           </DrawerTrigger>
           <DrawerPortal>
