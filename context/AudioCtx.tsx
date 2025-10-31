@@ -16,6 +16,8 @@ export interface AudioContextProps {
   playing: boolean;
   activePath: string; // The path of the currently playing audio file.
   currentTime: number; // The pause time of the currently playing audio file.
+  replay?: boolean;
+  setReplay?: (replay: boolean) => void;
   play: (path: string) => void;
   pause: () => void;
 }
@@ -26,6 +28,8 @@ const AudioContext = createContext<AudioContextProps>({
   playing: false,
   activePath: "",
   currentTime: 0,
+  replay: false,
+  setReplay: () => {},
   play: () => {},
   pause: () => {},
 });
@@ -39,14 +43,31 @@ export const useAudioContext = () => useContext(AudioContext);
  * @returns
  */
 export default function AudioCtx({
-  children,
   paths,
-}: PropsWithChildren<Pick<AudioContextProps, "paths">>) {
+  ...props
+}: PropsWithChildren<Pick<AudioContextProps, "paths" | "replay">>) {
   const [audio, setAudio] = useState<AudioContextProps["current"]>(null);
   const [playing, setPlaying] = useState<AudioContextProps["playing"]>(false);
   const [active, setActive] = useState<AudioContextProps["activePath"]>("");
   const [currentTime, setCurrentTime] =
     useState<AudioContextProps["currentTime"]>(0);
+
+  // replay on ended.
+  const [replay, setReplay] = useState<AudioContextProps["replay"]>(false);
+  useEffect(() => {
+    if (props.replay === undefined) setReplay(false);
+    else setReplay(props.replay);
+  }, [props.replay]);
+
+  // whether to replay at the ended.
+  useEffect(() => {
+    if (audio) {
+      audio.onended = () => {
+        setCurrentTime(0);
+        if (replay) audio.play();
+      };
+    }
+  }, [audio, replay]);
 
   // fetch audio metadata
   const generateAudioElement = useCallback(function (
@@ -85,9 +106,6 @@ export default function AudioCtx({
         AudioElement.play().catch(() => {
           setAudio(null);
           setActive("");
-          // in onpause event
-          // setPlaying(false);
-          // setCurrentTime(0);
         });
       } catch (error) {
         alert("play failure." + (error as { message?: string })?.message);
@@ -114,38 +132,65 @@ export default function AudioCtx({
     activePath: active,
     playing,
     paths,
+    replay,
+    setReplay,
     play,
     pause,
   };
   return (
     <AudioContext.Provider value={AudioContextValue}>
-      {children}
+      {props.children}
     </AudioContext.Provider>
   );
 }
 
-export interface AudioTriggerProps {
+interface AudioControlProps {
+  played: boolean;
+  onClick?: OnClickEvent;
+}
+/**
+ * Audio control components
+ * @param param0
+ * @returns
+ */
+export function AudioControl({ played, onClick }: AudioControlProps) {
+  if (played) return <PauseOne onClick={onClick} />;
+  return <Play onClick={onClick} />;
+}
+
+export interface AudioTriggerProps extends ComponentCssProps {
   path: string;
-  onClick?: (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => void;
+  onClick?: OnClickEvent;
+  children?: ((playing: boolean) => React.ReactNode) | React.ReactNode;
 }
 /**
  * Audio Play or Pause Trigger Component
  * @param param0
  * @returns
  */
-export function AudioTrigger({ onClick, path }: AudioTriggerProps) {
+export function AudioTrigger({ path, ...props }: AudioTriggerProps) {
   const audio = useAudioContext();
+  const played = audio?.activePath === path && audio?.playing;
+  const handleClick: OnClickEvent = (e) => {
+    if (played) audio.pause();
+    else {
+      // 关闭正在播放的
+      if (audio.playing && audio?.activePath !== path) audio.pause();
+      // 播放当前点击的
+      audio.play(path);
+    }
+    props.onClick?.(e);
+  };
   return (
-    <span className="cursor-pointer" onClick={(e) => onClick?.(e)}>
-      {audio?.activePath === path && audio?.playing ? (
-        <PauseOne onClick={() => audio.pause()} />
+    <span onClick={handleClick} className={props.className} style={props.style}>
+      {"children" in props ? (
+        typeof props.children === "function" ? (
+          props.children(played)
+        ) : (
+          props.children
+        )
       ) : (
-        <Play
-          onClick={() => {
-            if (audio.playing && audio?.activePath !== path) audio.pause();
-            audio.play(path);
-          }}
-        />
+        <AudioControl played={played} />
       )}
     </span>
   );

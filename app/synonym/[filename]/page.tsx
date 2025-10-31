@@ -2,7 +2,7 @@ import React from "react";
 import { GoBack } from "@/components/kit";
 import ComparisonTable from "./Comparison";
 import ExplanationList from "./Explanation";
-import { getSynonyms } from "@/lib/actions";
+import { getSynonyms } from "@/lib/synonyms";
 import LifeExamples from "./LifeExamples";
 import CommonErrors from "./CommonErrors";
 import Additional from "./Additional";

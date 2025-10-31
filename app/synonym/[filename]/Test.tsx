@@ -10,7 +10,7 @@ import {
   DrawerTrigger,
 } from "@/components/ui/drawer";
 import { Button } from "@/components/ui/button";
-import type { Synonym } from "@/lib/actions";
+import type { Synonym } from "@/lib/synonyms";
 import MiniTest from "./MiniTest";
 import { flattenDeep } from "lodash";
 import { Separator } from "@/components/ui/separator";

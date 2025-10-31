@@ -1,11 +1,12 @@
 import React from "react";
 import { books } from "@/lib/books";
-import RenderPagination from "./RenderPagination";
+import NceCourseTools from "./NceCourseTools";
 import RenderCourse from "./RenderCourse";
-import AudioCtx, { AudioTrigger } from "@/context/AudioCtx";
 import ServerErrorRender from "@/components/ServerErrorRender";
 import PreviewCourse from "./PreviewCourse";
-import type { NewConceptBookKey } from "@/lib/utils";
+import { NewConceptBookKeys, type NewConceptBookKey } from "@/lib/utils";
+import { getPostBySlug } from "@/lib/markdown";
+import AudioCtx from "@/context/AudioCtx";
 
 interface BookProps {
   params: Promise<{ chapter: string[] }>;
@@ -34,37 +35,27 @@ export default async function Book({ params }: BookProps) {
     const courseIndex = courses.findIndex((item) => item.id === Number(id));
     if (courseIndex === -1) throw new Error("Course not found");
     const course = courses[courseIndex];
+    const notes = await getPostBySlug(
+      `${NewConceptBookKeys.findIndex((key) => key === book) + 1}-${id.padStart(
+        2,
+        "0"
+      )}`,
+      "nce-course"
+    );
     return (
-      <div className="res-box max-w-5xl">
-        {/* text */}
+      <div className="res-box max-w-5xl ">
+        <h2 className="text-center font-bold text-2xl">{course.name}</h2>
         <AudioCtx paths={[course.audio]}>
-          <div className="flex items-center text-primary">
-            <AudioTrigger path={course.audio} />
-            <span className="ml-2">{course.name}</span>
-          </div>
+          {/* course */}
           <RenderCourse lesson={course} />
+          {/* tools */}
+          <NceCourseTools
+            page={courseIndex}
+            book={book as NewConceptBookKey}
+            courses={courses}
+            notes={notes.contentHtml}
+          />
         </AudioCtx>
-
-        {/* notes */}
-        {course?.notes?.length > 0 && (
-          <>
-            <h2 className="text-primary-500">Notes on the text</h2>
-            {course.notes.map((value, index) => (
-              <ul key={index} className="list-disc pl-4">
-                <li>
-                  <div dangerouslySetInnerHTML={{ __html: value }} />
-                </li>
-              </ul>
-            ))}
-          </>
-        )}
-
-        {/* pagination */}
-        <RenderPagination
-          page={courseIndex}
-          book={book as NewConceptBookKey}
-          courses={courses}
-        />
       </div>
     );
   } catch (error) {
