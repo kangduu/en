@@ -46,9 +46,14 @@ export function useCorrect(source: string[]) {
 export interface InputDetectProps {
   target: string;
   onChange: (correct: boolean) => void;
+  disabled?: boolean;
 }
 
-function InputDetect({ target, onChange }: InputDetectProps) {
+export default function InputDetect({
+  target,
+  onChange,
+  disabled,
+}: InputDetectProps) {
   const [right, setRight] = useState(false);
 
   const debouncedInputChange = useMemo(
@@ -73,30 +78,36 @@ function InputDetect({ target, onChange }: InputDetectProps) {
   const width = len >= 5 ? len * 0.65 : len * 0.85;
   return (
     <input
+      disabled={disabled}
       onChange={handleInputChange}
       key={target}
       style={{ width: `${width}rem` }}
       className={`border-b-1 ${
-        right ? "border-b-green-600 text-green-600" : "border-b-primary"
+        right ? "border-b-green-500 text-green-500" : "border-b-primary"
       } text-center focus:outline-none bg-transparent `}
     />
   );
 }
 
-export interface RenderWordProps {
+export interface RenderWordProps extends Pick<InputDetectProps, "disabled"> {
   word: string;
   id: number;
   onChange?: (index: number, success: boolean) => void;
 }
-export function RenderWord({ word, id, onChange }: RenderWordProps) {
+export function RenderWord({ word, id, onChange, disabled }: RenderWordProps) {
   // keep onChange callback unique.
   const handleChange = useCallback(
     (correct: boolean) => {
-      onChange?.(id, correct);
+      if (!disabled) onChange?.(id, correct);
     },
-    [id, onChange]
+    [id, disabled, onChange]
   );
-  return <InputDetect target={word} key={word + id} onChange={handleChange} />;
+  return (
+    <InputDetect
+      target={word}
+      key={word + id}
+      onChange={handleChange}
+      disabled={disabled}
+    />
+  );
 }
-
-export default InputDetect;
