@@ -1,21 +1,26 @@
 "use client";
 
 import type { Course } from "@/lib/books";
-import React, { useEffect, useMemo } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import {
   checkCompleted,
   RenderWord,
   useCompleted,
   useCorrect,
+  type RenderWordProps,
 } from "@/components/InputDetect";
 import utterancePlay from "@/lib/utterance";
 import getTalkerWidth from "./getTalkerWidth";
+import { Checkbox } from "@/components/ui/checkbox";
+import { useAudioContext } from "@/context/AudioCtx";
+import { Label } from "@/components/ui/label";
 
-interface RenderSentenceProps {
+interface RenderSentenceProps extends Pick<RenderWordProps, "disabled"> {
   id: number; // sentence index
   sentence: string;
   translation: string;
   type: Course["type"];
+  showTranslation?: boolean;
   talkerWidth?: number;
   onChange?: (index: number, complete: boolean) => void;
 }
@@ -52,9 +57,7 @@ function RenderSentence({
           <div
             style={{ width: `${props.talkerWidth || 1}rem` }}
             className="uppercase text-right"
-            onClick={() => {
-              utterancePlay(_sentence.join(" "));
-            }}
+            onClick={() => utterancePlay(_sentence.join(" "))}
           >
             {talker}
           </div>
@@ -67,12 +70,13 @@ function RenderSentence({
                 key={word + index}
                 id={index}
                 onChange={setCorrect}
+                disabled={props.disabled}
               />
             ))}
           </div>
           <p
             className={`w-full text-xs text-gray-300 m-0 pt-1 ${
-              completed
+              completed || props.showTranslation
                 ? "opacity-100"
                 : "opacity-0 hover:opacity-100 active:opacity-100 focus:opacity-100"
             }`}
@@ -97,32 +101,49 @@ function RenderSentence({
 export default function RenderCourse({ lesson }: { lesson: Course }) {
   const { course, translation } = lesson;
 
+  const audio = useAudioContext();
+
+  const [showTranslation, setShowTranslation] = useState(false);
+
   // completed all sentences in the course
   const [correct, setCorrect] = useCorrect(course);
   const finish = useCompleted(correct);
 
   const TalkerWidth = useMemo(() => getTalkerWidth(lesson), [lesson]);
   return (
-    <div className="w-fit max-w-full mx-auto overflow-hidden relative select-none px-1 pt-2 pb-1 md:px-8 md:pt-8 md:pb-4">
-      {/* setting // 1.循环播放 2.显示注释 3. */}
-      
-      {course?.map?.((sentence, index) => (
-        <RenderSentence
-          translation={translation[index]}
-          sentence={sentence}
-          key={index}
-          id={index}
-          onChange={setCorrect}
-          type={lesson.type}
-          talkerWidth={TalkerWidth}
-        />
-      ))}
-
-      {finish && (
-        <div className="w-full h-full bg-gray-100/30 rounded text-red-500 text-3xl text-center flex justify-center items-center absolute top-0 left-0 z-10">
-          🙂 Excellent 🙂
-        </div>
-      )}
-    </div>
+    <>
+      {/* setting */}
+      <div className="flex content-center items-center gap-4 text-sm mx-auto w-fit my-4">
+        <span className="flex items-center gap-2">
+          <Checkbox disabled checked={audio.replay} />
+          <Label>循环播放</Label>
+        </span>
+        <span className="flex items-center gap-2">
+          <Checkbox
+            id="translation"
+            checked={showTranslation}
+            onCheckedChange={(value) => setShowTranslation(value as boolean)}
+            disabled={finish}
+          />
+          <Label htmlFor="translation">显示译文</Label>
+        </span>
+      </div>
+      {/* writing */}
+      <div className="w-fit max-w-full mx-auto overflow-hidden relative select-none px-1 pt-2 pb-1 md:px-8 md:pt-8 md:pb-4">
+        {course?.map?.((sentence, index) => (
+          <RenderSentence
+            disabled={finish}
+            showTranslation={showTranslation}
+            translation={translation[index]}
+            sentence={sentence}
+            key={index}
+            id={index}
+            onChange={setCorrect}
+            type={lesson.type}
+            talkerWidth={TalkerWidth}
+          />
+        ))}
+      </div>
+    </>
   );
 }

@@ -44,8 +44,8 @@ export default async function Book({ params }: BookProps) {
     );
     return (
       <div className="res-box max-w-5xl ">
-        <h2 className="mb-8 text-center font-bold text-2xl">{course.name}</h2>
-        <AudioCtx paths={[course.audio]} replay>
+        <h2 className="text-center font-bold text-2xl">{course.name}</h2>
+        <AudioCtx paths={[course.audio]}>
           {/* course */}
           <RenderCourse lesson={course} />
           {/* tools */}
