@@ -47,7 +47,7 @@ export const StudyList: StudyValue[] = [
     total: 3625,
     current: 235,
     icon: <Message theme="outline" size="18" />,
-    img: "/static/phrase.png",
+    img: "/static/phrase.jpeg",
     description: "学习实用英语短语和表达，提升日常交流能力和语感",
     action: (value) => `已练习${value}`,
     styles: {
