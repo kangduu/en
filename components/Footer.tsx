@@ -79,15 +79,12 @@ export default function Footer() {
         <div className="leading-4 mt-8 md:mt-0">
           <h2 className="mb-6">推荐学习资源</h2>
           <ul className="space-y-3 space-x-9 md:space-x-3 flex flex-wrap">
-            <li>
-              <a
-                href="https://www.bbc.co.uk/learningenglish/"
-                target="_blank"
-              >
+            <li className="hover:underline">
+              <a href="https://www.bbc.co.uk/learningenglish/" target="_blank">
                 BBC.LEARNING.ENGLISH
               </a>
             </li>
-            <li>
+            <li className="hover:underline">
               <a
                 href="https://bec.neea.cn/html1/folder/1507/1856-1.htm"
                 target="_blank"
@@ -95,9 +92,17 @@ export default function Footer() {
                 剑桥商务英语考试
               </a>
             </li>
-            <li>
+            <li className="hover:underline">
               <a href="https://pets.neea.edu.cn/" target="_blank">
                 全国英语等级考试
+              </a>
+            </li>
+            <li className="hover:underline">
+              <a
+                href="https://le.ouchn.cn/courseDetails/57d0c41a-f7e1-11ef-8cdd-fa163ea9b0ea"
+                target="_blank"
+              >
+                实用英语语法-章宁、付梦蕤&nbsp;|&nbsp;终身教育平台
               </a>
             </li>
           </ul>
@@ -113,6 +118,10 @@ export default function Footer() {
             <li className="flex gap-4 items-center">
               <SendEmail theme="outline" />
               dukang1127@163.com
+            </li>
+            <li className="flex gap-4 items-center">
+              <SendEmail theme="outline" />
+              dk6232693@gmail.com
             </li>
           </ul>
         </div>
