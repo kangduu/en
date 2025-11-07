@@ -86,6 +86,14 @@ export default function Footer() {
             </li>
             <li className="hover:underline">
               <a
+                href="https://www.bbc.co.uk/learningenglish/english/course/eiam/unit-1"
+                target="_blank"
+              >
+                BBC In a Minute
+              </a>
+            </li>
+            <li className="hover:underline">
+              <a
                 href="https://bec.neea.cn/html1/folder/1507/1856-1.htm"
                 target="_blank"
               >
