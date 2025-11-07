@@ -1,6 +1,11 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
+/**
+ * Combine class names
+ * @param inputs Class names to combine
+ * @returns Combined class names
+ */
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
@@ -22,6 +27,14 @@ export const NewConceptBookNames: Record<NewConceptBookKey, string> = {
   "developing-skills": "Developing Skills",
   "fluency-in-english": "Fluency in English",
 } as const;
+
+export const NewConceptBooks: BookLink[] = NewConceptBookKeys.map((key) => {
+  return {
+    id: key,
+    title: NewConceptBookNames[key],
+    url: `/nce/${key}`, // URL for the book
+  };
+});
 
 export const NCEBookElaborate: Record<
   NewConceptBookKey,

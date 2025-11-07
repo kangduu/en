@@ -1,6 +1,5 @@
 "use client";
 
-import "./globals.css";
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -13,22 +12,84 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import { Toaster } from "@/components/ui/sonner";
-import { Back2Top } from "@/components/kit";
 import Logo from "@/components/slogan";
-import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { HeaderLinks } from "@/lib/navigation";
-import { cn } from "@/lib/utils";
-import "@icon-park/react/styles/index.css";
-import {
-  HamburgerButton,
-  IconProvider,
-  DEFAULT_ICON_CONFIGS,
-} from "@icon-park/react";
-const IconConfig = { ...DEFAULT_ICON_CONFIGS, prefix: "ken", size: "1.3em" };
+import { cn, NewConceptBooks, type NewConceptBookKey } from "@/lib/utils";
+import { HamburgerButton } from "@icon-park/react";
 
-function Navigation() {
+interface HeaderLink extends LinkStore {
+  id: number | NewConceptBookKey;
+  children?: HeaderLink[];
+}
+
+// This file contains the navigation structure for the header links
+// and their respective links
+export const HeaderLinks: HeaderLink[] = [
+  {
+    id: 1,
+    title: "新概念英语",
+    url: "/nce",
+    children: NewConceptBooks,
+  },
+  { id: 6, title: "新概念课堂", url: "/nce-course" },
+  { id: 2, title: "同义词", url: "/synonym" },
+  { id: 3, title: "语言基础", url: "/base" },
+  { id: 4, title: "我的笔记", url: "/blog" },
+  { id: 5, title: "BBC in a Minute", url: "/bbc" },
+];
+
+// default menu
+function NavMenu() {
+  // const pathname = usePathname();
+  const router = useRouter();
+  return (
+    <NavigationMenu>
+      <NavigationMenuList>
+        {HeaderLinks.map(({ id, title, url, children }) => {
+          // const isActive = url === pathname;
+          return (
+            <NavigationMenuItem key={id}>
+              {children && children.length > 0 ? (
+                <>
+                  <NavigationMenuTrigger
+                    className="cursor-pointer"
+                    onClick={() => router.push(url)}
+                  >
+                    {title}
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    {children?.map(({ id, title, url }) => {
+                      return (
+                        <Link
+                          className="block font-normal mt-1 whitespace-nowrap hover:underline"
+                          key={id}
+                          href={url}
+                        >
+                          {title}
+                        </Link>
+                      );
+                    })}
+                  </NavigationMenuContent>
+                </>
+              ) : (
+                <Link href={url} passHref>
+                  <NavigationMenuLink
+                    asChild
+                    className={cn(navigationMenuTriggerStyle())}
+                  >
+                    <span>{title}</span>
+                  </NavigationMenuLink>
+                </Link>
+              )}
+            </NavigationMenuItem>
+          );
+        })}
+      </NavigationMenuList>
+    </NavigationMenu>
+  );
+}
+
+export default function Navigation() {
   const [open, setOpen] = useState(false);
   return (
     <header
@@ -101,72 +162,5 @@ function Navigation() {
         </div>
       </div>
     </header>
-  );
-}
-
-// default menu
-function NavMenu() {
-  // const pathname = usePathname();
-  const router = useRouter();
-  return (
-    <NavigationMenu>
-      <NavigationMenuList>
-        {HeaderLinks.map(({ id, title, url, children }) => {
-          // const isActive = url === pathname;
-          return (
-            <NavigationMenuItem key={id}>
-              {children && children.length > 0 ? (
-                <>
-                  <NavigationMenuTrigger
-                    className="cursor-pointer"
-                    onClick={() => router.push(url)}
-                  >
-                    {title}
-                  </NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    {children?.map(({ id, title, url }) => {
-                      return (
-                        <Link
-                          className="block font-normal mt-1 whitespace-nowrap hover:underline"
-                          key={id}
-                          href={url}
-                        >
-                          {title}
-                        </Link>
-                      );
-                    })}
-                  </NavigationMenuContent>
-                </>
-              ) : (
-                <Link href={url} passHref>
-                  <NavigationMenuLink
-                    asChild
-                    className={cn(navigationMenuTriggerStyle())}
-                  >
-                    <span>{title}</span>
-                  </NavigationMenuLink>
-                </Link>
-              )}
-            </NavigationMenuItem>
-          );
-        })}
-      </NavigationMenuList>
-    </NavigationMenu>
-  );
-}
-
-export default function Main({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <IconProvider value={IconConfig}>
-      <Navigation />
-      <main className="pt-16 w-full min-h-screen">{children}</main>
-      <Footer />
-      <Toaster />
-      <Back2Top />
-    </IconProvider>
   );
 }

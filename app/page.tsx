@@ -1,68 +1,19 @@
-"use client";
-
-import { NCE, Progress, Study, Notes } from "@/components/home";
-import { Button } from "@/components/ui/button";
-import { ArrowRight, BookOne } from "@icon-park/react";
-import Image from "next/image";
-
-export default function Home() {
+// playground page
+export default function RootPage() {
+  // todo 导航和练习模式
   return (
-    <>
-      {/* slogan */}
-      <section className="w-full bg-primary">
-        <div className="res-box md:py-20 text-white block md:flex justify-between items-center">
-          <div>
-            <h1 className="text-4xl lg:text-5xl xl:text-6xl m-0">
-              提升你的英语能力
-            </h1>
-            <h2 className="text-3xl lg:text-4xl xl:text-5xl m-0 mt-2">
-              从这里开始
-            </h2>
-
-            <div className="block mt-2 md:mt-4">
-              全面的英语学习平台，包含单词、短语、语法、文章和NCE课本内容，助你高效学习英语
-            </div>
-
-            <div className="mt-4 md:mt-12">
-              <a href="#start">
-                <Button
-                  className="text-primary relative bg-white hover:bg-white top-0 hover:top-[-0.5rem] duration-500"
-                  size="lg"
-                >
-                  开始学习
-                  <ArrowRight theme="outline" size="24" fill="var(--primary)" />
-                </Button>
-              </a>
-              <a href="#nce">
-                <Button
-                  className="text-white ml-6 bg-blue-700 hover:bg-blue-400 duration-700 ease-in-out "
-                  size="lg"
-                  variant="secondary"
-                >
-                  新概念英语
-                  <BookOne theme="outline" size="24" fill="#fff" />
-                </Button>
-              </a>
-            </div>
-          </div>
-          <div className="mt-8 md:mt-0 md:mr-8 ml-0 md:ml-8 rounded-xl md:rounded-2xl overflow-hidden rotate-0 md:rotate-2 hover:rotate-0 duration-700 ease-in-out">
-            <Image
-              className="max-w-fill"
-              width={480}
-              height={270}
-              src="/static/home.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-      </section>
-
-      <div className="res-box py-0">
-        <Progress />
-        <Study className="mt-12" />
-        <NCE className="mt-12" />
-        <Notes className="my-12" />
+    <section className="dark:bg-black/90 bg-primary/10 relative w-full min-h-screen">
+      {/* 装饰元素  */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-1">
+        <div className="absolute -top-10 -right-10 w-62 h-62 bg-primary/20 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/4 -left-20 w-80 h-80 bg-[#8B5CF6]/20 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-2/5 w-72 h-72  bg-[#10B981]/20 rounded-full blur-3xl"></div>
       </div>
-    </>
+
+      <main className="backdrop-white-md h-screen overflow-auto absolute z-2">
+        <header className=" "></header>
+        <section className="flex-1"></section>
+      </main>
+    </section>
   );
 }

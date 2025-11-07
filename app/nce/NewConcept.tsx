@@ -1,11 +1,10 @@
 "use client";
 
-import { NewConceptBooks, type BookLink } from "@/lib/navigation";
 import React, { useEffect, useState } from "react";
 import { Card } from "@/components/ui/card";
 import { BookList, type BookListProps } from "./BookList";
 import { getCourses, type Course } from "@/lib/books";
-import type { NewConceptBookKey } from "@/lib/utils";
+import { NewConceptBooks, type NewConceptBookKey } from "@/lib/utils";
 
 interface RenderBookProps extends Pick<BookListProps, "onClick"> {
   book: NewConceptBookKey;

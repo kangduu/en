@@ -3,6 +3,11 @@ export type UtteranceOptions = Pick<
   "rate" | "pitch" | "volume"
 >;
 
+/**
+ * Play a speech synthesis utterance
+ * @param text The text to be spoken
+ * @param options The options for the utterance
+ */
 export default function utterancePlay(
   text: string,
   options?: UtteranceOptions
