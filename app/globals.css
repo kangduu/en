@@ -11,6 +11,9 @@
   * {
     @apply border-border outline-ring/50;
   }
+  body {
+    @apply bg-background text-foreground;
+  }
 }
 
 /* custom utilities: https://tailwindcss.com/docs/adding-custom-styles#adding-custom-utilities */
